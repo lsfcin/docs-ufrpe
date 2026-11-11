@@ -1,0 +1,5 @@
+# Originais (PDF, DOC, DOCX) vivem no Drive; o git guarda o .md
+*.pdf
+*.doc
+*.docx
+*.png
