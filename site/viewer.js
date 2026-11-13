@@ -31,7 +31,8 @@ function cartao(c) {
 }
 
 function trilha(doc) {
-  const partes = doc.split('/').slice(0, -1);
+  // Só as pastas de tipo (e normas/federais) têm CONTEXT.md; a pasta de cada documento não tem.
+  const partes = doc.split('/').slice(0, -1).slice(0, doc.startsWith('normas/federais/') ? 2 : 1);
   let caminho = '';
   return partes.map((p) => { caminho += `${p}/`; return ` / <a href="?doc=${caminho}CONTEXT.md">${esc(p)}</a>`; }).join('');
 }
@@ -63,7 +64,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const titulo = corpo.match(/^#\s+(.+)$/m);
     if (titulo) document.title = `${titulo[1]} · docs-ufrpe`;
     // Sem HTML vindo do texto (um PR de fora não injeta script); só <br>, que as tabelas convertidas usam.
-    const limpo = corpo.replace(/<!--[\s\S]*?-->/g, '').replace(/<(?!br\s*\/?>)/gi, '&lt;');
+    // As figuras dos gêmeos não entram no git: fica a descrição delas, sem a imagem quebrada.
+    const limpo = corpo.replace(/<!--[\s\S]*?-->/g, '').replace(/!\[[^\]]*\]\((?!https?:)[^)]*\)/g, '')
+      .replace(/<(?!br\s*\/?>)/gi, '&lt;');
     marked.setOptions({ gfm: true, breaks: false });
     const html = marked.parse(limpo).replace(/<table>/g, '<div class="tabela"><table>').replace(/<\/table>/g, '</table></div>');
     app.innerHTML = `
