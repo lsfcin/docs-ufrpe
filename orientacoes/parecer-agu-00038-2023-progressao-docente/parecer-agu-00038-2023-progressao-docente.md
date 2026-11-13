@@ -1,4 +1,5 @@
 ---
+description: "Parecer AGU 00038/2023/CGGP/DECOR/CGU: reposicionamento e interstícios na progressão docente; base do acerto financeiro."
 source: "../parecer-agu-00038-2023-progressao-docente.pdf"
 sha256: "8715cb3876343152301691e962120b1566a5b7fab470b997132d135a3b0e16b2"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2024-04/PROGRESS%C3%83O%20DOCENTE%20PARECER%20n.%2000038_2023_CGGP_DECOR_CGU_AGU_aprovado%20pelo%20AGU_0.pdf"

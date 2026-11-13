@@ -1,4 +1,5 @@
 ---
+description: "Portaria MEC 982/2013: diretrizes gerais para a promoção a Professor Titular."
 source: "../portaria-mec-982-2013-promocao-titular.pdf"
 sha256: "ef3cf56251cf47a62b4580e6bac9fd280ff62aaabe5aa39eb0585173dc00ea2b"
 origin: "https://portal.ufrrj.br/wp-content/uploads/2019/10/Portaria-982-2013.pdf"

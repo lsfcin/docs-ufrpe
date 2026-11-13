@@ -1,0 +1,31 @@
+# verificar.yml — em cada pull request, confere o cabeçalho dos documentos alterados e o sha256 contra o arquivo oficial.
+name: verificar
+
+on:
+  pull_request:
+    paths: ['**.md']
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  documentos:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # O mantenedor commita direto em main; terceiros mandam PR. Os dois caminhos conferem o sha256 online.
+      - name: documentos alterados (PR ou push)
+        run: |
+          if [ "${{ github.event_name }}" = pull_request ]; then base="origin/${{ github.base_ref }}"; else base="${{ github.event.before }}"; fi
+          git diff --name-only --diff-filter=AM "$base...HEAD" -- '*.md' > alterados.txt || git ls-files '*.md' > alterados.txt
+          cat alterados.txt
+          if [ -s alterados.txt ]; then python .github/scripts/verificar.py --online $(cat alterados.txt); fi
+      - name: todos os documentos (sem rede)
+        run: python .github/scripts/verificar.py

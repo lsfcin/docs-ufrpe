@@ -8,7 +8,7 @@ A correlação (2025) traduz a classe antiga na nova da Lei 15.141/2025, o passo
 
 | File | Description |
 |------|-------------|
-| [`correlacao-magisterio-superior-2025/correlacao-magisterio-superior-2025.md`](correlacao-magisterio-superior-2025/correlacao-magisterio-superior-2025.md) | ← add first-line comment |
-| [`vencimentos-magisterio-superior-2025-01/vencimentos-magisterio-superior-2025-01.md`](vencimentos-magisterio-superior-2025-01/vencimentos-magisterio-superior-2025-01.md) | ← add first-line comment |
-| [`vencimentos-magisterio-superior-2026-04/vencimentos-magisterio-superior-2026-04.md`](vencimentos-magisterio-superior-2026-04/vencimentos-magisterio-superior-2026-04.md) | ← add first-line comment |
+| [`correlacao-magisterio-superior-2025/correlacao-magisterio-superior-2025.md`](correlacao-magisterio-superior-2025/correlacao-magisterio-superior-2025.md) | Tabela de correlação do Magistério Superior a partir de 01/01/2025: classes e níveis antigos → novos (Lei 15.141/2025). |
+| [`vencimentos-magisterio-superior-2025-01/vencimentos-magisterio-superior-2025-01.md`](vencimentos-magisterio-superior-2025-01/vencimentos-magisterio-superior-2025-01.md) | Vencimentos do Magistério Superior a partir de janeiro de 2025. |
+| [`vencimentos-magisterio-superior-2026-04/vencimentos-magisterio-superior-2026-04.md`](vencimentos-magisterio-superior-2026-04/vencimentos-magisterio-superior-2026-04.md) | Vencimentos do Magistério Superior a partir de abril de 2026. |
 <!-- routing:end -->

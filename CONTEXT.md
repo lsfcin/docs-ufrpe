@@ -1,7 +1,7 @@
 # docs-ufrpe
 > Documentos oficiais que um docente da UFRPE usa para tramitar progressão, promoção e PDA/RDA, em Markdown, cada um com a fonte oficial e a data de captura.
 
-**O original manda; o Markdown é para ler e buscar.** Cada `<pasta>/<nome>/<nome>.md` traz no cabeçalho `origin` (URL oficial ou o e-mail institucional que distribuiu), `origin_checked` (data da captura) e `sha256` do original. O original (PDF, DOC, DOCX) não entra no git: mora no Drive do mantenedor, no mesmo caminho.
+**O original manda; o Markdown é para ler e buscar.** Todo `.md` de documento começa com o mesmo frontmatter: `description`, `origin` (**sempre o link oficial** do original, num site da UFRPE ou do governo), `origin_checked` (data da conferência) e `sha256` do arquivo nesse link (`null` só nas páginas federais de link). `origin_note` diz, quando preciso, por onde mais o arquivo circulou. O original (PDF, DOC, DOCX) não entra no git. Sem link oficial, o documento não entra: a exceção é um espelho público no Drive do mantenedor, registrado aqui (hoje, nenhum). [`.github/scripts/verificar.py`](.github/scripts/verificar.py) confere tudo isso em cada PR; como contribuir: [README.md](README.md) § Quer ajudar?. O mantenedor commita direto em `main` (repo aninhado, fora do gate de git flow); terceiros contribuem por PR, e cada PR aberto vira entrada no INBOX até ser resolvido.
 
 **Uma pasta por tipo de documento**, e o critério de cada uma está na descrição dela, na rota abaixo. As federais apontam para o espelho [ctresb/leis](https://github.com/ctresb/leis) fixado num commit, e só trazem o texto inteiro quando o espelho não o tem.
 
@@ -24,5 +24,5 @@ Os servidores UFRPE não mandam o certificado intermediário: busque-o pela URL 
 | File | Description |
 |------|-------------|
 | [`ISSUES.md`](ISSUES.md) | What is currently untrue that we know about in this repo: hand-written issues first, every measured number inside its own generated block. |
-| [`README.md`](README.md) | docs-ufrpe |
+| [`README.md`](README.md) | Documentos oficiais da UFRPE sobre progressão, promoção e PDA/RDA docente, em Markdown, cada um com o link oficial e a data de captura. |
 <!-- routing:end -->

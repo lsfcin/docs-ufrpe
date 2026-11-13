@@ -1,4 +1,5 @@
 ---
+description: "Res. CONSU 042/2020: a carga horária docente anterior à Res. 434/2024."
 source: "../res-consu-042-2020-carga-horaria-docente.pdf"
 sha256: "939000a87ad685ed563bbd3e4823a83ac910f34ffbb85d1e8876e514b3dda8e7"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2021-08/Resolu%C3%A7%C3%A3o%2042.2020%20-%20Conselho%20Universit%C3%A1rio%20-Carga_Horaria_Atividade_Docente.pdf"

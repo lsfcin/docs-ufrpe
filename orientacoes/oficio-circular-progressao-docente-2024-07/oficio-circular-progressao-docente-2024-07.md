@@ -1,4 +1,5 @@
 ---
+description: "Ofício Circular 001/2024-CPPD/PROGEPE: reafirma o 004/2024/GR e orienta os pedidos de progressão depois do Parecer AGU 00038/2023."
 source: "../oficio-circular-progressao-docente-2024-07.pdf"
 sha256: "e2e97cb05ac29d71edf5d21dfad9b7a6b8fc1f1c26979d90cc88128e760c9877"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2024-07/Oficio_Circular_Progressao_Docente.pdf"

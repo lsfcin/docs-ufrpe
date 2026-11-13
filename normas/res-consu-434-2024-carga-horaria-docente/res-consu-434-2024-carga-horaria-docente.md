@@ -1,4 +1,5 @@
 ---
+description: "Res. CONSU 434/2024: a carga horária docente em vigor — ensino, pesquisa, extensão e gestão."
 source: "../res-consu-434-2024-carga-horaria-docente.pdf"
 sha256: "6f70528025ee588d4e43b4ff9ccae597ebe7dfd0560225514ebcb2bf826c48c0"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2024-05/Recu%20434_24%20Carga%20Hor%C3%A1ria%20Docente.pdf"
