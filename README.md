@@ -1,7 +1,9 @@
 # docs-ufrpe
-> Documentos oficiais da UFRPE sobre progressão, promoção e PDA/RDA docente, em Markdown, cada um com o link oficial e a data de captura.
+> Documentos oficiais da UFRPE em Markdown, cada um com o link oficial e a data de captura.
 
-Resoluções, instruções normativas, ofícios, pareceres, formulários e tabelas que um docente da UFRPE usa para progressão, promoção e PDA/RDA, convertidos para Markdown. Assim dá para ler no celular, buscar uma palavra em todos de uma vez e citar o artigo certo.
+Resoluções, instruções normativas, ofícios, pareceres, formulários e tabelas da UFRPE, convertidos para Markdown. Assim dá para ler no celular, buscar uma palavra em todos de uma vez, citar o artigo certo e entregar o texto a uma IA sem perder nada. O acervo cresce por lotes: o primeiro trouxe o que um docente usa para progressão, promoção e PDA/RDA; os próximos podem ser calendários, regimentos, PPCs, editais, qualquer documento oficial que sirva a mais de uma pessoa.
+
+**Para ler:** [ufrpe.pages.dev/docs](https://ufrpe.pages.dev/docs/), com cada documento formatado e o botão do original.
 
 **O original sempre manda.** Todo documento começa com um cabeçalho: `origin` é o link oficial do arquivo, `origin_checked` é a data em que foi conferido e `sha256` é a impressão digital do arquivo. Na dúvida, abra o link.
 

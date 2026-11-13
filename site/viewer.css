@@ -1,0 +1,42 @@
+/* viewer.css — a cara do docs-ufrpe: azul institucional, cartão do original oficial, tabelas largas com rolagem. */
+:root {
+  color-scheme: light;
+  --bg: #ffffff; --text: #1f2328; --muted: #5b6470; --border: #d5dbe3;
+  --card: #f3f6fb; --code: #f3f5f8; --link: #0b4a9e; --azul: #0b3d7a; --ouro: #c99700;
+  --aviso-bg: #fff6da; --aviso-b: #c99700;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #0e131a; --text: #e6edf3; --muted: #93a0ae; --border: #2c3540;
+    --card: #151d28; --code: #151c25; --link: #7fb0f0; --azul: #1d5ca8; --ouro: #e0b43a;
+    --aviso-bg: #2b2412; --aviso-b: #e0b43a;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+body::before { content: ""; display: block; height: 6px; background: linear-gradient(90deg, var(--azul) 70%, var(--ouro) 70%); }
+.container { max-width: 960px; margin: 0 auto; padding: 16px 16px 48px; }
+a { color: var(--link); }
+.topo { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+.topo a:first-child { font-weight: 700; color: var(--azul); text-decoration: none; }
+.cartao { background: var(--card); border-left: 4px solid var(--azul); border-radius: 6px; padding: 12px 16px; margin-bottom: 24px; }
+.cartao p { margin: 6px 0; }
+.desc { font-weight: 500; }
+.meta { color: var(--muted); font-size: 14px; margin-left: 8px; }
+.aviso { background: var(--aviso-bg); border-left: 4px solid var(--aviso-b); padding: 8px 12px; border-radius: 4px; font-size: 14px; }
+.btn { display: inline-block; font: inherit; font-size: 14px; padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--text); text-decoration: none; cursor: pointer; margin: 4px 6px 4px 0; }
+.btn:hover { border-color: var(--azul); }
+.btn.forte { background: var(--azul); border-color: var(--azul); color: #fff; font-weight: 600; }
+.markdown-body h1 { color: var(--azul); font-size: 1.8em; line-height: 1.25; }
+.markdown-body h1, .markdown-body h2 { border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+.markdown-body code { background: var(--code); padding: 1px 5px; border-radius: 4px; font-size: 90%; }
+.markdown-body pre { background: var(--code); padding: 12px; border-radius: 6px; overflow-x: auto; }
+.markdown-body pre code { padding: 0; }
+.markdown-body blockquote { margin: 0; padding: 0 12px; color: var(--muted); border-left: 4px solid var(--border); }
+.markdown-body img { max-width: 100%; }
+.tabela { overflow-x: auto; margin: 16px 0; }
+.tabela table { border-collapse: collapse; min-width: 100%; font-size: 14px; }
+.tabela th, .tabela td { border: 1px solid var(--border); padding: 6px 10px; text-align: left; vertical-align: top; }
+.tabela th { background: var(--card); }
+footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); }
