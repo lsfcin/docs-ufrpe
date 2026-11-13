@@ -1,4 +1,5 @@
 ---
+description: "Progressão por mérito, novas regras de 2025: interstício de 12 meses, afastamentos e efeitos financeiros."
 source: "../progressao-por-merito-novas-regras-2025.pdf"
 sha256: "a9b5a14bb83b1f0d83eed71c24178b5a664c7ff0adf4d288b9c558aabfc99715"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2025-11/Progress%C3%A3o%20por%20M%C3%A9rito%20-%20novas%20regras%202025.pdf"

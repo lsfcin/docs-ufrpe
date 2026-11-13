@@ -1,4 +1,5 @@
 ---
+description: "Tabela de correlação do Magistério Superior a partir de 01/01/2025: classes e níveis antigos → novos (Lei 15.141/2025)."
 source: "../correlacao-magisterio-superior-2025.pdf"
 sha256: "c5174362ed7e93ea1006ee04f76aaf318429f88333c00bee73c633403296f91f"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2025-04/Tabela%20de%20Correla%C3%A7%C3%A3o%20do%20Magist%C3%A9rio%20Superior.pdf"

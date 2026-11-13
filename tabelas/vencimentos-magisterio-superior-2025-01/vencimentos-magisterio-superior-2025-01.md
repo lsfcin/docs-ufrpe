@@ -1,4 +1,5 @@
 ---
+description: "Vencimentos do Magistério Superior a partir de janeiro de 2025."
 source: "../vencimentos-magisterio-superior-2025-01.pdf"
 sha256: "b68030da1e05fbd92207c74df0cf8e513366c5f758482ff90f54b6619456e6d2"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2025-04/Tabela%20Magisterio%20Superior%20-%20a%20partir%20de%2001jan2025.pdf"

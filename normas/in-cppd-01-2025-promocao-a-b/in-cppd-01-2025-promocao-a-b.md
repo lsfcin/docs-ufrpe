@@ -1,4 +1,5 @@
 ---
+description: "IN CPPD 01/2025: promoção da classe A para a B na transição da Lei 15.141/2025."
 source: "../in-cppd-01-2025-promocao-a-b.pdf"
 sha256: "5b138b55897e575577c75436398683e5de055cffe4532c48bd210092cfca99fa"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2025-04/Instrucao_Normativa_01_2025__CPPD_UFRPE_0.pdf"

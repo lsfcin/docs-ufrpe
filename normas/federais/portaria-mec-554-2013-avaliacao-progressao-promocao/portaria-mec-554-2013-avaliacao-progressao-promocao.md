@@ -1,4 +1,5 @@
 ---
+description: "Portaria MEC 554/2013: diretrizes gerais da avaliação de desempenho para progressão e promoção no Magistério Federal."
 source: "../portaria-mec-554-2013-avaliacao-progressao-promocao.pdf"
 sha256: "5af62dca2c2cf6bd38ca5f6b8a1fcb427dbd4d2c512dc8ceff770a82efd52b5b"
 origin: "https://portal.ufrrj.br/wp-content/uploads/2019/10/Portaria-554-junho-2013.pdf"

@@ -1,10 +1,13 @@
+---
+description: "Modelo do RDA, com a declaração de veracidade; alternativa ao Lattes do período."
+origin: "https://www.uast.ufrpe.br/sites/ww5.uast.ufrpe.br/files/paginas/3.%20AP%C3%8ANDICE%20III%20-%20RELAT%C3%93RIO%20DOCENTE%20DE%20ATIVIDADES%20%E2%80%93%20RDA_0.docx"
+origin_checked: "2026-11-13"
+sha256: "12a5a2547f0de73a746a8bace50561e26dc96674a06adb9cce15682c56bd61c5"
+engine: "Google Docs import + export (gdocs read)"
+origin_note: "página da CAPR da UAST/UFRPE; o mesmo arquivo, byte a byte, que a CAPR/DC enviou à lista dc-l em 02/10/2026"
+---
+
 # Apêndice III da IN GR 01/2024 — Relatório Docente de Atividades (RDA)
-> Modelo do RDA, com a declaração de veracidade; alternativa ao Lattes do período.
-
-- **Origem:** e-mail da CAPR/DC à lista dc-l, 02/10/2026 (Apêndice III da IN GR 01/2024) — capturado em 2026-11-11.
-- **Original:** `in-gr-01-2024-apendice-3-rda.docx` (Drive, mesmo caminho) · sha256 `12a5a2547f0de73a746a8bace50561e26dc96674a06adb9cce15682c56bd61c5`.
-- **Conversão:** Google Docs import + export (gdocs read).
-
 ---
 # ![https\://lh7-us.googleusercontent.com/78XYpxGgzADbUlzx28pHe-fmiiQLGJpa83zXkWyivlGiDZldHUs8qdyC7JOtk4rhCotpwNFiMYQw4iAHAv5eqLV\_oHgi50Qjj7lkk96xs1GdkHP2j19nel-BMN\_MT7q8NIhtwMYR3NRz7dvZFm87IA][image1]
 

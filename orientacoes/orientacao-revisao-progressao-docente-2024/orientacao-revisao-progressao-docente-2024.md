@@ -1,4 +1,5 @@
 ---
+description: "Orientação da PROGEPE (2024) para pedir a revisão de interstícios alterados antes do Parecer AGU 00038/2023."
 source: "../orientacao-revisao-progressao-docente-2024.pdf"
 sha256: "4e5ce2afb7257222ebe37b81e719eb52c14b11b6a60ac9c3f1715527d512517b"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2024-07/Orienta%C3%A7%C3%A3o%20para%20os%20pedidos%20de%20revis%C3%A3o%20de%20processos%20de%20progress%C3%A3o%20docente.pdf"

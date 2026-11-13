@@ -1,4 +1,5 @@
 ---
+description: "Res. CONSU 009/2019: progressão e promoção docente na UFRPE, com o barema de pontos no Anexo IV."
 source: "../res-consu-009-2019-progressao-promocao-2024-12.pdf"
 sha256: "487f704028f07bbff3be707446f4359b0673d8cc04118e15757f340f601b782c"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2024-12/RESOLUC%CC%A7A%CC%83O%20009.2019%20%20PROGRESSA%CC%83O%20E%20PROMOC%CC%A7A%CC%83O%20DOCENTE.pdf"

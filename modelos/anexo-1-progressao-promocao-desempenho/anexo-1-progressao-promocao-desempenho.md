@@ -1,10 +1,12 @@
+---
+description: "Formulário que abre o processo de progressão ou promoção docente; acompanha o Anexo IV (barema) da Res. 009/2019."
+origin: "https://www.progepe.ufrpe.br/sites/default/files/2023-09/Anexo%201%20-%20progressao%20ou%20promocao%20por%20desempenho%20%283%29.docx"
+origin_checked: "2026-11-11"
+sha256: "8b546d62015224b2324950d629f1c46a9de3cc2e3810a850bdeaffbc8a939eac"
+engine: "Google Docs import + export (gdocs read)"
+---
+
 # Anexo 1 — requerimento de progressão ou promoção por desempenho (PROGEPE)
-> Formulário que abre o processo de progressão ou promoção docente; acompanha o Anexo IV (barema) da Res. 009/2019.
-
-- **Origem:** https://www.progepe.ufrpe.br/sites/default/files/2023-09/Anexo%201%20-%20progressao%20ou%20promocao%20por%20desempenho%20%283%29.docx — capturado em 2026-11-11.
-- **Original:** `anexo-1-progressao-promocao-desempenho.docx` (Drive, mesmo caminho) · sha256 `8b546d62015224b2324950d629f1c46a9de3cc2e3810a850bdeaffbc8a939eac`.
-- **Conversão:** Google Docs import + export (gdocs read).
-
 ---
 ![][image1]
 

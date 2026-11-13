@@ -1,4 +1,5 @@
 ---
+description: "IN GR 01/2024: o fluxo do PDA e do RDA — processo, prazos e o papel da CAPR; os apêndices estão em ../modelos/."
 source: "../in-gr-01-2024-pda-rda.pdf"
 sha256: "04cfdcf058c84d057bbe6f8b9e8f2229cfa76ea7813b9a0016788d80e1c06537"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2024-05/Instru%C3%A7%C3%A3o%20Normativa%2001_2024%20-%20PDA_RDA.pdf"

@@ -1,4 +1,5 @@
 ---
+description: "Ofício Circular 004/2024/GR: progressão passa a exigir só os 24 meses de exercício, conforme o Parecer AGU 00038/2023."
 source: "../oficio-circular-004-2024-progressao-docente.pdf"
 sha256: "b4075f0a1a72c2391a3a8c1c1ec645f753166d528c274aa837af90edd78dce41"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2024-05/OFICIO%20CIRCULAR%20004_2024%20PROGRESS%C3%83O%20DOCENTE.pdf"

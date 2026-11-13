@@ -1,4 +1,5 @@
 ---
+description: "Res. CONSU 435-A/2024: o Plano e o Relatório Docente de Atividades (PDA/RDA)."
 source: "../res-consu-435a-2024-pda-rda.pdf"
 sha256: "7b4efd2afc00e6fed0dcd1397fa1e9d7144d36cc1ce6591e4efa3471baceed9f"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2024-05/Recu%20435A%20PDA%20e%20RDA%20DOCENTE.pdf"

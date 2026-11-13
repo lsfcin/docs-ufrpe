@@ -1,10 +1,13 @@
+---
+description: "Requerimento anexado ao processo do PDA quando o RDA do ano é entregue."
+origin: "https://www.uast.ufrpe.br/sites/ww5.uast.ufrpe.br/files/paginas/2.%20AP%C3%8ANDICE%20II%20-%20REQUERIMENTO%20PARA%20AVALIA%C3%87%C3%83O%20DO%20RELAT%C3%93RIO%20DOCENTE%20DE%20ATIVIDADES_0.docx"
+origin_checked: "2026-11-13"
+sha256: "e67a369f23dfdbbc31e67a23ac8c36ad668f976b151c93768474cb2ff79575ee"
+engine: "Google Docs import + export (gdocs read)"
+origin_note: "página da CAPR da UAST/UFRPE; o mesmo arquivo, byte a byte, que a CAPR/DC enviou à lista dc-l em 02/10/2026"
+---
+
 # Apêndice II da IN GR 01/2024 — requerimento de avaliação do RDA
-> Requerimento anexado ao processo do PDA quando o RDA do ano é entregue.
-
-- **Origem:** e-mail da CAPR/DC à lista dc-l, 02/10/2026 (Apêndice II da IN GR 01/2024) — capturado em 2026-11-11.
-- **Original:** `in-gr-01-2024-apendice-2-requerimento-rda.docx` (Drive, mesmo caminho) · sha256 `e67a369f23dfdbbc31e67a23ac8c36ad668f976b151c93768474cb2ff79575ee`.
-- **Conversão:** Google Docs import + export (gdocs read).
-
 ---
 # ![https\://lh7-us.googleusercontent.com/78XYpxGgzADbUlzx28pHe-fmiiQLGJpa83zXkWyivlGiDZldHUs8qdyC7JOtk4rhCotpwNFiMYQw4iAHAv5eqLV\_oHgi50Qjj7lkk96xs1GdkHP2j19nel-BMN\_MT7q8NIhtwMYR3NRz7dvZFm87IA][image1]
 

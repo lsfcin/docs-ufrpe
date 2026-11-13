@@ -1,4 +1,5 @@
 ---
+description: "Vencimentos do Magistério Superior a partir de abril de 2026."
 source: "../vencimentos-magisterio-superior-2026-04.pdf"
 sha256: "343031840cd710ad1ee81641fbade3cf4dc85b369cadbbfafc2e67c9941db7a1"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2026-03/Tabelas%20de%20Vencimentos%20do%20Magist%C3%A9rio%20Superior%20a%20partir%20de%2004.2026.pdf"

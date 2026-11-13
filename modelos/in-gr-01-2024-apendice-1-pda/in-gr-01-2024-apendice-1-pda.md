@@ -1,10 +1,13 @@
+---
+description: "Modelo do PDA anual, com o requerimento à Direção; abre o processo do ano no SIPAC."
+origin: "https://www.uast.ufrpe.br/sites/ww5.uast.ufrpe.br/files/paginas/1.%20AP%C3%8ANDICE%20I%20-%20PLANO%20DOCENTE%20DE%20ATIVIDADES_REQUERIMENTO_0.docx"
+origin_checked: "2026-11-13"
+sha256: "5f2599cfb18f9a7d80a7a4181abfac76054eceb3fd471392fa08642d05c0c283"
+engine: "Google Docs import + export (gdocs read)"
+origin_note: "página da CAPR da UAST/UFRPE; o mesmo arquivo, byte a byte, que a CAPR/DC enviou à lista dc-l em 15/05/2026"
+---
+
 # Apêndice I da IN GR 01/2024 — Plano Docente de Atividades (PDA)
-> Modelo do PDA anual, com o requerimento à Direção; abre o processo do ano no SIPAC.
-
-- **Origem:** e-mail da CAPR/DC à lista dc-l, 15/05/2026 (Apêndice I da IN GR 01/2024) — capturado em 2026-11-11.
-- **Original:** `in-gr-01-2024-apendice-1-pda.docx` (Drive, mesmo caminho) · sha256 `5f2599cfb18f9a7d80a7a4181abfac76054eceb3fd471392fa08642d05c0c283`.
-- **Conversão:** Google Docs import + export (gdocs read).
-
 ---
 # ![https\://lh7-us.googleusercontent.com/78XYpxGgzADbUlzx28pHe-fmiiQLGJpa83zXkWyivlGiDZldHUs8qdyC7JOtk4rhCotpwNFiMYQw4iAHAv5eqLV\_oHgi50Qjj7lkk96xs1GdkHP2j19nel-BMN\_MT7q8NIhtwMYR3NRz7dvZFm87IA][image1]
 
