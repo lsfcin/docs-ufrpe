@@ -1,7 +1,9 @@
 # tabelas
 > Tabelas da PROGEPE: vencimentos do Magistério Superior e correlação de classes. Cada uma vale para o período no nome.
 
-A correlação (2025) traduz a classe antiga na nova da Lei 15.141/2025, o passo 2 do rito de progressão. Os vencimentos (2025-01 e 2026-04) conferem o acerto financeiro depois de uma progressão.
+**O que é uma tabela.** Uma tabela publicada pela PROGEPE: os vencimentos do Magistério Superior, ou a correlação entre as classes da carreira antes e depois da reestruturação de 2025. Cada uma vale para o período que está no nome.
+
+**Como usar.** A correlação mostra em que classe e nível novos a sua posição antiga ficou. Os vencimentos servem para conferir o valor devido depois de uma progressão.
 
 <!-- routing:start -->
 ## Routing

@@ -4,6 +4,7 @@ source: "../res-consu-009-2019-progressao-promocao-2024-12.pdf"
 sha256: "487f704028f07bbff3be707446f4359b0673d8cc04118e15757f340f601b782c"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2024-12/RESOLUC%CC%A7A%CC%83O%20009.2019%20%20PROGRESSA%CC%83O%20E%20PROMOC%CC%A7A%CC%83O%20DOCENTE.pdf"
 origin_checked: "2026-11-11"
+origin_note: "A PROGEPE publica esta resolução duas vezes (2024-02 e 2024-12), com o mesmo texto palavra por palavra; fica a de 2024-12."
 pdf: {"title": "Microsoft Word - Documento1", "author": "UFRPE", "creator": "Microsoft® Office Word 2007", "producer": "Microsoft® Office Word 2007", "created": "Thu Feb 28 10:39:15 2019 -03", "modified": "Thu Feb 28 10:39:15 2019 -03", "pages": 31, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

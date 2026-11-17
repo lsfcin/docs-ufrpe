@@ -1,9 +1,16 @@
 # normas
 > Resoluções do CONSU/CEPE e instruções normativas da UFRPE: atos gerais, com força de regra. As federais que elas aplicam ficam em `federais/`.
 
-Progressão e promoção: Res. 009/2019 (barema no Anexo IV), alterada pela Res. 064/2020; IN CPPD 01/2025 (promoção A→B na transição da Lei 15.141/2025). PDA/RDA: Res. 434/2024 (carga horária), Res. 435-A/2024 (plano e relatório) e IN GR 01/2024 (fluxo; apêndices em `../modelos/`). A Res. 042/2020 é a carga horária anterior à 434/2024.
+**O que é uma norma.** Uma regra que vale para todos na UFRPE: uma resolução de um conselho superior ou uma instrução normativa. A norma diz o que vale; uma [orientação](../orientacoes/CONTEXT.md) explica como aplicar; um [modelo](../modelos/CONTEXT.md) é o formulário que ela pede.
 
-A PROGEPE publica a Res. 009/2019 duas vezes (2024-02 e 2024-12) com o mesmo texto, palavra por palavra; fica a de 2024-12, o PDF original.
+**Como usar.** Cada linha da lista traz o nome do documento e o assunto. As leis federais que essas normas seguem estão em [federais](federais/CONTEXT.md).
+
+<details>
+<summary>O que querem dizer CONSU, CEPE e IN</summary>
+
+CONSU é o Conselho Universitário e CEPE, o Conselho de Ensino, Pesquisa e Extensão: os dois conselhos que aprovam resoluções. IN é instrução normativa, publicada pela Reitoria ou por uma comissão para detalhar como uma resolução funciona na prática.
+
+</details>
 
 <!-- routing:start -->
 ## Routing

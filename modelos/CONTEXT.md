@@ -1,9 +1,9 @@
 # modelos
 > Formulários e requerimentos oficiais em Markdown, tabelas preservadas; o original editável (.doc/.docx) fica no Drive, no mesmo caminho.
 
-Progressão: Anexo 1 (progressão ou promoção por desempenho) e requerimento de acerto financeiro. PDA/RDA: Apêndices I (PDA), II (requerimento do RDA) e III (RDA) da IN GR 01/2024, como a comissão PDA/RDA do DC os distribuiu.
+**O que é um modelo.** O formulário ou requerimento oficial que uma [norma](../normas/CONTEXT.md) manda preencher. Aqui ele está em Markdown, com as tabelas preservadas, para ler e consultar os campos. Para preencher e entregar, use o arquivo original: o cartão do topo de cada modelo leva até ele.
 
-Conversão: o arquivo sobe ao Drive como Google Doc temporário e volta por `gdocs read`, que mantém as tabelas; `docx text` as perde.
+**Como usar.** A descrição de cada modelo diz a que processo ele pertence (progressão, PDA, RDA) e quando entra nele.
 
 <!-- routing:start -->
 ## Routing

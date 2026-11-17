@@ -3,7 +3,7 @@
 
 **O original manda; o Markdown é para ler e buscar.** Todo `.md` de documento começa com o mesmo frontmatter: `description`, `origin` (**sempre o link oficial** do original, num site da UFRPE ou do governo), `origin_checked` (data da conferência) e `sha256` do arquivo nesse link (`null` só nas páginas federais de link). `origin_note` diz, quando preciso, por onde mais o arquivo circulou. O original (PDF, DOC, DOCX) não entra no git. Sem link oficial, o documento não entra: a exceção é um espelho público no Drive do mantenedor, registrado aqui (hoje, nenhum). [`.github/scripts/verificar.py`](.github/scripts/verificar.py) confere tudo isso em cada PR; como contribuir: [README.md](README.md) § Quer ajudar?. O mantenedor commita direto em `main` (repo aninhado, fora do gate de git flow); terceiros contribuem por PR, e cada PR aberto vira entrada no INBOX até ser resolvido.
 
-**Uma pasta por tipo de documento**, e o critério de cada uma está na descrição dela, na rota abaixo. As federais apontam para o espelho [ctresb/leis](https://github.com/ctresb/leis) fixado num commit, e só trazem o texto inteiro quando o espelho não o tem.
+**Uma pasta por tipo de documento**, e o critério de cada uma está na descrição dela, na rota abaixo. As federais apontam para o espelho [ctresb/leis](https://github.com/ctresb/leis) fixado num commit, e só trazem o texto inteiro quando o espelho não o tem. O `CONTEXT.md` de cada pasta é também a página dela no site: abre explicando a seção a quem chega, e nota de mantenedor não entra ali. Um modelo .doc/.docx se converte subindo ao Drive como Google Doc temporário e voltando por `gdocs read`, que mantém as tabelas (`docx text` as perde).
 
 **Lote = escopo completo.** Um lote só entra quando todo o escopo foi listado antes de converter. Lote 1 (11/11/2026): progressão, promoção e PDA/RDA, a partir de [progepe.ufrpe.br/documentos](https://www.progepe.ufrpe.br/documentos) e dos e-mails da comissão PDA/RDA do DC. Lacunas conhecidas: [ISSUES.md](ISSUES.md).
 
@@ -28,8 +28,7 @@ Os servidores UFRPE não mandam o certificado intermediário: busque-o pela URL 
 | [`ISSUES.md`](ISSUES.md) | — | — | What is currently untrue that we know about in this repo: hand-written issues first, every measured number inside its own generated block. |
 | [`README.md`](README.md) | — | — | Documentos oficiais da UFRPE em Markdown, cada um com o link oficial e a data de captura. |
 | [`site/index.html`](site/index.html) | — | — | index.html — a porta do site do docs-ufrpe: carrega o viewer, que abre o README ou o documento em ?doc=. |
-| [`site/jsconfig.json`](site/jsconfig.json) | — | — | ← add first-line comment |
-| [`site/marked.min.js`](site/marked.min.js) | — | — | ← add first-line comment |
+| [`site/jsconfig.json`](site/jsconfig.json) | — | — | Diz ao editor que o viewer.js do docs-ufrpe é JavaScript de navegador, sem checagem de tipos. |
 | [`site/viewer.css`](site/viewer.css) | — | — | viewer.css — a cara do docs-ufrpe: azul institucional, cartão do original oficial, tabelas largas com rolagem. |
 | [`site/viewer.js`](site/viewer.js) | [`site/viewer.d.ts`](site/viewer.d.ts) | `cabecalho`, `cartao`, `trilha`, `relink` | viewer.js — mostra um .md do docs-ufrpe formatado: o cabeçalho vira o cartão do original oficial, e cada página leva ao GitHub para propor correção. |
 <!-- routing:end -->

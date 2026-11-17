@@ -1,7 +1,9 @@
 # federais
 > Leis, decretos e portarias federais que as normas da UFRPE aplicam. Toda federal usada ganha uma página; o texto inteiro só quando o espelho ctresb/leis não o tem.
 
-Página só com link (o espelho tem o texto, fixado no commit `c9f21b4`): Lei 12.772/2012, Lei 15.141/2025. Página só com link (o espelho não cobre decretos): Decreto 20.910/1932. Texto inteiro (o espelho não tem portarias): Portarias MEC 554/2013 e 982/2013.
+**O que fica aqui.** As leis, decretos e portarias federais que as [normas da UFRPE](../CONTEXT.md) aplicam. Quando o espelho público [ctresb/leis](https://github.com/ctresb/leis) já tem o texto, a página traz o resumo e o link; quando não tem, traz o texto inteiro.
+
+**Como usar.** Comece pela norma da UFRPE; venha aqui quando ela citar uma lei ou portaria e você quiser ler a fonte.
 
 <!-- routing:start -->
 ## Routing

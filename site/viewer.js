@@ -1,5 +1,7 @@
-// viewer.js — mostra um .md do docs-ufrpe formatado: o cabeçalho vira o cartão do original oficial, e cada página leva ao GitHub para propor correção.
+// viewer.js — mostra um .md do docs-ufrpe formatado: faixa com o brasão em negativo, cartão do original oficial, listas legíveis e o caminho para propor correção no GitHub.
 const REPO = 'https://github.com/lsfcin/docs-ufrpe';
+const PASTAS = { orientacoes: 'Orientações' };
+const TRAD = { Subdirectory: 'Pasta', File: 'Documento', Description: 'Descrição', Routing: 'Nesta seção' };
 
 // O frontmatter `chave: valor` do topo, no mesmo formato que .github/scripts/verificar.py lê.
 function cabecalho(texto) {
@@ -18,26 +20,31 @@ function cabecalho(texto) {
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const data = (iso) => (/^\d{4}-\d{2}-\d{2}$/.test(iso || '') ? iso.split('-').reverse().join('/') : '');
+const nomePasta = (p) => PASTAS[p] || p[0].toUpperCase() + p.slice(1);
+
+// As figuras não entram no git; a descrição delas fica recolhida, com o tipo da figura como resumo.
+function figuras(md) {
+  return md.replace(/<!-- figure [^>]*-->\n((?:[ \t]*\n|\d+\.[^\n]*\n|[ \t]+[^\n]*\n)*)/g, (_, bloco) => {
+    const tipo = (bloco.match(/Tipo de figura:\*\*\s*([^\n.(]+)/) || [, 'figura'])[1].trim();
+    return `\n<details>\n<summary>\nFigura: ${tipo.replace(/[<>]/g, '')}\n</summary>\n\n${bloco}\n</details>\n\n`;
+  });
+}
 
 function cartao(c) {
   if (!c.origin || !/^https?:/i.test(c.origin)) return '';
-  const linhas = [];
-  if (c.description) linhas.push(`<p class="desc">${esc(c.description)}</p>`);
   const conferido = data(c.origin_checked) ? ` · conferido em ${data(c.origin_checked)}` : '';
-  linhas.push(`<p><a class="btn forte" href="${esc(c.origin)}" target="_blank" rel="noopener">Original oficial ↗</a><span class="meta">${conferido}</span></p>`);
-  if (c.origin_note) linhas.push(`<p class="meta">${esc(c.origin_note)}</p>`);
-  if (c.needs_review === true) linhas.push('<p class="aviso">Texto convertido automaticamente e ainda não revisado contra o original: na dúvida, vale o original.</p>');
-  return `<aside class="cartao">${linhas.join('')}</aside>`;
+  return `<aside class="cartao">${c.description ? `<p class="desc">${esc(c.description)}</p>` : ''}
+    <p><a class="btn forte" href="${esc(c.origin)}" target="_blank" rel="noopener">Original oficial ↗</a><span class="meta">${conferido}</span></p>
+    ${c.needs_review === true ? '<p class="aviso">Texto convertido automaticamente e ainda não revisado: na dúvida, vale o original.</p>' : ''}</aside>`;
 }
 
+// Só as pastas de seção (as que têm CONTEXT.md); a pasta própria de cada documento não aparece.
 function trilha(doc) {
-  // Só as pastas de tipo (e normas/federais) têm CONTEXT.md; a pasta de cada documento não tem.
   const partes = doc.split('/').slice(0, -1).slice(0, doc.startsWith('normas/federais/') ? 2 : 1);
   let caminho = '';
-  return partes.map((p) => { caminho += `${p}/`; return ` / <a href="?doc=${caminho}CONTEXT.md">${esc(p)}</a>`; }).join('');
+  return partes.map((p) => { caminho += `${p}/`; return ` / <a href="?doc=${encodeURIComponent(`${caminho}CONTEXT.md`)}">${esc(nomePasta(p))}</a>`; }).join('');
 }
 
-// Links para .md do repositório abrem aqui; pastas abrem o CONTEXT.md delas; o resto vai para o GitHub.
 function relink(raiz, doc) {
   const base = new URL(doc, 'https://x/');
   raiz.querySelectorAll('a[href]').forEach((a) => {
@@ -52,6 +59,43 @@ function relink(raiz, doc) {
   });
 }
 
+// Uma tabela cuja 1ª coluna é só link vira lista: nome legível à esquerda, descrição à direita.
+function rotulo(a, desc) {
+  const nome = a.textContent.trim();
+  if (nome.endsWith('/')) return [nomePasta(nome.slice(0, -1).split('/').pop()), desc];
+  const m = desc.match(/^([^:]{2,40}):\s*(.+)$/);
+  return m ? [m[1], m[2][0].toUpperCase() + m[2].slice(1)] : [nome.split('/').pop().replace(/\.md$/, ''), desc];
+}
+function tabelas(raiz) {
+  raiz.querySelectorAll('table').forEach((t) => {
+    const linhas = [...t.querySelectorAll('tbody tr')];
+    const soLink = (tr) => tr.cells[0].querySelector('a') && tr.cells[0].textContent.trim() === tr.cells[0].querySelector('a').textContent.trim();
+    if (!linhas.length || !linhas.every(soLink)) {
+      t.querySelectorAll('th').forEach((th) => { th.textContent = TRAD[th.textContent.trim()] || th.textContent; });
+      return;
+    }
+    const pasta = /Subdirectory|Pasta/.test(t.querySelector('thead th')?.textContent || '');
+    const corpo = linhas.map((tr) => {
+      const a = tr.cells[0].querySelector('a');
+      const [nome, desc] = rotulo(a, tr.cells[tr.cells.length - 1].textContent.trim());
+      return `<tr><td class="acao"><a class="pill" href="${a.getAttribute('href')}">${esc(nome)}</a></td><td>${esc(desc)}</td></tr>`;
+    }).join('');
+    t.innerHTML = `<thead><tr><th>${pasta ? 'Pastas' : 'Documentos'}</th><th>Descrição</th></tr></thead><tbody>${corpo}</tbody>`;
+    t.classList.add('entradas');
+  });
+  raiz.querySelectorAll('h2').forEach((h) => { if (TRAD[h.textContent.trim()]) h.textContent = TRAD[h.textContent.trim()]; });
+}
+
+function topo(doc) {
+  const nav = doc === 'README.md' ? '' : `<nav class="topo"><a href="./">Início</a>${trilha(doc)}</nav>`;
+  return `<header class="cabeca"><div class="dentro">
+    <a class="marca" href="./"><img src="brasao-negativo.png" alt="Universidade Federal Rural de Pernambuco"></a>
+    <a class="marca texto" href="./"><b>Docs<br>UFRPE</b></a>
+    <p class="explica">Documentos oficiais da UFRPE em Markdown, para ler no celular, buscar e citar. Não é um site oficial da UFRPE: na dúvida, vale o original.</p>
+    <p class="autoria">Iniciativa pessoal de Lucas Silva Figueiredo, professor do Departamento de Computação da UFRPE.</p>
+  </div></header>${nav}`;
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
   const app = document.getElementById('app');
   const doc = new URLSearchParams(location.search).get('doc') || 'README.md';
@@ -61,32 +105,35 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const bruto = await res.text();
     const { campos, corpo } = cabecalho(bruto);
-    const titulo = corpo.match(/^#\s+(.+)$/m);
-    if (titulo) document.title = `${titulo[1]} · docs-ufrpe`;
-    // Sem HTML vindo do texto (um PR de fora não injeta script); só <br>, que as tabelas convertidas usam.
-    // As figuras dos gêmeos não entram no git: fica a descrição delas, sem a imagem quebrada.
-    const limpo = corpo.replace(/<!--[\s\S]*?-->/g, '').replace(/!\[[^\]]*\]\((?!https?:)[^)]*\)/g, '')
-      .replace(/<(?!br\s*\/?>)/gi, '&lt;');
-    marked.setOptions({ gfm: true, breaks: false });
-    const html = marked.parse(limpo).replace(/<table>/g, '<div class="tabela"><table>').replace(/<\/table>/g, '</table></div>');
-    app.innerHTML = `
-      <nav class="topo"><a href="./">docs-ufrpe</a>${trilha(doc)}</nav>
-      ${cartao(campos)}
+    // Sem HTML vindo do texto (um PR de fora não injeta script): passam só <br>, <details> e <summary>, sem atributos.
+    const limpo = figuras(corpo).replace(/<!--[\s\S]*?-->/g, '').replace(/!\[[^\]]*\]\((?!https?:)[^)]*\)/g, '')
+      .replace(/<(?!br\s*\/?>|\/?details>|\/?summary>)/gi, '&lt;');
+    const html = marked.parse(limpo, { gfm: true, breaks: false }).replace(/<table>/g, '<div class="tabela"><table>').replace(/<\/table>/g, '</table></div>');
+    app.innerHTML = `${topo(doc)}<div class="container">${cartao(campos)}
       <article class="markdown-body">${html}</article>
       <footer>
         <a class="btn" href="${REPO}/edit/main/${esc(doc)}" target="_blank" rel="noopener">propor correção</a>
-        <button class="btn" id="copiar">copiar p/ IA</button>
+        <button class="btn" id="copiar">copiar para IA</button>
         <a class="btn" href="${esc(doc)}" target="_blank" rel="noopener">texto puro</a>
-        <a class="btn" href="${REPO}" target="_blank" rel="noopener">repositório</a>
-      </footer>`;
-    relink(app.querySelector('article'), doc);
+        <a class="btn" href="${REPO}" target="_blank" rel="noopener">código no GitHub</a>
+      </footer></div>`;
+    const art = app.querySelector('article');
+    relink(art, doc);
+    tabelas(art);
+    // O resumo de uma linha sob o título é para o GitHub e o agente; na home, o título também sai (a faixa já o diz).
+    const h1 = art.querySelector('h1');
+    if (/(^|\/)(README|CONTEXT)\.md$/.test(doc) && h1?.nextElementSibling?.tagName === 'BLOCKQUOTE') h1.nextElementSibling.remove();
+    const pasta = doc.match(/([\w-]+)\/CONTEXT\.md$/);
+    if (h1 && pasta && h1.textContent.trim() === pasta[1]) h1.textContent = nomePasta(pasta[1]);
+    if (doc === 'README.md') h1?.remove();
+    document.title = h1 && doc !== 'README.md' ? `${h1.textContent} · Docs UFRPE` : 'Docs UFRPE';
     const copiar = document.getElementById('copiar');
     copiar.addEventListener('click', async () => {
       try { await navigator.clipboard.writeText(bruto); copiar.textContent = 'copiado!'; }
       catch { location.href = doc; }
-      setTimeout(() => { copiar.textContent = 'copiar p/ IA'; }, 2000);
+      setTimeout(() => { copiar.textContent = 'copiar para IA'; }, 2000);
     });
   } catch (e) {
-    app.innerHTML = `<p class="aviso">Não consegui abrir ${esc(doc)} (${esc(e.message)}). <a href="./">Voltar ao início</a>.</p>`;
+    app.innerHTML = `${topo(doc)}<div class="container"><p class="aviso">Não consegui abrir ${esc(doc)} (${esc(e.message)}). <a href="./">Voltar ao início</a>.</p></div>`;
   }
 });

@@ -1,42 +1,64 @@
-/* viewer.css — a cara do docs-ufrpe: azul institucional, cartão do original oficial, tabelas largas com rolagem. */
+/* viewer.css — a cara do docs-ufrpe: faixa azul-marinho oficial (#1b2d4f) com o brasão em negativo, Work Sans, listas só com linhas horizontais. */
 :root {
   color-scheme: light;
-  --bg: #ffffff; --text: #1f2328; --muted: #5b6470; --border: #d5dbe3;
-  --card: #f3f6fb; --code: #f3f5f8; --link: #0b4a9e; --azul: #0b3d7a; --ouro: #c99700;
-  --aviso-bg: #fff6da; --aviso-b: #c99700;
+  --bg: #ffffff; --text: #111418; --muted: #5b6470; --border: #d0d7de;
+  --card: #f4f6f9; --code: #f4f6f9; --azul: #1b2d4f; --link: #1f4f99; --hover: #e8eef7;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --bg: #0e131a; --text: #e6edf3; --muted: #93a0ae; --border: #2c3540;
-    --card: #151d28; --code: #151c25; --link: #7fb0f0; --azul: #1d5ca8; --ouro: #e0b43a;
-    --aviso-bg: #2b2412; --aviso-b: #e0b43a;
+    --bg: #0d1117; --text: #e6edf3; --muted: #8b949e; --border: #30363d;
+    --card: #161b22; --code: #161b22; --azul: #9fb7dd; --link: #8ab0e8; --hover: #1b2433;
   }
 }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-body::before { content: ""; display: block; height: 6px; background: linear-gradient(90deg, var(--azul) 70%, var(--ouro) 70%); }
-.container { max-width: 960px; margin: 0 auto; padding: 16px 16px 48px; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 "Work Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.container, .cabeca .dentro, nav.topo { max-width: 820px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+.container { padding-bottom: 48px; }
+@media (min-width: 900px) { .container, .cabeca .dentro, nav.topo { padding-left: 32px; padding-right: 32px; } }
 a { color: var(--link); }
-.topo { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
-.topo a:first-child { font-weight: 700; color: var(--azul); text-decoration: none; }
+a:focus-visible, .btn:focus-visible, summary:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+/* Faixa: o brasão em negativo (branco sobre fundo escuro sólido, variante permitida pelo manual) e o nome alinhado pela base. */
+.cabeca { background: #1b2d4f; margin-bottom: 12px; }
+.cabeca .dentro { display: grid; grid-template-columns: auto 1fr; gap: 4px 24px; padding-top: 20px; padding-bottom: 20px; }
+.marca img { display: block; height: 92px; width: auto; }
+.marca.texto { align-self: end; text-decoration: none; color: #fff; }
+.marca.texto b { display: block; font-size: 40px; line-height: 1.05; letter-spacing: 0.01em; }
+.cabeca p { grid-column: 1 / -1; margin: 0; color: #fff; opacity: 0.9; font-size: 14px; }
+.cabeca .explica { margin-top: 12px; }
+.cabeca .autoria { margin-top: 2px; font-style: italic; }
+nav.topo { font-size: 14px; color: var(--muted); margin-bottom: 20px; }
+@media (max-width: 640px) { .marca img { height: 76px; } .marca.texto b { font-size: 34px; } }
+
 .cartao { background: var(--card); border-left: 4px solid var(--azul); border-radius: 6px; padding: 12px 16px; margin-bottom: 24px; }
 .cartao p { margin: 6px 0; }
 .desc { font-weight: 500; }
 .meta { color: var(--muted); font-size: 14px; margin-left: 8px; }
-.aviso { background: var(--aviso-bg); border-left: 4px solid var(--aviso-b); padding: 8px 12px; border-radius: 4px; font-size: 14px; }
+.aviso { background: var(--card); border-left: 4px solid var(--azul); padding: 8px 12px; border-radius: 4px; font-size: 14px; }
 .btn { display: inline-block; font: inherit; font-size: 14px; padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--text); text-decoration: none; cursor: pointer; margin: 4px 6px 4px 0; }
 .btn:hover { border-color: var(--azul); }
 .btn.forte { background: var(--azul); border-color: var(--azul); color: #fff; font-weight: 600; }
-.markdown-body h1 { color: var(--azul); font-size: 1.8em; line-height: 1.25; }
+@media (prefers-color-scheme: dark) { .btn.forte { color: #0d1117; } }
+
+.markdown-body h1 { color: var(--azul); font-size: 1.8em; line-height: 1.25; margin-top: 0; }
 .markdown-body h1, .markdown-body h2 { border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+.markdown-body h2 { margin-top: 2.4em; }
+.markdown-body h3 { margin-top: 1.8em; }
 .markdown-body code { background: var(--code); padding: 1px 5px; border-radius: 4px; font-size: 90%; }
 .markdown-body pre { background: var(--code); padding: 12px; border-radius: 6px; overflow-x: auto; }
-.markdown-body pre code { padding: 0; }
 .markdown-body blockquote { margin: 0; padding: 0 12px; color: var(--muted); border-left: 4px solid var(--border); }
-.markdown-body img { max-width: 100%; }
-.tabela { overflow-x: auto; margin: 16px 0; }
-.tabela table { border-collapse: collapse; min-width: 100%; font-size: 14px; }
-.tabela th, .tabela td { border: 1px solid var(--border); padding: 6px 10px; text-align: left; vertical-align: top; }
-.tabela th { background: var(--card); }
+.markdown-body details { margin: 12px 0 16px; border-left: 3px solid var(--border); padding-left: 12px; }
+.markdown-body summary { cursor: pointer; color: var(--muted); }
+.markdown-body details[open] summary { margin-bottom: 8px; }
+
+/* Listas: só linhas horizontais; o nome em cápsula, como nas páginas de curso. */
+.tabela { overflow-x: auto; margin: 16px 0 24px; }
+.tabela table { border-collapse: collapse; width: 100%; font-size: 15px; }
+.tabela th, .tabela td { padding: 10px 14px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+.tabela th { font-weight: 600; }
+.entradas td.acao { white-space: nowrap; width: 1%; }
+.pill { display: inline-block; padding: 2px 10px; border: 1px solid var(--border); border-radius: 6px; text-decoration: none; color: var(--link); background: var(--bg); font: 13px 'DejaVu Sans Mono', ui-monospace, Menlo, Consolas, monospace; }
+.pill:hover { border-color: var(--link); background: var(--hover); }
+
 footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); }

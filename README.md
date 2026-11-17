@@ -1,36 +1,51 @@
 # docs-ufrpe
 > Documentos oficiais da UFRPE em Markdown, cada um com o link oficial e a data de captura.
 
-Resoluções, instruções normativas, ofícios, pareceres, formulários e tabelas da UFRPE, convertidos para Markdown. Assim dá para ler no celular, buscar uma palavra em todos de uma vez, citar o artigo certo e entregar o texto a uma IA sem perder nada. O acervo cresce por lotes: o primeiro trouxe o que um docente usa para progressão, promoção e PDA/RDA; os próximos podem ser calendários, regimentos, PPCs, editais, qualquer documento oficial que sirva a mais de uma pessoa.
+Resoluções, instruções normativas, ofícios, formulários e tabelas da UFRPE, em texto simples. Dá para ler no celular, procurar uma palavra em todos ao mesmo tempo, copiar o artigo certo e colar numa IA sem perder nada. Para ler com tudo formatado: [ufrpe.pages.dev/docs](https://ufrpe.pages.dev/docs/).
 
-**Para ler:** [ufrpe.pages.dev/docs](https://ufrpe.pages.dev/docs/), com cada documento formatado e o botão do original.
+Cada página tem um botão para o arquivo oficial. Se o texto daqui e o oficial divergirem, vale o oficial.
 
-**O original sempre manda.** Todo documento começa com um cabeçalho: `origin` é o link oficial do arquivo, `origin_checked` é a data em que foi conferido e `sha256` é a impressão digital do arquivo. Na dúvida, abra o link.
-
-## Onde está cada coisa
+## Por onde começar
 
 | Pasta | O que tem |
 |---|---|
-| [`normas/`](normas/CONTEXT.md) | Resoluções do CONSU/CEPE e instruções normativas; as leis federais em `normas/federais/` |
-| [`orientacoes/`](orientacoes/CONTEXT.md) | Ofícios-circulares, pareceres da AGU e orientações da PROGEPE |
+| [`normas/`](normas/CONTEXT.md) | As regras: resoluções dos conselhos e instruções normativas; as leis federais ficam dentro, em `federais/` |
+| [`orientacoes/`](orientacoes/CONTEXT.md) | Como aplicar as regras: ofícios, pareceres e orientações da PROGEPE |
 | [`modelos/`](modelos/CONTEXT.md) | Formulários e requerimentos |
-| [`tabelas/`](tabelas/CONTEXT.md) | Vencimentos e correlação de classes |
+| [`tabelas/`](tabelas/CONTEXT.md) | Salários e a correspondência entre as classes da carreira |
 
-O que ainda falta ou está por conferir: [ISSUES.md](ISSUES.md). Como o repositório se organiza por dentro: [CONTEXT.md](CONTEXT.md).
+## O que já tem e o que falta
+
+A ideia é juntar aqui todo documento da UFRPE que sirva a mais de uma pessoa. Por enquanto estão aqui os de **progressão e promoção docente** e os de **PDA/RDA** (Plano e Relatório Docente de Atividades). Ainda faltam:
+
+- Calendário acadêmico
+- Orientações às comissões de avaliação de progressão (CAPD)
+- Estatuto e Regimento Geral
+- Graduação: normas gerais, estágio, projetos pedagógicos dos cursos
+- Afastamentos, licenças e capacitação docente
+- Editais que se repetem todo ano (monitoria, extensão, iniciação científica)
+
+Cada assunto entra completo, de uma vez: primeiro se lista tudo o que ele abrange, depois se converte.
+
+<details>
+<summary>Como cada documento é conferido</summary>
+
+Todo arquivo começa com um cabeçalho escondido no site: `origin` é o link oficial, `origin_checked` é o dia em que foi conferido e `sha256` é a impressão digital do arquivo oficial. Se a UFRPE trocar o arquivo no site dela, a impressão digital deixa de bater e a gente fica sabendo. O que ainda falta conferir está em [ISSUES.md](ISSUES.md).
+
+</details>
 
 ## Quer ajudar?
 
-Achou um documento que falta, um link quebrado ou um erro no texto? Qualquer pessoa pode propor pelo navegador, sem instalar nada. Um PR entra rápido quando traz duas coisas: o **texto em Markdown** e o **link oficial** do arquivo de onde ele saiu.
+Achou um documento que falta, um link quebrado ou um erro no texto? Dá para propor a correção pelo navegador, sem instalar nada. Só uma regra: todo documento precisa do **link oficial** de onde saiu, num site da UFRPE ou do governo. Se você recebeu o documento por e-mail, procure-o antes no site do setor que o publicou. Se ele não estiver publicado em lugar nenhum, abra uma *issue* dizendo o nome do documento e quem o mandou.
 
-### A regra única: link oficial sempre
+Documentos sobre pessoas (portarias individuais, processos) não entram, nem dados pessoais como CPF ou SIAPE.
 
-Todo documento aponta para o arquivo original publicado num site oficial (`*.ufrpe.br`, `gov.br`, `in.gov.br`, `normas.leg.br`). Se você recebeu o documento por e-mail, procure-o antes no site do setor que o emitiu (PROGEPE, PREG, CPPD, uma unidade acadêmica). Se ele não estiver publicado em lugar nenhum, abra uma *issue* em vez de um PR, com o nome do documento e quem o distribuiu.
+<details>
+<summary>Passo a passo para propor um documento novo</summary>
 
-### Pelo navegador, sem instalar nada
-
-1. Abra a pasta certa: `normas/` (resoluções e instruções normativas), `orientacoes/` (ofícios, pareceres, orientações), `modelos/` (formulários) ou `tabelas/` (tabelas da PROGEPE).
-2. **Add file → Create new file** e escreva o nome como `<nome>/<nome>.md`, em minúsculas e com hífens: `res-consu-123-2025-assunto/res-consu-123-2025-assunto.md`.
-3. Comece o arquivo com o cabeçalho e cole o texto embaixo:
+1. Abra a pasta certa: `normas/`, `orientacoes/`, `modelos/` ou `tabelas/`.
+2. Clique em **Add file → Create new file** e dê um nome como `<nome>/<nome>.md`, em minúsculas e com hífens: `res-consu-123-2025-assunto/res-consu-123-2025-assunto.md`.
+3. Comece o arquivo com este cabeçalho e cole o texto embaixo:
 
 ```markdown
 ---
@@ -45,16 +60,24 @@ sha256: "64 letras e números do arquivo baixado de origin"
 (o texto do documento)
 ```
 
-4. **Commit changes → Propose changes → Create pull request.** O GitHub cria a sua cópia e o PR sozinho.
+4. Clique em **Commit changes → Propose changes → Create pull request**. O GitHub faz o resto.
 
 Para corrigir um documento que já existe, abra o `.md`, clique no lápis, corrija e proponha do mesmo jeito.
 
-### O sha256
+</details>
 
-É a impressão digital do arquivo: prova que o texto saiu daquele arquivo e avisa quando o site o troca. Para calcular, baixe o arquivo do link e rode `sha256sum arquivo.pdf` (Linux/Mac) ou `certutil -hashfile arquivo.pdf SHA256` (Windows). Se não conseguir, deixe `sha256: null` e diga no PR; o mantenedor completa.
+<details>
+<summary>Como calcular o sha256</summary>
 
-### O que acontece depois
+Baixe o arquivo do link oficial e rode `sha256sum arquivo.pdf` (Linux ou Mac) ou `certutil -hashfile arquivo.pdf SHA256` (Windows). Se não conseguir, escreva `sha256: null` e avise no pedido; o mantenedor completa.
 
-Uma verificação automática confere o cabeçalho, a pasta e se o `sha256` bate com o arquivo do link. O resultado aparece no próprio PR. Depois o mantenedor revisa o texto contra o original e faz o merge. As tabelas dos `CONTEXT.md` se atualizam sozinhas: não as edite.
+</details>
 
-**Fora daqui:** atos sobre pessoas (portarias individuais, processos), mesmo publicados em boletim. Dados pessoais (CPF, SIAPE) nunca.
+<details>
+<summary>O que acontece depois que você propõe</summary>
+
+Uma verificação automática confere o cabeçalho, a pasta e se o `sha256` bate com o arquivo do link; o resultado aparece no próprio pedido. Depois o mantenedor compara o texto com o original e aceita. As listas de cada pasta se atualizam sozinhas: não precisa mexer nelas.
+
+</details>
+
+Como o repositório se organiza por dentro: [CONTEXT.md](CONTEXT.md).

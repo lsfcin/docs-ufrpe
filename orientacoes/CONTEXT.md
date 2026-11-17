@@ -1,7 +1,9 @@
 # orientacoes
 > Ofícios-circulares, pareceres da AGU e orientações da PROGEPE: interpretam a regra, não a criam. Cada um vale pelo que diz e por quem assina.
 
-Progressão: Ofício Circular 004/2024/GR, Ofício Circular de 2024-07, orientação para pedidos de revisão (2024), Parecer 00038/2023/CGGP/DECOR/CGU/AGU (reposicionamento e interstícios, base do acerto financeiro) e "Progressão por Mérito — novas regras 2025".
+**O que é uma orientação.** Um ofício-circular, um parecer da AGU (Advocacia-Geral da União) ou uma nota da PROGEPE (Pró-Reitoria de Gestão de Pessoas) que diz como aplicar uma norma. A orientação não cria regra: interpreta a que existe. Por isso a data e quem assina importam; uma orientação mais nova pode mudar a leitura de uma mais antiga.
+
+**Como usar.** Comece pela [norma](../normas/CONTEXT.md) que trata do assunto. Volte aqui quando a dúvida for de aplicação: prazos, interstícios, efeitos financeiros.
 
 <!-- routing:start -->
 ## Routing
