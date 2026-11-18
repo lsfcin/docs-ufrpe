@@ -986,7 +986,6 @@ Consultor-Geral da União
 
 Atenção, a consulta ao processo eletrônico está disponível em https://supersapiens.agu.gov.br mediante o fornecimento do Número Único de Protocolo (NUP) 00407014018202311 e da chave de acesso 5ea200a4 
 
-~~<u>口</u>~~ 
 
 Documento assinado eletronicamente por ANDRÉ AUGUSTO DANTAS MOTTA AMARAL, com certificado A1 institucional (*.agu.gov.br), de acordo com os normativos legais aplicáveis. A conferência da autenticidade do documento está disponível com o código 1327457304 e chave de acesso 5ea200a4 no endereço eletrônico https://sapiens.agu.gov.br. Informações adicionais: Signatário (a): ANDRÉ AUGUSTO DANTAS MOTTA AMARAL, com certificado A1 institucional (*.agu.gov.br). Data e Hora: 20-11-2023 17:10. Número de Série: 51385880098497591760186147324. Emissor: Autoridade Certificadora do SERPRO SSLv1. 
 

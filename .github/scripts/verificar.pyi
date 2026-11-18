@@ -9,6 +9,7 @@ FORA: Incomplete
 NOME: Incomplete
 DATA: Incomplete
 HASH: Incomplete
+ESTRANHO: Incomplete
 INTERMEDIARIOS: Incomplete
 
 def cabecalho(texto: str) -> dict | None: ...

@@ -135,7 +135,9 @@ document.addEventListener('DOMContentLoaded', async () => {
       // O aviso "prevalece o original" do README é para o GitHub; no site, a faixa azul já o dá.
       [...art.querySelectorAll('p')].find((p) => /prevalece o original/.test(p.textContent))?.remove();
     }
-    document.title = h1 && doc !== 'README.md' ? `${h1.textContent} · Docs UFRPE` : 'Docs UFRPE';
+    // A aba leva o mesmo nome que a busca: o rótulo da description; o h1 de um PDF convertido pode ser lixo de OCR.
+    const nome = (campos.description || '').match(/^([^:]{2,40}):/)?.[1] || h1?.textContent;
+    document.title = nome && doc !== 'README.md' ? `${nome} · Docs UFRPE` : 'Docs UFRPE';
     const copiar = document.getElementById('copiar');
     copiar.addEventListener('click', async () => {
       try { await navigator.clipboard.writeText(bruto); copiar.textContent = 'Copiado'; }

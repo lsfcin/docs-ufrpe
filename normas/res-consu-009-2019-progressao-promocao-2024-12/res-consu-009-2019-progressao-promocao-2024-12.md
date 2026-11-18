@@ -706,7 +706,6 @@ Para a solicitação de progressão ou promoção funcional por interstício e d
 
 - Lei nº 8.112/90; 
 
-- □ □ □ 
 
    - Lei nº 9.394/96; 
 

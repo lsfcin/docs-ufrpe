@@ -102,7 +102,6 @@ O logotipo utiliza duas cores principais para diferenciar visualmente os compone
 - **Azul-marinho (azul-escuro):** Aplicado às quatro últimas letras da sigla (`GEPE`), à figura estilizada superior à esquerda (arco menor e respectivo círculo) e ao texto inferior `Pró-Reitoria de Gestão de Pessoas`.
 
 ~~~text ocr
-£= o
 PROGEPE \
 Pró-Reitoria de Gestão de Pessoas
 ~~~

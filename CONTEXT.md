@@ -9,7 +9,7 @@
 
 **Fora daqui:** atos que tratam de pessoas (portarias individuais ou coletivas, processos) — mesmo publicados em boletim, vivem no acervo privado de cada docente.
 
-**O site** [ufrpe.pages.dev/docs](https://ufrpe.pages.dev/docs/) é `site/` (viewer estático) mais os `.md` de `main`, dentro do projeto Cloudflare `ufrpe`, que também serve o montagrade. Um deploy substitui o projeto inteiro: publique só com `core/run tools/links/ufrpe-site`, que monta todas as partes do git; nunca `wrangler pages deploy` à mão. A busca lê `busca.json`, que o deploy gera com [`.github/scripts/indexar.py`](.github/scripts/indexar.py) e que não entra no git; a tolerância a erro de digitação só age quando a busca exata não acha nada (medido contra a exata e o MiniSearch em 18/11/2026).
+**O site** [ufrpe.pages.dev/docs](https://ufrpe.pages.dev/docs/) é `site/` (viewer estático) mais os `.md` de `main`, dentro do projeto Cloudflare `ufrpe`, que também serve o montagrade. Um deploy substitui o projeto inteiro: publique só com `academy/administration/site/publicar.py` (repo do mantenedor), que monta todas as partes do git; nunca `wrangler pages deploy` à mão. A busca lê `busca.json`, que o deploy gera com [`.github/scripts/indexar.py`](.github/scripts/indexar.py) e que não entra no git; a tolerância a erro de digitação só age quando a busca exata não acha nada (medido contra a exata e o MiniSearch em 18/11/2026).
 
 Os servidores UFRPE não mandam o certificado intermediário: busque-o pela URL de AIA (GlobalSign RNP 2025) e passe `--cacert`; não desligue a verificação.
 

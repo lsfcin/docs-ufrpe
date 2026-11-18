@@ -22,6 +22,8 @@ FORA = {'CONTEXT.md', 'README.md', 'ISSUES.md'}
 NOME = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 DATA = re.compile(r'^\d{4}-\d{2}-\d{2}$')
 HASH = re.compile(r'^[0-9a-f]{64}$')
+# Ideograma, kana, hangul, caractere de substituição ou de uso privado num documento em português: lixo de OCR (um brasão, um QR code).
+ESTRANHO = re.compile('[⺀-鿿가-힯豈-﫿-�]')
 # Os servidores da UFRPE não mandam o certificado intermediário; ele vem da URL de AIA do próprio certificado.
 INTERMEDIARIOS = ('http://secure.globalsign.com/cacert/rnpicpedugr46ovtlsca2025.crt',)
 
@@ -78,6 +80,9 @@ def conferir(rel: Path, texto: str, hoje: datetime.date) -> tuple[list[str], lis
         erros.append('origin_checked tem de ser AAAA-MM-DD')
     elif datetime.date.fromisoformat(data) > hoje:
         erros.append('origin_checked está no futuro')
+    for n, linha in enumerate(texto.splitlines(), 1):
+        if (m := ESTRANHO.search(linha)):
+            erros.append(f'linha {n}: caractere estranho "{m.group()}" (lixo de OCR? apague ou transcreva)')
     sha = campos.get('sha256')
     if sha is None:
         if rel.parts[:2] != ('normas', 'federais'):

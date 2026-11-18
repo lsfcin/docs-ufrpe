@@ -33,7 +33,7 @@
 | Size signals | 0 |
 | Source files with no interface stub | 0 |
 | Directories holding too many files | 0 |
-| Prose describing finished work | 2 |
+| Prose describing finished work | 1 |
 | Unanswered placeholders | 0 |
 | Doubt stores missing their own discipline | 0 |
 | Lists naming a model where they mean a level | 0 |
@@ -41,7 +41,7 @@
 | Truncated routing descriptions | 0 |
 | Constraints trapped in a CONTEXT.md head | 0 |
 | Local branches holding unpromoted work | 0 |
-| Work that exists on this disk and nowhere else | 0 |
+| Work that exists on this disk and nowhere else | 1 |
 | Local branches already merged into their base | 1 |
 | Remote branches already merged into their base | 1 |
 
@@ -59,8 +59,13 @@
 
 *git is the history — cut it, or rewrite it as present-tense state*
 
-- normas/res-consu-009-2019-progressao-promocao-2024-12/res-consu-009-2019-progressao-promocao-2024-12.md:1106: strikethrough — prose describing finished work.
-- orientacoes/parecer-agu-00038-2023-progressao-docente/parecer-agu-00038-2023-progressao-docente.md:931: strikethrough — prose describing finished work.
+- normas/res-consu-009-2019-progressao-promocao-2024-12/res-consu-009-2019-progressao-promocao-2024-12.md:1105: strikethrough — prose describing finished work.
+
+### Work that exists on this disk and nowhere else
+
+*two machines share this workspace — push it, or give the repo a remote to push to: code/SPECS-git.md § Push policy*
+
+- . — main is 1 ahead of origin/main
 
 ### Local branches already merged into their base
 
