@@ -69,6 +69,7 @@ footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border
 .busca input { width: 100%; font: inherit; padding: 8px 12px; border: 1px solid #fff; border-radius: 6px; background: #fff; color: #111418; }
 .busca input:focus-visible { outline: 2px solid #9fb7dd; outline-offset: 2px; }
 .estado { color: var(--muted); font-size: 14px; }
+.grupo { font-size: 15px; margin: 20px 0 4px; color: var(--muted); }
 .achados { list-style: none; padding: 0; margin: 0; }
 .achados li { padding: 12px 0; border-bottom: 1px solid var(--border); }
 .achados a { text-decoration: none; }

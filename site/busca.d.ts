@@ -10,8 +10,10 @@ declare function buscar(docs: any, q: any): {
 };
 declare function trecho(d: any, termos: any): HTMLParagraphElement;
 declare function marcar(alvo: any, texto: any, termos: any, antes: any, depois: any): void;
-declare function resultados(painel: any, achado: any, q: any): void;
-declare function caixa(form: any, painel: any, pagina: any): void;
+declare function grupos(docs: any, aberto: any): any[];
+declare function vagas(tamanhos: any): any;
+declare function resultados(painel: any, achado: any, q: any, aberto: any): void;
+declare function caixa(form: any, painel: any, pagina: any, aberto: any): void;
 declare function destacar(raiz: any, q: any): void;
 declare const MAX: 20;
 declare namespace PESOS {

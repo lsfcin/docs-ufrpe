@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         <a class="btn" href="${esc(doc)}" target="_blank" rel="noopener">Texto em Markdown</a>
         <a class="btn" href="${REPO}" target="_blank" rel="noopener">Repositório no GitHub</a>
       </footer></div>`;
-    ligarBusca(app);
+    ligarBusca(app, doc);
     const art = app.querySelector('article');
     relink(art, doc);
     tabelas(art);
@@ -148,11 +148,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (q) destacar(art, q);
   } catch (e) {
     app.innerHTML = `${topo(doc)}<div class="container"><p class="aviso">Não foi possível abrir ${esc(doc)} (${esc(e.message)}). <a href="./">Voltar ao início</a>.</p></div>`;
-    ligarBusca(app);
+    ligarBusca(app, doc);
   }
 });
 
 // A caixa da faixa azul procura em todo o acervo (busca.js); os resultados tomam o lugar da página enquanto há busca.
-function ligarBusca(app) {
-  caixa(app.querySelector('form.busca'), app.querySelector('#resultados'), app.querySelector('.container:not(#resultados)'));
+function ligarBusca(app, doc) {
+  caixa(app.querySelector('form.busca'), app.querySelector('#resultados'), app.querySelector('.container:not(#resultados)'), doc);
 }

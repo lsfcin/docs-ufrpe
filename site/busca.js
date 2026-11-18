@@ -119,29 +119,58 @@ function marcar(alvo, texto, termos, antes, depois) {
   if (depois) alvo.append(' …');
 }
 
-function resultados(painel, achado, q) {
+// Um grupo por nível da pasta aberta, do mais fundo ao mais raso, e o resto do acervo por último;
+// cada documento fica no grupo mais fundo que o contém. Na raiz, um grupo só, sem título.
+function grupos(docs, aberto) {
+  const partes = aberto.split('/').slice(0, -1);
+  const emDocumento = partes.length && partes.at(-1) === aberto.split('/').pop().replace(/\.md$/, '');
+  const niveis = partes.map((_, i) => partes.slice(0, partes.length - i).join('/') + '/');
+  const rotulos = niveis.map((p, i) => (i === 0 && emDocumento ? 'Neste documento' : `Em ${nomePasta(p.slice(0, -1).split('/').pop())}`));
+  const lista = [...niveis.map((p, i) => ({ prefixo: p, titulo: rotulos[i], docs: [] })), { prefixo: '', titulo: 'No restante do acervo', docs: [] }];
+  for (const d of docs) lista.find((g) => d.doc.startsWith(g.prefixo)).docs.push(d);
+  return lista.filter((g) => g.docs.length);
+}
+
+// Divide as MAX vagas igualmente; a vaga que um grupo pequeno não usa passa aos outros, então nenhum grupo some.
+function vagas(tamanhos) {
+  const dadas = tamanhos.map(() => 0);
+  let resto = MAX;
+  [...tamanhos.keys()].sort((a, b) => tamanhos[a] - tamanhos[b]).forEach((i, k, ordem) => {
+    dadas[i] = Math.min(tamanhos[i], Math.floor(resto / (ordem.length - k)));
+    resto -= dadas[i];
+  });
+  return dadas;
+}
+
+function resultados(painel, achado, q, aberto) {
   painel.replaceChildren();
   const aviso = (txt) => { const p = document.createElement('p'); p.className = 'estado'; p.textContent = txt; painel.append(p); };
   if (!achado.docs.length) { aviso(`Nenhum documento contém “${q}”.`); return; }
   const n = achado.docs.length;
   aviso(`${n > MAX ? `Mostrando ${MAX} de ${n} documentos; refine a busca para ver os demais.` : `${n} documento${n > 1 ? 's' : ''}`}${achado.corrigido ? ` para “${achado.termos.join(' ')}”` : ''}.`);
-  const lista = document.createElement('ol');
-  lista.className = 'achados';
-  for (const d of achado.docs.slice(0, MAX)) {
-    const li = document.createElement('li');
-    const a = document.createElement('a');
-    a.href = `?doc=${encodeURIComponent(d.doc)}&q=${encodeURIComponent(achado.termos.join(' '))}`;
-    const t = document.createElement('b');
-    t.textContent = d.titulo;
-    a.append(t);
-    li.append(a, trecho(d, achado.termos));
-    lista.append(li);
-  }
-  painel.append(lista);
+  const gs = grupos(achado.docs, aberto);
+  const cotas = vagas(gs.map((g) => g.docs.length));
+  gs.forEach((g, i) => {
+    if (gs.length > 1) painel.append(Object.assign(document.createElement('h2'), { className: 'grupo', textContent: g.titulo }));
+    const lista = document.createElement('ol');
+    lista.className = 'achados';
+    for (const d of g.docs.slice(0, cotas[i])) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = `?doc=${encodeURIComponent(d.doc)}&q=${encodeURIComponent(achado.termos.join(' '))}`;
+      const t = document.createElement('b');
+      t.textContent = d.titulo;
+      a.append(t);
+      li.append(a, trecho(d, achado.termos));
+      lista.append(li);
+    }
+    painel.append(lista);
+  });
 }
 
 // Liga a caixa: carrega o índice no primeiro foco e mostra os resultados no painel, escondendo a página enquanto há busca.
-function caixa(form, painel, pagina) {
+// Enter não abre nada (seria lido como "buscar"); cada resultado é um link, alcançado pelo Tab.
+function caixa(form, painel, pagina, aberto) {
   const campo = form.querySelector('input');
   let espera;
   const mostrar = async () => {
@@ -152,7 +181,7 @@ function caixa(form, painel, pagina) {
     try {
       if (!(indice instanceof Array)) { painel.replaceChildren(Object.assign(document.createElement('p'), { className: 'estado', textContent: 'Carregando o índice…' })); }
       const docs = await carregar();
-      if (campo.value.trim() === q) resultados(painel, buscar(docs, q), q);
+      if (campo.value.trim() === q) resultados(painel, buscar(docs, q), q, aberto);
     } catch (e) {
       painel.replaceChildren();
       const p = Object.assign(document.createElement('p'), { className: 'estado aviso', textContent: `Não foi possível carregar o índice de busca (${e.message}). ` });
@@ -164,7 +193,7 @@ function caixa(form, painel, pagina) {
   };
   campo.addEventListener('focus', () => carregar().catch(() => {}), { once: true });
   campo.addEventListener('input', () => { clearTimeout(espera); espera = setTimeout(mostrar, 150); });
-  form.addEventListener('submit', (e) => { e.preventDefault(); const a = painel.querySelector('.achados a'); if (a && !painel.hidden) location.href = a.href; });
+  form.addEventListener('submit', (e) => e.preventDefault());
 }
 
 // No documento aberto por um resultado (?q=), marca os termos nos nós de texto, abre os <details> em volta e rola até o primeiro.
