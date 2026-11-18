@@ -1,9 +1,9 @@
 # orientacoes
 > Ofícios-circulares, pareceres da AGU e orientações da PROGEPE: interpretam a regra, não a criam. Cada um vale pelo que diz e por quem assina.
 
-**O que é uma orientação.** Um ofício-circular, um parecer da AGU (Advocacia-Geral da União) ou uma nota da PROGEPE (Pró-Reitoria de Gestão de Pessoas) que diz como aplicar uma norma. A orientação não cria regra: interpreta a que existe. Por isso a data e quem assina importam; uma orientação mais nova pode mudar a leitura de uma mais antiga.
+**O que é uma orientação.** Ofício-circular, parecer da AGU (Advocacia-Geral da União) ou nota da PROGEPE (Pró-Reitoria de Gestão de Pessoas) que indica como aplicar uma norma. A orientação não cria regra: interpreta a existente. Por isso a data e o signatário importam, e uma orientação mais recente pode alterar a leitura de uma anterior.
 
-**Como usar.** Comece pela [norma](../normas/CONTEXT.md) que trata do assunto. Volte aqui quando a dúvida for de aplicação: prazos, interstícios, efeitos financeiros.
+**Como consultar.** Comece pela [norma](../normas/CONTEXT.md) que trata do assunto e recorra às orientações em dúvidas de aplicação, como prazos, interstícios e efeitos financeiros.
 
 <!-- routing:start -->
 ## Routing

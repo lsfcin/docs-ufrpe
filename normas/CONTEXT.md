@@ -1,14 +1,14 @@
 # normas
 > Resoluções do CONSU/CEPE e instruções normativas da UFRPE: atos gerais, com força de regra. As federais que elas aplicam ficam em `federais/`.
 
-**O que é uma norma.** Uma regra que vale para todos na UFRPE: uma resolução de um conselho superior ou uma instrução normativa. A norma diz o que vale; uma [orientação](../orientacoes/CONTEXT.md) explica como aplicar; um [modelo](../modelos/CONTEXT.md) é o formulário que ela pede.
+**O que é uma norma.** Regra geral da UFRPE, válida para toda a instituição: uma resolução de um conselho superior ou uma instrução normativa. A norma estabelece o que vale; a [orientação](../orientacoes/CONTEXT.md) explica como aplicá-la; o [modelo](../modelos/CONTEXT.md) é o formulário que ela exige.
 
-**Como usar.** Cada linha da lista traz o nome do documento e o assunto. As leis federais que essas normas seguem estão em [federais](federais/CONTEXT.md).
+**Como consultar.** Cada item da lista traz o nome do documento e o assunto. As leis federais aplicadas por essas normas estão em [federais](federais/CONTEXT.md).
 
 <details>
-<summary>O que querem dizer CONSU, CEPE e IN</summary>
+<summary>Significado de CONSU, CEPE e IN</summary>
 
-CONSU é o Conselho Universitário e CEPE, o Conselho de Ensino, Pesquisa e Extensão: os dois conselhos que aprovam resoluções. IN é instrução normativa, publicada pela Reitoria ou por uma comissão para detalhar como uma resolução funciona na prática.
+CONSU é o Conselho Universitário e CEPE, o Conselho de Ensino, Pesquisa e Extensão: os dois conselhos que aprovam resoluções. IN é a instrução normativa, publicada pela Reitoria ou por uma comissão para detalhar a aplicação de uma resolução.
 
 </details>
 
@@ -17,7 +17,7 @@ CONSU é o Conselho Universitário e CEPE, o Conselho de Ensino, Pesquisa e Exte
 
 | Subdirectory | Description |
 |--------------|-------------|
-| [`federais/`](federais/CONTEXT.md) | Leis, decretos e portarias federais que as normas da UFRPE aplicam. Toda federal usada ganha uma página; o texto inteiro só quando o espelho ctresb/leis não o tem. |
+| [`federais/`](federais/CONTEXT.md) | Leis, decretos e portarias federais aplicados pelas normas da UFRPE, com resumo e link para o texto oficial; o texto integral quando o espelho ctresb/leis não o contém. |
 
 | File | Description |
 |------|-------------|

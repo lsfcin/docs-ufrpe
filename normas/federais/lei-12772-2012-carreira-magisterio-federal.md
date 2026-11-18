@@ -1,5 +1,5 @@
 ---
-description: "Base federal da carreira: classes, níveis, interstício de 24 meses, progressão e promoção (cap. III). Só link: o espelho já tem o texto."
+description: "Lei 12.772/2012: base federal da carreira — classes, níveis, interstício de 24 meses, progressão e promoção (cap. III). Só link: o espelho já tem o texto."
 origin: "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2012-12-28;12772"
 origin_checked: "2026-11-11"
 sha256: null

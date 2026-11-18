@@ -9,6 +9,7 @@ declare function relink(raiz: any, doc: any): void;
 declare function rotulo(a: any, desc: any): any[];
 declare function tabelas(raiz: any): void;
 declare function topo(doc: any): string;
+declare function ligarBusca(app: any): void;
 declare const REPO: "https://github.com/lsfcin/docs-ufrpe";
 declare namespace PASTAS {
     let orientacoes: string;

@@ -1,9 +1,9 @@
 # modelos
 > Formulários e requerimentos oficiais em Markdown, tabelas preservadas; o original editável (.doc/.docx) fica no Drive, no mesmo caminho.
 
-**O que é um modelo.** O formulário ou requerimento oficial que uma [norma](../normas/CONTEXT.md) manda preencher. Aqui ele está em Markdown, com as tabelas preservadas, para ler e consultar os campos. Para preencher e entregar, use o arquivo original: o cartão do topo de cada modelo leva até ele.
+**O que é um modelo.** Formulário ou requerimento oficial exigido por uma [norma](../normas/CONTEXT.md). A versão em Markdown preserva as tabelas e serve para consultar os campos; para preencher e entregar, use o arquivo original, acessível pelo botão no topo de cada modelo.
 
-**Como usar.** A descrição de cada modelo diz a que processo ele pertence (progressão, PDA, RDA) e quando entra nele.
+**Como consultar.** A descrição de cada modelo indica o processo a que pertence (progressão, PDA ou RDA) e a etapa em que é usado.
 
 <!-- routing:start -->
 ## Routing

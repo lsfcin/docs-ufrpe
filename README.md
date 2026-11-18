@@ -1,44 +1,44 @@
 # docs-ufrpe
 > Documentos oficiais da UFRPE em Markdown, cada um com o link oficial e a data de captura.
 
-Resoluções, instruções normativas, ofícios, formulários e tabelas da UFRPE, em texto simples. Dá para ler no celular, procurar uma palavra em todos ao mesmo tempo, copiar o artigo certo e colar numa IA sem perder nada. Para ler com tudo formatado: [ufrpe.pages.dev/docs](https://ufrpe.pages.dev/docs/).
+Catálogo de **resoluções**, **instruções normativas**, **ofícios**, **formulários** e **tabelas** da **UFRPE**, em formato Markdown (.md), para facilitar a consulta pelo celular e por ferramentas de inteligência artificial. Versão formatada para leitura: [ufrpe.pages.dev/docs](https://ufrpe.pages.dev/docs/).
 
-Cada página tem um botão para o arquivo oficial. Se o texto daqui e o oficial divergirem, vale o oficial.
+Cada documento traz o link para o arquivo oficial. Em caso de divergência, prevalece o original.
 
-## Por onde começar
+## Organização
 
-| Pasta | O que tem |
+| Pasta | Conteúdo |
 |---|---|
-| [`normas/`](normas/CONTEXT.md) | As regras: resoluções dos conselhos e instruções normativas; as leis federais ficam dentro, em `federais/` |
-| [`orientacoes/`](orientacoes/CONTEXT.md) | Como aplicar as regras: ofícios, pareceres e orientações da PROGEPE |
+| [`normas/`](normas/CONTEXT.md) | Resoluções dos conselhos superiores e instruções normativas; as leis federais que elas aplicam ficam em `federais/` |
+| [`orientacoes/`](orientacoes/CONTEXT.md) | Ofícios, pareceres e orientações da PROGEPE (Pró-Reitoria de Gestão de Pessoas) sobre como aplicar as normas |
 | [`modelos/`](modelos/CONTEXT.md) | Formulários e requerimentos |
-| [`tabelas/`](tabelas/CONTEXT.md) | Salários e a correspondência entre as classes da carreira |
+| [`tabelas/`](tabelas/CONTEXT.md) | Vencimentos e correlação entre as classes da carreira |
 
-## O que já tem e o que falta
+## Documentos disponíveis e pendentes
 
-A ideia é juntar aqui todo documento da UFRPE que sirva a mais de uma pessoa. Por enquanto estão aqui os de **progressão e promoção docente** e os de **PDA/RDA** (Plano e Relatório Docente de Atividades). Ainda faltam:
+O objetivo é reunir todo documento da UFRPE de interesse geral. Estão disponíveis os documentos de **progressão e promoção docente** e de **PDA** e **RDA** (Plano Docente de Atividades e Relatório Docente de Atividades). Ainda não foram incluídos:
 
 - Calendário acadêmico
 - Orientações às comissões de avaliação de progressão (CAPD)
 - Estatuto e Regimento Geral
 - Graduação: normas gerais, estágio, projetos pedagógicos dos cursos
 - Afastamentos, licenças e capacitação docente
-- Editais que se repetem todo ano (monitoria, extensão, iniciação científica)
+- Editais anuais (monitoria, extensão, iniciação científica)
 
-Cada assunto entra completo, de uma vez: primeiro se lista tudo o que ele abrange, depois se converte.
+A inclusão de cada tema começa pelo levantamento de todos os seus documentos, seguido da conversão para Markdown.
 
 <details>
 <summary>Como cada documento é conferido</summary>
 
-Todo arquivo começa com um cabeçalho escondido no site: `origin` é o link oficial, `origin_checked` é o dia em que foi conferido e `sha256` é a impressão digital do arquivo oficial. Se a UFRPE trocar o arquivo no site dela, a impressão digital deixa de bater e a gente fica sabendo. O que ainda falta conferir está em [ISSUES.md](ISSUES.md).
+Todo arquivo começa com um cabeçalho, oculto no site: `origin` é o link oficial, `origin_checked` é a data da conferência e `sha256` é a impressão digital do arquivo oficial. Se a UFRPE substituir o arquivo, a impressão digital deixa de coincidir e a divergência é detectada. As conferências pendentes estão em [ISSUES.md](ISSUES.md).
 
 </details>
 
-## Quer ajudar?
+## Sugerir correções e documentos
 
-Achou um documento que falta, um link quebrado ou um erro no texto? Dá para propor a correção pelo navegador, sem instalar nada. Só uma regra: todo documento precisa do **link oficial** de onde saiu, num site da UFRPE ou do governo. Se você recebeu o documento por e-mail, procure-o antes no site do setor que o publicou. Se ele não estiver publicado em lugar nenhum, abra uma *issue* dizendo o nome do documento e quem o mandou.
+Documentos ausentes, links quebrados e erros no texto podem ser corrigidos pelo navegador, sem instalar programas. Para propor um documento, informe o **link oficial** num site da UFRPE ou do governo. Um documento recebido por e-mail deve ser procurado antes no site do setor que o publicou; se não estiver publicado, abra uma *issue* com o nome do documento e o remetente.
 
-Documentos sobre pessoas (portarias individuais, processos) não entram, nem dados pessoais como CPF ou SIAPE.
+Não são incluídos documentos sobre pessoas (portarias individuais, processos) nem dados pessoais, como CPF ou SIAPE.
 
 <details>
 <summary>Passo a passo para propor um documento novo</summary>
@@ -60,23 +60,23 @@ sha256: "64 letras e números do arquivo baixado de origin"
 (o texto do documento)
 ```
 
-4. Clique em **Commit changes → Propose changes → Create pull request**. O GitHub faz o resto.
+4. Clique em **Commit changes → Propose changes → Create pull request**. O GitHub conclui o envio.
 
-Para corrigir um documento que já existe, abra o `.md`, clique no lápis, corrija e proponha do mesmo jeito.
+Para corrigir um documento que já existe, abra o `.md`, clique no lápis, corrija e proponha da mesma forma.
 
 </details>
 
 <details>
 <summary>Como calcular o sha256</summary>
 
-Baixe o arquivo do link oficial e rode `sha256sum arquivo.pdf` (Linux ou Mac) ou `certutil -hashfile arquivo.pdf SHA256` (Windows). Se não conseguir, escreva `sha256: null` e avise no pedido; o mantenedor completa.
+Baixe o arquivo do link oficial e rode `sha256sum arquivo.pdf` (Linux ou Mac) ou `certutil -hashfile arquivo.pdf SHA256` (Windows). Se não for possível, escreva `sha256: null` e informe no pedido; o mantenedor completa.
 
 </details>
 
 <details>
-<summary>O que acontece depois que você propõe</summary>
+<summary>Depois do envio</summary>
 
-Uma verificação automática confere o cabeçalho, a pasta e se o `sha256` bate com o arquivo do link; o resultado aparece no próprio pedido. Depois o mantenedor compara o texto com o original e aceita. As listas de cada pasta se atualizam sozinhas: não precisa mexer nelas.
+Uma verificação automática confere o cabeçalho, a pasta e se o `sha256` bate com o arquivo do link; o resultado aparece no próprio pedido. Em seguida, o mantenedor compara o texto com o original e aceita a proposta. As listas de cada pasta se atualizam automaticamente.
 
 </details>
 

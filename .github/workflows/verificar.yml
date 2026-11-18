@@ -29,3 +29,6 @@ jobs:
           if [ -s alterados.txt ]; then python .github/scripts/verificar.py --online $(cat alterados.txt); fi
       - name: todos os documentos (sem rede)
         run: python .github/scripts/verificar.py
+      # O site busca em busca.json, gerado no deploy: o gerador tem que rodar sobre o que o PR deixa.
+      - name: índice da busca
+        run: python .github/scripts/indexar.py . --saida "$RUNNER_TEMP/busca.json"

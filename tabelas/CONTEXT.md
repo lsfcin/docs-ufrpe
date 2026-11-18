@@ -1,9 +1,9 @@
 # tabelas
 > Tabelas da PROGEPE: vencimentos do Magistério Superior e correlação de classes. Cada uma vale para o período no nome.
 
-**O que é uma tabela.** Uma tabela publicada pela PROGEPE: os vencimentos do Magistério Superior, ou a correlação entre as classes da carreira antes e depois da reestruturação de 2025. Cada uma vale para o período que está no nome.
+**O que é uma tabela.** Tabela publicada pela PROGEPE (Pró-Reitoria de Gestão de Pessoas): os vencimentos do Magistério Superior ou a correlação entre as classes da carreira antes e depois da reestruturação de 2025. Cada tabela vale para o período indicado no nome.
 
-**Como usar.** A correlação mostra em que classe e nível novos a sua posição antiga ficou. Os vencimentos servem para conferir o valor devido depois de uma progressão.
+**Como consultar.** A correlação indica a classe e o nível atuais correspondentes a uma posição anterior. Os vencimentos permitem conferir o valor devido após uma progressão.
 
 <!-- routing:start -->
 ## Routing

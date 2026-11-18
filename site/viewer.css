@@ -62,3 +62,16 @@ nav.topo { font-size: 14px; color: var(--muted); margin-bottom: 20px; }
 .pill:hover { border-color: var(--link); background: var(--hover); }
 
 footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); }
+
+/* Busca: rótulo visível e campo em linha própria na faixa; os resultados tomam o lugar da página enquanto há busca. */
+.busca { grid-column: 1 / -1; margin-top: 14px; }
+.busca label { display: block; color: #fff; font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+.busca input { width: 100%; font: inherit; padding: 8px 12px; border: 1px solid #fff; border-radius: 6px; background: #fff; color: #111418; }
+.busca input:focus-visible { outline: 2px solid #9fb7dd; outline-offset: 2px; }
+.estado { color: var(--muted); font-size: 14px; }
+.achados { list-style: none; padding: 0; margin: 0; }
+.achados li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.achados a { text-decoration: none; }
+.achados a:hover b { text-decoration: underline; }
+.trecho { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+mark { background: #ffe58a; color: #111418; border-radius: 2px; padding: 0 1px; }

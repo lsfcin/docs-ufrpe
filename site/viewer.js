@@ -22,11 +22,13 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&
 const data = (iso) => (/^\d{4}-\d{2}-\d{2}$/.test(iso || '') ? iso.split('-').reverse().join('/') : '');
 const nomePasta = (p) => PASTAS[p] || p[0].toUpperCase() + p.slice(1);
 
-// As figuras não entram no git; a descrição delas fica recolhida, com o tipo da figura como resumo.
+// As figuras não entram no git; a descrição delas fica recolhida. Ela vai do marcador até duas linhas em branco,
+// o próximo marcador de página ou o fim: a mesma regra de .github/scripts/indexar.py.
 function figuras(md) {
-  return md.replace(/<!-- figure [^>]*-->\n((?:[ \t]*\n|\d+\.[^\n]*\n|[ \t]+[^\n]*\n)*)/g, (_, bloco) => {
-    const tipo = (bloco.match(/Tipo de figura:\*\*\s*([^\n.(]+)/) || [, 'figura'])[1].trim();
-    return `\n<details>\n<summary>\nFigura: ${tipo.replace(/[<>]/g, '')}\n</summary>\n\n${bloco}\n</details>\n\n`;
+  return md.replace(/<!-- figure [^>]*-->\n([\s\S]*?)(?=\n[ \t]*\n[ \t]*\n|<!-- page|$(?![\s\S]))/g, (_, bloco) => {
+    const tipo = bloco.match(/Tipo de figura:\*\*\s*([^\n.(]+)/);
+    const resumo = tipo ? `Figura: ${tipo[1].trim().replace(/[<>]/g, '')}` : 'Descrição da figura';
+    return bloco.trim() ? `\n<details>\n<summary>\n${resumo}\n</summary>\n\n${bloco}\n</details>\n\n` : '';
   });
 }
 
@@ -35,7 +37,7 @@ function cartao(c) {
   const conferido = data(c.origin_checked) ? ` · conferido em ${data(c.origin_checked)}` : '';
   return `<aside class="cartao">${c.description ? `<p class="desc">${esc(c.description)}</p>` : ''}
     <p><a class="btn forte" href="${esc(c.origin)}" target="_blank" rel="noopener">Original oficial ↗</a><span class="meta">${conferido}</span></p>
-    ${c.needs_review === true ? '<p class="aviso">Texto convertido automaticamente e ainda não revisado: na dúvida, vale o original.</p>' : ''}</aside>`;
+    ${c.needs_review === true ? '<p class="aviso">Texto convertido automaticamente, ainda não revisado. Em caso de divergência, prevalece o original.</p>' : ''}</aside>`;
 }
 
 // Só as pastas de seção (as que têm CONTEXT.md); a pasta própria de cada documento não aparece.
@@ -91,9 +93,11 @@ function topo(doc) {
   return `<header class="cabeca"><div class="dentro">
     <a class="marca" href="./"><img src="brasao-negativo.png" alt="Universidade Federal Rural de Pernambuco"></a>
     <a class="marca texto" href="./"><b>Docs<br>UFRPE</b></a>
-    <p class="explica">Documentos oficiais da UFRPE em Markdown, para ler no celular, buscar e citar. Não é um site oficial da UFRPE: na dúvida, vale o original.</p>
+    <p class="explica">Documentos oficiais da Universidade Federal Rural de Pernambuco (UFRPE), reproduzidos em Markdown para leitura no celular, busca e citação. Este site não é oficial da UFRPE. Em caso de divergência, prevalece o documento original.</p>
     <p class="autoria">Iniciativa pessoal de Lucas Silva Figueiredo, professor do Departamento de Computação da UFRPE.</p>
-  </div></header>${nav}`;
+    <form class="busca" role="search"><label for="q">Buscar nos documentos</label>
+      <input id="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="interstício, RSC, acerto financeiro…"></form>
+  </div></header>${nav}<section id="resultados" class="container" aria-live="polite" hidden></section>`;
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -112,11 +116,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     app.innerHTML = `${topo(doc)}<div class="container">${cartao(campos)}
       <article class="markdown-body">${html}</article>
       <footer>
-        <a class="btn" href="${REPO}/edit/main/${esc(doc)}" target="_blank" rel="noopener">propor correção</a>
-        <button class="btn" id="copiar">copiar para IA</button>
-        <a class="btn" href="${esc(doc)}" target="_blank" rel="noopener">texto puro</a>
-        <a class="btn" href="${REPO}" target="_blank" rel="noopener">código no GitHub</a>
+        <a class="btn" href="${REPO}/edit/main/${esc(doc)}" target="_blank" rel="noopener">Propor correção</a>
+        <button class="btn" id="copiar">Copiar texto para IA</button>
+        <a class="btn" href="${esc(doc)}" target="_blank" rel="noopener">Texto em Markdown</a>
+        <a class="btn" href="${REPO}" target="_blank" rel="noopener">Repositório no GitHub</a>
       </footer></div>`;
+    ligarBusca(app);
     const art = app.querySelector('article');
     relink(art, doc);
     tabelas(art);
@@ -125,15 +130,27 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (/(^|\/)(README|CONTEXT)\.md$/.test(doc) && h1?.nextElementSibling?.tagName === 'BLOCKQUOTE') h1.nextElementSibling.remove();
     const pasta = doc.match(/([\w-]+)\/CONTEXT\.md$/);
     if (h1 && pasta && h1.textContent.trim() === pasta[1]) h1.textContent = nomePasta(pasta[1]);
-    if (doc === 'README.md') h1?.remove();
+    if (doc === 'README.md') {
+      h1?.remove();
+      // O aviso "prevalece o original" do README é para o GitHub; no site, a faixa azul já o dá.
+      [...art.querySelectorAll('p')].find((p) => /prevalece o original/.test(p.textContent))?.remove();
+    }
     document.title = h1 && doc !== 'README.md' ? `${h1.textContent} · Docs UFRPE` : 'Docs UFRPE';
     const copiar = document.getElementById('copiar');
     copiar.addEventListener('click', async () => {
-      try { await navigator.clipboard.writeText(bruto); copiar.textContent = 'copiado!'; }
+      try { await navigator.clipboard.writeText(bruto); copiar.textContent = 'Copiado'; }
       catch { location.href = doc; }
-      setTimeout(() => { copiar.textContent = 'copiar para IA'; }, 2000);
+      setTimeout(() => { copiar.textContent = 'Copiar texto para IA'; }, 2000);
     });
+    const q = new URLSearchParams(location.search).get('q');
+    if (q) destacar(art, q);
   } catch (e) {
-    app.innerHTML = `${topo(doc)}<div class="container"><p class="aviso">Não consegui abrir ${esc(doc)} (${esc(e.message)}). <a href="./">Voltar ao início</a>.</p></div>`;
+    app.innerHTML = `${topo(doc)}<div class="container"><p class="aviso">Não foi possível abrir ${esc(doc)} (${esc(e.message)}). <a href="./">Voltar ao início</a>.</p></div>`;
+    ligarBusca(app);
   }
 });
+
+// A caixa da faixa azul procura em todo o acervo (busca.js); os resultados tomam o lugar da página enquanto há busca.
+function ligarBusca(app) {
+  caixa(app.querySelector('form.busca'), app.querySelector('#resultados'), app.querySelector('.container:not(#resultados)'));
+}

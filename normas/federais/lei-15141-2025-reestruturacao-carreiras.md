@@ -1,5 +1,5 @@
 ---
-description: "Conversão da MP 1.286/2024: renomeia as classes do Magistério Superior e é a base da IN CPPD 01/2025. Só link: o espelho tem o texto original."
+description: "Lei 15.141/2025: conversão da MP 1.286/2024; renomeia as classes do Magistério Superior e é a base da IN CPPD 01/2025. Só link: o espelho tem o texto original."
 origin: "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2025-06-02;15141"
 origin_checked: "2026-11-11"
 sha256: null
