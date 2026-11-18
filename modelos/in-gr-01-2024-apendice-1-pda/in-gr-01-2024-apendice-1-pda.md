@@ -1,5 +1,5 @@
 ---
-description: "Modelo do PDA anual, com o requerimento à Direção; abre o processo do ano no SIPAC."
+description: "Apêndice I da IN GR 01/2024: modelo do PDA anual, com o requerimento à Direção; abre o processo do ano no SIPAC."
 origin: "https://www.uast.ufrpe.br/sites/ww5.uast.ufrpe.br/files/paginas/1.%20AP%C3%8ANDICE%20I%20-%20PLANO%20DOCENTE%20DE%20ATIVIDADES_REQUERIMENTO_0.docx"
 origin_checked: "2026-11-13"
 sha256: "5f2599cfb18f9a7d80a7a4181abfac76054eceb3fd471392fa08642d05c0c283"

@@ -22,6 +22,8 @@ FORA = {'CONTEXT.md', 'README.md', 'ISSUES.md'}
 NOME = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 DATA = re.compile(r'^\d{4}-\d{2}-\d{2}$')
 HASH = re.compile(r'^[0-9a-f]{64}$')
+# O mesmo corte que site/viewer.js e indexar.py fazem para achar o nome do documento.
+ROTULO = re.compile(r'^[^:]{2,40}:\s*\S')
 # Ideograma, kana, hangul, caractere de substituição ou de uso privado num documento em português: lixo de OCR (um brasão, um QR code).
 ESTRANHO = re.compile('[⺀-鿿가-힯豈-﫿-�]')
 # Os servidores da UFRPE não mandam o certificado intermediário; ele vem da URL de AIA do próprio certificado.
@@ -72,6 +74,8 @@ def conferir(rel: Path, texto: str, hoje: datetime.date) -> tuple[list[str], lis
         return erros + ['sem cabeçalho (--- no topo)'], avisos, {}
     if not isinstance(campos.get('description'), str) or not campos['description'].strip():
         erros.append('falta description')
+    elif not ROTULO.match(campos['description']):
+        erros.append('description começa pelo nome do documento, até 40 caracteres, e dois-pontos ("Res. CONSU 009/2019: …"): é o nome no site e na busca')
     origem = campos.get('origin')
     if not isinstance(origem, str) or not origem.startswith(('https://', 'http://')):
         erros.append('origin tem de ser o link oficial (https://...) do original')

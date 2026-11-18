@@ -1,5 +1,5 @@
 ---
-description: "Pede os efeitos financeiros de um reposicionamento, limitados ao quinquênio anterior (Decreto 20.910/1932)."
+description: "Requerimento de acerto financeiro: pede os efeitos financeiros de um reposicionamento, limitados ao quinquênio anterior (Decreto 20.910/1932)."
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2025-10/Requerimento%20Acerto%20Financeiro%20Progress%C3%A3o%20Funcional_0.doc"
 origin_checked: "2026-11-11"
 sha256: "ec8fa4248c95775ab3df8b1f825c8143970dd0297cf43b14a050f931f5eb1927"

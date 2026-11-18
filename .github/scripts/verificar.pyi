@@ -9,6 +9,7 @@ FORA: Incomplete
 NOME: Incomplete
 DATA: Incomplete
 HASH: Incomplete
+ROTULO: Incomplete
 ESTRANHO: Incomplete
 INTERMEDIARIOS: Incomplete
 

@@ -1,5 +1,5 @@
 ---
-description: "Formulário que abre o processo de progressão ou promoção docente; acompanha o Anexo IV (barema) da Res. 009/2019."
+description: "Anexo I da Res. 009/2019: formulário que abre o processo de progressão ou promoção docente; acompanha o Anexo IV (barema)."
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2023-09/Anexo%201%20-%20progressao%20ou%20promocao%20por%20desempenho%20%283%29.docx"
 origin_checked: "2026-11-11"
 sha256: "8b546d62015224b2324950d629f1c46a9de3cc2e3810a850bdeaffbc8a939eac"

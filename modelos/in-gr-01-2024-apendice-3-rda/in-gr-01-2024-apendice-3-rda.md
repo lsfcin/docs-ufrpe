@@ -1,5 +1,5 @@
 ---
-description: "Modelo do RDA, com a declaração de veracidade; alternativa ao Lattes do período."
+description: "Apêndice III da IN GR 01/2024: modelo do RDA, com a declaração de veracidade; alternativa ao Lattes do período."
 origin: "https://www.uast.ufrpe.br/sites/ww5.uast.ufrpe.br/files/paginas/3.%20AP%C3%8ANDICE%20III%20-%20RELAT%C3%93RIO%20DOCENTE%20DE%20ATIVIDADES%20%E2%80%93%20RDA_0.docx"
 origin_checked: "2026-11-13"
 sha256: "12a5a2547f0de73a746a8bace50561e26dc96674a06adb9cce15682c56bd61c5"

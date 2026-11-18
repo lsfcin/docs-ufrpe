@@ -1,5 +1,5 @@
 ---
-description: "Requerimento anexado ao processo do PDA quando o RDA do ano é entregue."
+description: "Apêndice II da IN GR 01/2024: requerimento anexado ao processo do PDA quando o RDA do ano é entregue."
 origin: "https://www.uast.ufrpe.br/sites/ww5.uast.ufrpe.br/files/paginas/2.%20AP%C3%8ANDICE%20II%20-%20REQUERIMENTO%20PARA%20AVALIA%C3%87%C3%83O%20DO%20RELAT%C3%93RIO%20DOCENTE%20DE%20ATIVIDADES_0.docx"
 origin_checked: "2026-11-13"
 sha256: "e67a369f23dfdbbc31e67a23ac8c36ad668f976b151c93768474cb2ff79575ee"
