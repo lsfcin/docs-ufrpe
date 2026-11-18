@@ -10,6 +10,7 @@
 - [ ] [res-042-2020-vigencia] Conferir se a Res. CONSU 434/2024 revogou a 042/2020; se sim, marcar a 042 como revogada no `.md`.
 - [ ] [res-009-review] O twin da Res. 009/2019 saiu com `needs_review: true` (15 tabelas): `core/run tools/pdf/pymupdf <pdf> --review`, comparar, `--reviewed-by`.
 - [ ] [planalto-timeout] `planalto.gov.br` não responde desta máquina; as federais apontam para `normas.leg.br` (LexML).
+- [ ] [descricao-rotulo] O site e a busca tiram o nome do documento do que vem antes dos dois-pontos da `description` ("Res. CONSU 009/2019: …"); `verificar.py` não exige esse formato, e 10 documentos (modelos, tabelas, duas orientações) não o seguem, então aparecem pelo H1 ou pela descrição inteira.
 
 <!-- entropy:start -->
 ## Entropy
