@@ -3,10 +3,10 @@
 
 ## Lote 1 ainda não completo
 
-- [ ] [parecer-agu-00002-2024] O requerimento de acerto financeiro cita o Parecer 00002/2024/CFEDU/SUBCONSU/PGF/AGU, que a PROGEPE não publica. Achar a fonte oficial e converter.
+- [ ] [parecer-agu-00002-2024] O requerimento de acerto financeiro cita o Parecer 00002/2024/CFEDU/SUBCONSU/PGF/AGU, que a PROGEPE não publica. Achar a fonte oficial e converter. Pista (18/11/2026): outras universidades citam o parecer, como a UNIFESSPA na Publica nº 77-2024; nenhuma é fonte oficial da AGU. Pedir à PROGEPE ou procurar no Sapiens da AGU.
 - [ ] [portaria-normativa-mec-10-2014] Altera a Portaria MEC 982/2013; não capturada.
 - [ ] [mec-554-982-dou] As Portarias MEC 554/2013 e 982/2013 vieram de cópias da UFRRJ, não do DOU (in.gov.br): conferir com a publicação oficial.
-- [ ] [lei-15141-alteracoes] O espelho guarda o texto original da Lei 15.141/2025. Conferir alterações posteriores (o painel citou a Lei 15.367/2026, não verificada).
+- [ ] [lei-15141-alteracoes] A Lei 15.367/2026 (30/03/2026) altera as Leis 15.141/2025 e 12.772/2012: confirmado pela ementa no [Senado](https://legis.senado.leg.br/norma/42966204) em 18/11/2026. Falta ler quais dispositivos mudam para o Magistério Superior (o texto está no planalto.gov.br, que não responde desta máquina; tentar a Câmara ou o DOU) e anotar as duas páginas em normas/federais/.
 - [ ] [res-009-review] O twin da Res. 009/2019 saiu com `needs_review: true` (15 tabelas): `core/run tools/pdf/pymupdf <pdf> --review`, comparar, `--reviewed-by`.
 - [ ] [planalto-timeout] `planalto.gov.br` não responde desta máquina; as federais apontam para `normas.leg.br` (LexML).
 
@@ -63,7 +63,7 @@
 
 *two machines share this workspace — push it, or give the repo a remote to push to: code/SPECS-git.md § Push policy*
 
-- . — main is 1 ahead of origin/main
+- . — main is 2 ahead of origin/main
 
 ### Local branches already merged into their base
 
