@@ -38,7 +38,7 @@ Todo arquivo começa com um cabeçalho, oculto no site: `origin` é o link ofici
 
 Documentos ausentes, links quebrados e erros no texto podem ser corrigidos pelo navegador, sem instalar programas. Para propor um documento, informe o **link oficial** num site da UFRPE ou do governo. Um documento recebido por e-mail deve ser procurado antes no site do setor que o publicou; se não estiver publicado, abra uma *issue* com o nome do documento e o remetente.
 
-Não são incluídos documentos sobre pessoas (portarias individuais, processos) nem dados pessoais, como CPF ou SIAPE.
+Entram os documentos que regem atividades de aplicação geral, inclusive os calendários acadêmicos e os formulários que qualquer pessoa reusa. Não entram os que abrem, conduzem ou encerram um procedimento específico (um concurso, uma seleção, uma chamada), os documentos sobre pessoas (portarias individuais, processos) nem dados pessoais, como CPF ou SIAPE.
 
 <details>
 <summary>Passo a passo para propor um documento novo</summary>

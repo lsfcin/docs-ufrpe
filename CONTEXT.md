@@ -7,7 +7,7 @@
 
 **Lote = escopo completo.** Um lote só entra quando todo o escopo foi listado antes de converter. Lote 1 (11/11/2026): progressão, promoção e PDA/RDA, a partir de [progepe.ufrpe.br/documentos](https://www.progepe.ufrpe.br/documentos) e dos e-mails da comissão PDA/RDA do DC. Lacunas conhecidas: [ISSUES.md](ISSUES.md).
 
-**Fora daqui:** atos que tratam de pessoas (portarias individuais ou coletivas, processos) — mesmo publicados em boletim, vivem no acervo privado de cada docente.
+**Dentro:** o que rege atividades de aplicação geral, calendários acadêmicos e formulários reusáveis inclusive. **Fora daqui:** o que abre, conduz ou encerra um procedimento específico (edital de concurso, seleção, chamada), e atos que tratam de pessoas (portarias individuais ou coletivas, processos) — mesmo publicados em boletim, vivem no acervo privado de cada docente. Critério de 19/11/2026, com o painel.
 
 **O site** [ufrpe.pages.dev/docs](https://ufrpe.pages.dev/docs/) é `site/` (viewer estático) mais os `.md` de `main`, dentro do projeto Cloudflare `ufrpe`, que também serve o montagrade. Um deploy substitui o projeto inteiro: publique só com `academy/administration/ufrpe-sites/publicar.py` (repo do mantenedor), que monta todas as partes do git; nunca `wrangler pages deploy` à mão. A busca lê `busca.json`, que o deploy gera com [`.github/scripts/indexar.py`](.github/scripts/indexar.py) e que não entra no git; a tolerância a erro de digitação só age quando a busca exata não acha nada (medido contra a exata e o MiniSearch em 18/11/2026). Os achados vêm agrupados pela pasta aberta, do nível mais fundo ao resto do acervo, com as 20 vagas divididas entre os grupos; Enter não abre resultado.
 
