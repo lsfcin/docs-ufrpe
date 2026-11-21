@@ -42,7 +42,8 @@ def simples(texto: str) -> str:
 def titulo(texto_do_link: str, secao: str) -> str:
     """O texto do link, ou a seção quando ele não diz nada ("Baixar", o nome do arquivo)."""
     texto = texto_do_link.strip(' -–')
-    return secao if not texto or GENERICO.search(texto) else texto
+    vazio = not texto or GENERICO.search(texto)
+    return secao if vazio and not GENERICO.search(secao.strip()) else texto
 
 
 def regra_da_pagina(campo: str) -> tuple[bool, tuple[str, str, str]] | None:
