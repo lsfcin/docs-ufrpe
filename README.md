@@ -16,14 +16,15 @@ Cada documento traz o link para o arquivo oficial. Em caso de divergência, prev
 
 ## Documentos disponíveis e pendentes
 
-O objetivo é reunir todo documento da UFRPE de interesse geral. Estão disponíveis os documentos de **progressão e promoção docente** e de **PDA** e **RDA** (Plano Docente de Atividades e Relatório Docente de Atividades). Ainda não foram incluídos:
+O objetivo é reunir todo documento da UFRPE de interesse geral. Hoje estão disponíveis os de **progressão e promoção docente** e de **PDA** e **RDA** (Plano Docente de Atividades e Relatório Docente de Atividades). O que cada setor publica, contado em 21/11/2026 (um arquivo publicado em dois lugares conta uma vez):
 
-- Calendário acadêmico
-- Orientações às comissões de avaliação de progressão (CAPD)
-- Estatuto e Regimento Geral
-- Graduação: normas gerais, estágio, projetos pedagógicos dos cursos
-- Afastamentos, licenças e capacitação docente
-- Editais anuais (monitoria, extensão, iniciação científica)
+| Setor | Fonte | Entram | Ficam de fora |
+|---|---|---|---|
+| PROGEPE | [/documentos](https://www.progepe.ufrpe.br/documentos) | 290 formulários, 83 normas (25 federais), 75 orientações, 27 tabelas, 2 regimentos | 6 atos sobre pessoas ou seleções |
+| Reitoria | [/documentos-e-relatórios-ufrpe](https://ufrpe.br/documentos-e-relat%C3%B3rios-ufrpe/) | Estatuto e Regimento Geral, PDI, Plano de Integridade, gestão documental, identidade visual | relatórios e versões superadas |
+| PRPG | [/resolucoes](https://prpg.ufrpe.br/resolucoes), [/formularios](https://prpg.ufrpe.br/formularios) | 43 normas, 30 formulários, 6 orientações, calendário, Plano de Internacionalização | 26 revogadas, 3 relatórios |
+| PREG | preg.ufrpe.br | fora do ar desde 19/11/2026: Regulamento Geral da Graduação, resoluções, calendário | — |
+| PRExC, PRAE, conselhos (SOC) | — | ainda não levantados | — |
 
 A inclusão de cada tema começa pelo levantamento de todos os seus documentos, seguido da conversão para Markdown.
 
