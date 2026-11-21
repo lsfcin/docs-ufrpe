@@ -5,6 +5,8 @@ Catálogo de **resoluções**, **instruções normativas**, **ofícios**, **form
 
 Cada documento traz o link para o arquivo oficial. Em caso de divergência, prevalece o original.
 
+**Para uma IA** (NotebookLM, ChatGPT): cole o endereço da página aberta no site, que já traz o texto inteiro, ou [ufrpe.pages.dev/docs/acervo.md](https://ufrpe.pages.dev/docs/acervo.md), todos os documentos num arquivo só.
+
 ## Organização
 
 | Pasta | Conteúdo |

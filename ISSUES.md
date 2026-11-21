@@ -13,10 +13,6 @@
 - [ ] [gestao-documental-federal] Na Reitoria, a metodologia, o código de classificação e a tabela de temporalidade da atividade-fim são do Arquivo Nacional (gov.br, Portaria AN 92/2011), e o de atividade-meio aponta para um link quebrado (`https://cod_classif_tab_temp_ativ_meio_atualizacao_2024.pdf/`). Entram como federais, pela regra do espelho; falta o link vivo da atividade-meio.
 - [ ] [planalto-timeout] `planalto.gov.br` não responde desta máquina; as federais apontam para `normas.leg.br` (LexML).
 
-## Site
-
-- [ ] [site-sem-js] O site não serve texto a quem não roda JavaScript: `/docs/` e `/docs/?doc=<caminho>` devolvem o mesmo HTML de 1 KB, com "carregando..." no `#app`, e foi isso que o NotebookLM leu (21/11/2026). O `.md` puro em `/docs/<caminho>.md` sai como `text/markdown` e se lê inteiro. Saídas: uma página HTML pré-renderizada por documento no deploy, ou um `llms.txt` e um `sitemap.xml` que listem os `.md` [src: agent 2026-11-21].
-
 <!-- entropy:start -->
 ## Entropy
 
