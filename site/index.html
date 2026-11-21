@@ -1,4 +1,4 @@
-<!-- index.html — a porta do site do docs-ufrpe: carrega o viewer, que abre o README ou o documento em ?doc=. -->
+<!-- index.html — a porta do site do docs-ufrpe: carrega o viewer, que abre o README ou o documento em ?doc=. O texto do .md já vem dentro de #app para quem não roda JavaScript (lib/texto.js, no deploy). -->
 <!doctype html>
 <html lang="pt-BR">
 <head>
@@ -14,7 +14,7 @@
   <script src="busca.js" defer></script>
   <script src="viewer.js" defer></script>
 </head>
-<body>
+<body data-markdown="README.md">
   <div id="app">carregando...</div>
 </body>
 </html>

@@ -1,7 +1,8 @@
-# indexar.py — gera o busca.json do site do docs-ufrpe: título, descrição e texto puro de cada .md, para a caixa de busca.
+# indexar.py — gera o busca.json do site do docs-ufrpe (título, descrição e texto puro de cada .md, para a caixa de busca) e o acervo.md (todos os documentos numa URL, para uma IA).
 """Uso: python .github/scripts/indexar.py <pasta> [--saida busca.json]
 
-Lê todo .md sob <pasta> (a árvore do git archive no deploy, ou o próprio repositório no CI) e grava o índice.
+Lê todo .md sob <pasta> (a árvore do git archive no deploy, ou o próprio repositório no CI) e grava o índice
+e, ao lado dele, o acervo.md.
 O texto sai sem marcação Markdown, sem comentários e sem as descrições de figura, que só trariam ruído
 ("setas, eixos, painéis"). Sai com 1 se nenhum documento foi lido. Só stdlib.
 """
@@ -71,10 +72,26 @@ def documento(raiz: Path, arquivo: Path) -> dict:
     return {'doc': arquivo.relative_to(raiz).as_posix(), 'titulo': titulo, 'descricao': descricao, 'texto': puro(corpo)}
 
 
+def arquivos(raiz: Path) -> list[Path]:
+    return sorted(p for p in raiz.rglob('*.md') if '.github' not in p.parts and p.name not in ('ISSUES.md', 'acervo.md')
+                  and p.relative_to(raiz).as_posix() != 'CONTEXT.md')
+
+
 def indice(raiz: Path) -> list[dict]:
-    arquivos = sorted(p for p in raiz.rglob('*.md') if '.github' not in p.parts and p.name != 'ISSUES.md'
-                      and p.relative_to(raiz).as_posix() != 'CONTEXT.md')
-    return [documento(raiz, p) for p in arquivos]
+    return [documento(raiz, p) for p in arquivos(raiz)]
+
+
+def acervo(raiz: Path, docs: list[dict]) -> str:
+    """Um .md só com todos os documentos, cada um sob seu nome e o link do original: uma fonte do NotebookLM lê uma URL."""
+    partes = ['# Docs UFRPE — o acervo inteiro\n\nDocumentos oficiais da UFRPE em Markdown (https://ufrpe.pages.dev/docs/). '
+              'Não é site oficial; em caso de divergência, prevalece o original de cada documento.\n']
+    for d in docs:
+        if d['doc'].endswith(('README.md', 'CONTEXT.md')):
+            continue
+        meta, corpo = campos((raiz / d['doc']).read_text(encoding='utf-8'))
+        origem = f"Original oficial: {meta['origin']} · conferido em {meta.get('origin_checked', '?')}\n\n" if meta.get('origin') else ''
+        partes.append(f"\n---\n\n# {d['titulo']}\n\n{origem}{COMENTARIO.sub('', corpo).strip()}\n")
+    return ''.join(partes)
 
 
 def main() -> None:
@@ -87,7 +104,9 @@ def main() -> None:
         sys.exit(f'nenhum .md em {args.pasta}')
     saida = args.saida or args.pasta / 'busca.json'
     saida.write_text(json.dumps(docs, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-    print(f'{len(docs)} documentos → {saida} ({saida.stat().st_size // 1024} KB)')
+    junto = saida.parent / 'acervo.md'
+    junto.write_text(acervo(args.pasta.resolve(), docs), encoding='utf-8', newline='\n')
+    print(f'{len(docs)} documentos → {saida} ({saida.stat().st_size // 1024} KB), {junto} ({junto.stat().st_size // 1024} KB)')
 
 
 if __name__ == '__main__':

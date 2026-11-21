@@ -102,7 +102,7 @@ function topo(doc) {
 
 document.addEventListener('DOMContentLoaded', async () => {
   const app = document.getElementById('app');
-  const doc = new URLSearchParams(location.search).get('doc') || 'README.md';
+  const doc = new URLSearchParams(location.search).get('doc') || document.body.dataset.markdown;
   if (!/^[\w./-]+\.md$/.test(doc) || doc.split('/').includes('..')) { app.textContent = 'Documento inválido.'; return; }
   try {
     const res = await fetch(doc);
