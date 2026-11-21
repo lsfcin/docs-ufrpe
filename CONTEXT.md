@@ -11,7 +11,7 @@
 
 **O site** [ufrpe.pages.dev/docs](https://ufrpe.pages.dev/docs/) é `site/` (viewer estático) mais os `.md` de `main`, dentro do projeto Cloudflare `ufrpe`, que também serve o montagrade. Um deploy substitui o projeto inteiro: publique só com `academy/administration/ufrpe-sites/publicar.py` (repo do mantenedor), que monta todas as partes do git; nunca `wrangler pages deploy` à mão. A busca lê `busca.json`, que o deploy gera com [`.github/scripts/indexar.py`](.github/scripts/indexar.py) e que não entra no git; a tolerância a erro de digitação só age quando a busca exata não acha nada (medido contra a exata e o MiniSearch em 18/11/2026). Os achados vêm agrupados pela pasta aberta, do nível mais fundo ao resto do acervo, com as 20 vagas divididas entre os grupos; Enter não abre resultado.
 
-Os servidores UFRPE não mandam o certificado intermediário: busque-o pela URL de AIA de cada servidor (a PROGEPE e a PRPG usam intermediários diferentes) e passe `--cacert`; não desligue a verificação.
+Os servidores UFRPE filtram o User-Agent de curl e não mandam o certificado intermediário: baixe por [`rede.py`](.github/scripts/rede.py), que manda UA de navegador e acha o intermediário pela URL de AIA de cada servidor (no curl: `-A` de navegador e `--cacert`); não desligue a verificação. O censo: [`fontes.tsv`](fontes.tsv) → [`vigiar.py`](.github/scripts/vigiar.py) → [`censo.tsv`](censo.tsv), triado por [`regras.py`](.github/scripts/regras.py).
 
 <!-- routing:start -->
 ## Routing

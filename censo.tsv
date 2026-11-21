@@ -1,0 +1,280 @@
+# censo.tsv — cada link de documento que os setores da UFRPE publicam e a decisão sobre ele; mantido por .github/scripts/vigiar.py --gravar.
+url	setores	tipo	decisao	motivo	titulo	data
+http://cpa.ufrpe.br/sites/cpa.ufrpe.br/files/1%C2%BA%20RELAT%C3%93RIO%20PARCIAL%20DE%20AUTOAVALIA%C3%87%C3%83O%20INSTITUCIONAL%20(Ano-base%202015).pdf	Reitoria		fora	relatório	I Relatório Parcial de Autoavaliação Institucional (Ciclo Avaliativo 2015-2017) - Ano Base 2015	2026-11-21
+http://cpa.ufrpe.br/sites/cpa.ufrpe.br/files/1%C2%BA%20RELAT%C3%93RIO%20PARCIAL%20DE%20AUTOAVALIA%C3%87%C3%83O%20INSTITUCIONAL%20(Ano-base%202018).pdf	Reitoria		fora	relatório	Relatório Parcial de Autoavaliação Institucional (Ano-base 2018)	2026-11-21
+http://cpa.ufrpe.br/sites/cpa.ufrpe.br/files/1%C2%BA%20RELAT%C3%93RIO%20PARCIAL%20DE%20AUTOAVALIA%C3%87%C3%83O%20INSTITUCIONAL%20(Ano-base%202021)_0.pdf	Reitoria		fora	relatório	Relatório Parcial de Avaliação Institucional (Ano-base 2021)	2026-11-21
+http://cpa.ufrpe.br/sites/cpa.ufrpe.br/files/2%C2%BA%20RELAT%C3%93RIO%20PARCIAL%20DE%20AUTOAVALIA%C3%87%C3%83O%20INSTITUCIONAL%20(Ano-base%202016).pdf	Reitoria		fora	relatório	II Relatório Parcial de Autoavaliação Institucional (Ciclo Avaliativo 2015-2017) - Ano Base 2016	2026-11-21
+http://cpa.ufrpe.br/sites/cpa.ufrpe.br/files/RELAT%C3%93RIO%20INTEGRAL%20DE%20AUTOAVALIA%C3%87%C3%83O%20INSTITUCIONAL%20(Ciclo%202015-2017).pdf	Reitoria		fora	relatório	Relatório Integral de Autoavaliação Institucional CPA-UFRPE | Ciclo Avaliativo 2015-2017	2026-11-21
+http://cpa.ufrpe.br/sites/cpa.ufrpe.br/files/RELAT%C3%93RIO%20INTEGRAL%20DE%20AUTOAVALIA%C3%87%C3%83O%20INSTITUCIONAL%20(Ciclo%202018-2020).pdf	Reitoria		fora	relatório	Relatório Integral de avaliação Institucional (Ciclo Avaliativo 2018-2020)	2026-11-21
+http://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Formul%C3%A1rio%20Mobilidade%20Acad%C3%AAmica.pdf	PREG	modelo	entra	formulário	Plano de estudo	2026-11-21
+http://prpg.ufrpe.br/sites/default/files/arquivos-noticias/Plano%20Internacionaliza%C3%A7%C3%A3o%202025%20-%202030%20da%20UFRPE.pdf	PRPG	norma	entra	plano	Plano de Internacionalização 2025-2030	2026-11-21
+http://seg.ufrpe.br/sites/default/files/resolucoes/recepe211.2009.pdf	PREG	norma	entra	norma	Público-alvo:	2026-11-21
+http://seg.ufrpe.br/sites/seg.ufrpe.br/files/estatuto-ufrpe.pdf	Reitoria	norma	entra	norma	Estatuto e Regimento Geral da UFRPE	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/FL_UAG_OUT_2019.pdf	PREG		pendente	memória de reunião	Reunião do dia 17/10/2019	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Forum%20de%20Licenciaturas.pdf	PREG		pendente		Fórum de Licecenciaturas	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria%2015-03-2017.pdf	PREG		pendente	memória de reunião	Reunião do dia 15/03/2017	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria%20reuni%C3%A3o%20FL%2022-11-17-%20CGCL_0.pdf	PREG		pendente	memória de reunião	Reunião do dia 22/11/2017	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria%20s%C3%ADntese%20reuni%C3%A3o%20F%C3%B3rum%20%20Licenciaturas%2012.07.17.pdf	PREG		pendente	memória de reunião	Reunião do dia 12/07/2017	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_15-02-17.pdf	PREG		pendente	memória de reunião	Reunião do dia 15/02/2017	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_30-08-2017.pdf	PREG		pendente	memória de reunião	Reunião do dia 30/08/2017	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_FL_%2013-12-17%20-%20CGCL.pdf	PREG		pendente	memória de reunião	Reunião do dia 13/12/2017	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_FL_13Novembro_18%203.pdf	PREG		pendente	memória de reunião	Reunião do dia 13/11/2018	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_FL_14-06-17.pdf	PREG		pendente	memória de reunião	Reunião do dia 14/06/2017	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_FL_17-01-18.pdf	PREG		pendente	memória de reunião	Reunião do dia 17/01/2018	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_FL_17_OUTUBRO_18.pdf	PREG		pendente	memória de reunião	Reunião do dia 17/10/2018	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_FL_18-10-17.%20Outubro_0.pdf	PREG		pendente	memória de reunião	Reunião do dia 18/10/2017	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_FL_18_07_%2018.pdf	PREG		pendente	memória de reunião	Reunião do dia 18/07/2018	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_FL_Dezembro_2018.pdf	PREG		pendente	memória de reunião	Reunião do dia 13/12/2018	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_FL_dia%2022.05.18.pdf	PREG		pendente	memória de reunião	Reunião do dia 22/05/2018	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_FL_dia%2028.06.18docx.pdf	PREG		pendente	memória de reunião	Reunião do dia 28/06/2018	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Mem%C3%B3ria_FL_dia17-05-17.pdf	PREG		pendente	memória de reunião	Reunião do dia 17/05/2017	2026-11-21
+http://ww2.preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/REQUERIMENTO%20cpga.pdf	PREG	modelo	entra	formulário	REQUERIMENTO	2026-11-21
+http://ww2.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/PDI-UFRPE-2021-2030.pdf	Reitoria	norma	entra	plano	PDI 2021-2030	2026-11-21
+http://ww2.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2019.pdf	Reitoria		fora	relatório	Relatório de Gestão 2019	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/Plano%20de%20Integridade%20-%202018-12-10%20(FINAL).pdf	Reitoria	norma	entra	plano	Plano de Integridade	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/REVISTA%20UFRPE%20EM%20N%C3%9AMEROS%202018.pdf	Reitoria		fora	relatório	revista UFRPE em números 2018	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/REVISTA_UFRPE_EM_N%C3%9AMEROS_2015_Final.pdf	Reitoria		fora	relatório	UFRPE em Números 2015	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/Relatorio_de_atividades_2015_UFRPE_Final.pdf	Reitoria		fora	relatório	relatório de atividades 2015	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/pdi_2018-08-21_0%5B1%5D.pdf	Reitoria	norma	fora	versão superada	PDI 2013-2020 Versão revista e atualizada (2018)	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/pdi_aditamento_2011-2012.pdf.txt%5B1%5D.pdf	Reitoria	norma	fora	versão superada	PDI Aditamento 2011-2012	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/pdi_ufrpe_2006.2010.pdf.txt%5B1%5D.pdf	Reitoria	norma	fora	versão superada	PDI 2006-2010	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/pdi_ufrpe_2013-2020%5B1%5D.pdf	Reitoria	norma	fora	versão superada	PDI 2013-2020	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_de_atividades_2013_-_versao_final_-_edicao_em_14-11-2014.pdf	Reitoria		fora	relatório	relatório de atividades 2013	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_de_atividades_2014_final.pdf	Reitoria		fora	relatório	relatório de atividades 2014	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2008.pdf	Reitoria		fora	relatório	Relatório 2008	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2009.pdf	Reitoria		fora	relatório	Relatório 2009	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2010.pdf	Reitoria		fora	relatório	Relatório 2010	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2011.pdf	Reitoria		fora	relatório	Relatório 2011	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2012.pdf	Reitoria		fora	relatório	Relatório 2012	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2013.pdf	Reitoria		fora	relatório	Relatório 2013	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2014.pdf	Reitoria		fora	relatório	Relatório 2014	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2015.pdf	Reitoria		fora	relatório	Relatório 2015	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2016.pdf	Reitoria		fora	relatório	Relatório 2016	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2017.pdf	Reitoria		fora	relatório	Relatório 2017	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/relatorio_gestao_ufrpe_2018.pdf	Reitoria		fora	relatório	Relatório de Gestão 2018	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/revista_ufrpe_em_numeros_2004_2011.pdf	Reitoria		fora	relatório	UFRPE em números 2004_2011	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/revista_ufrpe_em_numeros_2012.pdf	Reitoria		fora	relatório	UFRPE em números 2012	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/revista_ufrpe_em_numeros_2013.pdf	Reitoria		fora	relatório	UFRPE em números 2013	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/revista_ufrpe_em_numeros_2014.pdf	Reitoria		fora	relatório	UFRPE em Números 2014	2026-11-21
+http://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/revista_ufrpe_em_numeros_2017_final.pdf	Reitoria		fora	relatório	UFRPE em números 2017	2026-11-21
+http://www.ufrpe.br/sites/www.ufrpe.br/files/II%20Relat%C3%B3rio%20Parcial%20de%20Autoavalia%C3%A7%C3%A3o%20Institucional%20(Ano-base%202019).pdf	Reitoria		fora	relatório	II Relatório Parcial de Autoavaliação Institucional (Ano-base 2019)	2026-11-21
+http://www.ufrpe.br/sites/www.ufrpe.br/files/RI%20-%20RELATO%20INSTITUCIONAL%20DA%20UFRPE_1.pdf	Reitoria		fora	relatório	RI - RELATO INSTITUCIONAL DA UFRPE	2026-11-21
+https://antigo.ufrpe.br/sites/antigo.ufrpe.br/files/2%C2%BA%20RELAT%C3%93RIO%20PARCIAL%20DE%20AUTOAVALIA%C3%87%C3%83O%20INSTITUCIONAL%20(Ano-base%202022).pdf	Reitoria		fora	relatório	Documento:	2026-11-21
+https://antigo.ufrpe.br/sites/antigo.ufrpe.br/files/II%20Relat%C3%B3rio%20Parcial%20de%20Autoavalia%C3%A7%C3%A3o%20Institucional%20(Ano-base%202019).pdf	Reitoria		fora	relatório	Documento:	2026-11-21
+https://antigo.ufrpe.br/sites/antigo.ufrpe.br/files/Manual%20de%20Identidade%20Visual%20UFRPE_0.pdf	Reitoria	orientacao	entra	orientação	Documento:	2026-11-21
+https://antigo.ufrpe.br/sites/antigo.ufrpe.br/files/RI%20-%20RELATO%20INSTITUCIONAL%20DA%20UFRPE_1.pdf	Reitoria		fora	relatório	Documento:	2026-11-21
+https://antigo.ufrpe.br/sites/antigo.ufrpe.br/files/certificado_de_auditoria_cgu_2014.pdf	Reitoria		fora	relatório	Documento:	2026-11-21
+https://antigo.ufrpe.br/sites/antigo.ufrpe.br/files/parecer_do_dirigente_contr_interno_cgu_2014.pdf	Reitoria		fora	relatório	Documento:	2026-11-21
+https://antigo.ufrpe.br/sites/antigo.ufrpe.br/files/relatorio_de_auditoria_cgu_2014.pdf	Reitoria		fora	relatório	Documento:	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/01%20Regulamento%20Geral%20da%20Gradua%C3%A7%C3%A3o%20Atualizado%2012.06.2025.pdf	PREG	norma	entra	norma	Regulamento Geral da Graduação	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/98_Requerimento_para_equipara%C3%A7%C3%A3o_ESO_(_Res._425-10_CEPE)_0_0.doc	PREG	modelo	entra	formulário	Equiparação de Atividades ao Estágio	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/ACESSO%20SIGAA_UFRPE.pdf	PREG	orientacao	entra	orientação	Tutorial de acesso ao SIGAA	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/APROVEITAMENTO%20DE%20DISCIPLINA.doc	PREG	modelo	entra	formulário	Aproveitamento de Disciplina	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/ATIVIDADES%20COMPLEMENTARES.doc	PREG	modelo	entra	formulário	Atividades Complementares	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/CALEND%C3%81RIO%202016.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2016	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/CALEND%C3%81RIO%20ACAD%C3%8AMICO_UFRPE_2021%20(2).pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2021	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/CALEND%C3%81RIO%20ACAD%C3%8AMICO_UFRPE_2022%20-%20V2.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2022 (Período letivos 2021.1, 2021.2 e 2022.1)	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/CALEND%C3%81RIO%20ACAD%C3%8AMICO_UFRPE_EXCEPCIONAL_2020.4%20(9).pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico do Período Letivo Excepcional (PLE) 2020.4	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/CALEND%C3%81RIO%20GRADUA%C3%87%C3%83O%202024%20e%202025%20(1).pdf	PREG	norma	entra	calendário	Calendário Acadêmico 2024 (atualizado em 04/07/2024)	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/CALEND%C3%81RIO_GRADUA%C3%87%C3%83O_2026-%20Atualizado%20CEPE%20n%C2%BA%201004%20DE%2021%20DE%20MAIO%20DE%202026%2020%20jul.pdf	PREG	norma	entra	calendário	Calendário Acadêmico 2026 (atualizado CEPE nº 1004 de 21/05/2026)	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Calend%C3%A1rio%202012.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2012	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Calend%C3%A1rio%202014.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2014	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Calend%C3%A1rio%202015.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2015	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Calend%C3%A1rio%202016.2%20e%202017.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2016.2 e 2017	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Calend%C3%A1rio%202018%20e%202019.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2018 - 2019	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Calend%C3%A1rio%202020.1%20e%202020.2.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2020.1 e 2020.2	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Calend%C3%A1rio%202020.3.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico do Período Letivo Excepcional (PLE) 2020.3	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Calend%C3%A1rio%202020.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2020	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Calend%C3%A1rio%20Acad%C3%AAmico-vers%C3%A3o%20final%20ago%202023.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2023 (atualizado em 15/08/2023)	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Calendario%20cursos%20presenciais%202025%20final%20(2).pdf	PREG	norma	entra	calendário	Calendário Acadêmico 2025 (atualizado em 21/07/2025)	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/DISPENSA%20DA%20PR%C3%81TICA%20DE%20EDUCA%C3%87%C3%83O%20F%C3%8DSICA_0_0.doc	PREG	modelo	entra	formulário	Dispensa da Prática de Ed. Física	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/DISPENSA%20DE%20DISCIPLINA_0.pdf	PREG	modelo	entra	formulário	Dispensa de disciplina	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/DRCA_TUTORIAL_ACESSO%20AO%20SIGA%20(1).pdf	PREG	orientacao	entra	orientação	Tutorial de acesso ao SIGA	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Equival%C3%AAncia%20excepcional.doc	PREG	modelo	entra	formulário	Requerimento para equivalência excepcional	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/FL_ABRIL_19_Mem%C3%B3ria_0.pdf	PREG		pendente	memória de reunião	Reunião do dia 09/04/2019	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/FL_Junho_19_Mem%C3%B3ria_0.pdf	PREG		pendente	memória de reunião	Reunião do dia 18/06/2019	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/FL_MAIO_19_Mem%C3%B3ria_0.pdf	PREG		pendente	memória de reunião	Reunião do dia 07/05/2019	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/FL_Setembro_19_Mem%C3%B3ria.pdf	PREG		pendente	memória de reunião	Reunião do dia 10/09/2019	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/FORMUL%C3%81RIO%20remt%20ADAPTADO.docx	PREG	modelo	entra	formulário	Regime Especial - REMT	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Ficha%20cadastral%20-%202016_0%20(5).docx	PREG	modelo	entra	formulário	Ficha cadastral	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Formul%C3%A1rio%20Termo%20monitor%20bolsista%20(3).doc	PREG	modelo	entra	formulário	Formulário - Termo de monitor bolsista	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Formul%C3%A1rio%20Termo%20monitor%20volunt%C3%A1rio%20(3).docx	PREG	modelo	entra	formulário	Formulário - Termo de monitor voluntário	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Formul%C3%A1rio%20de%20inscri%C3%A7%C3%A3o%20monitoria.docx	PREG	modelo	entra	formulário	Monitoria Formulário: Requerimento de Inscrição	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Formul%C3%A1rio%20dispensa-substitui%C3%A7%C3%A3o%20de%20monitoria.docx	PREG	modelo	entra	formulário	Monitoria Formulário (Dispensa, desligamento, substituição de orientador e outros)	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Formul%C3%A1rio%20frequ%C3%AAncia%20%20de%20monitoria.docx	PREG	modelo	entra	formulário	Monitoria - Frequência	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Formulario%20relat%C3%B3rio%20final%20da%20monitoria.docx	PREG	modelo	entra	formulário	Monitoria Formulário: Relatório Final	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/GUIA%20DE%20ORIENTA%C3%87%C3%95ES%20A%20AVALIA%C3%87%C3%83O%20EXTERNA%20VIRTUAL%20IN%20LOCO-%202025%20(NOVO).pdf	PREG	orientacao	entra	orientação	GUIA DE ORIENTAÇÕES À AVALIAÇÃO EXTERNA VIRTUAL IN LOCO: Reconhecimento e Renovação de Reconhecimento dos Cursos de Graduação	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/IN%20003-%202026%20-%20Tratamento%20excepcional%20de%20faltas.pdf	PREG	norma	entra	norma	Instrução Normativa PREG/UFRPE Nº 003/2026 de 28 de setembro de 2026 - Tratamento Excepcional de Faltas	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/IN%2002%20-%202026%20FLUXO%20DE%20CRIA%C3%87%C3%83O%20E%20ATUALIZA%C3%87%C3%83O%20DE%20PPC-%20PREG%20-%20UFRPE.pdf	PREG	norma	entra	norma	Instrução Normativa PREG/UFRPE Nº 002/2026 de 22 de setembro de 2026 - Fluxo processual para criação e atualização de Projeto Pedagógico de Curso de Graduação da Universidade Federal Rural de Pernambuco	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/IN%2006_2025%20GR%20UFRPE-%20Aulas%20em%20excepcionalidades_final%20ASSINADA%20(1).pdf	PREG	norma	entra	norma	Instrução Normativa (IN) nº 06/2025 - Estabelece os procedimentos a serem adotados pelos(as) docentes dos cursos de graduação da Universidade Federal Rural de Pernambuco em situações de excepcionalidade.	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/IN_01_2026_Aproveitamento_de_estudos_e_fluxo_de_procedimentos_no_SIGAA_29_assinado.pdf.pdf	PREG	norma	entra	norma	Instrução Normativa PREG/UFRPE Nº 001/2026, de 16 de março de 2026 - Aproveitamento de estudos	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Instru%C3%A7%C3%A3o%20normativa%20n%C2%BA%20001%20-%202023%20divulgacao_de_notas.pdf	PREG	norma	entra	norma	Instrução Normativa nº 001/2023 - PREG - Procedimento para divulgação de nota de verificação de aprendizagem	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/MODELO%20DE%20PLANO%20DE%20ENSINO%20DE%20UNIDADE%20CURRICULAR%20PARA%20O%20ANO%20LETIVO%202021%20(1).docx	PREG	modelo	entra	formulário	Modelo de plano de ensino de unidade curricular para o ano letivo 2021	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/MODELO%20DE%20PLANO%20DE%20PR%C3%81TICA%20DE%20VIV%C3%8ANCIAS%20INTERDISCIPLINARES.docx	PREG	modelo	entra	formulário	Modelo de plano de prática de vivências interdisciplinares	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/MODELO%20DE%20PLANO%20DE%20RETORNO%20%C3%80S%20ATIVIDADES%20PRESENCIAIS%20DO%20CURSO%20(PRAPC).docx	PREG	modelo	entra	formulário	Modelo de Plano de Retorno às Atividades Presenciais do Curso (PRAPC)	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/MODELO%20PARA%20DIRETRIZES%20DE%20REALIZA%C3%87%C3%83O%20DE%20EST%C3%81GIO%20SUPERVISIONADO%20DE%20MODO%20REMOTO%20DURANTE%20ANO%20LETIVO%20DE%202021.docx	PREG	modelo	entra	formulário	Modelo para diretrizes de realização de estágio supervisão de modo remoto durante ano letivo de 2021	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/MODELO%20PPC%20BACHARELADO%20E%20TECN%C3%93LOGO-2026.docx	PREG	modelo	entra	formulário	Novo modelo de PPC (Bacharelado e Tecnólogo) - 2026	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/MODELO%20PPC%20LICENCIATURA%20PRESENCIAL-%20(2026).docx	PREG	modelo	entra	formulário	Modelo de PPC para o Licenciatura (presencial)	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Manual%20no%20SIGAA%20UFRPE.pdf	PREG	orientacao	entra	orientação	Manual do SIGAA	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Matr%C3%ADcula%20no%20sig@%20UFRPE%20(2).pdf	PREG	orientacao	entra	orientação	Tutorial - Matrícula no SIGA	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Novo%20formul%C3%A1rio%20-%20Trat.%20excepcional%20de%20faltas%20-%202025.pdf	PREG	modelo	entra	formulário	Tratamento Excepcional de Faltas	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/ORIENTA%C3%87%C3%95ES%20PARA%20PARTICIPA%C3%87%C3%83O%20DE%20PROGRAMA%20DE%20MOBILIDADE%20ACAD%C3%8AMICA%20NA%20UFRPE.pdf	PREG	orientacao	entra	orientação	Orientações para mobilidade acadêmica	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/PLANO%20DE%20ESTUDO%20PARA%20O%20REGIME%20ESPECIAL.docx	PREG	modelo	entra	formulário	Plano de Estudo Para o Regime Especial	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Politica%20de%20Acompanhamento%20e%20Preven%C3%A7%C3%A3o%20de%20evas%C3%A3o%20e%20reten%C3%A7%C3%A3o%20no%20cursos%20de%20gradua%C3%A7%C3%A3o%20da%20UFRPE.pdf	PREG	norma	entra	norma	Aprova a Politica de Acompanhamento e Prevenção de Evasão e Retenção nos Cursos de Graduação desta Universidade Federal Rural de Pernambuco	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Programas%20de%20Disciplinas%20-%20MODELO%20v3%20(1)%20(1)%20(1).docx	PREG	modelo	entra	formulário	PROGRAMA	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/QUADRO%20DE%20ATIVIDADES%20CURRICULARES%20COMPLEMENTARES.docx	PREG	modelo	entra	formulário	Quadro de atividades curriculares complementares	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RECEPE%20362-2011%20atividades%20complementares.pdf	PREG	norma	entra	norma	Atividades Complementares	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RECEPE220.2016%20%20PROJ%20PEDAGOGICO%20CURSO%20DE%20GRADUA%C3%87%C3%83O%20UFRPE%20REGULAMENTO%20E%20DIRETRIZES.pdf	PREG	norma	entra	norma	Regulamentação e diretrizes para elaborar e reformular os Projetos Pedagógicos dos Cursos de Graduação da UFRPE	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RECEPE30.2010%20Libras.pdf	PREG	norma	entra	norma	Libras	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RECEPE872.2025_APROVA_CONCESSO_DIPLOMA_SIMBLICO_DE_HOMENAGEM_POST_MORTEM.pdf	PREG	norma	entra	norma	Diploma Simbólico de homenagem post mortem a estudantes de graduação da Universidade Federal Rural de Pernambuco	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RECEPE924.2025%20INSER%C3%87%C3%83O%20CURRICULARIZA%C3%87%C3%83O%20NA%20GRADUA%C3%87%C3%83O%20PASSOU%20EM%20ENSINO%20DE%20GRADUA%C3%87%C3%83O%20E%20EXTENS%C3%83O%20(1).pdf	PREG	norma	entra	norma	Curricularização da Extensão na UFRPE	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RECU232.2022%20REGULAMENTO%20DE%20EGRESSOS%20CAME.pdf	PREG	norma	entra	norma	Regulamenta Política de Acompanhamento e Monitoramento de Egressos da Universidade Federal Rural de Pernambuco	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RECU233.2022%20MAI%20NINTER%20MOBILIDADE%20ACAD%C3%8AMICA%20vers%C3%A3o%20FINAL.pdf	PREG	norma	entra	norma	Mobilidade Acadêmica Internacional - MAI	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/REINT-COLA%C3%87%C3%83O%20-%20Novo_05_0.docx	PREG	modelo	entra	formulário	Reintegração para Efeito de Colação de Grau	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RELAT%C3%93RIO%20FINAL%20DO%20PAVI%20ATUALIZADO.pdf	PREG	modelo	entra	formulário	PAVI - Relatório Final	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/REQUERIMENTO%20%20E%20PLANO%20DE%20ATIVIDADE%20PAVI%20ATUALIZADO.pdf	PREG	modelo	entra	formulário	PAVI Requerimento e Plano de atividade	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/REQUERIMENTO%20DE%20MATR%C3%8DCULA%20PARA%20DISCENTES%20ACOMPANHADOS%20E%20DESLIG%C3%81VEIS%20NO%20ANO%20LETIVO%20DE%202021.docx	PREG	modelo	entra	formulário	Requerimento de matrícula para discentes Acompanhados e desligáveis ​​no ano letivo de 2021	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/REQUERIMENTO%20PARA%20ABREVIA%C3%87%C3%83O%20DE%20CURSO%20DE%20GRADUA%C3%87%C3%83O.pdf	PREG	modelo	entra	formulário	Solicitação de abreviação de curso de graduação	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/REQUERIMENTO%20PARA%20REGIME%20ESPECIAL%20DE%20MOVIMENTA%C3%87%C3%83O%20TEMPOR%C3%81RIA%20DURANTE%20ANO%20LETIVO%20DE%202021.docx	PREG	modelo	entra	formulário	Requerimento para Regime Especial de Movimentação Temporária durante ano letivo de 2021	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RESOLU%C3%87%C3%83O%20CEPE%20UFRPE%20N%C2%BA%20926,%2019%20DE%20AGOSTO%20DE%202025..pdf	PREG	norma	entra	norma	Revalidação de diplomas de Graduação e Reconhecimento de diplomas de Pós-Graduação Stricto sensu expedidos por estabelecimentos estrangeiros de Ensino Superior	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RESOLU%C3%87%C3%83O%20POL%C3%8DTICA%20DE%20FORMA%C3%87%C3%83O%20DE%20PROFESSORES%202026.pdf	PREG	norma	entra	norma	Política Institucional para a formação inicial e continuada de professores da Educação Básica da UFRPE	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RESOLUCAO%20621%202010%20combate%20a%20EVASAO.pdf	PREG	norma	entra	norma	Regulamenta Programa de Combate a Evasão nos Cursos de Graduação desta Universidade Federal Rural de Pernambuco - UFRPE	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Requerimento%20geral.pdf	PREG	modelo	entra	formulário	Requerimento geral	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Requerimento%20mobilidade%20nacional.pdf	PREG	modelo	entra	formulário	Requerimento para cursar componentes curriculares em mobilidade	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Requerimento_Matricula_TCC.docx	PREG	modelo	entra	formulário	Requerimento para matrícula em TCC	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Requerimento_aluno_especial%20Ordin%C3%A1rio.doc	PREG	modelo	entra	formulário	Aluno Especial	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Resolu%C3%A7%C3%A3o%20294_2008%20CONSULTA%20PARA%20ESCOLHA.pdf	PREG	norma	entra	norma	Processo de consulta para escolha dos Diretores de Departamentos Acadêmicos e dos Coordenadores de Cursos de Graduação e de Programas de Pós-Graduação desta Universidade	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Resolu%C3%A7%C3%A3o%20n%C2%BA%20458-2024%20-%20Pol%C3%ADticas%20de%20equidade%20e%20diversidade%20de%20g%C3%AAnero%20na%20UFRPE.pdf	PREG	norma	entra	norma	Políticas de Equidade e Diversidade de Gênero na Universidade Federal Rural de Pernambuco (UFRPE)	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Resolu%C3%A7ao%20-%20007-2017%20-%20Taxas%20e%20Emolumentos%20da%20UFRPE.pdf	PREG	norma	entra	norma	Taxas e emolumentos para registro e expedição de documentos referentes a cursos de Graduação e Pós-Graduação na UFRPE	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/SOLICITA%C3%87%C3%83O%20DE%20PERMAN%C3%8ANCIA%20NO%20CURSO_0.doc	PREG	modelo	entra	formulário	Solicitação de permanência no curso	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Solicita%C3%A7%C3%A3o%20de%20cola%C3%A7%C3%A3o%20de%20grau%20antecipada%20-%20Novo_0.pdf	PREG	modelo	entra	formulário	Requerimento para colação de grau antecipada	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/TUTORIAL%20DE%20CADASTRO%20NA%20PROVA%20NACIONAL%20DOCENTE%20(PND).pdf	PREG	orientacao	entra	orientação	Tutorial de cadastro - PND	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Tabela%20de%20hor%C3%A1rios%20da%20Gradua%C3%A7%C3%A3o%20no%20SIGAA%20(1)_0.pdf	PREG	orientacao	entra	orientação	Tutorial para compreensão dos códigos de turma do SIGAA	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Transfer%C3%AAncia%20por%20For%C3%A7a%20de%20Lei%20-%20orienta%C3%A7%C3%B5es.pdf	PREG	modelo	entra	formulário	Orientações para Transferência por Força de Lei	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Transferencia%20por%20For%C3%A7a%20de%20Lei%20-%20Requerimento%20novo%202025.doc	PREG	modelo	entra	formulário	Transferência Por Força de Lei	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Tutorial%20de%20matr%C3%ADcula%20sigaa%202021.2.pdf	PREG	orientacao	entra	orientação	Tutorial - Matrícula SIGAA - 2021.2	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/_ORGANIZA%C3%87%C3%83O%20DO%20DRIVE%20DE%20VISITA%20DE%20AVALIA%C3%87%C3%83O%20EXTERNA%20VIRTUAL%20IN%20LOCO%202024.pdf	PREG	orientacao	entra	orientação	Guia de Organização de documentos e Drive de Avaliação Externa Virtual in loco	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/calend%C3%A1rio%202013.pdf	PREG	norma	pendente	calendário anterior	Calendário Acadêmico 2013	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/formulario_disciplina_eletiva.docx	PREG	modelo	entra	formulário	Requerimento para cursar Disciplina Eletiva	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/manual%20atividades%20auton%C3%B4mas%20(1).pdf	PREG	orientacao	entra	orientação	Manual atividades complementares	2026-11-21
+https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/recepe183.2016_convenio_ufrpe_e_a_tre-pe.pdf	PREG	norma	entra	norma	Convênio entre o Tribunal Regional Eleitoral de Pernambuco - TRE/PE e a Universidade Federal Rural de Pernambuco - UFRPE	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/2024-06/Cat%C3%A1logo%20UFRPE_compressed.pdf	PRPG		pendente		Catálogo de cursos	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/documentos/CALEND%C3%81RIO%20PRPG%202026-03-05.pdf	PRPG	norma	entra	calendário	Calendário acadêmico	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/DeclaraodeAcmulos.docx	PRPG	modelo	entra	formulário	DECLARAÇÃO DE ACÚMULOS	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/MODELO%20HIST%C3%93RICOS%20CNE%20ATUAL.docx	PRPG	modelo	entra	formulário	Modelo de Histórico Escolar	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/Relat%C3%B3rio%20Presta%C3%A7%C3%A3o%20de%20contas%20-%20docente-.doc	PRPG	modelo	entra	formulário	RELATÓRIO DE UTILIZAÇÃO DE AUX_PESQ_PROAP	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/TERMO%20DE%20OUTORGA.%20PROAP.-%20Aux%C3%ADlio%20Pesquisador.docx	PRPG	modelo	entra	formulário	TERMO DE OUTORGA PROAP- Auxílio Pesquisador	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/Termo%20de%20compromisso%20-%20PADPG_%20(1).docx	PRPG	modelo	entra	formulário	TERMO DE COMPROMISSO PADPG	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/TermodeCompromissoDS-DeclaraodeAcmulos.pdf	PRPG	modelo	entra	formulário	TERMO DE COMPROMISSO - DS	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/TermodeCompromissoDS.docx	PRPG	modelo	entra	formulário	TERMO DE COMPROMISSO - DS (WORD)	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/bolsa_capes_-_formulario_de_cadastro.pdf	PRPG	modelo	entra	formulário	FORMULÁRIO DE CADASTRO	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/bolsa_capes_-_formulario_de_cancelamento.pdf	PRPG	modelo	entra	formulário	FORMULÁRIO DE CANCELAMENTO	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/ficha_de_identificacao_do_discente_1.doc	PRPG	modelo	entra	formulário	FICHA DE IDENTIFICAÇÃO DO DISCENTE	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/ficha_de_identificacao_do_estagiario.doc	PRPG	modelo	entra	formulário	FICHA DE IDENTIFICAÇÃO DO ESTAGIÁRIO PÓS-DOUTORAL	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/formulario.xls	PRPG	modelo	entra	formulário	FORMULÁRIO DE MATRÍCULA	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/formulario_abertura_de_processo.doc	PRPG	modelo	entra	formulário	FORMULÁRIO PADRÃO	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/formulario_inscricao_aluno_especial_0.doc	PRPG	modelo	entra	formulário	FORMULÁRIO PARA INSCRIÇÃO EM PROGRAMAS DE PÓS-GRADUAÇÃO ALUNO ESPECIAL	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/formulario_inscricao_aluno_visitante.doc	PRPG	modelo	entra	formulário	FORMULÁRIO PARA INSCRIÇÃO EM PROGRAMAS DE PÓS-GRADUAÇÃO ALUNO VISITANTE	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/relatorio_uso_auxilio_emergencial_digital.doc	PRPG	modelo	entra	formulário	RELATÓRIO AUXÍLIO EMERGENCIAL	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/relatorio_utilizacao_aux_disc_proap%20-.doc	PRPG	modelo	entra	formulário	FORMULÁRIO PRESTAÇÃO DE CONTAS DISCENTE	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/relatorio_viagem_discente.doc	PRPG	modelo	entra	formulário	RELATÓRIO DE VIAGEM DE DISCENTE	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/revalidacao_de_disciplina_0.doc	PRPG	modelo	entra	formulário	FORMULÁRIO PARA SOLICITAÇÃO DE REVALIDAÇÃO DE DISCIPLINA EM MESTRADO/DOUTORADO	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/solicitacao_de_empenho_-_ajuda_de_custo_-discente_0.doc	PRPG	modelo	entra	formulário	SOLICITAÇÃO DE EMPENHO DE AJUDA DE CUSTO PARA DISCENTE	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/solicitacao_de_empenho_-_auxilio_pesquisador.doc	PRPG	modelo	entra	formulário	SOLICITAÇÃO DE EMPENHO DE AUXÍLIO PESQUISADOR	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/solicitacao_de_empenho_-_compra_ou_contratacao_de_servico_0.doc	PRPG	modelo	entra	formulário	SOLICITAÇÃO DE EMPENHO PARA COMPRA OU CONTRATAÇÃO DE SERVIÇO	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/solicitacao_de_empenho_-ressarcimento_-discente_0.doc	PRPG	modelo	entra	formulário	SOLICITAÇÃO DE EMPENHO - RESSARCIMENTO DISCENTE PROAP	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/solicitacao_de_empenho_-ressarcimento_-docente_0_0.doc	PRPG	modelo	entra	formulário	SOLICITAÇÃO DE EMPENHO - RESSARCIMENTO DOCENTE PROAP	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/termo_de_especificacao_de_bens_proap.doc	PRPG	modelo	entra	formulário	TERMO DE ESPECIFICAÇÃO DE BENS PROAP	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/formularios/termo_de_especificacao_de_servicos.doc	PRPG	modelo	entra	formulário	TERMO DE ESPECIFICAÇÃO DE SERVIÇOS	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/EMOLUMENTOS-RESOLUC%CC%A7A%CC%83O%20CURA-UFRPE%20N%C2%BA%20070%20DE%204%20DE%20DEZEMBRO%20DE%202023.pdf	PRPG	norma	entra	norma	Resolução 070/2023 CURA	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/IN%2001_2026_BOLSAS_DS_DA_PRPG.pdf	PRPG	norma	entra	norma	Instrução Normativa UFRPE/PRPG Nº 01/2026	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/IN-%20PRPG-%2001%20-2022%20-%20tratamento%20exc%20covid%20ano%20letivo%202022.pdf	PRPG	norma	entra	norma	Instrução Normativa PRPG- 01 -2022	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/IN_01_2025_Informacoes_Internacionalizacao_assinado_assinado.pdf	PRPG	norma	entra	norma	Informações sobre Ações de Internacionalização	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/MANUAL%20PARA%20SOLICITA%C3%87%C3%83O%20DE%20PORTARIAS%20DE%20COORDENA%C3%87%C3%83O%20DE%20CURSO_0.pdf	PRPG	orientacao	entra	orientação	Manual para Solicitação de Portarias de Coordenação de Curso	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Manual_PROAP_2023_v4.pdf	PRPG	orientacao	entra	orientação	Manual de Orientação para Uso dos Recursos PROAP CAPES	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Minuta%20IN%20-%20Credenciamento,%20recredenciamento%20e%20descredenciamento%20Docente%20-%20UFRPE.pdf	PRPG	norma	fora	revogada	Instrução Normativa UFRPE/PRPG Nº 01/2023	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Minuta%20IN%20Composi%C3%A7%C3%A3o%20de%20Bancas_0.pdf	PRPG	norma	fora	revogada	Instrução Normativa UFRPE/PRPG Nº 02/2023	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/NUBIOTEC%20INSTRUC%CC%A7A%CC%83O%20NORMATIVA%20-%20fevereiro%202024-PRPG.pdf	PRPG	norma	entra	norma	Instrução normativa UFRPE/PRPG Nº 01/2024	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Procedimentos%20P%C3%B3s-Defesa.pdf	PRPG	orientacao	entra	orientação	Manual de Orientação dos Procedimentos Pós-Defesa do SIGAA	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Processo%20322032%202023%2010-52-62%5B1%5D.pdf	PRPG	norma	entra	norma	Resolução 458/2023	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE407.2022%20NORMAS%20DE%20BOLSAS%20CAPES%20DA%20P%C3%93S.pdf	PRPG	norma	fora	revogada	Resolução 407/2022	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE481.2022%20PRORROGAC%CC%A7A%CC%83O%20DOS%20PRAZOS%20DE%20DEFESA%20PG.pdf	PRPG	norma	entra	norma	Resolução 481/2022	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE497.2022%20NOVAS%20NORMAS%20P%C3%93S-GRAD.%20STRICTU%20SENSO%20ACAD%C3%8AMICOS_0.pdf	PRPG	norma	fora	revogada	Resolução 497/2022	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE498.2022%20NOVA%20NORMAS%20PARA%20P%C3%93S.%20PROFISSIONAIS_0.pdf	PRPG	norma	fora	revogada	Resolução 498/2022	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE582.2023_PROGRAMA_DE_APOIO_A_INTRNACIONALIZAO_DOS_PPGs.pdf	PRPG	norma	entra	norma	Resolução 582/2023	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE659.2023_NOVA_NORMA_PARA_CONCESSO_DE_BOLSAS_DS_DA_POS-GRADUAO.pdf	PRPG	norma	entra	norma	Resolução 659/2023	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE904.2025%20%20APROVA%20NOVAS%20NORMAS%20GERAIS%20LATO%20SENSU%20E%20REVOGA%20RECEPE%20226.2020%20E%20293.2019.pdf	PRPG	norma	entra	norma	Normas Gerais do Lato Sensu	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE926.2025_NOVAS_NORMAS_REVALIDAO_E_RECONHECIMENTO_DE_TTULO_ESTRANGEIRO_0.pdf	PRPG	norma	entra	norma	Resolução CEPE/UFRPE Nº 926, de 19 de agosto de 2025	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE989.2026%20APROVA%20ATUALIZA%C3%87%C3%83O%20DAS%20NORMAS%20PARA%20REALIZA%C3%87%C3%83O%20DE%20EST%C3%81GIO%20P%C3%93S-DOUTORAL%20DA%20UFRPE.pdf	PRPG	norma	entra	norma	Resolução 989/2026	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE991.2026%20NORMAS%20DE%20CREDENCIAMENTO,%20RECREDENCIAMENTO%20E%20DESCREDENCIAMENTO%20DE%20DOCENTES%20DOS%20PROGRAMAS%20DE%20P%C3%93S-GRADUA%C3%87%C3%83O%20(PPG)%20%20STRICTO%20SENSU%20DA%20UFRPE.pdf	PRPG	norma	entra	norma	Resolução 991/2026	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECU461.2024%20ALTERA%C3%87%C3%83O%20REGIMENTO%20E%20ORGANGRAMA%20DA%20PRPG%20REPRODUZIDA.pdf	PRPG	norma	fora	revogada	Resolução 461/2024	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RECU779.2026%20HOMOLOGA%20RES%20775%20QUE%20REGULAMENTA%20AD%20REFERENDUM%20O%20SISTEMA%20DE%20VOTA%C3%87%C3%83O%20ELETR%C3%94NICA%20DA%20UFRPE.pdf	PRPG	norma	entra	norma	Resolução 779/2026	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RESOLU%C3%87%C3%83O%20CEPE_UFRPE%20N%20941%20DE%2014%20DE%20OUTUBRO%20DE%202025.pdf	PRPG	norma	entra	norma	Resolução 941/2025	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RESOLU%C3%87%C3%83O%20CEPE_UFRPE%20N%20942%20DE%2014%20DE%20OUTUBRO%20DE%202025.pdf	PRPG	norma	entra	norma	Resolução 942/2025	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RESOLU%C3%87%C3%83O%20CEPE_UFRPE%20N%C2%BA%201003,%20DE%2015%20DE%20MAIO%20DE%202026.pdf	PRPG	norma	entra	norma	Resolução 1003/2026	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RESOLU%C3%87%C3%83O%20CEPE_UFRPE%20N%C2%BA%20974,%20DE%2013%20DE%20FEVEREIRO%20DE%202026.pdf	PRPG	norma	entra	norma	Resolução 974/2026	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RESOLUC%CC%A7A%CC%83O%202332022,%20DE%2011%20DE%20OUTUBRO%20DE%202022%20-%20Mobilidade%20Acade%CC%82mica.pdf	PRPG	norma	entra	norma	Resolução CONSU 233/2022	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/RESOLUC%CC%A7A%CC%83O-572-2023_Residencia_Estudantil.pdf	PRPG	norma	entra	norma	Resolução 572/2023	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Relat%C3%B3rio%20de%20Autoavali%C3%A7%C3%A3o%20dos%20Programas%20de%20P%C3%B3s-Gradua%C3%A7%C3%A3o%20Stricto%20Sensu%20-%202021.pdf	PRPG		fora	relatório	II RELATÓRIO DE AUTOAVALIAÇÃO DOS PROGRAMAS DE PÓS-GRADUAÇÃO DA UFRPE	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Resolu%C3%A7%C3%A3o%20CEPE%20953-2025%20Bolsa.pdf	PRPG	norma	entra	norma	Resolução 953/2025	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Resolu%C3%A7%C3%A3o_604_2025_Regimento_PRPG.pdf	PRPG	norma	entra	norma	Resolução CONSU 604/2025	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Resoluc%CC%A7a%CC%83o_609_2023_CEPE_PADPG.pdf	PRPG	norma	entra	norma	Resolução 609/2023	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Resolucao_302_2023_CONSU_Dep%C3%B3sito_Disserta%C3%A7%C3%A3o_Tese.pdf	PRPG	norma	entra	norma	Resolução 302/2023	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Termo%20de%20Compromisso%20-%20Est%C3%A1gio%20P%C3%B3s-Doutoral.docx	PRPG	modelo	entra	formulário	Termo de Compromisso - Estágio Pós-Doutoral (DOCX)	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Termo%20de%20Compromisso%20-%20Est%C3%A1gio%20P%C3%B3s-Doutoral.pdf	PRPG	modelo	entra	formulário	Termo de Compromisso - Estágio Pós-Doutoral	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/Tutorial%20processo%20seletivo.pdf	PRPG	orientacao	entra	orientação	Manual de Orientação para cadastramento de Processos Seletivos do SIGAA	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/lei_11.907_09_afastamento_0.pdf	PRPG	norma	entra	federal	Lei 11.907/09 da lei 8112/90	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/mapa_de_processos_das_bolsas_-anexos_i_e_ii.pdf	PRPG	orientacao	entra	orientação	MAPEAMENTO DOS PROCESSOS DE CONCESSÃO DE BOLSAS DE ESTUDO DS/CAPES E CNPq	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/mapa_de_processos_das_bolsas_-anexos_iii.pdf	PRPG	orientacao	entra	orientação	MAPEAMENTO DO PROCESSO DE CONCESSÃO DE AJUDA DE CUSTO PROAP/CAPES	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/minuta_in_prpg-_02-2022_-_atribuicoes_secretarios.pdf	PRPG	norma	entra	norma	Instrução Normativa UFRPE/PRPG Nº 02/2022	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/normas_gerais_dos_programas_de_pos-grad_0.pdf	PRPG	norma	fora	revogada	Resolução 016/2014	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/proap_-_in_05_2014.pdf	PRPG	norma	entra	norma	IN 05 2014	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/proap_-_portaria_156_2014_capes.pdf	PRPG	norma	entra	federal	Portaria 156 2014 CAPES	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/rces001_07_0.pdf	PRPG	norma	fora	revogada	Resolução CNE 1/2007	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe-003-2013-e-formulario_0.pdf	PRPG	norma	fora	revogada	Resolução 003/2013	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe-004-2013.pdf	PRPG	norma	entra	norma	Resolução 004/2013	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe-214-2012.pdf	PRPG	norma	fora	revogada	Resolução 214/2012	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe048.2018_politicas_e_acoes_para_negros_e_pardos_0.pdf	PRPG	norma	entra	norma	Resolução 048/2018	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe049.2017_revoga_res._03.2013_e_290.13_cepe_revalidacao_e_reconhecimento_titulo_graduacao_e_pos-graduacao.pdf	PRPG	norma	fora	revogada	Resolução 049/2017 (Revogada pela Resolução CEPE/UFRPE Nº 926)	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe059.2020_regulamenta_as_normas_e_os_criterios_de_uso_e_aplicacao_dos_recursos_provenientes_do_programa_de_apoio_a_pos-graduacao_proap_capes-1.pdf	PRPG	norma	entra	norma	Resolução 059/2020	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe060.2020_regulamenta_as_normas_para_concessao_de_bolsas_de_estudo_a_discentes_pos-grad._mestardo_e_doutorado-1.pdf	PRPG	norma	fora	revogada	Resolução 060/2020	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe096_2015.pdf	PRPG	norma	entra	norma	Resolução 096/2015	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe103.2020_regulamenta_atv.acadmica_ps_graduao-1.pdf	PRPG	norma	entra	norma	Resolução 103/2020	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe174.2015_apcn_0.pdf	PRPG	norma	fora	revogada	Resolução 174/2015	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe201.2016_dupla_titulacao.pdf	PRPG	norma	entra	norma	Resolução 201/2016	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe214.2020.regimento_residencia_agricola.pdf	PRPG	norma	entra	norma	Resolução 214/2020	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe238.2021.pdf	PRPG	norma	fora	revogada	Resolução 238/2021	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe277-2011_0.pdf	PRPG	norma	fora	revogada	Resolução 277/2011	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe280.2021_alteracao_prazos_teses.dissertacoes_0.pdf	PRPG	norma	fora	revogada	Resolução 280/2021 (revogada pela res. 481/2022)	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe293.2019_normas_lato_sensu.pdf	PRPG	norma	fora	revogada	Resolução 293/2019	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe298.2008_propas_-_senior.pdf	PRPG	norma	fora	revogada	Resolução 298/2008	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe342.2019_alteracao_das_normas_prog._pos-grad._stricto_sensu-mesclado.pdf	PRPG	norma	fora	revogada	Resolução 342/2019	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe444.2022_acoes_afirmativas_da_pos.graduacao_revoga_a_res_048.2018_0.pdf	PRPG	norma	entra	norma	Resolução 444/2022	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe_016_2012.pdf	PRPG	norma	entra	norma	Resolução 016/2012	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe_049_2008_0.pdf	PRPG	norma	fora	revogada	Resolução 049/2008 (Substituída pela Resolução 016/2014)	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe_208-2014.pdf	PRPG	norma	entra	norma	Resolução CEPE 208/2014	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe_211_2012.pdf_0.pdf	PRPG	norma	entra	norma	Resolução 211/2012	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recepe_601_2010_0.pdf	PRPG	norma	fora	revogada	Resolução 601/2010	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/reconsu-39-2005_0.pdf	PRPG	norma	fora	revogada	Resolução 039/2005	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/reconsu_294_2008_0.pdf	PRPG	norma	entra	norma	Resolução 294/2008	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/recu104.2021_homologao_res._230.21_cepe._reg._saude_dmv.pdf	PRPG	norma	entra	norma	Resolução CONSU 104/2021	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/relatorio_de_autoavaliacao_ppg_ufrpe.pdf	PRPG		fora	relatório	I RELATÓRIO DE AUTOAVALIAÇÃO DOS PROGRAMAS DE PÓS-GRADUAÇÃO DA UFRPE (DISCENTES E DOCENTES)	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/relatorio_final_de_autoavaliacao_tecnico-administrativos_ppg_ufrpe.pdf	PRPG		fora	relatório	I RELATÓRIO DE AUTOAVALIAÇÃO DOS PROGRAMAS DE PÓS-GRADUAÇÃO DA UFRPE (TECNICO-ADMINISTRATIVOS)	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/resolucao_006-2015.pdf	PRPG	norma	entra	norma	Resolução 006/2015	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/resolucao_007-2017.pdf	PRPG	norma	fora	revogada	Resolução 007/2017	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/resolucao_047_2018.pdf	PRPG	norma	fora	revogada	Resolução 047/2018	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/resolucao_108-2016.pdf	PRPG	norma	entra	norma	Resolução 108/2016	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/resolucao_207-2016.pdf	PRPG	norma	fora	revogada	Resolução 207/2016	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/resolucao_299-2019_0.pdf	PRPG	norma	fora	revogada	Resolução 299/2019	2026-11-21
+https://prpg.ufrpe.br/sites/default/files/legislacao/resolucao_cne_no_1_de_6_de_abril_de_2018.pdf	PRPG	norma	entra	federal	Resolução CNE 1/2018	2026-11-21
+https://ufrpe.br/documents/1072/Relat%C3%B3rio_CPA_2025.pdf	Reitoria		fora	relatório	Relatório_CPA_2025	2026-11-21
+https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/orientacao-tecnica-1/codigo-de-classificacao-e-tabela-de-temporalidade-e-destinacao-de-documentos-de-arquivo/copy_of_portaria_n0922011_apresentacao_e_metodologia.pdf	Reitoria	norma	entra	federal	Metodologia	2026-11-21
+https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/orientacao-tecnica-1/codigo-de-classificacao-e-tabela-de-temporalidade-e-destinacao-de-documentos-de-arquivo/copy_of_portaria_n0922011_codigo_de_classificacao_de_documentos_.pdf	Reitoria	norma	entra	federal	Código de Classificação e Tabela de Temporalidade da Atividade Meio	2026-11-21
+https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/orientacao-tecnica-1/codigo-de-classificacao-e-tabela-de-temporalidade-e-destinacao-de-documentos-de-arquivo/copy_of_portaria_n0922011_tabela_de_temporalidade_e_destinao.pdf	Reitoria	norma	entra	federal	Tabela de Temporalidade e Destinação	2026-11-21
+https://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/PREG%20-%20Cria%C3%A7%C3%A3o%20de%20Gradua%C3%A7%C3%A3o%20pela%20UFRPE.pdf	PREG	orientacao	entra	orientação	Criação de curso de graduação por demanda da UFRPE	2026-11-21
+https://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/PREG%20-%20Cria%C3%A7%C3%A3o%20de%20Gradua%C3%A7%C3%A3o%20pelo%20MEC.pdf	PREG	orientacao	entra	orientação	Criação de curso de graduação por demanda do MEC	2026-11-21
+https://www.proplan.ufrpe.br/sites/ww2.proplan.ufrpe.br/files/PREG%20-%20Inclus%C3%A3o%20de%20coordena%C3%A7%C3%A3o%20do%20novo%20curso%20na%20PREG.pdf	PREG	orientacao	entra	orientação	Inclusão de coordenação de novo curso de graduação na estrutura organizacional da PREG	2026-11-21
+https://www.ufrpe.br/sites/www.ufrpe.br/files/2%C2%BA%20RELAT%C3%93RIO%20PARCIAL%20DE%20AUTOAVALIA%C3%87%C3%83O%20INSTITUCIONAL%20(Ano-base%202022).pdf	Reitoria		fora	relatório	II Relatório Parcial de Avaliação Institucional (Ano-base 2022)	2026-11-21
+https://www.ufrpe.br/sites/www.ufrpe.br/files/RELAT%C3%93RIO%20INTEGRAL%202021_2023%20VERS%C3%83O%20FINAL%20(1).pdf	Reitoria		fora	relatório	RELATÓRIO INTEGRAL 2021_2023 VERSÃO FINAL (1).pdf (ufrpe.br)	2026-11-21
+https://www.ufrpe.br/sites/www.ufrpe.br/files/Relat%C3%B3rio%20Parcial%20de%20Autoavalia%C3%A7%C3%A3o%202024%20vers%C3%A3o%20final.pdf	Reitoria		fora	relatório	Relatórios de Autoavaliação Institucional	2026-11-21
+https://www.ufrpe.br/sites/www.ufrpe.br/files/Relato%20Institucional%20UFRPE%202023.pdf	Reitoria		fora	relatório	Relato Institucional (RI)	2026-11-21

@@ -1,0 +1,16 @@
+# censo.tsvif — CSV interface (auto-generated)
+file: censo.tsv
+shape: 278 rows × 7 cols
+columns:
+  - url
+  - setores
+  - tipo
+  - decisao
+  - motivo
+  - titulo
+  - data
+head:
+  url: http://cpa.ufrp  setores: Reitoria  tipo:   decisao: fora  motivo: relatório  titulo: I Relatório 
+  url: http://cpa.ufrp  setores: Reitoria  tipo:   decisao: fora  motivo: relatório  titulo: Relatório Pa
+  url: http://cpa.ufrp  setores: Reitoria  tipo:   decisao: fora  motivo: relatório  titulo: Relatório Pa
+description: cada link de documento que os setores da UFRPE publicam e a decisão sobre ele; mantido por .github/scripts/vigiar.py --gravar.

@@ -6,3 +6,5 @@
 !site/*.png
 __pycache__/
 *.pyc
+# Estado local do vigia (data da última coleta completa)
+.vigia/

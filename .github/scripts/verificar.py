@@ -11,10 +11,10 @@ import datetime
 import hashlib
 import json
 import re
-import ssl
 import sys
-import urllib.request
 from pathlib import Path
+
+import rede
 
 RAIZ = Path(__file__).resolve().parents[2]
 PASTAS = ('modelos', 'normas', 'orientacoes', 'tabelas')
@@ -26,8 +26,6 @@ HASH = re.compile(r'^[0-9a-f]{64}$')
 ROTULO = re.compile(r'^[^:]{2,40}:\s*\S')
 # Ideograma, kana, hangul, caractere de substituição ou de uso privado num documento em português: lixo de OCR (um brasão, um QR code).
 ESTRANHO = re.compile('[⺀-鿿가-힯豈-﫿-�]')
-# Os servidores da UFRPE não mandam o certificado intermediário; ele vem da URL de AIA do próprio certificado.
-INTERMEDIARIOS = ('http://secure.globalsign.com/cacert/rnpicpedugr46ovtlsca2025.crt',)
 
 
 def cabecalho(texto: str) -> dict | None:
@@ -96,21 +94,8 @@ def conferir(rel: Path, texto: str, hoje: datetime.date) -> tuple[list[str], lis
     return erros, avisos, campos
 
 
-def contexto_ssl() -> ssl.SSLContext:
-    ctx = ssl.create_default_context()
-    for url in INTERMEDIARIOS:
-        try:
-            der = urllib.request.urlopen(url, timeout=20).read()
-            ctx.load_verify_locations(cadata=ssl.DER_cert_to_PEM_cert(der))
-        except OSError:
-            pass
-    return ctx
-
-
-def baixar_hash(url: str, ctx: ssl.SSLContext) -> str:
-    pedido = urllib.request.Request(url, headers={'User-Agent': 'docs-ufrpe-verificar'})
-    with urllib.request.urlopen(pedido, timeout=60, context=ctx) as resposta:
-        return hashlib.sha256(resposta.read()).hexdigest()
+def baixar_hash(url: str) -> str:
+    return hashlib.sha256(rede.baixar(url)).hexdigest()
 
 
 def documentos(nomes: list[str]) -> list[Path]:
@@ -127,13 +112,12 @@ def main(argv: list[str]) -> int:
     ap.add_argument('--online', action='store_true', help='baixa o original e compara o sha256')
     ap.add_argument('arquivos', nargs='*')
     args = ap.parse_args(argv)
-    hoje, ctx, reprovados = datetime.date.today(), None, 0
+    hoje, reprovados = datetime.date.today(), 0
     for rel in documentos(args.arquivos):
         erros, avisos, campos = conferir(rel, (RAIZ / rel).read_text(encoding='utf-8'), hoje)
         if args.online and not erros and campos.get('sha256'):
-            ctx = ctx or contexto_ssl()
             try:
-                if baixar_hash(campos['origin'], ctx) != campos['sha256']:
+                if baixar_hash(campos['origin']) != campos['sha256']:
                     erros.append('o sha256 não bate com o arquivo em origin (o original mudou, ou o link é de outro arquivo)')
             except OSError as e:
                 avisos.append(f'não consegui baixar origin para conferir o sha256: {e}')
