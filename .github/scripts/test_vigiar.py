@@ -56,7 +56,7 @@ class Triagem(unittest.TestCase):
         self.assertEqual(self.caso('pdi_ufrpe_2013-2020.pdf', 'PDI 2013-2020')[1:], ('fora', 'versão superada'))
         self.assertEqual(self.caso('PDI-UFRPE-2021-2030.pdf')[1], 'entra')
         self.assertEqual(self.caso('Plano de Integridade - 2018-12-10.pdf')[1], 'entra')
-        self.assertEqual(self.caso('Calendário 2014.pdf')[1:], ('pendente', 'calendário anterior'))
+        self.assertEqual(self.caso('Calendário 2014.pdf')[1:], ('fora', 'versão superada'))
 
     def test_regra_da_pagina(self):
         revogada = regras.regra_da_pagina('!norma:fora:revogada')

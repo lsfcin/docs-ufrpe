@@ -25,8 +25,8 @@ Contado em 21/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por ar
 |---|---|---|---|---|
 | PROGEPE | [/documentos](https://www.progepe.ufrpe.br/documentos) | formulários (290), normas (85, 25 federais), orientações (75), tabelas (27) | ato sobre pessoas ou seleção (6) | contado à mão: o servidor apresenta um certificado inválido desde 21/11/2026 |
 | Reitoria | [/documentos-e-relatórios-ufrpe](https://ufrpe.br/documentos-e-relat%C3%B3rios-ufrpe/) | normas (6, 3 federais), orientações (1) | relatório (41), versão superada (4) | — |
-| PRPG | [/resolucoes](https://prpg.ufrpe.br/resolucoes), [/pt-br/resolucoes-revogadas](https://prpg.ufrpe.br/pt-br/resolucoes-revogadas), [/formularios](https://prpg.ufrpe.br/formularios) | formulários (28), normas (46, 3 federais), orientações (6) | revogada (26), relatório (3) | sem motivo (1) |
-| PREG | [preg.ufrpe.br](https://preg.ufrpe.br/), 15 páginas ([fontes.tsv](fontes.tsv)) | formulários (41), normas (25), orientações (14) | — | memória de reunião (21), calendário anterior (14), sem motivo (1) |
+| PRPG | [/resolucoes](https://prpg.ufrpe.br/resolucoes), [/pt-br/resolucoes-revogadas](https://prpg.ufrpe.br/pt-br/resolucoes-revogadas), [/formularios](https://prpg.ufrpe.br/formularios) | formulários (28), normas (46, 3 federais), orientações (6) | revogada (26), relatório (3), divulgação (1) | — |
+| PREG | [preg.ufrpe.br](https://preg.ufrpe.br/), 15 páginas ([fontes.tsv](fontes.tsv)) | formulários (41), normas (25), orientações (14) | memória de reunião (21), versão superada (14) | sem motivo (1) |
 <!-- censo:end -->
 
 PRExC, PRAE e os conselhos (SOC) ainda não foram levantados.

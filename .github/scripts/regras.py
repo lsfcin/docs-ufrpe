@@ -22,7 +22,7 @@ REGRAS: list[tuple[re.Pattern, str, str, str]] = [(re.compile(p), t, d, m) for p
     (r'\bportaria\b|nomeac|designac', '', 'fora', 'ato sobre pessoas'),
     (r'relatorio (de )?(gestao|atividades|(parcial |integral )?(de )?auto ?avaliacao|parcial|integral|auditoria|cpa)|relato institucional'
      r'|em numeros|auditoria|dirigente .*controle interno|contr interno', '', 'fora', 'relatório'),
-    (r'memoria|reuniao do dia', '', 'pendente', 'memória de reunião'),
+    (r'memoria|reuniao do dia', '', 'fora', 'memória de reunião'),
     (r'vencimento|remunerac|correlac|tabela salarial', 'tabela', 'entra', 'tabela'),
     (r'calendario', 'norma', 'entra', 'calendário'),
     (r'manual|tutorial|cartilha|\bguia\b|passo a passo|perguntas frequentes|\bfaq\b|mapeamento|mapa de processos|processos mapeados|identidade visual',
@@ -68,6 +68,6 @@ def classificar(url: str, nome_titulo: str, secao: str, pagina: tuple[bool, tupl
             if motivo == 'plano' and fins and max(fins) < ano:
                 return tipo, 'fora', 'versão superada'
             if motivo == 'calendário' and anos and max(anos) < ano - 1:
-                return tipo, 'pendente', 'calendário anterior'
+                return tipo, 'fora', 'versão superada'
             return tipo, decisao, motivo
     return pagina[1] if pagina else ('', 'pendente', '')
