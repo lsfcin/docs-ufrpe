@@ -939,32 +939,15 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 ## À PROGEPE* 
 
-|REQUERENTE|SIA<br>N<sup>0</sup>:|PE<br>Data de Efetivo Exercício<br>/<br>/|
+|REQUERENTE|SIAPE Nº:|Data de Efetivo Exercício: \_\_/\_\_/\_\_|
 |---|---|---|
-|EM CASO DE REDISTRIBUIÇÃO IN|FORMAR A DATA DE EXERCÍCIO NO ÓR|GÃO DE ORIGEM<br>/<br>/|
+|EM CASO DE REDISTRIBUIÇÃO, INFORMAR A DATA DE EXERCÍCIO NO ÓRGÃO DE ORIGEM: \_\_/\_\_/\_\_|||
 |CARGO|CELULAR|E-MAIL|
-|LOTAÇÃO/EXERCÍCIO|REGIME DE TRA|BALHO|
+|LOTAÇÃO/EXERCÍCIO|REGIME DE TRABALHO||
 
+Solicito, de acordo com o artigo 13 e 15 da Lei nº 12.772/2012 e a Resolução nº 009/2019-CONSU/UFRPE, a concessão de: 
 
-
-Solicito, de acordo com o artigo 13 e 15 da Lei nº 12.772/2012 e a Resolução nº 009/2019CONSU/UFRPE, a concessão de: 
-
-
-![p16-fig2](img/p16-fig2.jpg)
-
-<!-- figure p16-fig2 | described_by: None | ocr_overlap: None | needs_review: true -->
-[no description]
-
-~~~text ocr
-LJ Aceleração de Promoção pela obtenção do título de
-da Classe , com denominação de nível para a classe
-, nível 01.
-~~~
-
-
-
-<!-- Start of picture text -->
-□<br>Aceleração de Promoção pela obtenção do título de ,<br>da Classe ,  com denominação de   nível para a classe<br>, nível 01.<br><!-- End of picture text -->
+☐ Aceleração de Promoção pela obtenção do título de \_\_\_\_\_\_\_\_, da Classe \_\_\_\_, com denominação de \_\_\_\_\_\_\_\_ nível \_\_\_\_ para a classe \_\_\_\_\_\_\_\_, nível 01.
 
 Declaro, ainda, sob as penas da lei, que as informações prestadas são verdadeiras. 
 
