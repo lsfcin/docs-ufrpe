@@ -3,9 +3,9 @@
 
 Catálogo de **resoluções**, **instruções normativas**, **ofícios**, **formulários** e **tabelas** da **UFRPE**, em formato Markdown (.md), para facilitar a consulta pelo celular e por ferramentas de inteligência artificial. Versão formatada para leitura: [ufrpe.pages.dev/docs](https://ufrpe.pages.dev/docs/).
 
-Cada documento traz o link para o arquivo oficial. Em caso de divergência, prevalece o original.
+Cada documento traz o link para o arquivo oficial. Em caso de divergência, prevalece o original. Este não é um site oficial da UFRPE e o acervo ainda é parcial: a ausência de um documento não significa que ele não exista. "Conferido em" é a data em que o texto foi comparado com o original, não garantia de que o documento ainda vale.
 
-**Para uma IA** (NotebookLM, ChatGPT): cole o endereço da página aberta no site, que já traz o texto inteiro, ou [ufrpe.pages.dev/docs/acervo.md](https://ufrpe.pages.dev/docs/acervo.md), todos os documentos num arquivo só.
+**Para uma IA** (NotebookLM, ChatGPT): cole o endereço da página aberta no site, que já traz o texto inteiro, ou [ufrpe.pages.dev/docs/acervo.md](https://ufrpe.pages.dev/docs/acervo.md), todos os documentos num arquivo só, com a data e o índice no topo. A cópia importada não se atualiza: importe de novo depois de uma mudança.
 
 ## Organização
 
@@ -87,5 +87,9 @@ Baixe o arquivo do link oficial e rode `sha256sum arquivo.pdf` (Linux ou Mac) ou
 Uma verificação automática confere o cabeçalho, a pasta e se o `sha256` bate com o arquivo do link; o resultado aparece no próprio pedido. Em seguida, o mantenedor compara o texto com o original e aceita a proposta. As listas de cada pasta se atualizam automaticamente.
 
 </details>
+
+## Licença
+
+Os atos oficiais não são protegidos por direito autoral (Lei 9.610/1998, art. 8º, IV). A edição deste acervo (conversão, organização e descrições) está sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br), e o código (`site/`, `.github/`), sob a [licença MIT](https://opensource.org/license/mit).
 
 Como o repositório se organiza por dentro: [CONTEXT.md](CONTEXT.md).

@@ -12,6 +12,7 @@ import argparse
 import json
 import re
 import sys
+from datetime import date
 from pathlib import Path
 
 # Uma descrição de figura vai do marcador até duas linhas em branco, o próximo marcador de página ou o fim; viewer.js usa a mesma regra.
@@ -81,16 +82,21 @@ def indice(raiz: Path) -> list[dict]:
     return [documento(raiz, p) for p in arquivos(raiz)]
 
 
-def acervo(raiz: Path, docs: list[dict]) -> str:
-    """Um .md só com todos os documentos, cada um sob seu nome e o link do original: uma fonte do NotebookLM lê uma URL."""
+def acervo(raiz: Path, docs: list[dict], versao: str) -> str:
+    """Um .md só com todos os documentos, cada um sob seu nome, com o link do original e o da página no site: uma fonte
+    do NotebookLM lê uma URL. O topo diz de quando e de que commit é a cópia e lista o que ela contém."""
+    docs = [d for d in docs if not d['doc'].endswith(('README.md', 'CONTEXT.md'))]
     partes = ['# Docs UFRPE — o acervo inteiro\n\nDocumentos oficiais da UFRPE em Markdown (https://ufrpe.pages.dev/docs/). '
-              'Não é site oficial; em caso de divergência, prevalece o original de cada documento.\n']
+              'Não é site oficial; em caso de divergência, prevalece o original de cada documento. "Conferido em" é a data em '
+              'que o texto foi comparado com o original, não garantia de que o documento ainda vale.\n\n'
+              f'Gerado em {date.today():%d/%m/%Y}, de {versao}. Uma cópia importada numa IA não se atualiza: '
+              'importe de novo depois de uma mudança no site.\n\n## Índice\n\n'
+              + ''.join(f"- {d['titulo']}\n" for d in docs)]
     for d in docs:
-        if d['doc'].endswith(('README.md', 'CONTEXT.md')):
-            continue
         meta, corpo = campos((raiz / d['doc']).read_text(encoding='utf-8'))
-        origem = f"Original oficial: {meta['origin']} · conferido em {meta.get('origin_checked', '?')}\n\n" if meta.get('origin') else ''
-        partes.append(f"\n---\n\n# {d['titulo']}\n\n{origem}{COMENTARIO.sub('', corpo).strip()}\n")
+        origem = f"Original oficial: {meta['origin']} · conferido em {meta.get('origin_checked', '?')}\n" if meta.get('origin') else ''
+        pagina = f"Página no site: https://ufrpe.pages.dev/docs/?doc={d['doc']}\n\n"
+        partes.append(f"\n---\n\n# {d['titulo']}\n\n{origem}{pagina}{COMENTARIO.sub('', corpo).strip()}\n")
     return ''.join(partes)
 
 
@@ -98,6 +104,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description='gera o busca.json do site')
     ap.add_argument('pasta', type=Path)
     ap.add_argument('--saida', type=Path)
+    ap.add_argument('--versao', default='uma cópia de trabalho', help='de onde vem a árvore, ex.: "main@3964f4a"')
     args = ap.parse_args()
     docs = indice(args.pasta.resolve())
     if not docs:
@@ -105,7 +112,7 @@ def main() -> None:
     saida = args.saida or args.pasta / 'busca.json'
     saida.write_text(json.dumps(docs, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     junto = saida.parent / 'acervo.md'
-    junto.write_text(acervo(args.pasta.resolve(), docs), encoding='utf-8', newline='\n')
+    junto.write_text(acervo(args.pasta.resolve(), docs, args.versao), encoding='utf-8', newline='\n')
     print(f'{len(docs)} documentos → {saida} ({saida.stat().st_size // 1024} KB), {junto} ({junto.stat().st_size // 1024} KB)')
 
 
