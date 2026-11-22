@@ -6,5 +6,5 @@ sha256: null
 ---
 
 # Lei nº 15.141, de 02/06/2025 — reestruturação de carreiras do Executivo federal
-- **Texto em Markdown:** [ctresb/leis @ c9f21b4](https://github.com/ctresb/leis/blob/c9f21b4ab11aa0d7ca6fe861d75028e94219c2d6/federal/leis-ordinarias/2025/lei-15141-2025-06-02.md) — versão **original, não compilada**, baixada pelo espelho em 2026-10-13. Alterações posteriores só aparecem na fonte oficial ([ISSUES](../../ISSUES.md) `[lei-15141-alteracoes]`).
+- **Texto em Markdown:** [ctresb/leis @ c9f21b4](https://github.com/ctresb/leis/blob/c9f21b4ab11aa0d7ca6fe861d75028e94219c2d6/federal/leis-ordinarias/2025/lei-15141-2025-06-02.md) — versão **original, não compilada**, baixada pelo espelho em 2026-10-13. Alterações posteriores só aparecem na fonte oficial: a [Lei 15.367/2026](https://legis.senado.leg.br/norma/42966204) (art. 121) muda só o art. 214, sobre o exercício descentralizado de servidores, sem efeito específico no Magistério Superior.
 - **Correlação de classes:** [tabela da PROGEPE](../../tabelas/correlacao-magisterio-superior-2025/correlacao-magisterio-superior-2025.md).
