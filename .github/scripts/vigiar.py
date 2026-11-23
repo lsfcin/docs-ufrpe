@@ -210,7 +210,7 @@ def main(argv: list[str]) -> int:
         print(f'\n{len(achados)} links lidos · {len(novos)} novos · {len(sumidos)} sumidos · '
               f'{len(mudados)} originais mudados ou fora · {sum(map(len, falhas.values()))} páginas com falha')
         if args.se_passaram is not None:
-            print('Para gravar: python academy/administration/docs-ufrpe/.github/scripts/vigiar.py --gravar')
+            print('Para gravar: python code/docs-ufrpe/.github/scripts/vigiar.py --gravar')
     if args.gravar:
         aplicar(censo, achados, novos, sumidos, fontes, hoje.isoformat())
         gravar_censo(censo)

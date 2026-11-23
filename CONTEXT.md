@@ -1,5 +1,7 @@
 # docs-ufrpe
 > Documentos oficiais da UFRPE em Markdown, um lote por vez (o 1º: progressão, promoção e PDA/RDA), cada um com a fonte oficial e a data de captura.
+> goal: none
+> spec: none
 
 **O original manda; o Markdown é para ler e buscar.** Todo `.md` de documento começa com o mesmo frontmatter: `description`, `origin` (**sempre o link oficial** do original, num site da UFRPE ou do governo), `origin_checked` (data da conferência) e `sha256` do arquivo nesse link (`null` só nas páginas federais de link). `origin_note` diz, quando preciso, por onde mais o arquivo circulou. O original (PDF, DOC, DOCX) não entra no git. Sem link oficial, o documento não entra: a exceção é um espelho público no Drive do mantenedor, registrado aqui (hoje, nenhum). [`.github/scripts/verificar.py`](.github/scripts/verificar.py) confere tudo isso em cada PR; como contribuir: [README.md](README.md) § Sugerir correções e documentos. O mantenedor segue o git flow do workspace (repo aninhado, governado desde 19/11/2026); terceiros contribuem por PR, e cada PR aberto vira entrada no INBOX até ser resolvido.
 
