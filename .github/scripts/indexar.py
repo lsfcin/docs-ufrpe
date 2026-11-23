@@ -15,6 +15,8 @@ import sys
 from datetime import date
 from pathlib import Path
 
+# As listas do mantenedor na raiz: não são documentos do acervo (verificar.py usa a mesma).
+MANUTENCAO = ('ISSUES.md', 'ROADMAP.md')
 # Uma descrição de figura vai do marcador até duas linhas em branco, o próximo marcador de página ou o fim; paginas.py usa a mesma regra.
 FIGURA = re.compile(r'<!-- figure [^>]*-->\n[\s\S]*?(?=\n[ \t]*\n[ \t]*\n|<!-- page|$(?![\s\S]))')
 COMENTARIO = re.compile(r'<!--[\s\S]*?-->')
@@ -74,7 +76,7 @@ def documento(raiz: Path, arquivo: Path) -> dict:
 
 
 def arquivos(raiz: Path) -> list[Path]:
-    return sorted(p for p in raiz.rglob('*.md') if '.github' not in p.parts and p.name not in ('ISSUES.md', 'acervo.md')
+    return sorted(p for p in raiz.rglob('*.md') if '.github' not in p.parts and p.name not in (*MANUTENCAO, 'acervo.md')
                   and p.relative_to(raiz).as_posix() != 'CONTEXT.md')
 
 

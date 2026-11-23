@@ -51,6 +51,12 @@ class Triagem(unittest.TestCase):
         self.assertEqual(self.caso('relatorio_viagem_discente.doc', 'RELATÓRIO DE VIAGEM')[0], 'modelo')
         self.assertEqual(self.caso('relatorio_gestao_ufrpe_2010.pdf')[2], 'relatório')
         self.assertEqual(self.caso('MODELO HISTÓRICOS CNE.docx')[0], 'modelo')
+        # 23/11/2026: o que a PROGEPE publica sem palavra-chave das regras antigas.
+        self.assertEqual(self.caso('768.26-GR-ALTERAR_PORT._682.2026-GR.pdf')[2], 'ato sobre pessoas')
+        self.assertEqual(self.caso('Processo 322032 2023.pdf', 'Resolução 458/2023')[2], 'norma')
+        self.assertEqual(self.caso('D12246_dispensa para exames.pdf')[2], 'federal')
+        self.assertEqual(self.caso('Tabela Carreira EBTT - 01MAI2023.pdf')[0], 'tabela')
+        self.assertEqual(self.caso('tabela de horas extras.docx')[0], 'modelo')
 
     def test_so_a_versao_vigente(self):
         self.assertEqual(self.caso('pdi_ufrpe_2013-2020.pdf', 'PDI 2013-2020')[1:], ('fora', 'versão superada'))

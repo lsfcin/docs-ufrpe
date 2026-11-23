@@ -16,21 +16,25 @@ PERIODO = re.compile(r'(?<!\d)(?:19|20)\d\d\s*(?:-|–|_|\.|/| a )\s*((?:19|20)\
 # (regex sobre "nome do arquivo, título, seção", sem acento e minúsculo; tipo; decisão; motivo).
 REGRAS: list[tuple[re.Pattern, str, str, str]] = [(re.compile(p), t, d, m) for p, t, d, m in (
     (r'revogad|substituid', 'norma', 'fora', 'revogada'),
-    (r'\blei\b ?(n|\d)|decreto|portaria.*\b(mec|capes|cnpq)\b|\b(mec|capes)\b.*portaria|(resolucao|parecer) cne|rces\d|portaria n ?0?92 ?2011|arquivo nacional',
+    (r'\blei\b ?(n|\d)|decreto|\bd\d{5}\b|portaria.*\b(mec|capes|cnpq)\b|\b(mec|capes)\b.*portaria|(resolucao|parecer) cne|rces\d|portaria n ?0?92 ?2011|arquivo nacional',
      'norma', 'entra', 'federal'),
     (r'\bedita(l|is)\b|resultado|convocac|classificac|selec(ao|oes)\b|chamada publica', '', 'fora', 'procedimento específico'),
-    (r'\bportaria\b|nomeac|designac', '', 'fora', 'ato sobre pessoas'),
+    (r'\bportaria\b|\bport\b|nomeac|designac|\bprocesso ?\d{15}','', 'fora', 'ato sobre pessoas'),
     (r'relatorio (de )?(gestao|atividades|(parcial |integral )?(de )?auto ?avaliacao|parcial|integral|auditoria|cpa)|relato institucional'
      r'|em numeros|auditoria|dirigente .*controle interno|contr interno', '', 'fora', 'relatório'),
     (r'memoria|reuniao do dia', '', 'fora', 'memória de reunião'),
     (r'vencimento|remunerac|correlac|tabela salarial', 'tabela', 'entra', 'tabela'),
     (r'calendario', 'norma', 'entra', 'calendário'),
-    (r'manual|tutorial|cartilha|\bguia\b|passo a passo|perguntas frequentes|\bfaq\b|mapeamento|mapa de processos|processos mapeados|identidade visual',
+    (r'manual|tutorial|cartilha|\bguia\b|passo a passo|perguntas (frequentes|e respostas?)|\bfaq\b|mapeamento|mapa de processos'
+     r'|processos mapeados|identidade visual',
      'orientacao', 'entra', 'orientação'),
-    (r'formulario|requerimento|ficha|termo de|declarac|solicitac|\bmodelo\b|plano de (estudo|ensino|pratica|atividade)', 'modelo', 'entra', 'formulário'),
+    (r'formulario|requerimento|ficha|termo de|declarac|solicitac|folha de ponto|requisicao|cancelamento|dados bancarios'
+     r'|avaliacao professor|\bmodelo\b|plano de (estudo|ensino|pratica|atividade)', 'modelo', 'entra', 'formulário'),
     (r'instrucao normativa|\bin\b ?\d|resoluc|\bres\b|recepe|recu ?\d|reconsu|regimento|regulamento|estatuto|normas? gera', 'norma', 'entra', 'norma'),
-    (r'oficio|circular|parecer|nota tecnica|orientac|fluxo', 'orientacao', 'entra', 'orientação'),
+    (r'oficio|circular|parecer|nota (tecnica|informativa)|orientac|fluxo|comunicado|documentacao necessaria|situacoes'
+     r'|vacancia|custeio|exames e documentos|novas regras', 'orientacao', 'entra', 'orientação'),
     (r'\.(docx?|odt|xlsx?|ods)\b', 'modelo', 'entra', 'formulário'),
+    (r'\btabelas?\b|plano de carreira', 'tabela', 'entra', 'tabela'),
     (r'\bpdi\b|plano de (desenvolvimento|integridade|internacionalizacao)', 'norma', 'entra', 'plano'),
 )]
 

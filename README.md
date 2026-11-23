@@ -25,7 +25,7 @@ Contado em 23/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por ar
 
 | Setor | Fonte | Entram | Ficam de fora | Pendentes |
 |---|---|---|---|---|
-| PROGEPE | [/documentos](https://www.progepe.ufrpe.br/documentos) | formulários (261), normas (88, 14 federais), orientações (65), tabelas (12) | ato sobre pessoas (16), procedimento específico (5) | sem motivo (36) |
+| PROGEPE | [/documentos](https://www.progepe.ufrpe.br/documentos) | formulários (266), normas (89, 15 federais), orientações (76), tabelas (27) | ato sobre pessoas (19), procedimento específico (5) | sem motivo (1) |
 | Reitoria | [/documentos-e-relatórios-ufrpe](https://ufrpe.br/documentos-e-relat%C3%B3rios-ufrpe/) | normas (6, 3 federais), orientações (1) | relatório (41), versão superada (4) | — |
 | PRPG | [/resolucoes](https://prpg.ufrpe.br/resolucoes), [/pt-br/resolucoes-revogadas](https://prpg.ufrpe.br/pt-br/resolucoes-revogadas), [/formularios](https://prpg.ufrpe.br/formularios) | formulários (28), normas (46, 3 federais), orientações (6) | revogada (26), relatório (3), divulgação (1) | — |
 | PREG | [preg.ufrpe.br](https://preg.ufrpe.br/), 15 páginas ([fontes.tsv](fontes.tsv)) | formulários (41), normas (25), orientações (14) | memória de reunião (21), versão superada (14) | sem motivo (1) |

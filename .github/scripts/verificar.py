@@ -15,10 +15,11 @@ import sys
 from pathlib import Path
 
 import rede
+from indexar import MANUTENCAO
 
 RAIZ = Path(__file__).resolve().parents[2]
 PASTAS = ('modelos', 'normas', 'orientacoes', 'tabelas')
-FORA = {'CONTEXT.md', 'README.md', 'ISSUES.md'}
+FORA = {'CONTEXT.md', 'README.md', *MANUTENCAO}
 NOME = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 DATA = re.compile(r'^\d{4}-\d{2}-\d{2}$')
 HASH = re.compile(r'^[0-9a-f]{64}$')

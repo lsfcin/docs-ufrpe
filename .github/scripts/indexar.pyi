@@ -1,6 +1,7 @@
 from _typeshed import Incomplete
 from pathlib import Path
 
+MANUTENCAO: Incomplete
 FIGURA: Incomplete
 COMENTARIO: Incomplete
 IMAGEM: Incomplete
