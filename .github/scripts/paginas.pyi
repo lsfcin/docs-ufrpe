@@ -13,6 +13,7 @@ CELULA: Incomplete
 SO_LINK: Incomplete
 SEM_TAG: Incomplete
 PAGINAS: set[str]
+GERADAS: Incomplete
 MD: Incomplete
 esc = html.escape
 

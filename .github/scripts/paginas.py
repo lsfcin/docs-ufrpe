@@ -1,10 +1,8 @@
 # paginas.py — gera o HTML pronto de cada .md do site do docs-ufrpe: faixa, cartão do original, texto e rodapé, sem JavaScript para ler. O JS do site só busca e destaca.
 """Uso: python .github/scripts/paginas.py <pasta>
 
-Roda no deploy, depois do indexar.py, sobre a árvore do git archive: grava ao lado de cada .md a página dele
-(README.md → index.html, <pasta>/CONTEXT.md → <pasta>/index.html, a/b.md → a/b.html, servido em /docs/a/b),
-mais a do acervo e a lista de todos os documentos. Precisa de markdown-it-py (o venv do workspace).
-"""
+Roda no deploy, depois do indexar.py, sobre o git archive: README.md → index.html, <pasta>/CONTEXT.md →
+<pasta>/index.html, a/b.md → a/b.html (servido em /docs/a/b), mais o acervo e todos. Precisa de markdown-it-py."""
 from __future__ import annotations
 
 import argparse
@@ -35,6 +33,8 @@ SO_LINK = re.compile(r'^\s*<a href="([^"]*)"[^>]*>([\s\S]*?)</a>\s*$')
 SEM_TAG = re.compile(r'<[^>]+>')
 # Os .md que ganham página (main preenche): um link para outro .md, como o CONTEXT.md e o ISSUES.md da raiz, vai ao GitHub.
 PAGINAS: set[str] = set()
+# O deploy gera estes dois; fora do git, não há onde propor correção.
+GERADAS = ('acervo.md', 'todos.md')
 MD = MarkdownIt('commonmark', {'html': True}).enable(['table', 'strikethrough'])
 
 esc = html.escape
@@ -186,8 +186,7 @@ CABECA = '''<!doctype html>
 </div></header>'''
 
 RODAPE = '''<footer>
-  <a class="btn" href="{repo}/edit/main/{doc}" target="_blank" rel="noopener">Propor correção</a>
-  <button class="btn" id="copiar" hidden>Copiar texto para IA</button>
+  {propor}<button class="btn" id="copiar" hidden>Copiar texto para IA</button>
   <a class="btn" href="{fonte}" target="_blank" rel="noopener">Texto em Markdown</a>
   <a class="btn" href="{raiz}todos">Todos os documentos</a>
   <a class="btn" href="{repo}" target="_blank" rel="noopener">Repositório no GitHub</a>
@@ -211,7 +210,8 @@ def montar(doc: str, bruto: str) -> str:
     campos_cabeca = {
         'titulo': esc(f'{nome} · Docs UFRPE' if nome and doc != 'README.md' else 'Docs UFRPE'),
         'descricao': esc(str(meta.get('description') or 'Documentos oficiais da UFRPE em Markdown, cada um com o link para o original.')),
-        'raiz': raiz, 'fonte': esc(posixpath.basename(doc)), 'doc': esc(doc), 'repo': REPO}
+        'raiz': raiz, 'fonte': esc(posixpath.basename(doc)), 'doc': esc(doc), 'repo': REPO,
+        'propor': '' if doc in GERADAS else f'<a class="btn" href="{REPO}/edit/main/{esc(doc)}" target="_blank" rel="noopener">Propor correção</a>\n  '}
     nav = '' if doc == 'README.md' else f'<nav class="topo"><a href="{raiz}">Início</a>{trilha(doc)}</nav>'
     return (CABECA.format(**campos_cabeca) + f'{nav}<section id="resultados" class="container" aria-live="polite" hidden></section>\n'
             f'<div class="container">{cartao(meta, botao)}\n<article class="markdown-body">{art}</article>\n'
@@ -237,7 +237,7 @@ def main() -> None:
         d['pagina'] = pagina(d['doc'])
     indice.write_text(json.dumps(docs, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     (raiz / 'todos.md').write_text(todos(docs), encoding='utf-8', newline='\n')
-    PAGINAS.update(fontes := [p.relative_to(raiz).as_posix() for p in arquivos(raiz) if p.name != 'todos.md'] + ['acervo.md', 'todos.md'])
+    PAGINAS.update(fontes := [p.relative_to(raiz).as_posix() for p in arquivos(raiz) if p.name not in GERADAS] + list(GERADAS))
     for doc in fontes:
         destino = raiz / arquivo_html(doc)
         destino.parent.mkdir(parents=True, exist_ok=True)
