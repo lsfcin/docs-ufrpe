@@ -21,11 +21,11 @@ Cada documento traz o link para o arquivo oficial. Em caso de divergência, prev
 O objetivo é reunir todo documento da UFRPE de interesse geral. Hoje estão disponíveis os de **progressão e promoção docente** e de **PDA** e **RDA** (Plano Docente de Atividades e Relatório Docente de Atividades). O que cada setor publica, link a link, está em [censo.tsv](censo.tsv):
 
 <!-- censo:start -->
-Contado em 21/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por arquivo; um arquivo publicado por dois setores conta no primeiro deles.
+Contado em 23/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por arquivo; um arquivo publicado por dois setores conta no primeiro deles.
 
 | Setor | Fonte | Entram | Ficam de fora | Pendentes |
 |---|---|---|---|---|
-| PROGEPE | [/documentos](https://www.progepe.ufrpe.br/documentos) | formulários (290), normas (85, 25 federais), orientações (75), tabelas (27) | ato sobre pessoas ou seleção (6) | contado à mão: o servidor apresenta um certificado inválido desde 21/11/2026 |
+| PROGEPE | [/documentos](https://www.progepe.ufrpe.br/documentos) | formulários (261), normas (88, 14 federais), orientações (65), tabelas (12) | ato sobre pessoas (16), procedimento específico (5) | sem motivo (36) |
 | Reitoria | [/documentos-e-relatórios-ufrpe](https://ufrpe.br/documentos-e-relat%C3%B3rios-ufrpe/) | normas (6, 3 federais), orientações (1) | relatório (41), versão superada (4) | — |
 | PRPG | [/resolucoes](https://prpg.ufrpe.br/resolucoes), [/pt-br/resolucoes-revogadas](https://prpg.ufrpe.br/pt-br/resolucoes-revogadas), [/formularios](https://prpg.ufrpe.br/formularios) | formulários (28), normas (46, 3 federais), orientações (6) | revogada (26), relatório (3), divulgação (1) | — |
 | PREG | [preg.ufrpe.br](https://preg.ufrpe.br/), 15 páginas ([fontes.tsv](fontes.tsv)) | formulários (41), normas (25), orientações (14) | memória de reunião (21), versão superada (14) | sem motivo (1) |
