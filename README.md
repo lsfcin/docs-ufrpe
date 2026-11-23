@@ -29,9 +29,11 @@ Contado em 23/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por ar
 | Reitoria | [/documentos-e-relatórios-ufrpe](https://ufrpe.br/documentos-e-relat%C3%B3rios-ufrpe/) | normas (6, 3 federais), orientações (1) | relatório (41), versão superada (4) | — |
 | PRPG | [/resolucoes](https://prpg.ufrpe.br/resolucoes), [/pt-br/resolucoes-revogadas](https://prpg.ufrpe.br/pt-br/resolucoes-revogadas), [/formularios](https://prpg.ufrpe.br/formularios) | formulários (28), normas (46, 3 federais), orientações (6) | revogada (26), relatório (3), divulgação (1) | — |
 | PREG | [preg.ufrpe.br](https://preg.ufrpe.br/), 15 páginas ([fontes.tsv](fontes.tsv)) | formulários (41), normas (25), orientações (14) | memória de reunião (21), versão superada (14) | sem motivo (1) |
+| PROGESTI | [www.progesti.ufrpe.br](https://www.progesti.ufrpe.br/), 6 páginas ([fontes.tsv](fontes.tsv)) | formulários (14), normas (32) | procedimento específico (1), ato sobre pessoas (1) | — |
+| SEG | [seg.ufrpe.br](https://seg.ufrpe.br/), 4 páginas ([fontes.tsv](fontes.tsv)) | formulários (5), normas (2), orientações (1) | divulgação (6) | — |
 <!-- censo:end -->
 
-PRExC, PRAE e os conselhos (SOC) ainda não foram levantados.
+A PROExC não publica lista de documentos (23/11/2026). As resoluções do CONSU, do CEPE e do CURA ficam cada uma numa página da SEG, achada só pela busca dela, e ainda não entraram no censo.
 
 A inclusão de cada tema começa pelo levantamento de todos os seus documentos, seguido da conversão para Markdown.
 
