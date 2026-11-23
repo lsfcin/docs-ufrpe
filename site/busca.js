@@ -44,9 +44,9 @@ function parecida(w, vocabulario) {
 }
 
 let indice = null;
-function carregar() {
+function carregar(raiz = './') {
   if (!indice) {
-    indice = fetch('busca.json').then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    indice = fetch(`${raiz}busca.json`).then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
       .then((docs) => docs.map((d) => ({ ...d, f: { titulo: dobra(d.titulo), descricao: dobra(d.descricao), texto: dobra(d.texto) } })))
       .catch((e) => { indice = null; throw e; });
   }
@@ -142,7 +142,7 @@ function vagas(tamanhos) {
   return dadas;
 }
 
-function resultados(painel, achado, q, aberto) {
+function resultados(painel, achado, q, aberto, raiz) {
   painel.replaceChildren();
   const aviso = (txt) => { const p = document.createElement('p'); p.className = 'estado'; p.textContent = txt; painel.append(p); };
   if (!achado.docs.length) { aviso(`Nenhum documento contém “${q}”.`); return; }
@@ -157,7 +157,7 @@ function resultados(painel, achado, q, aberto) {
     for (const d of g.docs.slice(0, cotas[i])) {
       const li = document.createElement('li');
       const a = document.createElement('a');
-      a.href = `?doc=${encodeURIComponent(d.doc)}&q=${encodeURIComponent(achado.termos.join(' '))}`;
+      a.href = `${raiz}${d.pagina}?q=${encodeURIComponent(achado.termos.join(' '))}`;
       const t = document.createElement('b');
       t.textContent = d.titulo;
       a.append(t);
@@ -170,7 +170,7 @@ function resultados(painel, achado, q, aberto) {
 
 // Liga a caixa: carrega o índice no primeiro foco e mostra os resultados no painel, escondendo a página enquanto há busca.
 // Enter não abre nada (seria lido como "buscar"); cada resultado é um link, alcançado pelo Tab.
-function caixa(form, painel, pagina, aberto) {
+function caixa(form, painel, pagina, aberto, raiz) {
   const campo = form.querySelector('input');
   let espera;
   const mostrar = async () => {
@@ -180,8 +180,8 @@ function caixa(form, painel, pagina, aberto) {
     pagina.hidden = true;
     try {
       if (!(indice instanceof Array)) { painel.replaceChildren(Object.assign(document.createElement('p'), { className: 'estado', textContent: 'Carregando o índice…' })); }
-      const docs = await carregar();
-      if (campo.value.trim() === q) resultados(painel, buscar(docs, q), q, aberto);
+      const docs = await carregar(raiz);
+      if (campo.value.trim() === q) resultados(painel, buscar(docs, q), q, aberto, raiz);
     } catch (e) {
       painel.replaceChildren();
       const p = Object.assign(document.createElement('p'), { className: 'estado aviso', textContent: `Não foi possível carregar o índice de busca (${e.message}). ` });
@@ -191,7 +191,7 @@ function caixa(form, painel, pagina, aberto) {
       painel.append(p);
     }
   };
-  campo.addEventListener('focus', () => carregar().catch(() => {}), { once: true });
+  campo.addEventListener('focus', () => carregar(raiz).catch(() => {}), { once: true });
   campo.addEventListener('input', () => { clearTimeout(espera); espera = setTimeout(mostrar, 150); });
   form.addEventListener('submit', (e) => e.preventDefault());
 }

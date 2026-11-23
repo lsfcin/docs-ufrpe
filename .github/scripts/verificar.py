@@ -22,7 +22,7 @@ FORA = {'CONTEXT.md', 'README.md', 'ISSUES.md'}
 NOME = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 DATA = re.compile(r'^\d{4}-\d{2}-\d{2}$')
 HASH = re.compile(r'^[0-9a-f]{64}$')
-# O mesmo corte que site/viewer.js e indexar.py fazem para achar o nome do documento.
+# O mesmo corte que paginas.py e indexar.py fazem para achar o nome do documento.
 ROTULO = re.compile(r'^[^:]{2,40}:\s*\S')
 # Ideograma, kana, hangul, caractere de substituição ou de uso privado num documento em português: lixo de OCR (um brasão, um QR code).
 ESTRANHO = re.compile('[⺀-鿿가-힯豈-﫿-�]')

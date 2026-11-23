@@ -15,7 +15,7 @@ import sys
 from datetime import date
 from pathlib import Path
 
-# Uma descrição de figura vai do marcador até duas linhas em branco, o próximo marcador de página ou o fim; viewer.js usa a mesma regra.
+# Uma descrição de figura vai do marcador até duas linhas em branco, o próximo marcador de página ou o fim; paginas.py usa a mesma regra.
 FIGURA = re.compile(r'<!-- figure [^>]*-->\n[\s\S]*?(?=\n[ \t]*\n[ \t]*\n|<!-- page|$(?![\s\S]))')
 COMENTARIO = re.compile(r'<!--[\s\S]*?-->')
 IMAGEM = re.compile(r'!\[[^\]]*\]\([^)]*\)')
@@ -54,7 +54,7 @@ def documento(raiz: Path, arquivo: Path) -> dict:
     meta, corpo = campos(arquivo.read_text(encoding='utf-8'))
     descricao = str(meta.get('description', ''))
     if arquivo.name in ('CONTEXT.md', 'README.md'):
-        # O nome que o site mostra (viewer.js nomePasta): a home é o Início, cada pasta com maiúscula e acento.
+        # O nome que o site mostra (paginas.py nome_pasta): a home é o Início, cada pasta com maiúscula e acento.
         pasta = arquivo.parent.name if arquivo.name == 'CONTEXT.md' else ''
         titulo = PASTAS.get(pasta, pasta[:1].upper() + pasta[1:]) if pasta else 'Início'
         corpo = re.sub(r'^# .+\n(?:> .*\n)?', '', corpo.split('<!-- routing:start -->')[0], count=1, flags=re.M)
@@ -95,7 +95,7 @@ def acervo(raiz: Path, docs: list[dict], versao: str) -> str:
     for d in docs:
         meta, corpo = campos((raiz / d['doc']).read_text(encoding='utf-8'))
         origem = f"Original oficial: {meta['origin']} · conferido em {meta.get('origin_checked', '?')}\n" if meta.get('origin') else ''
-        pagina = f"Página no site: https://ufrpe.pages.dev/docs/?doc={d['doc']}\n\n"
+        pagina = f"Página no site: https://ufrpe.pages.dev/docs/{d['doc'][:-3]}\n\n"
         partes.append(f"\n---\n\n# {d['titulo']}\n\n{origem}{pagina}{COMENTARIO.sub('', corpo).strip()}\n")
     return ''.join(partes)
 

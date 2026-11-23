@@ -1,7 +1,7 @@
 declare function dobra(s: any): any;
 declare function perto(a: any, b: any, lim: any): boolean;
 declare function parecida(w: any, vocabulario: any): any;
-declare function carregar(): any;
+declare function carregar(raiz?: string): any;
 declare function pontuar(docs: any, termos: any, frase: any): any[];
 declare function buscar(docs: any, q: any): {
     docs: any[];
@@ -12,8 +12,8 @@ declare function trecho(d: any, termos: any): HTMLParagraphElement;
 declare function marcar(alvo: any, texto: any, termos: any, antes: any, depois: any): void;
 declare function grupos(docs: any, aberto: any): any[];
 declare function vagas(tamanhos: any): any;
-declare function resultados(painel: any, achado: any, q: any, aberto: any): void;
-declare function caixa(form: any, painel: any, pagina: any, aberto: any): void;
+declare function resultados(painel: any, achado: any, q: any, aberto: any, raiz: any): void;
+declare function caixa(form: any, painel: any, pagina: any, aberto: any, raiz: any): void;
 declare function destacar(raiz: any, q: any): void;
 declare const MAX: 20;
 declare namespace PESOS {
