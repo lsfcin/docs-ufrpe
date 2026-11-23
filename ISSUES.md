@@ -1,5 +1,5 @@
-# docs-ufrpe — Issues
-> What is currently untrue that we know about in this repo: hand-written issues first, every measured number inside its own generated block.
+# docs-ufrpe — Pendências
+> O que sabemos que ainda não está certo neste acervo: primeiro as pendências escritas à mão, e cada número medido dentro do seu próprio bloco gerado.
 
 ## Lote 1 ainda não completo
 

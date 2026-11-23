@@ -52,7 +52,7 @@ Entram os documentos que regem atividades de aplicação geral, inclusive os cal
 <summary>Passo a passo para propor um documento novo</summary>
 
 1. Abra a pasta certa: `normas/`, `orientacoes/`, `modelos/` ou `tabelas/`.
-2. Clique em **Add file → Create new file** e dê um nome como `<nome>/<nome>.md`, em minúsculas e com hífens: `res-consu-123-2025-assunto/res-consu-123-2025-assunto.md`.
+2. Clique em **Add file → Create new file** (adicionar arquivo → criar arquivo novo; o GitHub mostra os botões em inglês) e dê um nome como `<nome>/<nome>.md`, em minúsculas e com hífens: `res-consu-123-2025-assunto/res-consu-123-2025-assunto.md`.
 3. Comece o arquivo com este cabeçalho e cole o texto embaixo:
 
 ```markdown
@@ -68,7 +68,7 @@ sha256: "64 letras e números do arquivo baixado de origin"
 (o texto do documento)
 ```
 
-4. Clique em **Commit changes → Propose changes → Create pull request**. O GitHub conclui o envio.
+4. Clique em **Commit changes → Propose changes → Create pull request** (gravar a mudança → propor → abrir o pedido). O GitHub conclui o envio.
 
 Para corrigir um documento que já existe, abra o `.md`, clique no lápis, corrija e proponha da mesma forma.
 

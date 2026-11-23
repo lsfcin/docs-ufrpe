@@ -27,7 +27,7 @@ Os servidores UFRPE filtram o User-Agent de curl e não mandam o certificado int
 
 | File | Interface | API | Description |
 |------|-----------|-----|-------------|
-| [`ISSUES.md`](ISSUES.md) | — | — | What is currently untrue that we know about in this repo: hand-written issues first, every measured number inside its own generated block. |
+| [`ISSUES.md`](ISSUES.md) | — | — | O que sabemos que ainda não está certo neste acervo: primeiro as pendências escritas à mão, e cada número medido dentro do seu próprio bloco gerado. |
 | [`README.md`](README.md) | — | — | Documentos oficiais da UFRPE em Markdown, cada um com o link oficial e a data de captura. |
 | [`site/busca.js`](site/busca.js) | [`site/busca.d.ts`](site/busca.d.ts) | `dobra`, `perto`, `parecida`, `carregar`, `pontuar` | busca.js — a caixa "Buscar nos documentos" do docs-ufrpe: lê o busca.json do deploy, acha sem acento nem maiúscula, tolera um erro de digitação e destaca o termo no documento aberto. |
 | [`site/jsconfig.json`](site/jsconfig.json) | — | — | Diz ao editor que o viewer.js do docs-ufrpe é JavaScript de navegador, sem checagem de tipos. |
