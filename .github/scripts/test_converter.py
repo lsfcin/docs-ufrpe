@@ -51,6 +51,12 @@ class Nomes(unittest.TestCase):
             self.assertRegex(converter.descricao(linha(titulo=t)), verificar.ROTULO)
 
 
+class Corpo(unittest.TestCase):
+    def test_imagem_embutida_sai_e_o_texto_fica(self):
+        corpo = '![][image1]\n\n# ANEXO I\n\n| A | B |\n\n[image1]: <data:image/png;base64,iVBORw0KGgo>\n'
+        self.assertEqual(converter.sem_imagens(corpo).strip(), '# ANEXO I\n\n| A | B |')
+
+
 class Cabecalho(unittest.TestCase):
     def test_o_que_o_conversor_grava_passa_no_verificar(self):
         texto = converter.frontmatter({'description': converter.descricao(linha()), 'origin': linha()['url'],

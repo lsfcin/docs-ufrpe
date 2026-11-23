@@ -141,6 +141,13 @@ def por_pdf(original: Path, linha: dict, desc: str) -> None:
     rodar('tools/pdf/pymupdf', str(original), '--origin', linha['url'], '--description', desc)
 
 
+def sem_imagens(corpo: str) -> str:
+    """Tira a imagem que o Google Docs embute em base64 (`[image1]: <data:…>` e o `![][image1]` que a usa): é brasão,
+    não texto, e sozinha estoura o limite de tamanho do arquivo."""
+    corpo = re.sub(r'^\[image\d+\]: <data:[^>]*>\s*$', '', corpo, flags=re.M)
+    return re.sub(r'!\[[^\]]*\]\[image\d+\]', '', corpo)
+
+
 def por_gdoc(original: Path, linha: dict, desc: str, dados: bytes, destino: Path) -> None:
     subiu = rodar('tools/files/gdrive', 'put', '--gdoc', '--name', f'tmp-docs-ufrpe-{original.stem}', str(original))
     doc = re.search(r'id:(\S+)', subiu)
@@ -153,7 +160,7 @@ def por_gdoc(original: Path, linha: dict, desc: str, dados: bytes, destino: Path
     destino.parent.mkdir(parents=True, exist_ok=True)
     destino.write_text(frontmatter({
         'description': desc, 'origin': linha['url'], 'origin_checked': datetime.date.today().isoformat(),
-        'sha256': hashlib.sha256(dados).hexdigest(), 'engine': MOTOR_GDOC}) + corpo.strip() + '\n', encoding='utf-8')
+        'sha256': hashlib.sha256(dados).hexdigest(), 'engine': MOTOR_GDOC}) + sem_imagens(corpo).strip() + '\n', encoding='utf-8')
 
 
 def converter(linha: dict, caminho: str, nome: str) -> Path:
@@ -178,6 +185,7 @@ def main(argv: list[str]) -> int:
     ap.add_argument('--limite', type=int)
     ap.add_argument('--seco', action='store_true')
     args = ap.parse_args(argv)
+    sys.stdout.reconfigure(line_buffering=True)  # o lote leva horas: o log tem de andar junto
     fila = faltantes(vigiar.ler_tsv(vigiar.CENSO), args.setor, args.tipo, convertidos())[:args.limite]
     usados = {p.name for d in PASTA.values() for p in (RAIZ / d).iterdir() if p.is_dir()}
     pendentes, feitos = [], 0
