@@ -90,6 +90,6 @@ Uma verificação automática confere o cabeçalho, a pasta e se o `sha256` bate
 
 ## Licença
 
-Os atos oficiais não são protegidos por direito autoral (Lei 9.610/1998, art. 8º, IV). A edição deste acervo (conversão, organização e descrições) está sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br), e o código (`site/`, `.github/`), sob a [licença MIT](https://opensource.org/license/mit).
+Os atos oficiais não são protegidos por direito autoral (Lei 9.610/1998, art. 8º, IV). A edição deste acervo (conversão, organização e descrições) está sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br), e o código (`site/`, `.github/`), sob a [licença MIT](https://opensource.org/license/mit). O texto das três: [LICENSE](LICENSE).
 
 Como o repositório se organiza por dentro: [CONTEXT.md](CONTEXT.md).
