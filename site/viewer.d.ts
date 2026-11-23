@@ -11,6 +11,8 @@ declare function tabelas(raiz: any): void;
 declare function topo(doc: any): string;
 declare function ligarBusca(app: any, doc: any): void;
 declare const REPO: "https://github.com/lsfcin/docs-ufrpe";
+declare const CADERNO: "notebook/";
+declare const BOTAO_IA: "<a class=\"btn\" href=\"notebook/\" target=\"_blank\" rel=\"noopener\">Perguntar ao NotebookLM ↗</a>";
 declare namespace PASTAS {
     let orientacoes: string;
 }

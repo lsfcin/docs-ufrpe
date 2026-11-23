@@ -5,7 +5,7 @@ Catálogo de **resoluções**, **instruções normativas**, **ofícios**, **form
 
 Cada documento traz o link para o arquivo oficial. Em caso de divergência, prevalece o original. Este não é um site oficial da UFRPE e o acervo ainda é parcial: a ausência de um documento não significa que ele não exista. "Conferido em" é a data em que o texto foi comparado com o original, não garantia de que o documento ainda vale.
 
-**Para uma IA** (NotebookLM, ChatGPT): cole o endereço da página aberta no site, que já traz o texto inteiro, ou [ufrpe.pages.dev/docs/acervo.md](https://ufrpe.pages.dev/docs/acervo.md), todos os documentos num arquivo só, com a data e o índice no topo. A cópia importada não se atualiza: importe de novo depois de uma mudança.
+**Pergunte a uma IA.** O [caderno do NotebookLM](https://ufrpe.pages.dev/docs/notebook/) já tem o acervo inteiro e responde citando o documento e o artigo (requer conta Google). Em outra IA (ChatGPT, Claude, Gemini), cole o endereço da página aberta no site, que já traz o texto inteiro, ou [ufrpe.pages.dev/docs/acervo.md](https://ufrpe.pages.dev/docs/acervo.md), todos os documentos num arquivo só, com a data e o índice no topo. Confira a resposta no original.
 
 ## Organização
 

@@ -1,5 +1,8 @@
 // viewer.js — mostra um .md do docs-ufrpe formatado: faixa com o brasão em negativo, cartão do original oficial, listas legíveis e o caminho para propor correção no GitHub.
 const REPO = 'https://github.com/lsfcin/docs-ufrpe';
+// O caderno público do NotebookLM: /docs/notebook/ é um redirect (site/_redirects), então recriar o caderno não toca no viewer.
+const CADERNO = 'notebook/';
+const BOTAO_IA = `<a class="btn" href="${CADERNO}" target="_blank" rel="noopener">Perguntar ao NotebookLM ↗</a>`;
 const PASTAS = { orientacoes: 'Orientações' };
 const TRAD = { Subdirectory: 'Pasta', File: 'Documento', Description: 'Descrição', Routing: 'Nesta seção' };
 
@@ -36,7 +39,7 @@ function cartao(c) {
   if (!c.origin || !/^https?:/i.test(c.origin)) return '';
   const conferido = data(c.origin_checked) ? ` · conferido em ${data(c.origin_checked)}` : '';
   return `<aside class="cartao">${c.description ? `<p class="desc">${esc(c.description)}</p>` : ''}
-    <p><a class="btn forte" href="${esc(c.origin)}" target="_blank" rel="noopener">Original oficial ↗</a><span class="meta">${conferido}</span></p>
+    <p><a class="btn forte" href="${esc(c.origin)}" target="_blank" rel="noopener">Original oficial ↗</a>${BOTAO_IA}<span class="meta">${conferido}</span></p>
     ${c.needs_review === true ? '<p class="aviso">Texto convertido automaticamente, ainda não revisado. Em caso de divergência, prevalece o original.</p>' : ''}</aside>`;
 }
 
@@ -134,6 +137,10 @@ document.addEventListener('DOMContentLoaded', async () => {
       h1?.remove();
       // O aviso "prevalece o original" do README é para o GitHub; no site, a faixa azul já o dá.
       [...art.querySelectorAll('p')].find((p) => /prevalece o original/.test(p.textContent))?.remove();
+      // O parágrafo "Pergunte a uma IA" do README vira cartão com o botão do caderno: o texto mora só no README.
+      const ia = art.querySelector(`p a[href$="/docs/${CADERNO}"]`)?.closest('p');
+      ia?.replaceWith(Object.assign(document.createElement('aside'), { className: 'cartao',
+        innerHTML: `<p>${BOTAO_IA.replace('class="btn"', 'class="btn forte"')}<span class="meta">requer conta Google</span></p>${ia.outerHTML}` }));
     }
     // A aba leva o mesmo nome que a busca: o rótulo da description; o h1 de um PDF convertido pode ser lixo de OCR.
     const nome = (campos.description || '').match(/^([^:]{2,40}):/)?.[1] || h1?.textContent;
