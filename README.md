@@ -18,7 +18,7 @@ Cada documento traz o link para o arquivo oficial. Em caso de divergência, prev
 
 ## Documentos disponíveis e pendentes
 
-O objetivo é reunir todo documento da UFRPE de interesse geral. Hoje estão disponíveis os de **progressão e promoção docente** e de **PDA** e **RDA** (Plano Docente de Atividades e Relatório Docente de Atividades). O que cada setor publica, link a link, está em [censo.tsv](censo.tsv):
+O objetivo é reunir todo documento da UFRPE de interesse geral. Hoje estão disponíveis os de **progressão e promoção docente**, os de **PDA** e **RDA** (Plano Docente de Atividades e Relatório Docente de Atividades) e tudo o que a **PRPG** (Pró-Reitoria de Pesquisa e Pós-Graduação) publica: resoluções, instruções normativas, formulários e manuais. O que cada setor publica, link a link, está em [censo.tsv](censo.tsv):
 
 <!-- censo:start -->
 Contado em 23/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por arquivo; um arquivo publicado por dois setores conta no primeiro deles.
