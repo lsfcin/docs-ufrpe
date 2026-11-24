@@ -37,7 +37,7 @@ def tabela(censo: dict[str, dict], fontes: list[dict], hoje: str, convertidos: s
     linhas = [f'Contado em {data} por [vigiar.py](.github/scripts/vigiar.py), um link por arquivo; '
               'um arquivo publicado por dois setores conta no primeiro deles. '
               '"Convertidos" conta os que já estão no acervo, fora os atos federais.', '',
-              '| Setor | Fonte | Entram | Convertidos | Ficam de fora | Pendentes |', '|---|---|---|---|---|---|']
+              '| Setor | Convertidos | Fonte | Entram | Ficam de fora | Pendentes |', '|---|---|---|---|---|---|']
     vistos: set[str] = set()
     for setor in dict.fromkeys(f['setor'] for f in fontes):
         meus = [l for u, l in censo.items() if setor in l['setores'].split(',') and u not in vistos]
@@ -48,7 +48,7 @@ def tabela(censo: dict[str, dict], fontes: list[dict], hoje: str, convertidos: s
             site = urllib.parse.urlsplit(meus_links[0])
             paginas = f'[{site.netloc}]({site.scheme}://{site.netloc}/), {len(meus_links)} páginas ([fontes.tsv](fontes.tsv))'
         entram, feitos, fora, pendentes = contagem(meus, convertidos)
-        linhas.append(f'| {setor} | {paginas} | {entram} | {feitos} | {fora} | {pendentes} |')
+        linhas.append(f'| {setor} | {feitos} | {paginas} | {entram} | {fora} | {pendentes} |')
     return '\n'.join(linhas)
 
 
