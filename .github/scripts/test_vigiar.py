@@ -72,6 +72,11 @@ class Tabela(unittest.TestCase):
     def test_o_readme_do_repo_esta_em_dia(self):
         self.assertEqual(vigiar.tabela_offline('conferir'), 0, 'rode vigiar.py --tabela gravar')
 
+    def test_cada_linha_do_censo_tem_todas_as_colunas(self):
+        """Uma edição à mão que come um tab gruda o motivo no título, e a tabela do README mostra os dois juntos."""
+        linhas = [l for l in vigiar.CENSO.read_text(encoding='utf-8').splitlines() if l and not l.startswith('#')]
+        self.assertEqual([l[:80] for l in linhas if l.count('\t') != len(vigiar.COLUNAS) - 1], [])
+
 
 class Triagem(unittest.TestCase):
     def caso(self, nome, titulo='', secao='', pagina=None):

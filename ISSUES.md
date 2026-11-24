@@ -13,7 +13,6 @@
 - [ ] [escaneados-sem-revisao] Quatro normas do PRPG são PDF escaneado, sem texto a comparar, e não passaram pela revisão: `res-006-2015`, `res-108-2016`, `res-cepe-208-2014`, `res-cepe-953-2025-bolsa`. Conferir o OCR contra a página renderizada (`core/run tools/pdf/pymupdf <pdf> --review`).
 - [ ] [entropia-caminho] O bloco de entropia abaixo diz escanear `academy/administration/docs-ufrpe`, o caminho de antes da mudança para `code/`. [src: agent 2026-11-23]
 - [ ] [planalto-timeout] `planalto.gov.br` não responde desta máquina; o texto de um ato federal vem da publicação original na Câmara (`camara.leg.br/legin`), e o `normas.leg.br` (LexML) só monta a página por JavaScript.
-- [ ] [pda-rda-guia-uast] O censo tem `pendente` o `PDA e RDA.pdf` da CAPR da UAST: "Orientações e dúvidas frequentes" (2024), escrito por cinco servidores da UAST sobre a IN GR 01/2024, que vale para toda a UFRPE. Pela regra do alcance, falta decidir se uma orientação de comissão de unidade sobre norma geral entra (Lucas). [src: agent 2026-11-24]
 
 <!-- entropy:start -->
 ## Entropy
