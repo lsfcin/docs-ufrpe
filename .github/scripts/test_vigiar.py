@@ -7,6 +7,7 @@ import unittest
 
 import rede
 import regras
+import tabela_censo
 import vigiar
 
 PAGINA = '''<html><body><h2>Resoluções</h2>
@@ -56,6 +57,22 @@ class Coleta(unittest.TestCase):
             self.assertIn(b'canonical', rede.salvas(Path(pasta))('https://x.ufrpe.br/br/início'))
 
 
+class Tabela(unittest.TestCase):
+    def linha(self, url, decisao='entra', motivo='norma', tipo='norma'):
+        return {'url': url, 'setores': 'PRPG', 'tipo': tipo, 'decisao': decisao, 'motivo': motivo}
+
+    def test_convertidos_contam_so_os_do_setor(self):
+        linhas = [self.linha('a'), self.linha('b'), self.linha('lei', motivo='federal'), self.linha('r', 'fora', 'revogada', '')]
+        entram, feitos, fora, pendentes = tabela_censo.contagem(linhas, {'a', 'lei'})
+        self.assertEqual((entram, feitos, fora, pendentes), ('normas (3, 1 federal)', '1 de 2', 'revogada (1)', '—'))
+
+    def test_a_data_sai_do_proprio_bloco(self):
+        self.assertEqual(tabela_censo.data_contada('<!-- censo:start -->\nContado em 23/11/2026 por x'), '2026-11-23')
+
+    def test_o_readme_do_repo_esta_em_dia(self):
+        self.assertEqual(vigiar.tabela_offline('conferir'), 0, 'rode vigiar.py --tabela gravar')
+
+
 class Triagem(unittest.TestCase):
     def caso(self, nome, titulo='', secao='', pagina=None):
         return regras.classificar(f'https://x/{nome}', titulo, secao, pagina, 2026)
@@ -70,6 +87,7 @@ class Triagem(unittest.TestCase):
         self.assertEqual(self.caso('MODELO HISTÓRICOS CNE.docx')[0], 'modelo')
         # 23/11/2026: o que a PROGEPE publica sem palavra-chave das regras antigas.
         self.assertEqual(self.caso('768.26-GR-ALTERAR_PORT._682.2026-GR.pdf')[2], 'ato sobre pessoas')
+        self.assertEqual(self.caso('1244.26-GR-DESIGNAR_Comisso_de_RSC_dos_TAEs.pdf')[2], 'ato sobre pessoas')
         self.assertEqual(self.caso('Processo 322032 2023.pdf', 'Resolução 458/2023')[2], 'norma')
         self.assertEqual(self.caso('D12246_dispensa para exames.pdf')[2], 'federal')
         self.assertEqual(self.caso('Tabela Carreira EBTT - 01MAI2023.pdf')[0], 'tabela')

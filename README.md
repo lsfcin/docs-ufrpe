@@ -21,16 +21,16 @@ Cada documento traz o link para o arquivo oficial. Em caso de divergência, prev
 O objetivo é reunir todo documento da UFRPE de interesse geral. Hoje estão disponíveis os de **progressão e promoção docente**, os de **PDA** e **RDA** (Plano Docente de Atividades e Relatório Docente de Atividades) e tudo o que a **PRPG** (Pró-Reitoria de Pesquisa e Pós-Graduação) publica: resoluções, instruções normativas, formulários e manuais. O que cada setor publica, link a link, está em [censo.tsv](censo.tsv):
 
 <!-- censo:start -->
-Contado em 24/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por arquivo; um arquivo publicado por dois setores conta no primeiro deles.
+Contado em 24/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por arquivo; um arquivo publicado por dois setores conta no primeiro deles. "Convertidos" conta os que já estão no acervo, fora os atos federais.
 
-| Setor | Fonte | Entram | Ficam de fora | Pendentes |
-|---|---|---|---|---|
-| PROGEPE | [/documentos](https://www.progepe.ufrpe.br/documentos) | formulários (266), normas (89, 15 federais), orientações (76), tabelas (27) | ato sobre pessoas (19), procedimento específico (5) | sem motivo (2) |
-| Reitoria | [/documentos-e-relatórios-ufrpe](https://ufrpe.br/documentos-e-relat%C3%B3rios-ufrpe/) | normas (6, 3 federais), orientações (1) | relatório (41), versão superada (4) | — |
-| PRPG | [/resolucoes](https://prpg.ufrpe.br/resolucoes), [/pt-br/resolucoes-revogadas](https://prpg.ufrpe.br/pt-br/resolucoes-revogadas), [/formularios](https://prpg.ufrpe.br/formularios) | calendários (1), formulários (28), normas (45, 3 federais), orientações (6) | revogada (26), relatório (3), divulgação (1) | — |
-| PREG | [preg.ufrpe.br](https://preg.ufrpe.br/), 15 páginas ([fontes.tsv](fontes.tsv)) | calendários (3), formulários (41), normas (22), orientações (14) | memória de reunião (21), versão superada (14) | sem motivo (1) |
-| PROGESTI | [www.progesti.ufrpe.br](https://www.progesti.ufrpe.br/), 6 páginas ([fontes.tsv](fontes.tsv)) | formulários (14), normas (32) | procedimento específico (1), ato sobre pessoas (1) | — |
-| SEG | [seg.ufrpe.br](https://seg.ufrpe.br/), 4 páginas ([fontes.tsv](fontes.tsv)) | formulários (5), normas (2), orientações (1) | divulgação (6) | — |
+| Setor | Fonte | Entram | Convertidos | Ficam de fora | Pendentes |
+|---|---|---|---|---|---|
+| PROGEPE | [/documentos](https://www.progepe.ufrpe.br/documentos) | formulários (266), normas (89, 15 federais), orientações (76), tabelas (27) | 17 de 443 | ato sobre pessoas (20), procedimento específico (5) | sem motivo (1) |
+| Reitoria | [/documentos-e-relatórios-ufrpe](https://ufrpe.br/documentos-e-relat%C3%B3rios-ufrpe/) | normas (6, 3 federais), orientações (1) | 0 de 4 | relatório (41), versão superada (4) | — |
+| PRPG | [/resolucoes](https://prpg.ufrpe.br/resolucoes), [/pt-br/resolucoes-revogadas](https://prpg.ufrpe.br/pt-br/resolucoes-revogadas), [/formularios](https://prpg.ufrpe.br/formularios) | calendários (1), formulários (28), normas (45, 3 federais), orientações (6) | 74 de 77 | revogada (26), relatório (3), divulgação (1) | — |
+| PREG | [preg.ufrpe.br](https://preg.ufrpe.br/), 15 páginas ([fontes.tsv](fontes.tsv)) | calendários (3), formulários (41), normas (22), orientações (14) | 0 de 80 | memória de reunião (21), versão superada (14) | sem motivo (1) |
+| PROGESTI | [www.progesti.ufrpe.br](https://www.progesti.ufrpe.br/), 6 páginas ([fontes.tsv](fontes.tsv)) | formulários (14), normas (32) | 0 de 46 | procedimento específico (1), ato sobre pessoas (1) | — |
+| SEG | [seg.ufrpe.br](https://seg.ufrpe.br/), 4 páginas ([fontes.tsv](fontes.tsv)) | formulários (5), normas (2), orientações (1) | 0 de 8 | divulgação (6) | — |
 <!-- censo:end -->
 
 A PROExC não publica lista de documentos (23/11/2026). As resoluções do CONSU, do CEPE e do CURA ficam cada uma numa página da SEG, achada só pela busca dela, e ainda não entraram no censo.

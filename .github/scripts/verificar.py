@@ -74,9 +74,9 @@ def lugar(rel: Path) -> str | None:
         return f'fora das pastas {", ".join(PASTAS)}'
     if not NOME.match(rel.stem):
         return f'nome "{rel.stem}" não é minúsculo-com-hífens'
-    if partes[:2] == ('normas', 'federais') and len(partes) == 3:
+    if federal(rel) and len(partes) == 3:
         return None
-    dentro = partes[2:] if partes[:2] == ('normas', 'federais') else partes[1:]
+    dentro = partes[2:] if federal(rel) else partes[1:]
     if len(dentro) != 2 or dentro[0] != rel.stem:
         return f'o arquivo deve ser {partes[0]}/<nome>/<nome>.md'
     return None
@@ -93,7 +93,7 @@ def conferir(rel: Path, texto: str, hoje: datetime.date) -> tuple[list[str], lis
         erros.append('falta description')
     elif not ROTULO.match(campos['description']):
         erros.append('description começa pelo nome do documento, até 40 caracteres, e dois-pontos ("Res. CONSU 009/2019: …"): é o nome no site e na busca')
-    elif rel.parts[0] == 'normas' and rel.parts[1] != 'federais' and NORMA.match(n := nome(campos['description'])) and not NORMA_CANONICA.match(n):
+    elif rel.parts[0] == 'normas' and not federal(rel) and NORMA.match(n := nome(campos['description'])) and not NORMA_CANONICA.match(n):
         erros.append(f'o nome "{n}" foge do padrão das normas: "Res. CEPE 609/2023", "Res. CONSU 435-A/2024", "IN PRPG 01/2026"')
     origem = campos.get('origin')
     if not isinstance(origem, str) or not origem.startswith(('https://', 'http://')):
@@ -108,7 +108,7 @@ def conferir(rel: Path, texto: str, hoje: datetime.date) -> tuple[list[str], lis
             erros.append(f'linha {n}: caractere estranho "{m.group()}" (lixo de OCR? apague ou transcreva)')
     sha = campos.get('sha256')
     if sha is None:
-        if rel.parts[:2] != ('normas', 'federais'):
+        if not federal(rel):
             avisos.append('sem sha256: o mantenedor completa antes do merge')
     elif not isinstance(sha, str) or not HASH.match(sha):
         erros.append('sha256 tem de ter 64 caracteres hexadecimais')
@@ -126,6 +126,20 @@ def documentos(nomes: list[str]) -> list[Path]:
         caminhos = [p.relative_to(RAIZ) for p in RAIZ.rglob('*.md') if '.git' not in p.parts]
     return sorted(p for p in caminhos
                   if p.suffix == '.md' and p.name not in FORA and p.parts[0] != '.github' and (RAIZ / p).exists())
+
+
+def federal(rel: Path) -> bool:
+    return rel.parts[:2] == ('normas', 'federais')
+
+
+def origens() -> dict[str, Path]:
+    """O link oficial de cada documento do acervo, na forma do censo (rede.normalizar) → o .md."""
+    achados = {}
+    for rel in documentos([]):
+        origem = (cabecalho((RAIZ / rel).read_text(encoding='utf-8')) or {}).get('origin')
+        if isinstance(origem, str):
+            achados[rede.normalizar(origem, origem)] = rel
+    return achados
 
 
 def main(argv: list[str]) -> int:

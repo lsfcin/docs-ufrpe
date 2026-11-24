@@ -21,7 +21,7 @@ REGRAS: list[tuple[re.Pattern, str, str, str]] = [(re.compile(p), t, d, m) for p
     (r'\blei\b ?(n|\d)|decreto|\bd\d{5}\b|portaria.*\b(mec|capes|cnpq)\b|\b(mec|capes)\b.*portaria|(resolucao|parecer) cne|rces\d|portaria n ?0?92 ?2011|arquivo nacional',
      'norma', 'entra', 'federal'),
     (r'\bedita(l|is)\b|resultado|convocac|classificac|selec(ao|oes)\b|chamada publica', '', 'fora', 'procedimento específico'),
-    (r'\bportaria\b|\bport\b|nomeac|designac|\bprocesso ?\d{15}','', 'fora', 'ato sobre pessoas'),
+    (r'\bportaria\b|\bport\b|nomeac|designa(c|r)|\bprocesso ?\d{15}','', 'fora', 'ato sobre pessoas'),
     (r'relatorio (de )?(gestao|atividades|(parcial |integral )?(de )?auto ?avaliacao|parcial|integral|auditoria|cpa)|relato institucional'
      r'|em numeros|auditoria|dirigente .*controle interno|contr interno', '', 'fora', 'relatório'),
     (r'memoria|reuniao do dia', '', 'fora', 'memória de reunião'),

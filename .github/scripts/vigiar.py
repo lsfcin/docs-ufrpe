@@ -1,5 +1,5 @@
 # vigiar.py — o censo do docs-ufrpe: coleta os links de documento das páginas de cada setor, compara com censo.tsv e diz o que é novo, o que sumiu e qual original mudou.
-"""Uso: python .github/scripts/vigiar.py [--gravar] [--se-passaram N] [--sem-sha] [--de-pasta DIR]
+"""Uso: python .github/scripts/vigiar.py [--gravar] [--se-passaram N] [--sem-sha] [--de-pasta DIR] | --tabela gravar|conferir
 
 fontes.tsv diz quais páginas cada setor publica; censo.tsv guarda cada link achado e a decisão sobre ele
 (entra, fora ou pendente). Um link novo recebe a decisão de regras.py, ou `pendente`; uma decisão já
@@ -24,6 +24,7 @@ from typing import Callable
 
 import rede
 import regras
+import tabela_censo
 import verificar
 
 RAIZ = verificar.RAIZ
@@ -32,11 +33,8 @@ CENSO = RAIZ / 'censo.tsv'
 README = RAIZ / 'README.md'
 ESTADO = RAIZ / '.vigia' / 'ultima.txt'
 COLUNAS = ('url', 'setores', 'tipo', 'decisao', 'motivo', 'titulo', 'data')
-TIPOS = tuple(verificar.PASTA)
-NOMES = {'calendario': 'calendários', 'modelo': 'formulários', 'norma': 'normas', 'orientacao': 'orientações', 'tabela': 'tabelas'}
 DOCUMENTO = re.compile(r'\.(pdf|docx?|odt|ods|odp|rtf|xlsx?|pptx?|zip)$', re.I)
 TITULOS = {'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong', 'b', 'summary', 'button', 'dt'}
-MARCAS = ('<!-- censo:start -->', '<!-- censo:end -->')
 
 class Links(html.parser.HTMLParser):
     """Cada <a> que aponta para um arquivo de documento, com o texto do link e o último título visto antes dele."""
@@ -138,40 +136,22 @@ def aplicar(censo: dict[str, dict], achados: dict[str, dict], novos: list[str], 
         del censo[u]
 
 
-def contagem(linhas: list[dict]) -> tuple[str, str, str]:
-    """As três células de um setor: quantos entram por tipo, e os de fora e os pendentes por motivo."""
-    entram = Counter(l['tipo'] for l in linhas if l['decisao'] == 'entra')
-    federais = sum(1 for l in linhas if l['decisao'] == 'entra' and l['motivo'] == 'federal')
-    partes = [f'{NOMES[t]} ({entram[t]}' + (f', {federais} federais)' if t == 'norma' and federais else ')') for t in TIPOS if entram[t]]
-    def motivos(decisao: str) -> str:
-        n = Counter(l['motivo'] or 'sem motivo' for l in linhas if l['decisao'] == decisao)
-        return ', '.join(f'{m} ({k})' for m, k in n.most_common()) or '—'
-    return ', '.join(partes) or '—', motivos('fora'), motivos('pendente')
-
-
-def tabela(censo: dict[str, dict], fontes: list[dict], hoje: str) -> str:
-    data = datetime.date.fromisoformat(hoje).strftime('%d/%m/%Y')
-    linhas = [f'Contado em {data} por [vigiar.py](.github/scripts/vigiar.py), um link por arquivo; '
-              'um arquivo publicado por dois setores conta no primeiro deles.', '',
-              '| Setor | Fonte | Entram | Ficam de fora | Pendentes |', '|---|---|---|---|---|']
-    vistos: set[str] = set()
-    for setor in dict.fromkeys(f['setor'] for f in fontes):
-        meus = [l for u, l in censo.items() if setor in l['setores'].split(',') and u not in vistos]
-        vistos |= {l['url'] for l in meus}
-        meus_links = [f['pagina'] for f in fontes if f['setor'] == setor]
-        paginas = ', '.join(f'[{urllib.parse.unquote(urllib.parse.urlsplit(p).path).rstrip("/") or "/"}]({p})' for p in meus_links)
-        if len(meus_links) > 3:
-            site = urllib.parse.urlsplit(meus_links[0])
-            paginas = f'[{site.netloc}]({site.scheme}://{site.netloc}/), {len(meus_links)} páginas ([fontes.tsv](fontes.tsv))'
-        entram, fora, pendentes = contagem(meus)
-        linhas.append(f'| {setor} | {paginas} | {entram} | {fora} | {pendentes} |')
-    return '\n'.join(linhas)
-
-
-def refazer_readme(texto_tabela: str) -> None:
+def readme_refeito(censo: dict[str, dict], fontes: list[dict], hoje: str | None = None) -> str:
+    """O README com a tabela do censo e do acervo de agora; sem `hoje`, mantém a data da última coleta."""
     texto = README.read_text(encoding='utf-8')
-    ini, fim = texto.index(MARCAS[0]) + len(MARCAS[0]), texto.index(MARCAS[1])
-    README.write_text(texto[:ini] + '\n' + texto_tabela + '\n' + texto[fim:], encoding='utf-8')
+    data = hoje or tabela_censo.data_contada(texto)
+    return tabela_censo.com_tabela(texto, tabela_censo.tabela(censo, fontes, data, set(verificar.origens())))
+
+
+def tabela_offline(modo: str) -> int:
+    """Sem rede: `gravar` refaz a tabela do README a partir de censo.tsv; `conferir` sai com 1 se ela está velha."""
+    novo = readme_refeito({l['url']: l for l in ler_tsv(CENSO)}, ler_tsv(FONTES))
+    if modo == 'gravar':
+        README.write_text(novo, encoding='utf-8')
+    elif novo != README.read_text(encoding='utf-8'):
+        print('A tabela do censo no README está velha: rode python .github/scripts/vigiar.py --tabela gravar')
+        return 1
+    return 0
 
 
 def shas_mudados() -> list[str]:
@@ -195,7 +175,10 @@ def main(argv: list[str]) -> int:
     ap.add_argument('--se-passaram', type=int, metavar='N', help='só roda se a última coleta completa tem N dias ou mais')
     ap.add_argument('--sem-sha', action='store_true', help='não baixa os originais do acervo')
     ap.add_argument('--de-pasta', type=Path, help='lê páginas salvas em vez da rede')
+    ap.add_argument('--tabela', choices=('gravar', 'conferir'), help='sem rede: refaz ou confere a tabela do README a partir de censo.tsv')
     args = ap.parse_args(argv)
+    if args.tabela:
+        return tabela_offline(args.tabela)
     hoje = datetime.date.today()
     if args.se_passaram is not None and ESTADO.exists():
         if (hoje - datetime.date.fromisoformat(ESTADO.read_text().strip())).days < args.se_passaram:
@@ -220,7 +203,7 @@ def main(argv: list[str]) -> int:
         if falhas:
             print('README não refeito: a tabela só sai de uma coleta completa.')
         else:
-            refazer_readme(tabela(censo, fontes, hoje.isoformat()))
+            README.write_text(readme_refeito(censo, fontes, hoje.isoformat()), encoding='utf-8')
     if not falhas and not args.de_pasta:
         ESTADO.parent.mkdir(exist_ok=True)
         ESTADO.write_text(hoje.isoformat() + '\n')
