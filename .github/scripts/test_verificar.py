@@ -66,6 +66,11 @@ class Acervo(unittest.TestCase):
                 self.assertIsNone(verificar.fora_da_rota(Path('modelos/a/a.md')))
                 self.assertIn('context_synchronizer', verificar.fora_da_rota(Path('modelos/b/b.md')))
 
+    def test_pasta_oculta_nao_e_acervo(self):
+        import indexar
+        self.assertTrue(indexar.oculto(Path('.pytest_cache/README.md')))
+        self.assertFalse(indexar.oculto(Path('normas/a/a.md')))
+
     def test_pasta_fora_do_readme(self):
         readme = '## Organização\n\n' + ''.join(f'| [`{p}/`]({p}/CONTEXT.md) | x |\n' for p in verificar.PASTAS[1:]) + '\n## Outra\n[`calendarios/`]'
         self.assertEqual(verificar.pastas_fora_do_readme(readme), [verificar.PASTAS[0]])

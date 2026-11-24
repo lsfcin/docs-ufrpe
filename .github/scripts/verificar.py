@@ -17,7 +17,7 @@ import urllib.parse
 from pathlib import Path
 
 import rede
-from indexar import MANUTENCAO
+from indexar import MANUTENCAO, oculto
 
 RAIZ = Path(__file__).resolve().parents[2]
 PASTA = {'calendario': 'calendarios', 'modelo': 'modelos', 'norma': 'normas', 'orientacao': 'orientacoes', 'tabela': 'tabelas'}  # tipo do censo → pasta
@@ -126,9 +126,9 @@ def documentos(nomes: list[str]) -> list[Path]:
     if nomes:
         caminhos = [Path(n) for n in nomes]
     else:
-        caminhos = [p.relative_to(RAIZ) for p in RAIZ.rglob('*.md') if '.git' not in p.parts]
+        caminhos = [p.relative_to(RAIZ) for p in RAIZ.rglob('*.md')]
     return sorted(p for p in caminhos
-                  if p.suffix == '.md' and p.name not in FORA and p.parts[0] != '.github' and (RAIZ / p).exists())
+                  if p.suffix == '.md' and p.name not in FORA and not oculto(p) and (RAIZ / p).exists())
 
 
 def federal(rel: Path) -> bool:

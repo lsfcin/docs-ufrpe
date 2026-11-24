@@ -3,11 +3,17 @@
 
 ## v1
 
-- [ ] [lotes-censo] Converter, um tema por lote, cada link `entra` de [censo.tsv](censo.tsv) que ainda não tem `.md`, setor por setor (as contagens estão no README § censo). Pronto quando nenhum `entra` do censo ficar sem documento.
+- [ ] [lotes-censo] Converter, um tema por lote, cada link `entra` de [censo.tsv](censo.tsv) que ainda não tem `.md`, setor por setor (o que falta é a coluna "Convertidos" do README). Pronto quando nenhum `entra` do censo ficar sem documento.
+- [ ] [federais-prpg] Os três atos federais que a PRPG publica e o `converter.py` deixou para a mão: a Lei 11.907/2009 vira uma linha na lista do espelho em [normas/federais/CONTEXT.md](normas/federais/CONTEXT.md); a Portaria CAPES 156/2014 e a Res. CNE 1/2018 entram em texto integral, da publicação oficial. [src: agent 2026-11-24]
+- [ ] [espelho-no-acervo] O `/docs/acervo` (o que a IA e o caderno do NotebookLM leem) não tem o texto das leis que só estão no espelho. No deploy, o `indexar.py` pode puxar do ctresb/leis, no commit fixado, o `.md` de cada lei da lista de `normas/federais/`, sem guardá-lo no git (o painel argon, 24/11/2026). [src: agent 2026-11-24]
 - [ ] [resolucoes-seg] Pôr no censo as resoluções do CONSU, CEPE e CURA, uma página da SEG cada (`seg.ufrpe.br/content/res-no-NNNAAAA`, com Ementa e Tipo). A busca por "resolução" acha 969, de 1997 a 2026, a maioria homologação, convênio ou ato sobre pessoas. O `vigiar.py` só lê links diretos; falta ler a página de cada resolução. Entram na v1 (Lucas, 23/11/2026). Pronto quando cada uma tem linha no censo.
 - [ ] [propesq-proplad] Levantar PROPESQ (propesq.ufrpe.br) e PROPLAD (proplad.ufrpe.br) em [fontes.tsv](fontes.tsv): as home pages não têm link de documento, falta achar as páginas que listam. Entram na v1 (Lucas, 23/11/2026).
 - [ ] [pendentes-censo] Nenhum link `pendente` no censo: cada um ganha `entra` ou `fora` com motivo, por [regras.py](.github/scripts/regras.py) ou à mão.
 - [ ] [issues-abertas] Fechar cada item de [ISSUES.md](ISSUES.md), inclusive os que dependem de terceiros (AGU, MEC/DOU, Arquivo Nacional, Planalto).
+
+## Depois da v1
+
+- [ ] [dc-docs] Um projeto irmão para o DC (Departamento de Computação): os documentos que só valem para ele, os fluxos e os guias, com o não oficial separado do oficial, e link para o docs-ufrpe nas normas gerais em vez de cópia. Decidir depois da v1, reusando o motor daqui (Lucas e o painel, 24/11/2026: abrir agora dobraria a manutenção). [src: agent 2026-11-24]
 
 ## Rejected
 

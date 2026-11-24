@@ -75,8 +75,13 @@ def documento(raiz: Path, arquivo: Path) -> dict:
     return {'doc': arquivo.relative_to(raiz).as_posix(), 'titulo': titulo, 'descricao': descricao, 'texto': puro(corpo)}
 
 
+def oculto(rel: Path) -> bool:
+    return any(parte.startswith('.') for parte in rel.parts)
+
+
 def arquivos(raiz: Path) -> list[Path]:
-    return sorted(p for p in raiz.rglob('*.md') if '.github' not in p.parts and p.name not in (*MANUTENCAO, 'acervo.md')
+    """Os .md publicados; pasta oculta (.github, .pytest_cache, .vigia) não, porque o deploy só vê o que o git carrega."""
+    return sorted(p for p in raiz.rglob('*.md') if not oculto(p.relative_to(raiz)) and p.name not in (*MANUTENCAO, 'acervo.md')
                   and p.relative_to(raiz).as_posix() != 'CONTEXT.md')
 
 

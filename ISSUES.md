@@ -1,21 +1,21 @@
 # docs-ufrpe — Pendências
 > O que sabemos que ainda não está certo neste acervo: primeiro as pendências escritas à mão, e cada número medido dentro do seu próprio bloco gerado.
 
-## Lote 1 ainda não completo
+## Abertas
 
 - [ ] [parecer-agu-00002-2024] O requerimento de acerto financeiro cita o Parecer 00002/2024/CFEDU/SUBCONSU/PGF/AGU, que a PROGEPE não publica. Achar a fonte oficial e converter. Pista (18/11/2026): outras universidades citam o parecer, como a UNIFESSPA na Publica nº 77-2024; nenhuma é fonte oficial da AGU. Pedir à PROGEPE ou procurar no Sapiens da AGU.
 - [ ] [portaria-normativa-mec-10-2014] Altera a Portaria MEC 982/2013; não capturada.
 - [ ] [mec-554-982-dou] As Portarias MEC 554/2013 e 982/2013 vieram de cópias da UFRRJ, não do DOU (in.gov.br): conferir com a publicação oficial. Em 22/11/2026 a busca do in.gov.br não indexa 2013 e o SRU do LexML não achou as duas; falta a página do DOU (pesquisa.in.gov.br, por data e página). A Lei 15.367/2026 (art. 120) passou a comissão de Titular a 75% de externos "nos termos de ato do Ministro": conferir se a 982/2013 foi substituída.
 - [ ] [censo-pendentes-mortos] Dois links seguem `pendente` no censo.tsv porque o arquivo não abre: PREG `Forum de Licenciaturas.pdf` (ww2.preg.ufrpe.br não responde desde 21/11/2026) e PROGEPE `Licença Gestante e Prorrogação.pdf` (sugep.ufrpe.br, 404 em 23/11/2026). Ler o arquivo quando voltar, ou pedir ao setor o link novo, e decidir.
-- [ ] [gestao-documental-federal] Na Reitoria, a metodologia, o código de classificação e a tabela de temporalidade da atividade-fim são do Arquivo Nacional (gov.br, Portaria AN 92/2011), e o de atividade-meio aponta para um link quebrado (`https://cod_classif_tab_temp_ativ_meio_atualizacao_2024.pdf/`). Entram como federais, pela regra do espelho; falta o link vivo da atividade-meio.
+- [ ] [gestao-documental-federal] Na Reitoria, a metodologia, o código de classificação e a tabela de temporalidade da atividade-fim são do Arquivo Nacional (gov.br, Portaria AN 92/2011), e o de atividade-meio aponta para um link quebrado (`https://cod_classif_tab_temp_ativ_meio_atualizacao_2024.pdf/`). Entram como federais em texto integral, porque o espelho não cobre portarias; falta o link vivo da atividade-meio.
 - [ ] [notebook-prpg] O lote PRPG está publicado; o caderno do NotebookLM ainda lê o `/docs/acervo` de antes dele. Reimportar a fonte (Lucas). [src: agent 2026-11-24]
 - [ ] [plano-quebras] `normas/plano-internacionalizacao` repete texto na virada de página (a revisão por argon, 24/11/2026): p. 14 (fim do parágrafo do CGRIFES/FAUBAI/GCUB), p. 37 (início do item 4 de 3.1.2), p. 43 (título "2) Garantia de Acessibilidade…" e "O Núcleo de Internacionalização…"), p. 51 (item 4, Feira), p. 53 ("extensão dos programas de pós-graduação da UFRPE."), p. 87 (referência à Res. CONSU 027/2020, com a URL corrompida); na p. 84 o título 5.2, o parágrafo dela e o início da Tabela 10 se fundiram na Tabela 9; p. 74 e 84 perdem hífen (`Destacase`). Corrigir contra o PDF.
 - [ ] [escaneados-sem-revisao] Quatro normas do PRPG são PDF escaneado, sem texto a comparar, e não passaram pela revisão: `res-006-2015`, `res-108-2016`, `res-cepe-208-2014`, `res-cepe-953-2025-bolsa`. Conferir o OCR contra a página renderizada (`core/run tools/pdf/pymupdf <pdf> --review`).
 - [ ] [correcao-a-mao] Nada marca no `.md` que ele tem correção à mão (Res. 009 Anexo III, Res. 042 revogada, notas do parecer AGU, `res-cepe-059-2020`, o calendário PRPG reescrito): um `converter.py --refazer` ou `pymupdf --force` apaga a correção sem avisar. O twin precisa de um campo (o `reviewed_by` já existe e é o candidato) que faça o motor recusar sobrescrever sem `--force` explícito no arquivo, e o `--refazer` pular esses. [src: agent 2026-11-24]
 - [ ] [calendario-vigente] O censo marca `entra` três calendários acadêmicos do PREG (2024-2025, 2025 e 2026); só o vigente deve entrar, e a regra de `regras.py` deixa passar quem tem o ano anterior no nome. [src: agent 2026-11-24]
 - [ ] [entropia-caminho] O bloco de entropia abaixo diz escanear `academy/administration/docs-ufrpe`, o caminho de antes da mudança para `code/`. [src: agent 2026-11-23]
-- [ ] [indice-32-31] Em 23/11/2026, `make verify-full` indexou 32 documentos na cópia de trabalho e o `publicar.py` indexou 31 a partir do `main`, com a árvore limpa. Achar qual `.md` o índice local conta e o deploy não. [src: agent 2026-11-23]
-- [ ] [planalto-timeout] `planalto.gov.br` não responde desta máquina; as federais apontam para `normas.leg.br` (LexML).
+- [ ] [planalto-timeout] `planalto.gov.br` não responde desta máquina; o texto de um ato federal vem da publicação original na Câmara (`camara.leg.br/legin`), e o `normas.leg.br` (LexML) só monta a página por JavaScript.
+- [ ] [pda-rda-guia-uast] O censo tem `pendente` o `PDA e RDA.pdf` da CAPR da UAST: "Orientações e dúvidas frequentes" (2024), escrito por cinco servidores da UAST sobre a IN GR 01/2024, que vale para toda a UFRPE. Pela regra do alcance, falta decidir se uma orientação de comissão de unidade sobre norma geral entra (Lucas). [src: agent 2026-11-24]
 
 <!-- entropy:start -->
 ## Entropy
