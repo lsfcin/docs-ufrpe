@@ -13,7 +13,7 @@ RASCUNHO: Incomplete
 NUMERACAO: Incomplete
 PREFIXO: Incomplete
 LINHA_DESCRICAO: Incomplete
-INSTRUCAO: str
+INSTRUCAO: Incomplete
 
 def rascunho(descricao: str, setor: str | None = None) -> bool: ...
 def corpo_limpo(texto: str) -> str: ...

@@ -26,7 +26,7 @@ import verificar
 
 RAIZ = verificar.RAIZ
 CORPO_MAX = 6000   # com 2500 um modelo leu o calendário errado: o corte tem de pegar o documento quase todo
-DESCRICAO_MAX = 300
+DESCRICAO_MAX = 180  # as do lote 1 têm mediana de 115; com 300, o deepseek escrevia 200 e o Nome virava seção do texto
 TEMPO = 300        # segundos por chamada; o deepseek leva ~10 s e o codex ~20 s
 CODEX = Path('/usr/lib/chatgpt/resources/codex')
 MODELO_CODEX = 'gpt-6-luna'
@@ -36,8 +36,10 @@ RASCUNHO = re.compile(r' \(([A-Z]+)\)\.$')  # o que converter.descricao grava: `
 NUMERACAO = re.compile(r'^(?:(?:\d+|N)[.)]|[-*•])\s*')
 PREFIXO = re.compile(r'^description:\s*', re.I)
 LINHA_DESCRICAO = re.compile(r'^description:[^\r\n]*', re.M)
-INSTRUCAO = ('Escreva a linha `description` deste documento. Formato: `Nome: resto.` — Nome até 40 caracteres, sem dois-pontos; '
-             'depois, para que serve e quem usa, numa frase. Sem inventar. Expanda sigla só se o texto a expandir. '
+INSTRUCAO = ('Escreva a linha `description` deste documento. Formato: `Nome: resto.` — Nome até 40 caracteres, sem dois-pontos, '
+             'diz o que o documento é: o tipo e o número quando houver (Res. CEPE 123/2024, IN PRPG 01/2026, Formulário de …, '
+             'Manual do …), nunca um programa, anexo ou seção de dentro dele; depois, para que serve e quem usa, numa frase. '
+             f'Tudo em até 140 caracteres (nunca mais de {DESCRICAO_MAX}). Sem inventar. Expanda sigla só se o texto a expandir. '
              'Responda só com essa linha, sem numeração nem aspas.')
 
 
