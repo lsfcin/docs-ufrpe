@@ -20,6 +20,7 @@ Os servidores UFRPE filtram o User-Agent de curl e não mandam o certificado int
 
 | Subdirectory | Description |
 |--------------|-------------|
+| [`calendarios/`](calendarios/CONTEXT.md) | Calendários da UFRPE em vigor: as datas do ano letivo de cada nível de ensino. Cada um vale para o período no nome. |
 | [`modelos/`](modelos/CONTEXT.md) | Formulários e requerimentos oficiais em Markdown, tabelas preservadas; o original editável (.doc/.docx) fica no Drive, no mesmo caminho. |
 | [`normas/`](normas/CONTEXT.md) | Resoluções do CONSU/CEPE e instruções normativas da UFRPE: atos gerais, com força de regra. As federais que elas aplicam ficam em `federais/`. |
 | [`orientacoes/`](orientacoes/CONTEXT.md) | Ofícios-circulares, pareceres da AGU e orientações da PROGEPE: interpretam a regra, não a criam. Cada um vale pelo que diz e por quem assina. |
