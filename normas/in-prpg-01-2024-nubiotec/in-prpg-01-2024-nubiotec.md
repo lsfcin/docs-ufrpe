@@ -92,7 +92,7 @@ Parágrafo único.  Os coordenadores dos laboratórios deverão zelar pelo patri
 
 Art. 9º  Poderão ter acesso aos equipamentos do NUBIOTEC docentes, servidores TécnicoAdministrativos e discentes da UFRPE, que comprovem experiência prévia no uso do equipamento ou que realizem treinamento específico para uso do mesmo. 
 
-Parágrafo único.  Poderão ter acesso ao NUBIOTEC, professores, pessoal técnicoadministrativo ou discente de outras instituições de ensino superior ou  de pesquis ~~as,~~ incorporados pelos diferentes procedimentos legalmente aceitos no País e apoiados por entidades nacionais e estrangeiras. Incluem-se nesse grupo doutores em estágio de Pós-doutoramento, com vinculação a Programas de Pós-graduação da UFRPE ou de outra instituição de ensino superior ou de pesquisa. 
+Parágrafo único.  Poderão ter acesso ao NUBIOTEC, professores, pessoal técnicoadministrativo ou discente de outras instituições de ensino superior ou  de pesquisas, incorporados pelos diferentes procedimentos legalmente aceitos no País e apoiados por entidades nacionais e estrangeiras. Incluem-se nesse grupo doutores em estágio de Pós-doutoramento, com vinculação a Programas de Pós-graduação da UFRPE ou de outra instituição de ensino superior ou de pesquisa. 
 
 Art. 10. O quadro de pessoal Técnico-Administrativo do NUBIOTEC será constituído por técnico-administrativos da UFRPE lotados neste Órgão, de acordo com as normas previstas pelo Regimento e Estatuto da Universidade. 
 
@@ -170,7 +170,7 @@ assegurar maior rapidez e objetividade às decisões;
 
 III - exercer o poder disciplinar na esfera de suas atribuições; 
 
-IV - submeter à aprovação do Conselho Gestor o plano de trabalho do ~~s~~ Laboratóri ~~os~~ sob sua coordenação, com a respectiva previsão de despesas, dentro do prazo fixado na forma do Regimento da Universidade; 
+IV - submeter à aprovação do Conselho Gestor o plano de trabalho dos Laboratórios sob sua coordenação, com a respectiva previsão de despesas, dentro do prazo fixado na forma do Regimento da Universidade; 
 
 
 

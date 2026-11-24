@@ -14,7 +14,6 @@ reviewed_by: null
 
 <!-- page 1 -->
 
-# 0 
 
 ## **MINISTÉRIO DA EDUCAÇÃO** 
 
@@ -72,7 +71,6 @@ Confere com o original assinado pelo  Reitor  e arquivado nesta Secretaria Geral
 
 <!-- page 3 -->
 
-# 0 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -102,7 +100,6 @@ Confere com o original assinado pelo  Reitor  e arquivado nesta Secretaria Geral
 
 <!-- page 4 -->
 
-# 0 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -128,7 +125,6 @@ Confere com o original assinado pelo  Reitor  e arquivado nesta Secretaria Geral
 
 <!-- page 5 -->
 
-# 0 
 
 **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -154,7 +150,6 @@ Confere com o original assinado pelo  Reitor  e arquivado nesta Secretaria Geral
 
 <!-- page 6 -->
 
-# 0 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 

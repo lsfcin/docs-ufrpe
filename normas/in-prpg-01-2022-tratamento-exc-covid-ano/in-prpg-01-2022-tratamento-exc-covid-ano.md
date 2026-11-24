@@ -174,7 +174,7 @@ Art. 10 Os casos omissos serão resolvidos pela PRPG, ouvida a Coordenação dos
 
 # **UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO PRÓ-REITORIA DE PÓS-GRADUAÇÃO** 
 
-## **REQUERIMENTO TRATAMENTO EXCEPCIONAL PARA DISCENTES DE PÓSGRADUAÇÃO COM COMORBIDADES E CONDIÇÕES OU FATORES DE RISCO PARA AGRAVAMENTO** 
+## **REQUERIMENTO TRATAMENTO EXCEPCIONAL PARA DISCENTES DE PÓSGRADUAÇÃO COM COMORBIDADES E CONDIÇÕES OU FATORES DE RISCO PARA AGRAVAMENTO DA COVID-19** 
 
 Eu, <u>,   discente    regularmente    matriculado(a)    no</u> Programa  de Pós graduação em _________________________________ ,    semestre    letivo ___________, CPF:__________________, solicito a concessão do benefício do tratamento excepcional para discentes de Pós-graduação com comorbidades e condições ou fatores de risco conforme Instrução Normativa – PRPG - 01/2022. 
 

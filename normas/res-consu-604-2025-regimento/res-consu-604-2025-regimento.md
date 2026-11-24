@@ -252,7 +252,6 @@ Confere com a original assinada pela Reitora e arquivada nesta Secretaria Geral.
 
 <!-- page 6 -->
 
-# 8 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
@@ -350,7 +349,6 @@ Confere com a original assinada pela Reitora e arquivada nesta Secretaria Geral.
 
 <!-- page 8 -->
 
-# 8 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
@@ -404,7 +402,6 @@ Confere com a original assinada pela Reitora e arquivada nesta Secretaria Geral.
 
 <!-- page 9 -->
 
-# 8 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
@@ -464,7 +461,6 @@ Confere com a original assinada pela Reitora e arquivada nesta Secretaria Geral.
 
 <!-- page 10 -->
 
-# 8 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 

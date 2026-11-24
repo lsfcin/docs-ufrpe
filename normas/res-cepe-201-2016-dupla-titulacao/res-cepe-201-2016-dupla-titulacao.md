@@ -186,7 +186,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 <!-- page 6 -->
 
-# 0 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 

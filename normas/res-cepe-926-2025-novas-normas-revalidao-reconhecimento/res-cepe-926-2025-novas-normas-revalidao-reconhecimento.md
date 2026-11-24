@@ -1070,7 +1070,6 @@ Confere com o original assinado pela Reitora em exercício e arquivado nesta Sec
 
 <!-- page 29 -->
 
-# 4 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENISNO, PESQUISA E EXTENSÃO** 
 

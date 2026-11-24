@@ -108,7 +108,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 <!-- page 4 -->
 
-## 0 
 
 ### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -140,9 +139,9 @@ k) participação de alunos em cursos ou disciplinas em outro PPG, desde que est
 
 l) aquisição e manutenção de tecnologias em informática e da informação caracterizadas como custeio. 
 
-§ 1 - A análise de mérito e de priorização das despesas será de responsabilidade dos PPGs e respeitará os procedimentos administrativos de cada instituição, conforme o parágrafo único do Art. 6 desta resolução. 
+§ 1º - A análise de mérito e de priorização das despesas será de responsabilidade dos PPGs e respeitará os procedimentos administrativos de cada instituição, conforme o parágrafo único do Art. 6 desta resolução. 
 
-§ 2 - Poderão ser utilizados outros elementos de despesa, além dos previstos no inciso I deste artigo, desde que guardem consonância com os objetivos dispostos no Art.1 , que sejam vinculados às atividades-fim da pós-graduação e que estejam 
+§ 2º - Poderão ser utilizados outros elementos de despesa, além dos previstos no inciso I deste artigo, desde que guardem consonância com os objetivos dispostos no Art.1º, que sejam vinculados às atividades-fim da pós-graduação e que estejam 
 
 Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral. 
 
@@ -176,13 +175,12 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 <!-- page 6 -->
 
-# 0 
 
 ### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
 (ANEXO DA RESOLUÇÃO N°  059/2020 DO CEPE.) 
 
-Art. 8 - Os casos não especificados nessa resolução serão avaliados pela Coordenação de Gestão Financeira da PRPPG/UFRPE. 
+Art. 8º - Os casos não especificados nessa resolução serão avaliados pela Coordenação de Gestão Financeira da PRPPG/UFRPE. 
 
 SALA DOS CONSELHOS DA UFRPE, em  21  de fevereiro  de 2020. 
 

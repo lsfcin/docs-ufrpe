@@ -14,7 +14,6 @@ reviewed_by: null
 
 <!-- page 1 -->
 
-## 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -40,7 +39,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 2 -->
 
-### 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -58,7 +56,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 3 -->
 
-## 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -94,7 +91,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 4 -->
 
-## 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -136,7 +132,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 5 -->
 
-## 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -172,7 +167,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 6 -->
 
-## 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -218,7 +212,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 7 -->
 
-## 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -268,7 +261,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 8 -->
 
-## 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -312,7 +304,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 9 -->
 
-## 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -358,7 +349,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 10 -->
 
-## 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -404,7 +394,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 11 -->
 
-## 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -444,7 +433,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 12 -->
 
-## 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -490,7 +478,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 13 -->
 
-# 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
@@ -538,7 +525,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 <!-- page 14 -->
 
-### 0 
 
 #### **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO DE ENSINO, PESQUISA E EXTENSÃO** 
 
