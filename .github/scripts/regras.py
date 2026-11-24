@@ -11,6 +11,8 @@ import urllib.parse
 
 GENERICO = re.compile(r'^(baixar|download|documento:?|clique aqui|aqui|acesse|link|pdf)$|\.(pdf|docx?)$', re.I)
 ANO = re.compile(r'(?<!\d)(19[89]\d|20[0-4]\d)(?!\d)')
+EXTENSAO = re.compile(r'(\.(pdf|docx?|odt|ods|odp|rtf|xlsx?|pptx?|zip))+$', re.I)
+COPIA = re.compile(r'(\s*\(\d\)|_\d)+$')
 PERIODO = re.compile(r'(?<!\d)(?:19|20)\d\d\s*(?:-|–|_|\.|/| a )\s*((?:19|20)\d\d)(?!\d)')
 
 # (regex sobre "nome do arquivo, título, seção", sem acento e minúsculo; tipo; decisão; motivo).
@@ -43,11 +45,22 @@ def simples(texto: str) -> str:
     return unicodedata.normalize('NFKD', texto).encode('ascii', 'ignore').decode().lower()
 
 
-def titulo(texto_do_link: str, secao: str) -> str:
-    """O texto do link, ou a seção quando ele não diz nada ("Baixar", o nome do arquivo)."""
+def nome_do_arquivo(url: str) -> str:
+    """O nome do arquivo do link, legível: sem extensão, sem o sufixo de cópia (_0, (1)) e com espaços."""
+    nome = urllib.parse.unquote(urllib.parse.urlsplit(url).path.rsplit('/', 1)[-1])
+    nome = unicodedata.normalize('NFC', EXTENSAO.sub('', nome))
+    return ' '.join(COPIA.sub('', nome).replace('_', ' ').split())
+
+
+def titulo(texto_do_link: str, url: str, titulo_proprio: str = '') -> str:
+    """O texto do link; quando ele não diz nada ("Baixar", "arquivo.pdf"), o título que só este link tem, e senão o nome do arquivo.
+
+    Um título que abre vários links é cabeçalho de grupo ("Contato", "Público-alvo"), nunca o nome de um deles."""
     texto = texto_do_link.strip(' -–')
-    vazio = not texto or GENERICO.search(texto)
-    return secao if vazio and not GENERICO.search(secao.strip()) else texto
+    if texto and not GENERICO.search(texto):
+        return texto
+    proprio = titulo_proprio.strip()
+    return proprio if proprio and not GENERICO.search(proprio) else nome_do_arquivo(url)
 
 
 def regra_da_pagina(campo: str) -> tuple[bool, tuple[str, str, str]] | None:

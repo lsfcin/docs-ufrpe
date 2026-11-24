@@ -102,8 +102,10 @@ def coletar(fontes: list[dict], ler: Callable[[str], bytes]) -> tuple[dict[str, 
         except (OSError, ValueError) as e:
             falhas.setdefault(setor, []).append(f'{pagina}: {e}')
             continue
-        for url, texto_link, secao in links(texto, pagina):
-            titulo = regras.titulo(texto_link, secao)
+        achados_da_pagina = links(texto, pagina)
+        links_por_secao = Counter(secao for _, _, secao in achados_da_pagina)
+        for url, texto_link, secao in achados_da_pagina:
+            titulo = regras.titulo(texto_link, url, secao if links_por_secao[secao] == 1 else '')
             item = achados.setdefault(url, {'setores': set(), 'paginas': set(), 'titulo': titulo, 'secao': secao})
             item['setores'].add(setor)
             item['paginas'].add(pagina)
@@ -120,17 +122,18 @@ def comparar(censo: dict[str, dict], achados: dict[str, dict], falhas: dict[str,
 
 
 def aplicar(censo: dict[str, dict], achados: dict[str, dict], novos: list[str], sumidos: list[str], fontes: list[dict], hoje: str) -> None:
-    """Grava os novos com a triagem de regras.py; a regra de página só vale se todas as páginas do link a têm."""
+    """Grava os novos com a triagem de regras.py; a regra de página só vale se todas as páginas do link a têm.
+    O título de todo link achado é refeito a cada coleta; a decisão gravada, nunca."""
     da_pagina = {f['pagina']: regras.regra_da_pagina(f.get('regra') or '') for f in fontes}
     for u in novos:
         a = achados[u]
         pagina = {da_pagina[p] for p in a['paginas']}
         tipo, decisao, motivo = regras.classificar(u, a['titulo'], a['secao'], pagina.pop() if len(pagina) == 1 else None,
                                                    datetime.date.fromisoformat(hoje).year)
-        titulo = (a['titulo'] or a['secao']).replace('\t', ' ')
-        censo[u] = {'url': u, 'setores': '', 'tipo': tipo, 'decisao': decisao, 'motivo': motivo, 'titulo': titulo, 'data': hoje}
+        censo[u] = {'url': u, 'setores': '', 'tipo': tipo, 'decisao': decisao, 'motivo': motivo, 'data': hoje}
     for u, a in achados.items():
         censo[u]['setores'] = ','.join(sorted(set(filter(None, censo[u]['setores'].split(','))) | a['setores']))
+        censo[u]['titulo'] = a['titulo'].replace('\t', ' ')
     for u in sumidos:
         del censo[u]
 

@@ -22,9 +22,26 @@ class Coleta(unittest.TestCase):
         self.assertEqual({u for u, _, _ in achados}, {
             'https://x.ufrpe.br/sites/files/RECEPE%20744.2024%20RGG.pdf', 'https://x.ufrpe.br/f/requerimento_geral.docx'})
 
-    def test_titulo_generico_vira_secao(self):
-        self.assertEqual(regras.titulo('Baixar', 'Formulários'), 'Formulários')
-        self.assertEqual(regras.titulo('- PAVI Relatório', 'Requerimentos'), 'PAVI Relatório')
+    def test_titulo_generico_vira_nome_do_arquivo_nunca_a_secao(self):
+        url = 'https://x/files/2021-08/Requerimento%20Licen%C3%A7a%20Gestante_0.docx.pdf'
+        self.assertEqual(regras.titulo('Baixar', url), 'Requerimento Licença Gestante')
+        self.assertEqual(regras.titulo('', 'https://x/a/termo_de_opcao%20(1).pdf'), 'termo de opcao')
+        self.assertEqual(regras.titulo('- PAVI Relatório', url), 'PAVI Relatório')
+        self.assertEqual(regras.titulo('recepe_049.pdf', 'https://x/recepe_049.pdf', 'Resolução 049/2008 (Substituída)'),
+                         'Resolução 049/2008 (Substituída)')
+        self.assertEqual(regras.nome_do_arquivo('https://x/recepe_049.pdf'), 'recepe 049')
+
+    def test_cabecalho_de_grupo_nao_vira_titulo(self):
+        pagina = '<strong>Contato</strong><a href="/a.pdf">a.pdf</a><a href="/b.pdf">b.pdf</a><strong>Res. 1/2020</strong><a href="/c.pdf">c.pdf</a>'
+        achados, _ = vigiar.coletar([{'setor': 'S', 'pagina': 'https://x.ufrpe.br/p'}], lambda _: pagina.encode())
+        self.assertEqual(sorted(a['titulo'] for a in achados.values()), ['Res. 1/2020', 'a', 'b'])
+
+    def test_titulo_refeito_decisao_mantida(self):
+        censo = {'u': {'url': 'u', 'setores': 'PROGEPE', 'tipo': 'modelo', 'decisao': 'entra', 'motivo': 'formulário',
+                       'titulo': 'Contato', 'data': '2026-11-23'}}
+        achados = {'u': {'setores': {'PROGEPE'}, 'paginas': {'p'}, 'titulo': 'Requerimento', 'secao': 'Contato'}}
+        vigiar.aplicar(censo, achados, [], [], [], '2026-11-24')
+        self.assertEqual((censo['u']['titulo'], censo['u']['decisao'], censo['u']['data']), ('Requerimento', 'entra', '2026-11-23'))
 
     def test_sumido_so_quando_o_setor_foi_lido(self):
         censo = {'a': {'setores': 'PREG'}, 'b': {'setores': 'PRPG'}}
