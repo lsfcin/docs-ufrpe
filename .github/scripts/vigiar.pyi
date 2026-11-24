@@ -1,11 +1,11 @@
 import html.parser
 from _typeshed import Incomplete
-from pathlib import Path
 from typing import Callable
 
 RAIZ: Incomplete
 FONTES: Incomplete
 CENSO: Incomplete
+ler_tsv: Incomplete
 README: Incomplete
 ESTADO: Incomplete
 COLUNAS: Incomplete
@@ -20,7 +20,6 @@ class Links(html.parser.HTMLParser):
     def handle_data(self, data) -> None: ...
 
 def links(pagina: str, base: str) -> list[tuple[str, str, str]]: ...
-def ler_tsv(caminho: Path) -> list[dict]: ...
 def gravar_censo(censo: dict[str, dict]) -> None: ...
 def coletar(fontes: list[dict], ler: Callable[[str], bytes]) -> tuple[dict[str, dict], dict[str, list[str]]]: ...
 def comparar(censo: dict[str, dict], achados: dict[str, dict], falhas: dict[str, list[str]]) -> tuple[list[str], list[str]]: ...

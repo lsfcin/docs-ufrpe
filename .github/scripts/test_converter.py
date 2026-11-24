@@ -22,7 +22,7 @@ class Fila(unittest.TestCase):
     def test_so_o_entra_do_setor_que_ainda_nao_tem_documento(self):
         feito = linha(url='https://x/feito%20j%C3%A1.pdf')
         linhas = [linha(), feito, linha(decisao='fora'), linha(setores='PREG,PRPG'), linha(tipo='modelo')]
-        sobra = converter.faltantes(linhas, 'PRPG', 'norma', {converter.chave('https://x/feito já.pdf')})
+        sobra = converter.faltantes(linhas, 'PRPG', 'norma', {verificar.chave('https://x/feito já.pdf')})
         self.assertEqual(sobra, [linhas[0]])
 
     def test_cada_formato_pela_sua_rota(self):
@@ -37,7 +37,7 @@ class Fila(unittest.TestCase):
             fila = Path(tmp) / 'fila.tsv'
             fila.write_text('http://x/feito.pdf\tfalhou: ssl\nhttps://x/outro.pdf\tfalhou\nhttps://x/a.xls\t.xls\n', encoding='utf-8')
             with mock.patch.object(converter, 'FILA', fila):
-                converter.gravar_fila([('https://x/a.xls', '.xls')], {converter.chave('https://x/feito.pdf'), 'https://x/a.xls'})
+                converter.gravar_fila([('https://x/a.xls', '.xls')], {verificar.chave('https://x/feito.pdf'), 'https://x/a.xls'})
             self.assertEqual(fila.read_text(encoding='utf-8'), 'https://x/outro.pdf\tfalhou\nhttps://x/a.xls\t.xls\n')
 
 
@@ -78,7 +78,7 @@ class Duplicatas(unittest.TestCase):
                 'origin_note': f'o mesmo formulário circula também em DOCX: {DOCX_DS.replace("Termo", "Termo%20")}, https://x/b.doc.',
                 'sha256': '0' * 64}) + 'corpo\n', encoding='utf-8')
             with mock.patch.object(converter, 'RAIZ', raiz), mock.patch.object(verificar, 'RAIZ', raiz):
-                feitos = converter.convertidos()
+                feitos = verificar.convertidos()
         self.assertEqual(feitos, {PDF_DS, DOCX_DS.replace('Termo', 'Termo '), 'https://x/b.doc'})
 
 
@@ -100,7 +100,7 @@ class Nomes(unittest.TestCase):
 
     def test_refazer_reaproveita_a_pasta_que_o_documento_ja_tem(self):
         usados = {'res-cepe-989-2026-normas-pos-doutorado'}
-        existentes = {converter.chave(linha()['url']): 'res-cepe-989-2026-normas-pos-doutorado'}
+        existentes = {verificar.chave(linha()['url']): 'res-cepe-989-2026-normas-pos-doutorado'}
         self.assertEqual(converter.pasta_do(linha(), usados, existentes), 'res-cepe-989-2026-normas-pos-doutorado')
         novo = linha(url='https://x/res-cepe-989-2026-normas-pos-doutorado.pdf')
         self.assertEqual(converter.pasta_do(novo, usados, existentes), 'res-cepe-989-2026-normas-pos-doutorado-2')

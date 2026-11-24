@@ -7,11 +7,13 @@ Só stdlib: a Action roda sem instalar nada.
 from __future__ import annotations
 
 import argparse
+import csv
 import datetime
 import hashlib
 import json
 import re
 import sys
+import urllib.parse
 from pathlib import Path
 
 import rede
@@ -20,6 +22,7 @@ from indexar import MANUTENCAO
 RAIZ = Path(__file__).resolve().parents[2]
 PASTA = {'calendario': 'calendarios', 'modelo': 'modelos', 'norma': 'normas', 'orientacao': 'orientacoes', 'tabela': 'tabelas'}  # tipo do censo → pasta
 PASTAS = tuple(PASTA.values())
+CENSO = RAIZ / 'censo.tsv'
 FORA = {'CONTEXT.md', 'README.md', *MANUTENCAO}
 NOME = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 DATA = re.compile(r'^\d{4}-\d{2}-\d{2}$')
@@ -132,14 +135,54 @@ def federal(rel: Path) -> bool:
     return rel.parts[:2] == ('normas', 'federais')
 
 
-def origens() -> dict[str, Path]:
-    """O link oficial de cada documento do acervo, na forma do censo (rede.normalizar) → o .md."""
-    achados = {}
+def chave(url: str) -> str:
+    """O mesmo arquivo, a mesma chave, codificado ou não, por http ou https (rede.baixar sobe um ao outro)."""
+    return re.sub(r'^http://', 'https://', urllib.parse.unquote(url).strip())
+
+
+URL_NA_NOTA = re.compile(r'http\S+')
+
+
+def convertidos() -> set[str]:
+    """As origens que já têm documento no acervo, e as que o `origin_note` diz que são o mesmo documento."""
+    feitos = set()
     for rel in documentos([]):
-        origem = (cabecalho((RAIZ / rel).read_text(encoding='utf-8')) or {}).get('origin')
-        if isinstance(origem, str):
-            achados[rede.normalizar(origem, origem)] = rel
-    return achados
+        campos = cabecalho((RAIZ / rel).read_text(encoding='utf-8')) or {}
+        if isinstance(campos.get('origin'), str):
+            feitos.add(chave(campos['origin']))
+        if isinstance(campos.get('origin_note'), str):
+            feitos.update(chave(u.rstrip('.,;:)"\'')) for u in URL_NA_NOTA.findall(campos['origin_note']))
+    return feitos
+
+
+def ler_tsv(caminho: Path) -> list[dict]:
+    if not caminho.exists():
+        return []
+    linhas = [l for l in caminho.read_text(encoding='utf-8').splitlines() if l.strip() and not l.startswith('#')]
+    return list(csv.DictReader(linhas, delimiter='\t', quoting=csv.QUOTE_NONE))
+
+
+def fora_do_censo(rel: Path, campos: dict, no_censo: set[str]) -> str | None:
+    """Erro quando o original não tem linha no censo: o "N de M" do README não o contaria. Ato federal não é de setor."""
+    origem = campos.get('origin')
+    if federal(rel) or not isinstance(origem, str) or chave(origem) in no_censo:
+        return None
+    return 'origin sem linha no censo.tsv: ponha em fontes.tsv a página que publica o original e rode vigiar.py --gravar'
+
+
+def fora_da_rota(rel: Path) -> str | None:
+    """Erro quando o CONTEXT.md da pasta não lista o documento: a página da pasta no site é essa tabela."""
+    pasta = next(p for p in rel.parents if (RAIZ / p / 'CONTEXT.md').exists())
+    alvo = rel.relative_to(pasta).as_posix()
+    if f']({alvo})' in (RAIZ / pasta / 'CONTEXT.md').read_text(encoding='utf-8'):
+        return None
+    return f'{pasta / "CONTEXT.md"} não o lista, e a página da pasta no site também não: rode core/hooks/routing/context_synchronizer.py {pasta}'
+
+
+def pastas_fora_do_readme(readme: str) -> list[str]:
+    """As pastas de documento que a tabela Organização do README não mostra."""
+    organizacao = readme.partition('## Organização')[2].partition('\n## ')[0]
+    return [p for p in PASTAS if f'[`{p}/`]' not in organizacao]
 
 
 def main(argv: list[str]) -> int:
@@ -151,9 +194,11 @@ def main(argv: list[str]) -> int:
     conferidos = {rel: conferir(rel, (RAIZ / rel).read_text(encoding='utf-8'), hoje) for rel in documentos(args.arquivos)}
     nomes = {rel: nome(c['description']) for rel, (_, _, c) in conferidos.items() if isinstance(c.get('description'), str)}
     duplicados = repetidos(nomes)
+    no_censo = {chave(l['url']) for l in ler_tsv(CENSO)}
     for rel, (erros, avisos, campos) in conferidos.items():
         if rel in duplicados:
             erros.append(duplicados[rel])
+        erros.extend(e for e in (fora_do_censo(rel, campos, no_censo), fora_da_rota(rel)) if e)
         if args.online and not erros and campos.get('sha256'):
             try:
                 if baixar_hash(campos['origin']) != campos['sha256']:
@@ -167,6 +212,9 @@ def main(argv: list[str]) -> int:
         if not erros and not avisos:
             print(f'ok    {rel}')
         reprovados += bool(erros)
+    for pasta in pastas_fora_do_readme((RAIZ / 'README.md').read_text(encoding='utf-8')):
+        print(f'ERRO  README.md: a tabela Organização não mostra a pasta {pasta}/')
+        reprovados += 1
     print(f'\n{reprovados} documento(s) com erro')
     return 1 if reprovados else 0
 

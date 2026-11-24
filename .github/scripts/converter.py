@@ -25,7 +25,6 @@ import nomes
 import rede
 import regras
 import verificar
-import vigiar
 
 RAIZ = verificar.RAIZ
 FILA = RAIZ / '.vigia' / 'fila.tsv'
@@ -37,33 +36,14 @@ MOTOR_GDOC = 'Google Docs import + export (gdocs read)'
 TEMPO = 900  # segundos por chamada; um manual só de capturas de tela pede --tempo maior (cada figura vai ao modelo de visão)
 
 
-def chave(url: str) -> str:
-    """O mesmo arquivo, a mesma chave, codificado ou não, por http ou https (rede.baixar sobe um ao outro)."""
-    return re.sub(r'^http://', 'https://', urllib.parse.unquote(url).strip())
-
-
-URL_NA_NOTA = re.compile(r'http\S+')
-
-
 def cabecalhos() -> list[tuple[Path, dict]]:
     """Cada documento do acervo com o seu frontmatter."""
     return [(rel, verificar.cabecalho((RAIZ / rel).read_text(encoding='utf-8')) or {}) for rel in verificar.documentos([])]
 
 
-def convertidos() -> set[str]:
-    """As origens que já têm documento no acervo, e as que o `origin_note` diz que são o mesmo documento."""
-    feitos = set()
-    for _, campos in cabecalhos():
-        if isinstance(campos.get('origin'), str):
-            feitos.add(chave(campos['origin']))
-        if isinstance(campos.get('origin_note'), str):
-            feitos.update(chave(u.rstrip('.,;:)"\'')) for u in URL_NA_NOTA.findall(campos['origin_note']))
-    return feitos
-
-
 def pastas_existentes() -> dict[str, str]:
     """{origem: pasta que o documento já tem}, para o --refazer não criar `-2`."""
-    return {chave(c['origin']): rel.parent.name for rel, c in cabecalhos() if isinstance(c.get('origin'), str) and len(rel.parts) == 3}
+    return {verificar.chave(c['origin']): rel.parent.name for rel, c in cabecalhos() if isinstance(c.get('origin'), str) and len(rel.parts) == 3}
 
 
 def mesmo_formulario(linha: dict) -> tuple[str, str]:
@@ -77,7 +57,7 @@ def faltantes(linhas: list[dict], setor: str, tipo: str | None, feitos: set[str]
     """Os `entra` do setor (o primeiro da coluna setores, como na tabela do README) sem documento. O DOC/DOCX do mesmo
     formulário que um PDF não é convertido: o link dele vai na `duplicatas` da linha do PDF."""
     fila = [l for l in linhas if l['decisao'] == 'entra' and l['setores'].split(',')[0] == setor
-            and (tipo is None or l['tipo'] == tipo) and chave(l['url']) not in feitos]
+            and (tipo is None or l['tipo'] == tipo) and verificar.chave(l['url']) not in feitos]
     pdf = {}
     for l in fila:
         if extensao(l['url']) == 'pdf':
@@ -105,7 +85,7 @@ def rota(linha: dict) -> tuple[str | None, str]:
 
 def pasta_do(linha: dict, usados: set[str], existentes: dict[str, str] | None = None) -> str:
     """No --refazer, quem já tem pasta fica com ela (`existentes`); senão, o nome do padrão do acervo."""
-    return (existentes or {}).get(chave(linha['url'])) or nomes.nome_da_pasta(linha, usados)
+    return (existentes or {}).get(verificar.chave(linha['url'])) or nomes.nome_da_pasta(linha, usados)
 
 
 def descricao(linha: dict) -> str:
@@ -196,7 +176,7 @@ def converter(linha: dict, caminho: str, nome: str, refazer: bool = False, tempo
 def gravar_fila(pendentes: list[tuple[str, str]], resolvidos: set[str]) -> None:
     """Reescreve a fila: sai o que esta rodada tentou ou o acervo já tem, entra o que ficou pendente; o resto fica."""
     antigas = [l.split('\t', 1) for l in FILA.read_text(encoding='utf-8').splitlines() if '\t' in l] if FILA.exists() else []
-    linhas = dict((u, m) for u, m in antigas if chave(u) not in resolvidos)
+    linhas = dict((u, m) for u, m in antigas if verificar.chave(u) not in resolvidos)
     linhas.update(pendentes)
     FILA.parent.mkdir(exist_ok=True)
     FILA.write_text(''.join(f'{u}\t{m}\n' for u, m in linhas.items()), encoding='utf-8')
@@ -212,7 +192,7 @@ def main(argv: list[str]) -> int:
     ap.add_argument('--tempo', type=int, default=TEMPO, help='segundos por PDF antes de desistir')
     args = ap.parse_args(argv)
     sys.stdout.reconfigure(line_buffering=True)  # o lote leva horas: o log tem de andar junto
-    fila = faltantes(vigiar.ler_tsv(vigiar.CENSO), args.setor, args.tipo, set() if args.refazer else convertidos())[:args.limite]
+    fila = faltantes(verificar.ler_tsv(verificar.CENSO), args.setor, args.tipo, set() if args.refazer else verificar.convertidos())[:args.limite]
     usados = {p.name for d in PASTA.values() for p in (RAIZ / d).iterdir() if p.is_dir()}
     existentes = pastas_existentes() if args.refazer else None
     pendentes, feitos = [], 0
@@ -234,7 +214,7 @@ def main(argv: list[str]) -> int:
             pendentes.append((linha['url'], f'falhou: {e}'))
             print(f'      FALHOU {e}')
     if not args.seco:
-        gravar_fila(pendentes, {chave(l['url']) for l in fila} | convertidos())
+        gravar_fila(pendentes, {verificar.chave(l['url']) for l in fila} | verificar.convertidos())
     for u, m in pendentes:
         print(f'fila  {m}  {u}')
     print(f'\n{len(fila)} na fila · {feitos} convertidos · {len(pendentes)} para o mantenedor')

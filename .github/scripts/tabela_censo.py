@@ -25,7 +25,7 @@ def contagem(linhas: list[dict], convertidos: set[str]) -> tuple[str, str, str, 
     plural = f'{federais} federa' + ('l' if federais == 1 else 'is')
     partes = [f'{NOMES[t]} ({por_tipo[t]}' + (f', {plural})' if t == 'norma' and federais else ')') for t in TIPOS if por_tipo[t]]
     do_setor = [l['url'] for l in entram if l['motivo'] != 'federal']
-    feitos = f'{sum(u in convertidos for u in do_setor)} de {len(do_setor)}' if do_setor else '—'
+    feitos = f'{sum(verificar.chave(u) in convertidos for u in do_setor)} de {len(do_setor)}' if do_setor else '—'
     def motivos(decisao: str) -> str:
         n = Counter(l['motivo'] or 'sem motivo' for l in linhas if l['decisao'] == decisao)
         return ', '.join(f'{m} ({k})' for m, k in n.most_common()) or '—'

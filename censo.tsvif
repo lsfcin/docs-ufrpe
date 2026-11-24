@@ -1,6 +1,6 @@
 # censo.tsvif — CSV interface (auto-generated)
 file: censo.tsv
-shape: 278 rows × 7 cols
+shape: 834 rows × 7 cols
 columns:
   - url
   - setores

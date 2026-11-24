@@ -1,4 +1,4 @@
-# test_verificar.py — o que o verificar.py do docs-ufrpe promete sobre o nome: uma norma se chama no padrão do lote 1, e dois documentos nunca têm o mesmo nome.
+# test_verificar.py — o que o verificar.py do docs-ufrpe promete: uma norma se chama no padrão do lote 1, dois documentos nunca têm o mesmo nome, e todo documento está no censo, na rota da pasta e no README.
 """Uso: python -m unittest discover .github/scripts. Só stdlib, sem rede."""
 from __future__ import annotations
 
@@ -44,6 +44,31 @@ class NomeRepetido(unittest.TestCase):
 
     def test_nome_e_o_que_vem_antes_dos_dois_pontos(self):
         self.assertEqual(verificar.nome('IN PRPG 01/2026: bolsas: regras.'), 'IN PRPG 01/2026')
+
+
+class Acervo(unittest.TestCase):
+    """O que liga um documento ao resto: a linha no censo, a rota da pasta e a pasta no README."""
+
+    def test_fora_do_censo_so_reprova_o_que_nao_e_federal(self):
+        campos = {'origin': 'http://prpg.ufrpe.br/a%20b.pdf'}
+        self.assertIsNone(verificar.fora_do_censo(Path('normas/a/a.md'), campos, {'https://prpg.ufrpe.br/a b.pdf'}))
+        self.assertIn('fontes.tsv', verificar.fora_do_censo(Path('normas/a/a.md'), campos, set()))
+        self.assertIsNone(verificar.fora_do_censo(Path('normas/federais/lei.md'), campos, set()))
+
+    def test_fora_da_rota_acha_o_context_mais_proximo(self):
+        import tempfile
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            (raiz / 'modelos' / 'a').mkdir(parents=True)
+            (raiz / 'modelos' / 'CONTEXT.md').write_text('| [`a/a.md`](a/a.md) | A |\n', encoding='utf-8')
+            with mock.patch.object(verificar, 'RAIZ', raiz):
+                self.assertIsNone(verificar.fora_da_rota(Path('modelos/a/a.md')))
+                self.assertIn('context_synchronizer', verificar.fora_da_rota(Path('modelos/b/b.md')))
+
+    def test_pasta_fora_do_readme(self):
+        readme = '## Organização\n\n' + ''.join(f'| [`{p}/`]({p}/CONTEXT.md) | x |\n' for p in verificar.PASTAS[1:]) + '\n## Outra\n[`calendarios/`]'
+        self.assertEqual(verificar.pastas_fora_do_readme(readme), [verificar.PASTAS[0]])
 
 
 if __name__ == '__main__':

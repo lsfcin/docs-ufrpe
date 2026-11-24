@@ -1,10 +1,12 @@
 # fontes.tsv — as páginas em que cada setor da UFRPE lista seus documentos; lido por .github/scripts/vigiar.py. A ordem dos setores é a da tabela do README.
 # regra = tipo:decisao:motivo para o link que só aparece em páginas com regra e que nenhuma regra de regras.py pegou; com ! na frente, vale antes delas.
+# Um documento entra pelo alcance, não pelo site que o hospeda (Lucas, 24/11/2026): a página da CAPR da UAST é a única que publica os apêndices da IN GR 01/2024, que vale para toda a UFRPE, e conta na Reitoria, que a emitiu; o que só vale para uma unidade ou departamento fica fora.
 # PROGEPE: uma página só, sem paginação. PREG: as coordenações (CAPR, CAME, CACL em /cgcl, CPGA, CGCG, CGE) também publicam documentos.
 # PROGESTI (a antiga PRAE): listas paginadas, uma linha por página. SEG (os conselhos): cada resolução é uma página própria, fora desta lista. PROExC: proexc.ufrpe.br só redireciona ao portal, e a página dela no portal não tem documentos (23/11/2026).
 setor	pagina	regra
 PROGEPE	https://www.progepe.ufrpe.br/documentos
 Reitoria	https://ufrpe.br/documentos-e-relat%C3%B3rios-ufrpe/
+Reitoria	https://www.uast.ufrpe.br/br/capr
 PRPG	https://prpg.ufrpe.br/resolucoes	norma:entra:norma
 PRPG	https://prpg.ufrpe.br/pt-br/resolucoes-revogadas	!norma:fora:revogada
 PRPG	https://prpg.ufrpe.br/formularios	modelo:entra:formulário

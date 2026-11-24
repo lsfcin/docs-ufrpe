@@ -12,7 +12,6 @@ Sai com 1 quando alguma página falhou. Só stdlib.
 from __future__ import annotations
 
 import argparse
-import csv
 import datetime
 import html.parser
 import re
@@ -29,7 +28,8 @@ import verificar
 
 RAIZ = verificar.RAIZ
 FONTES = RAIZ / 'fontes.tsv'
-CENSO = RAIZ / 'censo.tsv'
+CENSO = verificar.CENSO
+ler_tsv = verificar.ler_tsv
 README = RAIZ / 'README.md'
 ESTADO = RAIZ / '.vigia' / 'ultima.txt'
 COLUNAS = ('url', 'setores', 'tipo', 'decisao', 'motivo', 'titulo', 'data')
@@ -74,13 +74,6 @@ def links(pagina: str, base: str) -> list[tuple[str, str, str]]:
     leitor = Links(base)
     leitor.feed(pagina)
     return leitor.achados
-
-
-def ler_tsv(caminho: Path) -> list[dict]:
-    if not caminho.exists():
-        return []
-    linhas = [l for l in caminho.read_text(encoding='utf-8').splitlines() if l.strip() and not l.startswith('#')]
-    return list(csv.DictReader(linhas, delimiter='\t', quoting=csv.QUOTE_NONE))
 
 
 def gravar_censo(censo: dict[str, dict]) -> None:
@@ -140,7 +133,7 @@ def readme_refeito(censo: dict[str, dict], fontes: list[dict], hoje: str | None 
     """O README com a tabela do censo e do acervo de agora; sem `hoje`, mantém a data da última coleta."""
     texto = README.read_text(encoding='utf-8')
     data = hoje or tabela_censo.data_contada(texto)
-    return tabela_censo.com_tabela(texto, tabela_censo.tabela(censo, fontes, data, set(verificar.origens())))
+    return tabela_censo.com_tabela(texto, tabela_censo.tabela(censo, fontes, data, verificar.convertidos()))
 
 
 def tabela_offline(modo: str) -> int:

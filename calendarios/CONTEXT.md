@@ -11,5 +11,5 @@
 
 | File | Description |
 |------|-------------|
-| [`calendario-prpg-2026/calendario-prpg-2026.md`](calendario-prpg-2026/calendario-prpg-2026.md) | Calendário acadêmico: CALENDÁRIO PRPG 2026-03-05 (PRPG). |
+| [`calendario-prpg-2026/calendario-prpg-2026.md`](calendario-prpg-2026/calendario-prpg-2026.md) | Calendário PPG Stricto Sensu 2026/2027: prazos de matrícula, seleção, aulas e avaliações, usado pelas coordenações e pela PRPG. |
 <!-- routing:end -->
