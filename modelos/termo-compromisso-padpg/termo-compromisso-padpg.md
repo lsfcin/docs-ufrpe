@@ -6,8 +6,6 @@ sha256: "6019d6f9988dcb0a56f2108213af444d852d77558bdd2d4c5ac0ebaf744b7b1b"
 engine: "Google Docs import + export (gdocs read)"
 ---
 
-
-
 **MINISTÉRIO DA EDUCAÇÃO**   
 **UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO**  
 **PRÓ-REITORIA DE PÓS-GRADUAÇÃO**

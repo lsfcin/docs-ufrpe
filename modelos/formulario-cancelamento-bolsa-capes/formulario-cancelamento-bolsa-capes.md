@@ -21,85 +21,80 @@ reviewed_by: null
 
 <!-- figure p01-fig1 | described_by: agy | ocr_overlap: 1.0 | needs_review: false -->
 **1. Tipo de figura**
-Trata-se de um formulário administrativo em branco (sem preenchimento) da CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior) destinado ao registro de cancelamento de bolsa de estudos.
+Trata-se de um formulário administrativo oficial em branco, em formato de ficha/documento preenchível de página única, referente ao cancelamento de bolsa da CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior).
 
-**2. Todo o texto visível (literalmente)**
+**2. Todo o texto visível (verbatim)**
 
-*Faixa lateral esquerda (cabeçalho institucional):*
+*Coluna lateral esquerda (identificação institucional):*
 - `C A P E S`
 - `Coordenação de`
-- `Aperfeiçoamento de`
-- `Pessoal de`
-- `Nível Superior`
+  `Aperfeiçoamento de`
+  `Pessoal de`
+  `Nível Superior`
 
-*Área principal do formulário (de cima para baixo e da esquerda para a direita):*
-
-Seção 1:
+*Corpo principal do formulário (de cima para baixo):*
 - `Instituição de`
-- `Ensino Superior:`
+  `Ensino Superior:`
 - `Código:`
 - `Programa:`
 - `Código:`
-
-Seção 2:
 - `Nome:`
 - `CPF nº`
 - `Se estrangeiro : Passaporte nº` *(com "Se estrangeiro :" em itálico)*
-
-Seção 3:
 - `Bolsa cancelada em: (mês/ano do último pagamento)` *(com "(mês/ano do último pagamento)" em itálico)*
 - `Motivo do cancelamento da bolsa (informe apenas um)` *(em itálico)*
-- Coluna 1 das caixas de seleção:
-  - `Titulação`
-  - `Critério do curso`
-  - `Prazo de bolsa esgotado`
-  - `Desligado do curso` / `por limite de prazo`
-- Coluna 2 das caixas de seleção:
-  - `Desistência da bolsa`
-  - `Acúmulo de bolsas`
-  - `Mudança de agência`
-  - `Desistência do curso`
-- Coluna 3 das caixas de seleção:
-  - `Mudança de programa CAPES`
-  - `Trancamento de matrícula`
-  - `Insuficiência de aproveitamento`
-  - `Falecimento`
-  - `Não atende às normas do programa`
-
-Seção 4:
+  - Coluna 1:
+    - `Titulação`
+    - `Critério do curso`
+    - `Prazo de bolsa esgotado`
+    - `Desligado do curso`
+      `por limite de prazo`
+  - Coluna 2:
+    - `Desistência da bolsa`
+    - `Acúmulo de bolsas`
+    - `Mudança de agência`
+    - `Desistência do curso`
+  - Coluna 3:
+    - `Mudança de programa CAPES`
+    - `Trancamento de matrícula`
+    - `Insuficiência de aproveitamento`
+    - `Falecimento`
+    - `Não atende às normas do programa`
 - `Se não atende às normas do programa, esclarecer a norma infringida:` *(em itálico)*
-
-Seção 5:
 - `Outros motivos (especificar):` *(em itálico)*
-
-Seção 6:
-- `Assinatura do Presidente` / `da Comissão de Bolsas`
+- `Assinatura do Presidente`
+  `da Comissão de Bolsas`
 - `Data`
-- `mm/aaaa` *(texto indicativo de formato dentro do campo de data)*
+- `mm/aaaa`
 
 **3. Estrutura**
-O formulário possui orientação vertical e é dividido em dois painéis principais lado a lado, com uma estreita margem lateral à direita:
-- **Painel lateral esquerdo:** coluna estreita contendo, no topo, o logotipo da CAPES (linhas elípticas estilizadas em torno de um núcleo central), seguido pela sigla e pelo nome completo da instituição centralizados verticalmente abaixo do logotipo. O restante da coluna abaixo do texto é vazio.
-- **Painel principal (à direita):** delimitado à esquerda por uma linha vertical preta contínua que possui 7 pequenos traços horizontais curtos voltados para a direita (no topo, na base e em 5 divisões intermediárias), separando o formulário em **6 seções verticais**:
-  1. **Dados da instituição e do programa:** contém dois blocos de duas linhas cada, separados por linhas horizontais pretas. O primeiro bloco traz o rótulo `Instituição de Ensino Superior:` com um campo retangular longo à direita (linha 1) e, na linha 2, um campo retangular à esquerda (continuação do nome) seguido pelo rótulo `Código:` e um campo retangular à direita. O segundo bloco repete exatamente o mesmo padrão para `Programa:` e `Código:`.
-  2. **Dados do bolsista:** composto por três linhas horizontais separadas por traços pretos de largura total. A primeira tem `Nome:` seguido por um campo retangular longo; a segunda tem `CPF nº` seguido por um campo retangular curto; a terceira tem `Se estrangeiro : Passaporte nº` seguido por um campo retangular de largura média.
-  3. **Data e motivo do cancelamento:** inicia com uma linha contendo `Bolsa cancelada em: (mês/ano do último pagamento)` seguida por um campo retangular de largura média, sobre uma linha horizontal preta. Abaixo, o enunciado `Motivo do cancelamento da bolsa (informe apenas um)` precede uma grade de **13 caixas de seleção quadradas** vazias com borda preta fina, organizadas em **3 colunas**:
-     - Coluna 1: 4 caixas (a quarta opção tem seu texto quebrado em duas linhas).
-     - Coluna 2: 4 caixas, alinhadas horizontalmente às 4 primeiras da coluna 1.
-     - Coluna 3: 5 caixas, com as 4 primeiras alinhadas às demais colunas e uma 5ª caixa adicional abaixo da linha das outras duas colunas.
-  4. **Esclarecimento sobre norma infringida:** abaixo do enunciado em itálico, há uma área de texto livre composta por **6 faixas retangulares horizontais** empilhadas, delimitadas superior e inferiormente por 7 linhas horizontais pretas.
-  5. **Outros motivos:** abaixo do enunciado em itálico, há outra área de texto livre idêntica à anterior, composta por **6 faixas retangulares horizontais** delimitadas por 7 linhas horizontais pretas.
-  6. **Assinatura e data:** linha única na parte inferior contendo o rótulo em duas linhas `Assinatura do Presidente / da Comissão de Bolsas`, seguido por um campo retangular longo para assinatura, o rótulo `Data` e um campo retangular curto contendo `mm/aaaa`, tudo apoiado sobre uma linha horizontal preta.
+A página tem orientação vertical e divide-se em dois painéis verticais principais, mais uma estreita margem vertical à direita:
+- **Painel esquerdo (faixa institucional):** ocupa cerca de um sexto da largura à esquerda e contém, na parte superior, o logotipo da CAPES (anéis elípticos entrelaçados em torno de um núcleo oval) seguido pela sigla `C A P E S` e pelo nome completo da instituição centralizado em quatro linhas.
+- **Linha divisória vertical com marcadores de seção:** uma linha preta vertical contínua separa o painel esquerdo do corpo do formulário. Dessa linha partem sete pequenos traços horizontais voltados para a direita (no topo, no rodapé e em cinco divisões intermediárias), delimitando **seis seções verticais** empilhadas no painel principal:
+  1. **Seção 1 — Instituição e Programa:** composta por dois blocos de duas linhas cada, separados por linhas horizontais pretas:
+     - Bloco `Instituição de Ensino Superior:`: linha 1 com o rótulo à esquerda e um campo de texto horizontal longo à direita; linha 2 com continuação do campo de texto à esquerda, seguida do rótulo `Código:` e um campo de texto menor à direita.
+     - Bloco `Programa:`: mesma estrutura de duas linhas, com campo de texto longo na linha 1 e continuação + `Código:` + campo menor na linha 2.
+  2. **Seção 2 — Identificação do bolsista:** três linhas empilhadas, cada uma sublinhada por uma linha horizontal preta:
+     - `Nome:` seguido de um campo de texto longo.
+     - `CPF nº` seguido de um campo de texto curto.
+     - `Se estrangeiro : Passaporte nº` seguido de um campo de texto médio.
+  3. **Seção 3 — Data e motivo do cancelamento:**
+     - Linha superior com `Bolsa cancelada em: (mês/ano do último pagamento)` seguido de um campo de texto médio, sublinhado por uma linha horizontal preta.
+     - Abaixo, o cabeçalho `Motivo do cancelamento da bolsa (informe apenas um)` seguido por uma grade de **13 caixas de seleção (quadrados com borda preta, todas desmarcadas)** distribuídas em **3 colunas**: 4 opções na coluna 1 (a quarta com texto em duas linhas), 4 opções na coluna 2 e 5 opções na coluna 3.
+  4. **Seção 4 — Norma infringida:** cabeçalho `Se não atende às normas do programa, esclarecer a norma infringida:` acima de uma área de texto aberta composta por **6 linhas horizontais de preenchimento**, delimitadas acima e abaixo por 7 traços horizontais pretos.
+  5. **Seção 5 — Outros motivos:** cabeçalho `Outros motivos (especificar):` acima de uma área de texto aberta idêntica, com **6 linhas horizontais de preenchimento**, delimitadas por 7 traços horizontais pretos.
+  6. **Seção 6 — Assinatura e data:** linha única na base do formulário com o rótulo em duas linhas `Assinatura do Presidente / da Comissão de Bolsas`, seguido de um campo horizontal para assinatura, o rótulo `Data` e um campo menor contendo o texto-guia `mm/aaaa`, tudo apoiado sobre uma linha horizontal preta.
 
-Não há setas, gráficos ou conexões entre elementos além da hierarquia linear das seções e do alinhamento entre rótulos e seus respectivos campos de preenchimento.
+Não há setas, gráficos, eixos ou conexões diagramáticas; trata-se exclusivamente de um layout linear de formulário tabular/seccional.
 
 **4. Números e valores de dados**
-Não há nenhum número nem dado preenchido no formulário; todos os campos de texto e todas as 13 caixas de seleção estão vazios. O único texto pré-inserido em campo de entrada é a máscara de formato `mm/aaaa` no campo de data, além do símbolo ordinal `nº` nos rótulos de CPF e passaporte.
+Não há nenhum dado preenchido nem valores numéricos no formulário. Todos os campos de texto estão vazios e todas as 13 caixas de seleção estão desmarcadas. O único conteúdo pré-preenchido em campo é a máscara de formato de data `mm/aaaa` no campo `Data`.
 
 **5. Cores com significado**
-- **Branco nos campos retangulares e nas caixas de seleção sobre fundo verde-claro:** o contraste entre os retângulos/quadrados brancos e o fundo verde-claro do corpo do formulário delimita visualmente todos os campos interativos ou editáveis onde o usuário deve escrever ou marcar uma opção.
-- **Cinza na faixa lateral esquerda e na borda direita:** diferencia a área institucional de identificação (e a margem externa) da área preenchível do formulário (em verde-claro).
-- **Azul e verde no logotipo da CAPES:** cores de identidade visual institucional do símbolo (linhas orbitais azuis ao redor de um núcleo verde).
+- **Cinza (painel esquerdo e borda direita):** diferencia a área institucional fixa e a moldura externa da área útil do formulário.
+- **Verde-claro (fundo do painel principal):** identifica o corpo do formulário e serve de fundo para rótulos, instruções e textos fixos.
+- **Branco (retângulos horizontais e quadrados das caixas de seleção):** contrasta com o fundo verde-claro para indicar exatamente os espaços editáveis/preenchíveis (campos de entrada de texto e caixas de marcação).
+- **Azul e verde (logotipo da CAPES):** compõem a identidade visual oficial da instituição (anéis azuis em torno de núcleo verde).
 
 ~~~text ocr
 CAPES

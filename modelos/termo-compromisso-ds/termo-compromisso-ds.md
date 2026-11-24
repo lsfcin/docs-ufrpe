@@ -4,6 +4,7 @@ source: "../termo-compromisso-ds.pdf"
 sha256: "a35e4a1a7eea56d2b9bbb371cb864670799c1e8aa4b6bf34a1fb92bf974af202"
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/TermodeCompromissoDS-DeclaraodeAcmulos.pdf"
 origin_checked: "2026-11-23"
+origin_note: "o mesmo formulário circula também em DOCX: https://prpg.ufrpe.br/sites/default/files/formularios/TermodeCompromissoDS.docx"
 pdf: {"producer": "iLovePDF", "modified": "Tue Oct 17 15:46:51 2023 -03", "pages": 4, "encrypted": false}
 text_layer: "mixed"
 engine: "pymupdf4llm 1.28.2"
@@ -18,23 +19,21 @@ reviewed_by: null
 ![p01-fig1](img/p01-fig1.jpg)
 
 <!-- figure p01-fig1 | described_by: agy | ocr_overlap: None | needs_review: false -->
-1. **Tipo de figura:** Logotipo institucional (logotipo da CAPES).
+1. **Tipo de figura:** Logotipo institucional (marca da CAPES) sobre fundo branco.
 
-2. **Texto visível (literal):**
-   - `CAPES`
-
-   Não há títulos adicionais, legendas, rótulos, notas ou outros textos na imagem.
+2. **Texto visível (verbatim):**
+   - `CAPES` (em letras maiúsculas, fonte sem serifa e em negrito, centralizado na parte inferior; não há outros títulos, rótulos, legendas ou textos).
 
 3. **Estrutura:**
-   A figura é composta por dois elementos empilhados verticalmente e centralizados sobre um fundo branco, sem caixas, setas, eixos, tabelas ou painéis:
-   - **Parte superior (símbolo):** Um círculo sólido central cercado por um traço contínuo espesso que forma dois laços elípticos inclinados e entrelaçados ao redor do centro (lembrando órbitas atômicas). Uma das pontas desse traço estende-se em arco para cima e para a direita, terminando em um pequeno ponto circular preenchido.
-   - **Parte inferior (tipografia):** A sigla `CAPES` em letras maiúsculas, fonte sem serifa e traço espesso, disposta horizontalmente logo abaixo do símbolo e com largura semelhante à dele.
+   - A imagem possui dois elementos dispostos verticalmente: um símbolo gráfico na metade superior e a sigla `CAPES` logo abaixo.
+   - O símbolo gráfico apresenta um círculo sólido central cercado por traços elípticos inclinados e sobrepostos que se entrelaçam formando órbitas estilizadas ao redor do centro. Um dos arcos projeta-se para fora pela parte superior direita, terminando em uma pequena esfera/ponto circular.
+   - Não há caixas, setas, eixos, tabelas, linhas, colunas ou painéis.
 
 4. **Números ou valores de dados:**
-   Nenhum. A imagem não contém números nem dados quantitativos.
+   - Não há números nem valores de dados na figura.
 
 5. **Cores com significado:**
-   As cores compõem a identidade visual da marca e diferenciam o núcleo dos demais elementos: o círculo central é verde; as linhas orbitais (com o ponto na extremidade superior direita) e o texto `CAPES` são azuis, contrastando com o fundo branco.
+   - As cores compõem a identidade visual institucional e diferenciam os elementos do logotipo sobre fundo branco: o círculo central é verde e as órbitas entrelaçadas, o ponto na extremidade superior direita e o texto `CAPES` são azuis.
 
 ~~~text ocr
 CAPES
@@ -153,13 +152,17 @@ _Assinatura do(a) beneficiário(a):_ __________________________________________
 ![p03-fig1](img/p03-fig1.jpg)
 
 <!-- figure p03-fig1 | described_by: agy | ocr_overlap: 1.0 | needs_review: false -->
-1. **Tipo de figura:** Campo de assinatura e carimbo de um documento/formulário oficial (em branco, sem preenchimento).
-2. **Texto visível (literal):**
-   - Na parte superior, centralizado em itálico: `Coordenador(a) do Programa de Pós-Graduação`
-   - Na parte inferior, centralizado em itálico, logo abaixo da linha: `Carimbo e assinatura`
-3. **Estrutura:** Disposição vertical simples composta por um cabeçalho de texto no topo, um amplo espaço em branco central destinado ao carimbo e à assinatura, uma linha horizontal preta contínua (formada por sublinhados consecutivos) que atravessa toda a largura da imagem e a legenda imediatamente abaixo da linha. Não há caixas, setas, eixos, tabelas ou painéis.
-4. **Números ou valores de dados:** Nenhum.
-5. **Cores com significado:** Nenhuma (apenas texto e linha em preto sobre fundo branco/claro).
+1. **Tipo de figura:** Campo de assinatura e carimbo em branco extraído de um formulário ou documento institucional/acadêmico.
+
+2. **Texto visível (ipsis litteris):**
+   - Parte superior (centralizado, em itálico): `Coordenador(a) do Programa de Pós-Graduação`
+   - Parte inferior (centralizado, em itálico, abaixo da linha): `Carimbo e assinatura`
+
+3. **Estrutura:** Bloco único com organização vertical simples. No topo, há o título/rótulo de identificação do signatário centralizado; abaixo dele, um amplo espaço em branco reservado para preenchimento; na parte inferior, uma linha horizontal fina e contínua (com aparência de sequência contígua de sublinhados) que se estende por toda a largura da imagem; e, logo abaixo dessa linha, o rótulo centralizado indicando o que deve ser inserido. Não há caixas, bordas externas, setas, eixos, tabelas ou divisões em painéis.
+
+4. **Números ou valores de dados:** Não há números nem valores de dados na imagem.
+
+5. **Cores com significado:** Nenhuma; a figura é composta apenas por texto e linha pretos sobre fundo branco, sem uso semântico de cor.
 
 ~~~text ocr
 Coordenador(a) do Programa de Pós-Graduação

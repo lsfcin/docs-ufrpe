@@ -1,11 +1,13 @@
 # converter.py — o lote do docs-ufrpe: cada link `entra` do censo que ainda não tem .md vira documento, pelos motores do workspace.
-"""Uso: python .github/scripts/converter.py --setor PRPG [--tipo norma] [--limite N] [--seco]
+"""Uso: python .github/scripts/converter.py --setor PRPG [--tipo norma] [--limite N] [--seco] [--refazer]
 
 Só roda no workspace do mantenedor, porque chama três ferramentas dele por `core/run`: o PDF vai por
 `tools/pdf/pymupdf`, e o DOC e o DOCX sobem ao Drive como Google Doc temporário e voltam por `tools/docs/gdocs
 read`, o que mantém as tabelas em Markdown puro. O original fica ao lado da pasta e não entra no git.
 Não convertem: federal (regra do espelho ctresb/leis), planilha e o que falhar. Esses vão para
-.vigia/fila.tsv com o motivo. --seco só lista o que faria.
+.vigia/fila.tsv com o motivo. --seco só lista o que faria. --refazer converte de novo o que já tem documento
+(cada um na pasta que já tem, e o motor sobrescreve). O mesmo formulário em PDF e em DOC/DOCX vira um documento só,
+o do PDF, e o link do DOC/DOCX vai no `origin_note`.
 """
 from __future__ import annotations
 
@@ -19,6 +21,7 @@ import sys
 import urllib.parse
 from pathlib import Path
 
+import nomes
 import rede
 import regras
 import verificar
@@ -28,15 +31,8 @@ RAIZ = verificar.RAIZ
 FILA = RAIZ / '.vigia' / 'fila.tsv'
 PASTA = {'modelo': 'modelos', 'norma': 'normas', 'orientacao': 'orientacoes', 'tabela': 'tabelas'}
 ROTA = {'pdf': 'pdf', 'doc': 'gdoc', 'docx': 'gdoc'}
-NOME_MAX, PASTA_MAX = 40, 60
-ORGAOS = (('cepe', r'\bcepe\b|\brecepe'), ('consu', r'\bconsu\b|\brecu|\breconsu'), ('cura', r'\bcura\b'), ('prpg', r'\bprpg\b'),
-          ('preg', r'\bpreg\b'), ('progepe', r'\bprogepe\b'), ('progesti', r'\bprogesti\b'))
-# Palavras que não dizem o assunto: artigos, o tipo do ato, o órgão, meses, sobras do nome de arquivo.
-VAZIAS = set('''a o as os e de da do das dos du no na nos nas n em para por com que ao aos sobre pela pelo pdf doc docx word
-ufrpe ufrpe resolucao resolucoes res instrucao normativa in cepe consu cura prpg preg progepe progesti aprova altera
-janeiro fevereiro marco abril maio junho julho agosto setembro outubro novembro dezembro assinado final atualizado
-correto corrigido versao v copia anexo modelo arquivo recepe recu reconsu'''.split())
-COLADA = 16  # uma "palavra" maior que isto é nome de arquivo sem espaço (termodecompromissods)
+NOME_MAX = 40
+FORMATO = r'word|pdf|docx?'  # o que o título diz do formato, e não do formulário
 MOTOR_GDOC = 'Google Docs import + export (gdocs read)'
 
 
@@ -45,20 +41,53 @@ def chave(url: str) -> str:
     return urllib.parse.unquote(url).strip()
 
 
+URL_NA_NOTA = re.compile(r'http\S+')
+
+
+def cabecalhos() -> list[tuple[Path, dict]]:
+    """Cada documento do acervo com o seu frontmatter."""
+    return [(rel, verificar.cabecalho((RAIZ / rel).read_text(encoding='utf-8')) or {}) for rel in verificar.documentos([])]
+
+
 def convertidos() -> set[str]:
-    """As origens que já têm documento no acervo."""
+    """As origens que já têm documento no acervo, e as que o `origin_note` diz que são o mesmo documento."""
     feitos = set()
-    for rel in verificar.documentos([]):
-        campos = verificar.cabecalho((RAIZ / rel).read_text(encoding='utf-8')) or {}
+    for _, campos in cabecalhos():
         if isinstance(campos.get('origin'), str):
             feitos.add(chave(campos['origin']))
+        if isinstance(campos.get('origin_note'), str):
+            feitos.update(chave(u.rstrip('.,;:)"\'')) for u in URL_NA_NOTA.findall(campos['origin_note']))
     return feitos
 
 
+def pastas_existentes() -> dict[str, str]:
+    """{origem: pasta que o documento já tem}, para o --refazer não criar `-2`."""
+    return {chave(c['origin']): rel.parent.name for rel, c in cabecalhos() if isinstance(c.get('origin'), str) and len(rel.parts) == 3}
+
+
+def mesmo_formulario(linha: dict) -> tuple[str, str]:
+    """(tipo, título sem a marca de formato): `TERMO - DS (WORD)` e `TERMO - DS` são o mesmo formulário."""
+    t = regras.simples(linha['titulo'])
+    t = re.sub(rf'\(\s*(?:{FORMATO})\s*\)', ' ', t)
+    return linha['tipo'], ' '.join(re.sub(rf'\s(?:{FORMATO})$', '', ' '.join(t.split())).split())
+
+
 def faltantes(linhas: list[dict], setor: str, tipo: str | None, feitos: set[str]) -> list[dict]:
-    """Os `entra` do setor (o primeiro da coluna setores, como na tabela do README) sem documento."""
-    return [l for l in linhas if l['decisao'] == 'entra' and l['setores'].split(',')[0] == setor
+    """Os `entra` do setor (o primeiro da coluna setores, como na tabela do README) sem documento. O DOC/DOCX do mesmo
+    formulário que um PDF não é convertido: o link dele vai na `duplicatas` da linha do PDF."""
+    fila = [l for l in linhas if l['decisao'] == 'entra' and l['setores'].split(',')[0] == setor
             and (tipo is None or l['tipo'] == tipo) and chave(l['url']) not in feitos]
+    pdf = {}
+    for l in fila:
+        if extensao(l['url']) == 'pdf':
+            pdf.setdefault(mesmo_formulario(l), l)
+    gemeas = {id(l): [] for l in pdf.values()}
+    for l in fila:
+        alvo = pdf.get(mesmo_formulario(l))
+        if alvo and extensao(l['url']) in ('doc', 'docx'):
+            gemeas[id(alvo)].append(l['url'])
+    return [{**l, 'duplicatas': gemeas[id(l)]} if gemeas.get(id(l)) else l for l in fila
+            if not (extensao(l['url']) in ('doc', 'docx') and mesmo_formulario(l) in pdf)]
 
 
 def extensao(url: str) -> str:
@@ -73,40 +102,9 @@ def rota(linha: dict) -> tuple[str | None, str]:
     return (ROTA[ext], '') if ext in ROTA else (None, f'.{ext}: sem rota automática')
 
 
-def palavras(texto: str) -> list[str]:
-    return re.findall(r'[a-z0-9]+', regras.simples(texto))
-
-
-def ato(texto: str) -> list[str]:
-    """`res-cepe-989-2026` ou `in-prpg-01-2026` quando o título ou o arquivo diz que é um ato numerado; senão []."""
-    s = ' '.join(palavras(texto))
-    tipo = 'in' if re.search(r'\binstrucao normativa\b|\bin \d', s) else 'res' if re.search(r'\bres(olucao)?\b|\brecepe|\brecu|\breconsu', s) else ''
-    numero = re.search(r'(?<![a-z0-9])(?:recepe|recu|reconsu|no|n)?\s?(\d{1,4})\s(?:de \d{1,2} de [a-z]+ de )?((?:19|20)\d\d)(?!\d)', s)
-    if not tipo or not numero:
-        return []
-    prefixo = re.search(r'\b(recepe|recu|reconsu)\d', s)
-    orgao = 'cepe' if prefixo and prefixo.group(1) == 'recepe' else 'consu' if prefixo else next((o for o, p in ORGAOS if re.search(p, s)), '')
-    return [tipo, *([orgao] if orgao else []), numero.group(1).zfill(3 if tipo == 'res' else 2), numero.group(2)]
-
-
-def nome_da_pasta(linha: dict, usados: set[str]) -> str:
-    """No padrão do acervo: o ato (`res-cepe-989-2026`) e até quatro palavras de assunto, do título e do nome do arquivo."""
-    arquivo = urllib.parse.unquote(Path(urllib.parse.urlsplit(linha['url']).path).stem)
-    texto = f'{linha["titulo"]} {arquivo}'
-    cabeca = ato(texto)
-    assunto = [p for p in dict.fromkeys(palavras(texto)) if p not in VAZIAS and not re.search(r'\d', p) and p not in cabeca and len(p) <= COLADA]
-    partes = cabeca + assunto[:4 if cabeca else 8]
-    nome = ''
-    for p in partes:
-        if len(nome) + len(p) + 1 > PASTA_MAX:
-            break
-        nome = f'{nome}-{p}' if nome else p
-    nome = nome or 'documento'
-    unico, n = nome, 2
-    while unico in usados:
-        unico, n = f'{nome}-{n}', n + 1
-    usados.add(unico)
-    return unico
+def pasta_do(linha: dict, usados: set[str], existentes: dict[str, str] | None = None) -> str:
+    """No --refazer, quem já tem pasta fica com ela (`existentes`); senão, o nome do padrão do acervo."""
+    return (existentes or {}).get(chave(linha['url'])) or nomes.nome_da_pasta(linha, usados)
 
 
 def descricao(linha: dict) -> str:
@@ -118,8 +116,12 @@ def descricao(linha: dict) -> str:
     return f'{nome}: {resto} ({linha["setores"].split(",")[0]}).'
 
 
+def campo(nome: str, valor: str) -> str:
+    return f'{nome}: {json.dumps(valor, ensure_ascii=False)}\n'
+
+
 def frontmatter(campos: dict) -> str:
-    return '---\n' + ''.join(f'{k}: {json.dumps(v, ensure_ascii=False)}\n' for k, v in campos.items()) + '---\n\n'
+    return '---\n' + ''.join(campo(k, v) for k, v in campos.items()) + '---\n\n'
 
 
 def core_run() -> Path:
@@ -137,8 +139,18 @@ def rodar(*args: str) -> str:
     return r.stdout
 
 
-def por_pdf(original: Path, linha: dict, desc: str) -> None:
-    rodar('tools/pdf/pymupdf', str(original), '--origin', linha['url'], '--description', desc)
+def por_pdf(original: Path, linha: dict, desc: str, refazer: bool = False) -> None:
+    rodar('tools/pdf/pymupdf', str(original), '--origin', linha['url'], '--description', desc, *(['--force'] if refazer else []))
+
+
+def anotar(destino: Path, duplicatas: list[str]) -> None:
+    """Põe o `origin_note` logo depois do `origin_checked`, o que o motor de PDF não sabe escrever."""
+    formatos = '/'.join(dict.fromkeys(extensao(u).upper() for u in duplicatas))
+    nota = campo('origin_note', f'o mesmo formulário circula também em {formatos}: {", ".join(duplicatas)}')
+    texto, n = re.subn(r'^origin_checked:.*\n', lambda m: m.group(0) + nota, destino.read_text(encoding='utf-8'), count=1, flags=re.M)
+    if not n or not verificar.cabecalho(texto):
+        raise OSError(f'sem origin_checked para anotar em {destino.name}')
+    destino.write_text(texto, encoding='utf-8')
 
 
 def sem_imagens(corpo: str) -> str:
@@ -163,7 +175,7 @@ def por_gdoc(original: Path, linha: dict, desc: str, dados: bytes, destino: Path
         'sha256': hashlib.sha256(dados).hexdigest(), 'engine': MOTOR_GDOC}) + sem_imagens(corpo).strip() + '\n', encoding='utf-8')
 
 
-def converter(linha: dict, caminho: str, nome: str) -> Path:
+def converter(linha: dict, caminho: str, nome: str, refazer: bool = False) -> Path:
     """Baixa, guarda o original ao lado e converte; devolve o .md."""
     pasta = RAIZ / PASTA[linha['tipo']]
     original = pasta / f'{nome}.{extensao(linha["url"])}'
@@ -172,9 +184,11 @@ def converter(linha: dict, caminho: str, nome: str) -> Path:
     original.write_bytes(dados)
     desc = descricao(linha)
     if caminho == 'pdf':
-        por_pdf(original, linha, desc)
+        por_pdf(original, linha, desc, refazer)
     else:
         por_gdoc(original, linha, desc, dados, destino)
+    if linha.get('duplicatas'):
+        anotar(destino, linha['duplicatas'])
     return destino
 
 
@@ -184,22 +198,26 @@ def main(argv: list[str]) -> int:
     ap.add_argument('--tipo', choices=sorted(PASTA))
     ap.add_argument('--limite', type=int)
     ap.add_argument('--seco', action='store_true')
+    ap.add_argument('--refazer', action='store_true', help='converte de novo o que já tem documento, na mesma pasta')
     args = ap.parse_args(argv)
     sys.stdout.reconfigure(line_buffering=True)  # o lote leva horas: o log tem de andar junto
-    fila = faltantes(vigiar.ler_tsv(vigiar.CENSO), args.setor, args.tipo, convertidos())[:args.limite]
+    fila = faltantes(vigiar.ler_tsv(vigiar.CENSO), args.setor, args.tipo, set() if args.refazer else convertidos())[:args.limite]
     usados = {p.name for d in PASTA.values() for p in (RAIZ / d).iterdir() if p.is_dir()}
+    existentes = pastas_existentes() if args.refazer else None
     pendentes, feitos = [], 0
     for linha in fila:
         caminho, porque = rota(linha)
-        nome = nome_da_pasta(linha, usados)
+        nome = pasta_do(linha, usados, existentes)
         if caminho is None:
             pendentes.append((linha['url'], porque))
             continue
         print(f'{caminho:4}  {PASTA[linha["tipo"]]}/{nome}')
+        for u in linha.get('duplicatas', []):
+            print(f'      duplicata: {u}')
         if args.seco:
             continue
         try:
-            print(f'      ok {converter(linha, caminho, nome).relative_to(RAIZ)}')
+            print(f'      ok {converter(linha, caminho, nome, args.refazer).relative_to(RAIZ)}')
             feitos += 1
         except (OSError, subprocess.TimeoutExpired) as e:
             pendentes.append((linha['url'], f'falhou: {e}'))

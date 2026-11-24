@@ -15,28 +15,6 @@ reviewed_by: null
 <!-- page 1 -->
 
 
-![p01-fig1](img/p01-fig1.jpg)
-
-<!-- figure p01-fig1 | described_by: agy | ocr_overlap: None | needs_review: false -->
-1. **Tipo de figura:** Emblema heráldico oficial — o Brasão de Armas do Brasil — apresentado como uma imagem isolada em baixa resolução (94 × 93 pixels, com aspecto borrado), sem título, moldura ou legenda externa.
-
-2. **Texto visível:** Na faixa azul situada na base do emblema há inscrições em letras amarelas distribuídas ao longo das dobras da fita, porém nenhum caractere é legível devido à baixa resolução:
-   - Faixa central (linha superior): `[illegible]`
-   - Faixa inferior esquerda: `[illegible]`
-   - Faixa inferior direita: `[illegible]`
-   Não há outros textos, títulos, rótulos, legendas ou marcações visíveis.
-
-3. **Estrutura:** Composição única, simétrica e centralizada (sem painéis, caixas, setas, eixos ou tabelas), organizada em camadas sobrepostas:
-   - **Fundo:** Um resplendor multifacetado em forma de estrela de várias pontas em tom dourado/ocre.
-   - **Ramos laterais:** Dois ramos vegetais verdes dispostos em arco sobre o resplendor — à esquerda, um ramo com pequenos frutos vermelhos arredondados (ramo de café); à direita, um ramo com pequenas flores rosadas na parte superior (ramo de fumo).
-   - **Estrela central:** Sobre os ramos, uma grande estrela de cinco pontas, com cada ponta dividida longitudinalmente em duas metades (uma verde e uma amarela) e contornada externamente por uma borda vermelha.
-   - **Escudo circular central:** No meio da estrela de cinco pontas, um disco azul contendo cinco estrelas brancas dispostas no formato da constelação do Cruzeiro do Sul, circundado por uma borda azul com um anel contínuo de pequenas estrelas brancas pontilhadas (borradas).
-   - **Espada:** Na parte inferior central, saindo verticalmente por trás da estrela e do escudo, vê-se a empunhadura de uma espada (haste vertical branca/cinza-clara) com guarda horizontal estilizada em azul e um pequeno elemento quadrado vermelho com centro amarelo.
-   - **Faixa inferior:** Atravessando a base sobre a espada e os ramos, uma faixa azul ondulada com extremidades bifurcadas apontando para cima e para fora, contendo as inscrições ilegíveis em amarelo.
-
-4. **Números e valores de dados:** Não há gráficos, tabelas nem valores numéricos legíveis na imagem (quaisquer algarismos na faixa inferior estão ilegíveis: `[illegible]`). Como elementos gráficos contáveis: 1 grande estrela central de 5 pontas; 5 estrelas brancas no interior do disco azul central; um anel de pequenas estrelas brancas ao redor do disco central (número exato indistinguível devido ao borramento); 2 ramos laterais; 1 espada vertical na base; 1 faixa inferior com inscrições.
-
-5. **Cores com significado:** As cores têm valor heráldico e representam as cores nacionais brasileiras: verde e amarelo/dourado (estrela central, ramos, resplendor e letras da faixa), azul e branco (disco celeste, estrelas, faixa inferior e haste da espada) e vermelho (contorno da estrela de cinco pontas, detalhe central da guarda da espada e frutos do ramo esquerdo).
 
 
 

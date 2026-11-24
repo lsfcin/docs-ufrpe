@@ -50,6 +50,8 @@ def contexto(host: str) -> ssl.SSLContext:
 def baixar(url: str, timeout: int = 60) -> bytes:
     """O conteúdo de `url`, com verificação e User-Agent de navegador. Levanta OSError quando falha."""
     host = urllib.parse.urlsplit(url).hostname or ''
+    if url.startswith('http://') and host.endswith('ufrpe.br'):   # o 302 para https seria seguido sem o intermediário
+        url = 'https://' + url[len('http://'):]
     pedido = urllib.request.Request(url, headers={'User-Agent': UA})
     ctx = contexto(host) if url.startswith('https://') else None
     with urllib.request.urlopen(pedido, timeout=timeout, context=ctx) as resposta:
