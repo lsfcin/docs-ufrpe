@@ -1,5 +1,5 @@
 ---
-description: "Modelo de Histórico Escolar: MODELO HISTÓRICOS CNE ATUAL (PRPG)."
+description: "Histórico escolar de curso lato sensu: usado pela instituição para registrar disciplinas e notas e comprovar a formação do aluno."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/MODELO%20HIST%C3%93RICOS%20CNE%20ATUAL.docx"
 origin_checked: "2026-11-23"
 sha256: "9132ac0a4f514b217b3f8ec80ac9b9209f07495d7b10761737939f01331412f1"

@@ -1,5 +1,5 @@
 ---
-description: "SOLICITAÇÃO DE EMPENHO - RESSARCIMENTO: SOLICITAÇÃO DE EMPENHO - RESSARCIMENTO DISCENTE PROAP (PRPG)."
+description: "Solicitação de Empenho: pedido de ressarcimento a discentes, com dados bancários e dotação, enviado pela PRPG ao GCF."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/solicitacao_de_empenho_-ressarcimento_-discente_0.doc"
 origin_checked: "2026-11-23"
 sha256: "6986feec392e2474ec8447dc5e33dc4fe5698284a4ccecfb9e33cac537b07203"

@@ -1,5 +1,5 @@
 ---
-description: "Resolução 609/2023: Resolução 609 2023 CEPE PADPG (PRPG)."
+description: "Res. CEPE/UFRPE 609/2023: aprova auxílio acadêmico para apoiar a permanência de estudantes de pós-graduação de baixa renda."
 source: "../res-cepe-609-2023-padpg.pdf"
 sha256: "f506bd40fd0e1f2cd5cf6530ab6303c9af79ef30aa09c2c312e66d51a173e3f9"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/Resoluc%CC%A7a%CC%83o_609_2023_CEPE_PADPG.pdf"

@@ -1,5 +1,5 @@
 ---
-description: "FORMULÁRIO DE CANCELAMENTO: bolsa capes - formulario de cancelamento (PRPG)."
+description: "Comunicado de Cancelamento de Bolsa DS: formulário da CAPES para informar o fim da bolsa do Programa de Demanda Social e o motivo."
 source: "../formulario-cancelamento-bolsa-capes.pdf"
 sha256: "5524be2eaa9471de74055d25085624bf600d091eda248329e8e8b28418992e7c"
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/bolsa_capes_-_formulario_de_cancelamento.pdf"

@@ -1,5 +1,5 @@
 ---
-description: "Calendário acadêmico: CALENDÁRIO PRPG 2026-03-05 (PRPG)."
+description: "Calendário PPG Stricto Sensu 2026/2027: prazos de matrícula, seleção, aulas e avaliações, usado pelas coordenações e pela PRPG."
 source: "../calendario-prpg-2026.pdf"
 sha256: "c84b213b3396dc4b9f46e6007f556cf56ae1befdb080607aab08f99b34f7ed2c"
 origin: "https://prpg.ufrpe.br/sites/default/files/documentos/CALEND%C3%81RIO%20PRPG%202026-03-05.pdf"

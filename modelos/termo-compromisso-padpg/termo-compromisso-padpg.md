@@ -1,5 +1,5 @@
 ---
-description: "TERMO DE COMPROMISSO PADPG: Termo de compromisso - PADPG (1) (PRPG)."
+description: "Termo de Compromisso PADPG: declara a ciência do discente sobre as obrigações do auxílio e é assinado pelo beneficiário e pela coordenação."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/Termo%20de%20compromisso%20-%20PADPG_%20(1).docx"
 origin_checked: "2026-11-23"
 sha256: "6019d6f9988dcb0a56f2108213af444d852d77558bdd2d4c5ac0ebaf744b7b1b"

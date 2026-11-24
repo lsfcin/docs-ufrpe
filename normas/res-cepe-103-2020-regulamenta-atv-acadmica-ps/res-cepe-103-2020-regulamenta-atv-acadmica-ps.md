@@ -1,5 +1,5 @@
 ---
-description: "Resolução 103/2020: recepe103.2020 regulamenta atv.acadmica ps graduao-1 (PRPG)."
+description: "Res. CEPE 103/2020: regulamenta atividades acadêmicas remotas extraordinárias na pós-graduação da UFRPE, para os programas e seus estudantes."
 source: "../res-cepe-103-2020-regulamenta-atv-acadmica-ps.pdf"
 sha256: "ddbecdd97381f021be02cb4a8312024077c4e7eed62231a6e441f8a606695579"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/recepe103.2020_regulamenta_atv.acadmica_ps_graduao-1.pdf"

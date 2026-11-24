@@ -1,5 +1,5 @@
 ---
-description: "Termo de Compromisso - Estágio: Termo de Compromisso - Estágio Pós-Doutoral (PRPG)."
+description: "Termo de Compromisso e Responsabilidade: formaliza obrigações do estágio pós-doutoral entre pós-doutorando e pesquisador responsável."
 source: "../termo-compromisso-estagio-pos-doutoral.pdf"
 sha256: "1f7eb6e84bc55bf83fb2b3d8e0ca3e62a7fa822372d9c8031ca1d2f1449bbae2"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/Termo%20de%20Compromisso%20-%20Est%C3%A1gio%20P%C3%B3s-Doutoral.pdf"

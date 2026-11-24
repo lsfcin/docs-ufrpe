@@ -1,5 +1,5 @@
 ---
-description: "Informações sobre Ações de: Informações sobre Ações de Internacionalização (PRPG)."
+description: "IN PRPG 01/2025: padroniza a coleta das ações de internacionalização dos PPG; docentes informam às coordenações, que enviam à CIPPG."
 source: "../in-01-2025-informacoes-acoes-internacionalizacao.pdf"
 sha256: "688fea9fdcdeebf9690d1cdc40175e60ba0c841d9e6b65c4bb1258dc8b6c6ff9"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/IN_01_2025_Informacoes_Internacionalizacao_assinado_assinado.pdf"

@@ -1,5 +1,5 @@
 ---
-description: "Resolução CEPE/UFRPE Nº 926, de 19 de: Resolução CEPE/UFRPE Nº 926, de 19 de agosto de 2025 (PRPG)."
+description: "Resolução CEPE/UFRPE 926/2025: define procedimentos para revalidar diplomas de graduação e reconhecer diplomas de pós-graduação stricto sensu estrangeiros."
 source: "../res-cepe-926-2025-novas-normas-revalidao-reconhecimento.pdf"
 sha256: "e580ca5ba0c88dd66f9c9d6081ff6452fa9e3207f03fc4fc5313a32470b3fd45"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE926.2025_NOVAS_NORMAS_REVALIDAO_E_RECONHECIMENTO_DE_TTULO_ESTRANGEIRO_0.pdf"

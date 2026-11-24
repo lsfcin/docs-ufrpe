@@ -1,5 +1,5 @@
 ---
-description: "Instrução Normativa UFRPE/PRPG Nº: Instrução Normativa UFRPE/PRPG Nº 02/2022 (PRPG)."
+description: "IN PRPG 02/2022: define as atribuições dos servidores das secretarias de pós-graduação da UFRPE."
 source: "../in-prpg-02-2022-minuta-atribuicoes-secretarios.pdf"
 sha256: "6129330f10b8d4a4ade8f188725b5293795e137c3bb32a053861da3a808ed36c"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/minuta_in_prpg-_02-2022_-_atribuicoes_secretarios.pdf"

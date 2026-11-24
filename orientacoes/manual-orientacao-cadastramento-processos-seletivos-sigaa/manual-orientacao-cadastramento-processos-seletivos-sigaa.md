@@ -126,7 +126,7 @@ Rua Dom Manoel de Medeiros, s/n, Dois Irmãos. Recife - PE | CEP 52171-900 | <u>
 
 × 
 
-☆ 宙 
+☆  
 
 > ← C Não segurovalidacao.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
 
@@ -229,7 +229,7 @@ A opção de solicitar um projeto pode ser inserida de outra forma conforme vere
 
 2 
 
-口<sup>POR</sup> INTL 29/10/202115:57 易 
+<sup>POR</sup> INTL 29/10/202115:57  
 
 29°℃ Chuva fraca 
 
@@ -338,7 +338,7 @@ Ou seja, quem estiver marcado “Sim” em Mestrado, aparecerá em editais de Me
 
 <!-- page 7 -->
 
-https:/ SIGAA Sigaa SIG@U Seleçò 惠SIG × SIPAC 嫩Inscric 崽Opçõe 
+https:/ SIGAA Sigaa SIG@U Seleçò SIG × SIPAC Inscric Opçõe 
 
 Platafo Base_lE UFRPE M Docum MCaixa M Caixa M Caixa d M Caixad 
 
@@ -547,11 +547,11 @@ Q Digite aqui para pesquisar
 
 <!-- page 8 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 > ← C Não segurotreinamento.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
 
@@ -670,11 +670,11 @@ QDigite aqui para pesquisar
 
 <!-- page 9 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 > ← C 
 
@@ -772,11 +772,11 @@ Q Digite aqui para pesquisar
 
 <!-- page 10 -->
 
-口 
+ 
 
 > SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 > ← C 
 
@@ -897,7 +897,7 @@ QDigite aqui para pesquisar
 
 <!-- page 11 -->
 
-口 × 
+ × 
 
 SIGAA - Sistema Integrado de GX + 
 
@@ -953,7 +953,7 @@ Título: Questionário de Doutorado
 9. Anexo IV do edital (Apenas arquivos PDF.)
    Arquivo Anexo
 
-Ícones direita cada linha: setas cima/baixo (reordenar), ícone editar (lápis/página amarela), ícone excluir (seta verde circular). Linhas 3,4,5,6 ícones sobrepostos texto ilegível parcial ("D含含+" — provável sobreposição gráfica, [illegible] exato).
+Ícones direita cada linha: setas cima/baixo (reordenar), ícone editar (lápis/página amarela), ícone excluir (seta verde circular). Linhas 3,4,5,6 ícones sobrepostos texto ilegível parcial ("D+" — provável sobreposição gráfica, [illegible] exato).
 
 **Rodapé lista:**
 Cadastrar Questionário  << Editar Dados Gerais  Cancelar
@@ -1012,7 +1012,7 @@ Questionário”
 
 
 <!-- Start of picture text -->
-UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda? Tempo de Sessão: 00:24 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>• Pergunta alterada com sucesso!<br>(x) fechar mensagens<br>PORTAL DO COORDENADOR STRICTO > QUESTIONÁRIO > VISUALIZAÇÃO<br>Nova Pergunta /:Mover pergunta para cima ou para baixo : Alterar pergunta : Remover pergunta<br>RESUMO DO QUESTIONÁRIO<br>Tipo de Questionário: Questionário Complementar para Processos Seletivos<br>Titulo: Questionário de Doutorado O sistema apresenta a tela<br>Questionário<br>1. Diploma da graduação (Apenas arquivos PDF). * com o resumo do<br>Arquivo Anexo questionário onde pode-se<br>2. Histórico da Graduação (Apenas arquivos PDF).  mudar a ordem das<br>Arquivo Anexo<br>perguntas clicando nas<br>3. Curriculo Lattes (Apenas arquivos PDF). *<br>D含含+<br>Arquivo Anexo setas, alterar uma<br>4. Diploma do Mestrado (Apenas arquivos PDF). * D含含+ pergunta, ou excluí-la.<br>Arquivo Anexo<br>5. Histórico do Mestrado (Apenas arquivos PDF).*<br>Arquivo Anexo<br>6. Declaração da Chefia (Para servidores da UFRPE) (Apenas arquivos PDF). D含+<br>Arquivo Anexo<br>7. Declaração de cotista (Apenas arquivos PDF).<br>Arquivo Anexo Caso esteja tudo ok,<br>8. Documento de isenção de pagamento (Apenas arquivos PDF). clica-se em “Cadastrar<br>Arquivo Anexo<br>Questionário”<br>9. Anexo IV do edital (Apenas arquivos PDF ).  ++<br>Arquivo Anexo<br>Cadastrar Questionário << Editar Dados Gerais Cancelar<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2021 - UFRN - treinamento-jboss01.treinamento-jboss01 - vSNAPSHOT<br><!-- End of picture text -->
+UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda? Tempo de Sessão: 00:24 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>• Pergunta alterada com sucesso!<br>(x) fechar mensagens<br>PORTAL DO COORDENADOR STRICTO > QUESTIONÁRIO > VISUALIZAÇÃO<br>Nova Pergunta /:Mover pergunta para cima ou para baixo : Alterar pergunta : Remover pergunta<br>RESUMO DO QUESTIONÁRIO<br>Tipo de Questionário: Questionário Complementar para Processos Seletivos<br>Titulo: Questionário de Doutorado O sistema apresenta a tela<br>Questionário<br>1. Diploma da graduação (Apenas arquivos PDF). * com o resumo do<br>Arquivo Anexo questionário onde pode-se<br>2. Histórico da Graduação (Apenas arquivos PDF).  mudar a ordem das<br>Arquivo Anexo<br>perguntas clicando nas<br>3. Curriculo Lattes (Apenas arquivos PDF). *<br>D+<br>Arquivo Anexo setas, alterar uma<br>4. Diploma do Mestrado (Apenas arquivos PDF). * D+ pergunta, ou excluí-la.<br>Arquivo Anexo<br>5. Histórico do Mestrado (Apenas arquivos PDF).*<br>Arquivo Anexo<br>6. Declaração da Chefia (Para servidores da UFRPE) (Apenas arquivos PDF). D+<br>Arquivo Anexo<br>7. Declaração de cotista (Apenas arquivos PDF).<br>Arquivo Anexo Caso esteja tudo ok,<br>8. Documento de isenção de pagamento (Apenas arquivos PDF). clica-se em “Cadastrar<br>Arquivo Anexo<br>Questionário”<br>9. Anexo IV do edital (Apenas arquivos PDF ).  ++<br>Arquivo Anexo<br>Cadastrar Questionário << Editar Dados Gerais Cancelar<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2021 - UFRN - treinamento-jboss01.treinamento-jboss01 - vSNAPSHOT<br><!-- End of picture text -->
 
 8 
 
@@ -1026,11 +1026,11 @@ O
 
 <!-- page 12 -->
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 0 
 
-☆ 宙 
+☆  
 
 ← C 
 
@@ -1139,7 +1139,7 @@ Tel. Celular:
 
 
 <!-- Start of picture text -->
-FORMULÁRIO DE INSCRIÇÃO<br>DADOs PESSOAIS<br>CPF<br>A pessoa é estrangeira e não possui CPF<br>Nome: *<br>E-mail: *<br>Confirmar e-<br>mail:<br>Nome da Mãe: *<br>Nome do Pai:<br>Sexo: *MasculinoOFeminino Nascimento:Data de 口<br>Estado Civil: * SELECIONE-. Etnia: *--SELECIONE -<br>Tipo da Escola<br>do Ensino * -- SELECIONE --<br>Médio:<br>NATURALIDADE<br>País: *Brasil V UF: Pernambuco<br>Municipio:*-- SELECIONE -.<br>DoCUMENTOS<br>RG: * Órgão de<br>Expedição:<br>UF: *Pernambuco Data de<br>Expedição:<br>Titulo de Eleitor: Zona: Seção:<br>UF:Pernambuco Data de Emissão:<br>Passaporte:<br>ENDEREÇO<br>CEP: *59 (clique na lupa para buscar o endereço do CEP informado)<br>Logradouro:Avenida N.<br>Bairro: * Complemento:<br>UF: *Pernambuco Município: * RECIFE<br>Tel. Fixo: Tel. Celular:<br>QUESTIONÁRIO DE DOUTORADO<br>1. Diploma da graduação (Apenas arquivos PDF ).<br>Escolher Arquivo Nenhum a...o escolhido<br>2. Histórico da Graduação (Apenas arquivos PDF).<br>Escolher Arquivo Nenhum a...o escolhido<br>3. Curriculo Lattes (Apenas arquivos PDF).<br><!-- End of picture text -->
+FORMULÁRIO DE INSCRIÇÃO<br>DADOs PESSOAIS<br>CPF<br>A pessoa é estrangeira e não possui CPF<br>Nome: *<br>E-mail: *<br>Confirmar e-<br>mail:<br>Nome da Mãe: *<br>Nome do Pai:<br>Sexo: *MasculinoOFeminino Nascimento:Data de <br>Estado Civil: * SELECIONE-. Etnia: *--SELECIONE -<br>Tipo da Escola<br>do Ensino * -- SELECIONE --<br>Médio:<br>NATURALIDADE<br>País: *Brasil V UF: Pernambuco<br>Municipio:*-- SELECIONE -.<br>DoCUMENTOS<br>RG: * Órgão de<br>Expedição:<br>UF: *Pernambuco Data de<br>Expedição:<br>Titulo de Eleitor: Zona: Seção:<br>UF:Pernambuco Data de Emissão:<br>Passaporte:<br>ENDEREÇO<br>CEP: *59 (clique na lupa para buscar o endereço do CEP informado)<br>Logradouro:Avenida N.<br>Bairro: * Complemento:<br>UF: *Pernambuco Município: * RECIFE<br>Tel. Fixo: Tel. Celular:<br>QUESTIONÁRIO DE DOUTORADO<br>1. Diploma da graduação (Apenas arquivos PDF ).<br>Escolher Arquivo Nenhum a...o escolhido<br>2. Histórico da Graduação (Apenas arquivos PDF).<br>Escolher Arquivo Nenhum a...o escolhido<br>3. Curriculo Lattes (Apenas arquivos PDF).<br><!-- End of picture text -->
 
 Escolher Arquivo Nenhum a...o escolhido 
 
@@ -1155,13 +1155,13 @@ Digite aqui para pesquisar
 
 <!-- page 13 -->
 
-日 
+ 
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 > ← C 
 
@@ -1331,7 +1331,7 @@ Após cadastrados os questionários, acessa-se este menu para cadastrar o proces
 
 10 POR 09:38 INTL 06/09/2021 
 
-27°C Parc ensolarado入●口派例 
+27°C Parc ensolarado● 
 
 Q Digite aqui para pesquisar 
 
@@ -1339,11 +1339,11 @@ Q Digite aqui para pesquisar
 
 <!-- page 14 -->
 
-口 
+ 
 
 > SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 ##### ← C ▲Não segurotreinamento.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
 
@@ -1458,7 +1458,7 @@ Para criar um novo processo seletivo, clica-se em “Cadastrar Novo Processo Sel
 
 11 
 
-POR 09:39 27℃ Parc ensolaradoINTL 06/09/2021 易 
+POR 09:39 27℃ Parc ensolaradoINTL 06/09/2021  
 
 Digite aqui para pesquisar 
 
@@ -1466,11 +1466,11 @@ Digite aqui para pesquisar
 
 <!-- page 15 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 C 
 
@@ -1591,7 +1591,7 @@ Utilize o espaço abaixo para definir a descrição do processo seletivo e as or
 
 
 <!-- Start of picture text -->
-UFRPE - SIGAA- Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda? Tempo de Sessão: 00:25 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vínculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>Não há configuração de GRU disponível para uso em sua Unidade. Por favor, entre em contato com o departamento financeiro e solicite o<br>cadastro de uma configuração de GRU.<br>(x) fechar mensagens<br>PORTAL DO COORDENADOR STRICTO > CADASTRO DE PROCESSO SELETIVO<br>Listar processos seletivos cadastrados<br>DADOS DO PROCESSO SELETIVO<br>Titulo do Edital:  Edital de Doutorado em Engenharia Agricola 2022-1<br>Início das Inscrições:06/09/2021 às 00:00<br>Fim das Inscrições:30/09/2021 às 23:59 日<br>Edital: Edital Engenharia Agrícola 2022-1.pdf<br>Manual do Candidato: Escolher Arquivo Nenhum arquivo escolhido<br>Verificar disponibilidade de vagas:  Sim Não 2<br>Possui Taxa de Inscrição: SimO Não2<br>CONFIGURAÇÃO DA GRU<br>Tipo de Arrecadação:<br>Código de Recolhimento: -<br>Tipo de GRU: -<br>Valor da Taxa de Inscrição (R$):  0,00 4<br>Número de Parcelas:<br>Data de Vencimento do Boleto:<br>Instruções especificas para & GRU:<br>Você pode digitar 240 caracteres.<br>OUTRAS INFORMAÇÕES<br>Descrição do Processo Seletivo Orientações aos Inscrit...<br>Utilize o espaço abaixo para definir a descrição do processo seletivo e as orientações de interesse dos candidatos.<br><!-- End of picture text -->
+UFRPE - SIGAA- Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda? Tempo de Sessão: 00:25 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vínculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>Não há configuração de GRU disponível para uso em sua Unidade. Por favor, entre em contato com o departamento financeiro e solicite o<br>cadastro de uma configuração de GRU.<br>(x) fechar mensagens<br>PORTAL DO COORDENADOR STRICTO > CADASTRO DE PROCESSO SELETIVO<br>Listar processos seletivos cadastrados<br>DADOS DO PROCESSO SELETIVO<br>Titulo do Edital:  Edital de Doutorado em Engenharia Agricola 2022-1<br>Início das Inscrições:06/09/2021 às 00:00<br>Fim das Inscrições:30/09/2021 às 23:59 <br>Edital: Edital Engenharia Agrícola 2022-1.pdf<br>Manual do Candidato: Escolher Arquivo Nenhum arquivo escolhido<br>Verificar disponibilidade de vagas:  Sim Não 2<br>Possui Taxa de Inscrição: SimO Não2<br>CONFIGURAÇÃO DA GRU<br>Tipo de Arrecadação:<br>Código de Recolhimento: -<br>Tipo de GRU: -<br>Valor da Taxa de Inscrição (R$):  0,00 4<br>Número de Parcelas:<br>Data de Vencimento do Boleto:<br>Instruções especificas para & GRU:<br>Você pode digitar 240 caracteres.<br>OUTRAS INFORMAÇÕES<br>Descrição do Processo Seletivo Orientações aos Inscrit...<br>Utilize o espaço abaixo para definir a descrição do processo seletivo e as orientações de interesse dos candidatos.<br><!-- End of picture text -->
 
 No momento estamos colocando o sistema de pagamento para funcionar então passaremos estas informações posteriormente. Para permitir a criação do Processo, iremos marcar a opção como “Não” e daremos instruções ao candidato de como gerar a taxa de inscrição. 
 
@@ -1611,17 +1611,17 @@ QDigite aqui para pesquisar
 
 Ajuda?Tempo de Sessão: 00:25 SAIRTempo de Sessão: 00:25 SAIR 
 
-UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda?Tempo de Sessão: 00:25 SAIRTempo de Sessão: 00:25 SAIR ABELARDO ANTONIO DE A. MONTENEGRO (Deslogar) Alterar vínculo Semestre atual: 2025.1 Módulos Caixa Postal Abrir Chamado COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha PORTAL DO COORDENADOR STRICTO > CADASTRO DE PROCESSO SELETIVO Listar processos seletivos cadastrados DADOS DO PROCESSO SELETIVO Titulo do Edital: * Inicio das Inscrições:11/04/2025 às00:00 Com a atualização do Fim das Inscrições:11/04/2025 às23:59 Sistema agora é possível escolher entre “Edital Edital:<sup>Escolher arquivo Nenhum arquivo escolhido</sup> Ordinário” ou “Edital Manual do Candidato: Escolher arquivo Nenhum arquivo escolhido Não incluímos a categoria “Servidor Com a atualização do Extraordinário” modalidade de vagas pois se trata de um sistema, será possível Possui Taxa de Inscrição:sim Não<sup>2</sup> extra que não deveria contar para o t escolher entre “Edital Tipo de Edital: * Edital OrdinárioEdital Extraordinário<sup>园</sup> vagas, porém o sistema estava levan Ordinário” ou “Edital PCD - Pessoas com Deficiência conta para o cálculo do percentual, p Extraordinário” Modalidades de Vagas: AF - Negros, indígenas ou pessoas trans eles devem ser inscritos como Ampla - Ampla Concorrência concorrência a tratados à parte. Curso Do ProceSso SeleTIVo O Edital Ordinário irá Curso: *<sup>-- SELECIONE --</sup> V obrigar o uso das Questionário:NÃO APLICAR QUESTIONÁRIOS ESPECÍFICOS V K modalidades de vagas OUTRAS INFORMAÇÕES padrão, enquanto no Edital Extraordinário você poderá Descrição do Processo Seletivo Orientações aos Inscrit... escolher quais as Utilize o espaço abaixo para definir a descrição do processo seletivo e as orientações de interesse dos candidatos. modalidades das vagas você irá usar. Isto poderá ser usado em situações em que o programa irá oferecer poucas vagas para ampla concorrência, então 13 não haveria o suficiente 
+UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda?Tempo de Sessão: 00:25 SAIRTempo de Sessão: 00:25 SAIR ABELARDO ANTONIO DE A. MONTENEGRO (Deslogar) Alterar vínculo Semestre atual: 2025.1 Módulos Caixa Postal Abrir Chamado COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha PORTAL DO COORDENADOR STRICTO > CADASTRO DE PROCESSO SELETIVO Listar processos seletivos cadastrados DADOS DO PROCESSO SELETIVO Titulo do Edital: * Inicio das Inscrições:11/04/2025 às00:00 Com a atualização do Fim das Inscrições:11/04/2025 às23:59 Sistema agora é possível escolher entre “Edital Edital:<sup>Escolher arquivo Nenhum arquivo escolhido</sup> Ordinário” ou “Edital Manual do Candidato: Escolher arquivo Nenhum arquivo escolhido Não incluímos a categoria “Servidor Com a atualização do Extraordinário” modalidade de vagas pois se trata de um sistema, será possível Possui Taxa de Inscrição:sim Não<sup>2</sup> extra que não deveria contar para o t escolher entre “Edital Tipo de Edital: * Edital OrdinárioEdital Extraordinário<sup></sup> vagas, porém o sistema estava levan Ordinário” ou “Edital PCD - Pessoas com Deficiência conta para o cálculo do percentual, p Extraordinário” Modalidades de Vagas: AF - Negros, indígenas ou pessoas trans eles devem ser inscritos como Ampla - Ampla Concorrência concorrência a tratados à parte. Curso Do ProceSso SeleTIVo O Edital Ordinário irá Curso: *<sup>-- SELECIONE --</sup> V obrigar o uso das Questionário:NÃO APLICAR QUESTIONÁRIOS ESPECÍFICOS V K modalidades de vagas OUTRAS INFORMAÇÕES padrão, enquanto no Edital Extraordinário você poderá Descrição do Processo Seletivo Orientações aos Inscrit... escolher quais as Utilize o espaço abaixo para definir a descrição do processo seletivo e as orientações de interesse dos candidatos. modalidades das vagas você irá usar. Isto poderá ser usado em situações em que o programa irá oferecer poucas vagas para ampla concorrência, então 13 não haveria o suficiente 
 
 
 
 <!-- page 17 -->
 
-口 
+ 
 
 SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 ← C ▲Não segurotreinamento.sigs.ufrpe.br/sigaa/administracao/cadastro/ProcessoSeletivo/form_etapas.jsf 
 
@@ -1741,7 +1741,7 @@ A
 
 
 <!-- Start of picture text -->
-UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajuda? Tempo de Sessão: 00:24 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>PORTAL DO COORDENADOR STRICTO > CADASTRO DE PROCESSO SELETIVO<br>Listar processos seletivos cadastrados<br>DADOS DO PROCESSO SELETIVO<br>Tet   e a     t<br>Início das Inscrições: 06/09/2021 às 00:00 日<br>Este é apenas um exemplo de Fim das Inscrições: 30/09/2021 às 23:59<br>Edital: Edital Engenharia Agrícola 2022-1.pdf<br>orientação ao candidato. Os<br>Manual do Candidato: Escolher ArquivoNenhum arquivo escolhido<br>programas podem inclusive<br>Verificar disponibilidade de vagas:SimNãO<br>solicitar essa documentação<br>Possui Taxa de Inscrição:  SimNão<br>em seus questionários. OUTRAS INFORMAÇÕES<br>Descrição do Processo Seletivo Orientações aos Inscrit...<br>X As instruções definidas no espaço abaixo serão apresentadas aos candidatos do processo seletivo, no comprovante da inscrição.<br>Candidatos deverão enviar documentação pessoal para o e-mail coordenacao.Rgea @ufree.br<br>XABIU明E<br>Fonte Tamanho da F- |A·|x×Ω<br>Cancelar Avançar >> 4<br>* Campos de preenchimento obrigatório.<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2021 - UFRN - treinamento-jboss01.treinamento-jboss01 - vSNAPSHOT<br><!-- End of picture text -->
+UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajuda? Tempo de Sessão: 00:24 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>PORTAL DO COORDENADOR STRICTO > CADASTRO DE PROCESSO SELETIVO<br>Listar processos seletivos cadastrados<br>DADOS DO PROCESSO SELETIVO<br>Tet   e a     t<br>Início das Inscrições: 06/09/2021 às 00:00 <br>Este é apenas um exemplo de Fim das Inscrições: 30/09/2021 às 23:59<br>Edital: Edital Engenharia Agrícola 2022-1.pdf<br>orientação ao candidato. Os<br>Manual do Candidato: Escolher ArquivoNenhum arquivo escolhido<br>programas podem inclusive<br>Verificar disponibilidade de vagas:SimNãO<br>solicitar essa documentação<br>Possui Taxa de Inscrição:  SimNão<br>em seus questionários. OUTRAS INFORMAÇÕES<br>Descrição do Processo Seletivo Orientações aos Inscrit...<br>X As instruções definidas no espaço abaixo serão apresentadas aos candidatos do processo seletivo, no comprovante da inscrição.<br>Candidatos deverão enviar documentação pessoal para o e-mail coordenacao.Rgea @ufree.br<br>XABIUE<br>Fonte Tamanho da F- |A·|x×Ω<br>Cancelar Avançar >> 4<br>* Campos de preenchimento obrigatório.<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2021 - UFRN - treinamento-jboss01.treinamento-jboss01 - vSNAPSHOT<br><!-- End of picture text -->
 
 
 ![p17-fig2](img/p17-fig2.jpg)
@@ -1857,7 +1857,7 @@ GP | CD - | Ci D = = 1-2?
 
 
 <!-- Start of picture text -->
-十 Ofícios x<br><!-- End of picture text -->
+ Ofícios x<br><!-- End of picture text -->
 
 Facebo × 
 
@@ -1876,9 +1876,9 @@ Comun ×<br><!-- End of picture text -->
 
 ###### sigs.ufrpe.br/sigaa/administracao/cadastro/ProcessoSeletivo/form_etapas.jsf 
 
-### 品 
+###  
 
-Welcome to Video... Giant In the Playgro... 天Looking For Group Goblins - Life throu... Jurassic World: Adul... FastGames - Gamer... xkcd - A Webcomic... Um Sábado Qualqu... 
+Welcome to Video... Giant In the Playgro... Looking For Group Goblins - Life throu... Jurassic World: Adul... FastGames - Gamer... xkcd - A Webcomic... Um Sábado Qualqu... 
 
 
 
@@ -1895,11 +1895,11 @@ Se o quantitativo estiver correto, o sistema avança sem problemas.
 
 <!-- page 20 -->
 
-口 
+ 
 
 > SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 ← C 
 
@@ -2022,7 +2022,7 @@ ETARAS CADASTRADAS, (2)
 
 
 <!-- Start of picture text -->
-UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda? Tempo de Sessão: 00:22 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>PORTAL DO COORDENADOR STRICTO > CADASTRO DE ETAPAS DE PROCESSO SELETIVO<br>Caro usuário,<br>Nesta tela você poderá cadastrar etapas no processo seletivo.<br>Caso deseje realizar homologação das inscrições, você deverá cadastrar uma das etapas para tal fim.<br>CADASTRO DE ETAPA<br>DADOS GERAIS DA ETAPA<br>Titulo: * Defesa do Projeto 4<br>Defesa do projeto 4<br>Descrição: *<br>Você pode digitar 223 caracteres.<br>Ordem: * 3<br>Responsável pela Avaliação: ComissãoCoordenação<br>Metodologia: CompetênciaNota<br>Sigilosa? Sim Ao selecionar "sim", os nomes dos<br>candidatos não serão exibidos para<br>DATAS DA ETAPA os avaliadores da etapa.<br>Prazo para divulgação dos resultados: *18/10/2021 às 23:59<br>Prazo para interposição dos recursos: *20/10/2021 às 23:59<br>Prazo para análise dos recursos: 21/10/2021 às 23:59 日<br>Adicionar Etapa<br>: Visualizar Etapa : Alterar Etapa: Remover Etapa<br>ETAPAS CADASTRADAS (2) 4<br>Ordem Título Responsável Metodologia Sigilosa<br>Homologação das Inscrições Comissão Competencia Não<br>2 Prova Coordenação Nota Não<br><< Voltar Cancelar Avançar >><br>* Campos de preenchimento obrigatório.<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2021 - UFRN - treinamento-jboss01.treinamento-jboss01 - vSNAPSHOT<br><!-- End of picture text -->
+UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda? Tempo de Sessão: 00:22 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>PORTAL DO COORDENADOR STRICTO > CADASTRO DE ETAPAS DE PROCESSO SELETIVO<br>Caro usuário,<br>Nesta tela você poderá cadastrar etapas no processo seletivo.<br>Caso deseje realizar homologação das inscrições, você deverá cadastrar uma das etapas para tal fim.<br>CADASTRO DE ETAPA<br>DADOS GERAIS DA ETAPA<br>Titulo: * Defesa do Projeto 4<br>Defesa do projeto 4<br>Descrição: *<br>Você pode digitar 223 caracteres.<br>Ordem: * 3<br>Responsável pela Avaliação: ComissãoCoordenação<br>Metodologia: CompetênciaNota<br>Sigilosa? Sim Ao selecionar "sim", os nomes dos<br>candidatos não serão exibidos para<br>DATAS DA ETAPA os avaliadores da etapa.<br>Prazo para divulgação dos resultados: *18/10/2021 às 23:59<br>Prazo para interposição dos recursos: *20/10/2021 às 23:59<br>Prazo para análise dos recursos: 21/10/2021 às 23:59 <br>Adicionar Etapa<br>: Visualizar Etapa : Alterar Etapa: Remover Etapa<br>ETAPAS CADASTRADAS (2) 4<br>Ordem Título Responsável Metodologia Sigilosa<br>Homologação das Inscrições Comissão Competencia Não<br>2 Prova Coordenação Nota Não<br><< Voltar Cancelar Avançar >><br>* Campos de preenchimento obrigatório.<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2021 - UFRN - treinamento-jboss01.treinamento-jboss01 - vSNAPSHOT<br><!-- End of picture text -->
 
 Na tela seguinte deverão ser adicionadas as etapas do processo com suas descrições, exceto o resultado final (que é sempre uma nota) 
 
@@ -2030,7 +2030,7 @@ Ao terminar de descrever uma etapa, clica-se em “adicionar etapa”. Quando to
 
 17 
 
-POR 10:12 27°C Chuva fraca入●口后例 INTL 06/09/2021 
+POR 10:12 27°C Chuva fraca● INTL 06/09/2021 
 
 Digite aqui para pesquisar 
 
@@ -2166,7 +2166,7 @@ A+ A- Ajuda? Tempo de Sessão: 00:25 SAIR
 
 UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda? Tempo de Sessão: 00:25 SAIR ABELARDO ANTONIO DE A. MONTENEGRO (Deslogar) Alterar vínculo Semestre atual: 2025.1 Módulos Caixa Postal Abrir Chamado COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha PORTAL DO COORDENADOR STRICTO > CADASTRO DE ETAPA DE CONSOLIDAÇÃO FINAL DE PROCESSO SELETIVO Caro usuário, nesta tela serão descritas as informações da etapa de consolidação final do processo seletivo. 
 
-EEsta etapa consiste na divulgação da lista final de aprovados com a classificação dos candidatos na modalidades de vagas de ação afirmativa, e estará condicionado ao Parecer das bancas específicas. O candidato estará classificado na modalidade de vaga de ação afirmativa ofertada apenas se o Parecer emitido lhe for favorável. Caso o parecer seja desfavorável, o candidato que esteja aprovado segundo os critérios do edital, constará como suplente para as vagas de ampla concorrência e será convocado segundo a sua classificação, caso haja vacância. ETAPA DE AVALIAÇÃO E CONSOLIDAÇÃO FINAL DO PROCESSO SELETIVO DADOS GERAIS DA ETAPA Descrição: Você pode digitar 240 caracteres.<sup>日</sup> Responsável pela Avaliação: Coordenação<sup>K</sup> Metodologia: CompetênciaK Aqui o sistema obriga que esta etapa Sigilosa? Sim Não seja realizada pela Coordenação, e MODALIDADES DE VAGA A SEREM AVALIADAS que a metodologia seja por PCD - Pessoas com Deficiência Competência. AF - Negros, indígenas ou pessoas trans DATAS DA ETAPA Prazo para divulgação dos resultados: às23:59 3 Prazo para interposição dos recursos: * às23:59 Prazo para análise dos recursos: às23:59 2 << Voltar Cancelar Avançar >> * Campos de preenchimento obrigatório. Portal do Coordenador Stricto SIGAA | Secretaria de Tecnologias Digitais (STD) - https://servicosdigitais.ufrpe.br/help | Copyright © 2006-2025 - UFRN - producao-jboss01.producao-jboss01 - v4.16.1-1219 
+EEsta etapa consiste na divulgação da lista final de aprovados com a classificação dos candidatos na modalidades de vagas de ação afirmativa, e estará condicionado ao Parecer das bancas específicas. O candidato estará classificado na modalidade de vaga de ação afirmativa ofertada apenas se o Parecer emitido lhe for favorável. Caso o parecer seja desfavorável, o candidato que esteja aprovado segundo os critérios do edital, constará como suplente para as vagas de ampla concorrência e será convocado segundo a sua classificação, caso haja vacância. ETAPA DE AVALIAÇÃO E CONSOLIDAÇÃO FINAL DO PROCESSO SELETIVO DADOS GERAIS DA ETAPA Descrição: Você pode digitar 240 caracteres.<sup></sup> Responsável pela Avaliação: Coordenação<sup>K</sup> Metodologia: CompetênciaK Aqui o sistema obriga que esta etapa Sigilosa? Sim Não seja realizada pela Coordenação, e MODALIDADES DE VAGA A SEREM AVALIADAS que a metodologia seja por PCD - Pessoas com Deficiência Competência. AF - Negros, indígenas ou pessoas trans DATAS DA ETAPA Prazo para divulgação dos resultados: às23:59 3 Prazo para interposição dos recursos: * às23:59 Prazo para análise dos recursos: às23:59 2 << Voltar Cancelar Avançar >> * Campos de preenchimento obrigatório. Portal do Coordenador Stricto SIGAA | Secretaria de Tecnologias Digitais (STD) - https://servicosdigitais.ufrpe.br/help | Copyright © 2006-2025 - UFRN - producao-jboss01.producao-jboss01 - v4.16.1-1219 
 
 
 
@@ -2190,11 +2190,11 @@ DADOS DO PROCESSO SELETIVO CurSo: ENGENHARIA AGRÍCOLA - MESTRADO ACADÊMICO Edi
 
 <!-- page 24 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 > ← C 
 
@@ -2347,7 +2347,7 @@ UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Aju
 
 21 
 
-POR 08:59 27°C Chuva fraca入●口派例 INTL 08/09/2021 易 
+POR 08:59 27°C Chuva fraca● INTL 08/09/2021  
 
 Digite aqui para pesquisar 
 
@@ -2355,13 +2355,13 @@ Digite aqui para pesquisar
 
 <!-- page 25 -->
 
-日 
+ 
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 > ← C 
 
@@ -2546,7 +2546,7 @@ Para cadastrar a<br>comissão, usa-se<br>esta opção.<br><!-- End of picture te
 
 22 
 
-POR 09:02 27°C Chuva fraca入●口后例 INTL08/09/2021 易 
+POR 09:02 27°C Chuva fraca● INTL08/09/2021  
 
 Q Digite aqui para pesquisar 
 
@@ -2554,11 +2554,11 @@ Q Digite aqui para pesquisar
 
 <!-- page 26 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 
 ![p26-fig1](img/p26-fig1.jpg)
@@ -2667,7 +2667,7 @@ Esta opção está disponível<br>para busca de comissões já<br>cadastradas<br
 
 23 
 
-POR £0:60 27°C Chuva fraca入●口派例 INTL08/09/2021 
+POR £0:60 27°C Chuva fraca● INTL08/09/2021 
 
 Digite aqui para pesquisar 
 
@@ -2675,11 +2675,11 @@ Digite aqui para pesquisar
 
 <!-- page 27 -->
 
-口 
+ 
 
 > SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 > ← C 
 
@@ -2800,11 +2800,11 @@ Digite aqui para pesquisar
 
 <!-- page 28 -->
 
-口 
+ 
 
-> 塑SIGAA - Sistema Integrado de GX + 
+> SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 ← → C Não seguro treinamento.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
 
@@ -2904,7 +2904,7 @@ UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajud
 
 25 
 
-26°C Chuva fraca入口质创 PORINTL 08/09/202109:14 易 
+26°C Chuva fraca PORINTL 08/09/202109:14  
 
 Digite aqui para pesquisar 
 
@@ -2912,11 +2912,11 @@ Digite aqui para pesquisar
 
 <!-- page 29 -->
 
-口 
+ 
 
 > SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 > ← C Não segurotreinamento.sigs.ufrpe.br/sigaa/administracao/cadastro/ProcessoSeletivo/lista.jsf 
 
@@ -3044,11 +3044,11 @@ Coordenador
 
 
 <!-- Start of picture text -->
-UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajuda? Tempo de Sessão: 00:25 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>PORTAL DO COORDENADOR STRICTO > CADASTRO DE PROCESSO SELETIVO<br>Listar processos seletivos cadastrados<br>SOLICITAÇÃO DE ALTERAÇÃO<br>Mudar as datas<br>DADOS DO PROCESSO SELETIVO<br>Título do Edital:  Edital de Doutorado em Engenharia Agrícola 2022-1<br>Início das Inscrições:08/09/2021 às00:00<br>Fim das Inscrições:30/09/2021 às 23:59<br>Importante: Para realizar um novo processo seletivo NÃo altere a data de um processo seletivo anterior, em vez<br>disso, crie um novo processo ou as inscrições ficarão misturadas.<br>Verificar disponibilidade de vagas:SimNão<br>Possui Taxa de Inscrição:SimNão<br>OUTRAS INFORMAÇÕES<br>Descrição do Processo Seletivo Orientações aos Inscrit...<br>Utilize o espaço abaixo para definir a descrição do processo seletivo e as orientações de interesse dos candidatos.<br>Processo seletivo para preencher vagas do doutorado em Engenharia Agricola<br>X电AB I U机E<br>Fonte Tamanho da F52A|××Ω<br>Cancelar Avançar >><br>* Campos de preenchimento obrigatório.<br>Portal do Coordenador Stricto<br>S - ao-e-eat - at - -  e  - () - (s se se  ea  t<br><!-- End of picture text -->
+UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajuda? Tempo de Sessão: 00:25 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>PORTAL DO COORDENADOR STRICTO > CADASTRO DE PROCESSO SELETIVO<br>Listar processos seletivos cadastrados<br>SOLICITAÇÃO DE ALTERAÇÃO<br>Mudar as datas<br>DADOS DO PROCESSO SELETIVO<br>Título do Edital:  Edital de Doutorado em Engenharia Agrícola 2022-1<br>Início das Inscrições:08/09/2021 às00:00<br>Fim das Inscrições:30/09/2021 às 23:59<br>Importante: Para realizar um novo processo seletivo NÃo altere a data de um processo seletivo anterior, em vez<br>disso, crie um novo processo ou as inscrições ficarão misturadas.<br>Verificar disponibilidade de vagas:SimNão<br>Possui Taxa de Inscrição:SimNão<br>OUTRAS INFORMAÇÕES<br>Descrição do Processo Seletivo Orientações aos Inscrit...<br>Utilize o espaço abaixo para definir a descrição do processo seletivo e as orientações de interesse dos candidatos.<br>Processo seletivo para preencher vagas do doutorado em Engenharia Agricola<br>XAB I UE<br>Fonte Tamanho da F52A|××Ω<br>Cancelar Avançar >><br>* Campos de preenchimento obrigatório.<br>Portal do Coordenador Stricto<br>S - ao-e-eat - at - -  e  - () - (s se se  ea  t<br><!-- End of picture text -->
 
 26 
 
-0<sup>POR</sup> 09:17 INTL 08/09/2021 易 
+0<sup>POR</sup> 09:17 INTL 08/09/2021  
 
 QDigite aqui para pesquisar 
 
@@ -3094,11 +3094,11 @@ Caso a PRPG solicite alteração, será necessário o programa republicar os doc
 
 <!-- page 31 -->
 
-口 
+ 
 
-> 塑SIGAA - Sistema Integrado de GX + 
+> SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 ##### ← C ▲Não segurotreinamento.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
 
@@ -3248,7 +3248,7 @@ Note que, após publicado, não<br>é mais possível editar o<br>processo, porta
 
 28 
 
-26°C Chuva fraca入口创 INTL 08/09/2021POR 09:22 易 
+26°C Chuva fraca INTL 08/09/2021POR 09:22  
 
 Digite aqui para pesquisar 
 
@@ -3256,11 +3256,11 @@ Digite aqui para pesquisar
 
 <!-- page 32 -->
 
-口 
+ 
 
 > SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 > ← C 
 
@@ -3374,9 +3374,9 @@ UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajud
 
 29 
 
-> PORINTL 08/09/202109:26 易 
+> PORINTL 08/09/202109:26  
 
-26°C Chuva fraca入●口后例 
+26°C Chuva fraca● 
 
 Digite aqui para pesquisar 
 
@@ -3384,11 +3384,11 @@ Digite aqui para pesquisar
 
 <!-- page 33 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
-☆ 宙 
+☆  
 
 > ← C 
 
@@ -3535,7 +3535,7 @@ A opção de “Fazer downloads dos anexos” inclui todos os anexos solicitados
 
 Caso o candidato informe um e- mail inválido no cadastro, caberá à coordenação corrigi-lo através da opção “alterar dados da inscrição” para que o mesmo possa ter acesso ao seu Portal do Candidato. 30 
 
-27°C Chuva fraca入●口后创口口<sup>POR</sup> INTL 08/09/202109:41 易 
+27°C Chuva fraca●<sup>POR</sup> INTL 08/09/202109:41  
 
 Digite aqui para pesquisar 
 
@@ -3543,11 +3543,11 @@ Digite aqui para pesquisar
 
 <!-- page 34 -->
 
-日 
+ 
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C 
 
@@ -3675,7 +3675,7 @@ UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Aju
 
 Para avaliar os candidatos, utiliza-se esta opção do menu. Apesar de a avaliação estar disponível antes do encerramento das inscrições, não recomendamos começar a avaliar até que as inscrições se encerrem, pois uma vez avaliado, o candidato não poderá mais cancelar sua inscrição e realizar outra, caso deseje corrigir algum dado ou documento. 
 
-31 27°C Chuva fraca入●口后例DO<sup>POR</sup> INTL08/09/202109:48 易 
+31 27°C Chuva fraca●DO<sup>POR</sup> INTL08/09/202109:48  
 
 Q Digite aqui para pesquisar 
 
@@ -3683,9 +3683,9 @@ Q Digite aqui para pesquisar
 
 <!-- page 35 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C 
 
@@ -3771,7 +3771,7 @@ O sistema apresenta esta tela. A avaliação dos candidatos deve seguir a etapa 
 
 32 
 
-POR 09:52 27°C Chuva fraca入●口后例 INTL08/09/2021 
+POR 09:52 27°C Chuva fraca● INTL08/09/2021 
 
 QDigite aqui para pesquisar 
 
@@ -3779,9 +3779,9 @@ QDigite aqui para pesquisar
 
 <!-- page 36 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C 
 
@@ -3906,7 +3906,7 @@ Os membros da comissão deverão avaliar os candidatos através do Portal do Doc
 
 treinamento.sigs.ufrpe.br/sigaa/portais/docente/docente.jsf# 
 
-33 POR 09:56 INTL08/09/2021 易 
+33 POR 09:56 INTL08/09/2021  
 
 Digite aqui para pesquisar 
 
@@ -3916,9 +3916,9 @@ Digite aqui para pesquisar
 
 <!-- page 37 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C 
 
@@ -4002,7 +4002,7 @@ Digite aqui para pesquisar
 
 <!-- page 38 -->
 
-口 
+ 
 
 > SIGAA - Sistema Integrado de GX + 
 
@@ -4100,9 +4100,9 @@ Digite aqui para pesquisar
 
 <!-- page 39 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C ▲Não segurotreinamento.sigs.ufrpe.br/sigaa/ensino/AvaliacaoProcessoSeletivo/avaliacao_etapa.jsf 
 
@@ -4158,9 +4158,9 @@ QDigite aqui para pesquisar
 
 <!-- page 40 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C 
 
@@ -4241,9 +4241,9 @@ Digite aqui para pesquisar
 
 <!-- page 41 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C 
 
@@ -4322,7 +4322,7 @@ Novamente insere-se a nota e o resultado, avança para a tela seguinte, e confir
 
 38 
 
-POR 11:38 28°C Chuva fraca入●口后例 INTL08/09/2021 
+POR 11:38 28°C Chuva fraca● INTL08/09/2021 
 
 QDigite aqui para pesquisar 
 
@@ -4330,11 +4330,11 @@ QDigite aqui para pesquisar
 
 <!-- page 42 -->
 
-日 
+ 
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 C 
 
@@ -4473,7 +4473,7 @@ SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright ©
 
 39 
 
-0<sup>POR</sup> 11:51 INTL 08/09/2021 易 
+0<sup>POR</sup> 11:51 INTL 08/09/2021  
 
 QDigite aqui para pesquisar 
 
@@ -4483,11 +4483,11 @@ QDigite aqui para pesquisar
 
 <!-- page 43 -->
 
-日 
+ 
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C 
 
@@ -4636,7 +4636,7 @@ UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Aju
 
 Caso o candidato abra recurso, o sistema irá apresentar notificação de recurso neste menu. 
 
-40 28°C Chuva fraca 入口后物口口<sup>POR</sup> INTL 08/09/202111:54 易 
+40 28°C Chuva fraca <sup>POR</sup> INTL 08/09/202111:54  
 
 Q Digite aqui para pesquisar 
 
@@ -4644,9 +4644,9 @@ Q Digite aqui para pesquisar
 
 <!-- page 44 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C 
 
@@ -4804,19 +4804,19 @@ Caso o recurso tenha sido aberto para uma das etapas avaliadas pela comissão, e
 
 treinamento.sigs.ufrpe.br/sigaa/portais/docente/docente.jsf# 
 
-41 PORINTL08/09/202111:57 易 
+41 PORINTL08/09/202111:57  
 
 Digite aqui para pesquisar 
 
-> 28°C Chuva fraca 口派物 
+> 28°C Chuva fraca  
 
 
 
 <!-- page 45 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + ← → C Não segurotreinamento.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
+ SIGAA - Sistema Integrado de GX + ← → C Não segurotreinamento.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
 
 
 ![p45-fig1](img/p45-fig1.jpg)
@@ -4911,7 +4911,7 @@ Nesta tela, o coordenador ou a comissão poderá apenas visualizar o recurso, ou
 
 42 
 
-POR 11:56 28°C Chuva fracaッロ INTL 08/09/2021 
+POR 11:56 28°C Chuva fraca INTL 08/09/2021 
 
 Digite aqui para pesquisar 
 
@@ -4919,7 +4919,7 @@ Digite aqui para pesquisar
 
 <!-- page 46 -->
 
-口 
+ 
 
 > SIGAA - Sistema Integrado de GX + 
 
@@ -5039,7 +5039,7 @@ obrigatório.
 <!-- Start of picture text -->
 UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajuda?SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>PORTAL DO COORDENADOR STRICTO > ANALISAR RECURSOS<br>DETALHES DO RECURSO<br>DADOS DO(A) CANDIDATO(A)<br>Nome: DIEGO DE QUEIROZ JORDÃO<br>E-mail:<br>DADOS DA ETAPA<br>Etapa: Resultado Final<br>Descrição: Resultado final do processo seletivo O coordenador ou a comissão<br>DADOS DA AVALIAÇÃO insere o resultado do recurso.<br>Metodologia: Nota<br>Responsável: Coordenação Caso seja indeferido, irá<br>Situação do Candidato: DESCLASSIFICADO<br>Avaliação: 9.0 aparecer um campo para<br>RECURSO INTERPOSTO inserir um parecer e algum<br>Justificativa: Teste de recurso<br>Data da interposição: 08/09/2021 possível anexo. Caso seja<br>PARECER DA ANÁLISE deferido, também irá aparecer<br>Resultado:  DEFERIDO 4<br>os campos para retificar o<br>4<br>Parecer: * resultado do candidato.<br>4 Após inserido, clica-se em<br>Retificação do Resultado:  9,0 4<br>Situação do Candidato: DESCLASSIFICADO 4 submeter.<br>Arquivo: Escolher Arquivo Nenhum arquivo escolhido<br>Submeter << Voltar Cancelar<br>* Campos de preenchimento obrigatório.<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2021 - UFRN - treinamento-jboss01.treinamento-jboss01 vSNAPSHOT<br><!-- End of picture text -->
 
-43 POR 12:01 28°C Chuva fraca入●口 INTL 08/09/2021 
+43 POR 12:01 28°C Chuva fraca● INTL 08/09/2021 
 
 Digite aqui para pesquisar 
 
@@ -5047,11 +5047,11 @@ Digite aqui para pesquisar
 
 <!-- page 47 -->
 
-日 
+ 
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C 
 
@@ -5175,7 +5175,7 @@ UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajud
 
 Ao longo do processo seletivo, a coordenação também poderá inserir notícias e documentos adicionais, caso seja necessário fazer uma retificação do edital, prorrogação das inscrições, ou publicação do resultado das etapas, por exemplo. 
 
-44 28°C Chuva fraca入口质如口口<sup>POR</sup> INTL08/09/202112:06 易 
+44 28°C Chuva fraca<sup>POR</sup> INTL08/09/202112:06  
 
 Q Digite aqui para pesquisar 
 
@@ -5183,7 +5183,7 @@ Q Digite aqui para pesquisar
 
 <!-- page 48 -->
 
-口 
+ 
 
 > SIGAA - Sistema Integrado de GX + ← → C ▲Não segurotreinamento.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
 
@@ -5281,15 +5281,15 @@ POR 12:08 INTL08/09/2021
 
 Digite aqui para pesquisar 
 
-28°C Chuva fraca入●口后物 
+28°C Chuva fraca● 
 
 
 
 <!-- page 49 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 ###### ← C ▲Não segurotreinamento.sigs.ufrpe.br/sigaa/administracao/cadastro/ProcessoSeletivo/noticias/lista.jsf 
 
@@ -5381,15 +5381,15 @@ POR 12:10 INTL08/09/2021
 
 Q Digite aqui para pesquisar 
 
-28°C Chuva fraca入口派物 
+28°C Chuva fraca 
 
 
 
 <!-- page 50 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 ← C 
 
@@ -5487,13 +5487,13 @@ POR 12:14 INTL 08/09/2021
 
 Q Digite aqui para pesquisar 
 
-28°C Chuva fraca入口派物 
+28°C Chuva fraca 
 
 
 
 <!-- page 51 -->
 
-口 
+ 
 
 > SIGAA - Sistema Integrado de GX + 
 
@@ -5561,7 +5561,7 @@ do Coordenador Stricto
 
 
 <!-- Start of picture text -->
-UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajuda? Tempo de Sessão: 00:25 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>PORTAL DO COORDENADOR STRICTO > GERENCIAR DOCUMENTOS DE PROCESSO SELETIVO > CADASTRAR NOVO DOCUMENTO<br>Na tela seguinte insere-se<br>os dados do documento e CADASTRAR DOCUMENTO<br>Processo Seletivo: * Edital de Doutorado em Engenharia Agricola 2022-1 - DOUTORADO<br>clica-se em “Cadastrar<br>Tipo do Documento: Diversos<br>documento” Descrição:  Homologação das inscrições Caso essa caixa-texto não<br>Publicado:<br>seja marcada, é análogo à<br>Arquivo:人Resultado Coursera.pdfAlterar Arquivo<br>Cadastrar Documento Cancelar não publicação da notícia<br>* Campos de preenchimento obrigatório.<br>que vimos anteriormente.<br>Portal do Coordenador Stricto<br><!-- End of picture text -->
+UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajuda? Tempo de Sessão: 00:25 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>PORTAL DO COORDENADOR STRICTO > GERENCIAR DOCUMENTOS DE PROCESSO SELETIVO > CADASTRAR NOVO DOCUMENTO<br>Na tela seguinte insere-se<br>os dados do documento e CADASTRAR DOCUMENTO<br>Processo Seletivo: * Edital de Doutorado em Engenharia Agricola 2022-1 - DOUTORADO<br>clica-se em “Cadastrar<br>Tipo do Documento: Diversos<br>documento” Descrição:  Homologação das inscrições Caso essa caixa-texto não<br>Publicado:<br>seja marcada, é análogo à<br>Arquivo:Resultado Coursera.pdfAlterar Arquivo<br>Cadastrar Documento Cancelar não publicação da notícia<br>* Campos de preenchimento obrigatório.<br>que vimos anteriormente.<br>Portal do Coordenador Stricto<br><!-- End of picture text -->
 
 48 
 
@@ -5575,11 +5575,11 @@ Digite aqui para pesquisar
 
 <!-- page 52 -->
 
-日 
+ 
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C 
 
@@ -5705,7 +5705,7 @@ Postal do Coordenador Stricto
 <!-- Start of picture text -->
 UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajuda? Tempo de Sessão: 00:25 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>PORTAL DO COORDENADOR STRICTO > PROCESSO SELETIVO<br>DADOS DO PROCESSO SELETIVO<br>CurSo: ENGENHARIA AGRÍCOLA - DOUTORADO/CEA-CPPGSE - RECIFE<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG<br>Edital: EDITAL DE DOUTORADO EM ENGENHARIA AGRÍCOLA 2022-1<br>Nível: DOUTORADO<br>Período de Inscrições: 08/09/2021 às 00:00 - 30/09/2021 às 23:59<br>Número de Vagas: 10<br>Questionário Específico: Questionário de Doutorado<br>Clique AQUI para inscrever-se!<br>Q: Visualizar Etapa<br>ETAPAS DO PROCESSO SELETIVO<br>Etapa Divulgação dos resultados até Interposição de recursos até Análise dos recursos até<br>Homologação das inscrições 04/10/2021 às 23:59 06/10/2021 às 23:59 07/10/2021 às 23:59<br>Prova 08/10/2021 às 23:59 12/10/2021 às 23:59 13/10/2021 às 23:59<br>Defesa do Projeto 18/10/2021 às 23:59 20/10/2021 às 23:59 21/10/2021 às 23:59<br>Resultado Final 25/10/2021 às 23:59 27/10/2021 às 23:59 28/10/2021 às 23:59<br>MEMBROS DA COMISSÃO<br>Nome Função<br>EDIVAN RODRIGUES DE SOUZA MEMBRO<br>MARIO MONTEIRO ROLIM MEMBRO<br>ENIO FARIAS DE FRANCA E SILVA PRESIDENTE<br>DoCUMENTOS<br>Descrição Tipo Disponibilizado<br>Homologação das inscrições Diversos 08/09/2021 12:19<br>Edital do Processo Seletivo Edital do Processo Seletivo 08/09/2021 12:20<br>DESCRIÇÃO E ORIENTAÇÕES AOS CANDIDATOS<br>Processo seletivo para preencher vagas do doutorado em Engenharia Agrícola<br>ORIENTAÇÖES AOS INSCRITOS<br>Candidatos deverão enviar documentação pessoal para o e-mail coordenacao.pgea@ufrpe.br<br>NOTÍCIAS E COMUNICADOS<br>Retificação das normas<br>08/09/2021 às 12:14<br>Retificação do item 2.1<br><< Voltar<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2021 - UFRN - treinamento-jboss01.treinamento-jboss01 - vSNAPSHOT<br><!-- End of picture text -->
 
-49 28°C Chuva fraca入一口后物口日<sup>POR</sup> INTL 08/09/202112:20 易 
+49 28°C Chuva fraca<sup>POR</sup> INTL 08/09/202112:20  
 
 QDigite aqui para pesquisar 
 
@@ -5713,9 +5713,9 @@ QDigite aqui para pesquisar
 
 <!-- page 53 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX 
+ SIGAA - Sistema Integrado de GX 
 
 ← 
 
@@ -5843,7 +5843,7 @@ SIGAA | Secretaria de Tecnologias Digitais (STD)-(81) 3320-6046 | Copyright © 2
 
 50 
 
-POR 12:22 INTL08/09/2021 易 
+POR 12:22 INTL08/09/2021  
 
 28°C Chuva fraca 
 
@@ -5853,9 +5853,9 @@ Digite aqui para pesquisar
 
 <!-- page 54 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 > ← C 
 
@@ -5967,7 +5967,7 @@ A opção “cadastrar discente” só estará disponível após a consolidaçã
 
 51 
 
-27°C Chuva fraca入●口后物口口<sup>POR</sup> INTL 08/09/202112:28 易 
+27°C Chuva fraca●<sup>POR</sup> INTL 08/09/202112:28  
 
 Digite aqui para pesquisar 
 
@@ -6021,11 +6021,11 @@ eect - s---d -  - -  e  ss - (s sei s  u  .t
 
 <!-- page 56 -->
 
-日 
+ 
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 ← C 
 
@@ -6154,7 +6154,7 @@ QDigite aqui para pesquisar
 
 <!-- page 57 -->
 
-口 
+ 
 
 SIGAA - Sistema Integrado de GX + 
 
@@ -6248,7 +6248,7 @@ UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Aju
 
 54 
 
-27℃ Chuva fraca�<sup>POR</sup> INTL 08/09/202112:51 易 
+27℃ Chuva fraca<sup>POR</sup> INTL 08/09/202112:51  
 
 Digite aqui para pesquisar 
 
@@ -6256,9 +6256,9 @@ Digite aqui para pesquisar
 
 <!-- page 58 -->
 
-口 
+ 
 
-> 塑SIGAA - Sistema Integrado de GX + 
+> SIGAA - Sistema Integrado de GX + 
 
 > ← C Não segurotreinamento.sigs.ufrpe.br/sigaa/geral/pessoa/dados_pessoais_complementares.jsf 
 
@@ -6411,7 +6411,7 @@ Caso a instituição de conclusão do<br>discente não esteja disponível na<br>
 
 55 
 
-27℃ Chuva fracaINTL 08/09/2021POR 12:53 易 
+27℃ Chuva fracaINTL 08/09/2021POR 12:53  
 
 Digite aqui para pesquisar 
 
@@ -6419,11 +6419,11 @@ Digite aqui para pesquisar
 
 <!-- page 59 -->
 
-日 
+ 
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 ###### ← C ▲Não segurotreinamento.sigs.ufrpe.br/sigaa/stricto/discente/documentacao.jsf 
 
@@ -6516,7 +6516,7 @@ SSU
 
 
 <!-- Start of picture text -->
-UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajuda? Tempo de Sessão: 00:25 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>CadastrosAlunoTurmasMatriculasConsultasRelatórios Biblioteca Página WEB Outros<br>PORTAL DO COORDENADOR STRICTO > CADASTRO DE ALUNO DE STRICTO<br>DADOS DO DISCENTE<br>Nome: DIEGO DE QUEIROZ JORDAO<br>Ano-Semestre Inicial: 2021 2<br>Ano de Entrada: 2021<br>Mês de Entrada: * Setembro V<br>Origem do discente:  --SELECIONE-- V<br>Tipo: *REGULAR 4<br>Forma de Ingresso: *-- SELECIONE --<br>Processo Seletivo:Edital de teste - MESTRADO V<br>Curso: *ENGENHARIA AGRÍCOLA - MESTRADO ACADÉMICO - MESTRADO ACADÊMICO<br>Currículo:* SELECIONE --<br>Área de Concentração:--SELECIONE --<br>Linha de Pesquisa:-- SELECIONE -- V<br>Orientador:-- SELECIONE--<br>Inicio da Orientação.<br>Coorientador:--SELECIONE- V<br>Início da Coorientação: 日<br>Coorientadores Externos:<br>Confirmar << Passo Anterior Cancelar<br>* Campos de preenchimento obrigatório.<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2021 - UFRN - treinamento-jboss01.treinamento-jboss01 - vSNAPSHOT<br><!-- End of picture text -->
+UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A-Ajuda? Tempo de Sessão: 00:25 SAIR<br>ENIO FARIAS DE F. E. SILVA (Deslogar) Alterar vinculo Semestre atual: 2021.2 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM ENGENHARIA AGRÍCOLA-PRPG (11.01.29.03.47) Menu Docente Alterar senha<br>CadastrosAlunoTurmasMatriculasConsultasRelatórios Biblioteca Página WEB Outros<br>PORTAL DO COORDENADOR STRICTO > CADASTRO DE ALUNO DE STRICTO<br>DADOS DO DISCENTE<br>Nome: DIEGO DE QUEIROZ JORDAO<br>Ano-Semestre Inicial: 2021 2<br>Ano de Entrada: 2021<br>Mês de Entrada: * Setembro V<br>Origem do discente:  --SELECIONE-- V<br>Tipo: *REGULAR 4<br>Forma de Ingresso: *-- SELECIONE --<br>Processo Seletivo:Edital de teste - MESTRADO V<br>Curso: *ENGENHARIA AGRÍCOLA - MESTRADO ACADÉMICO - MESTRADO ACADÊMICO<br>Currículo:* SELECIONE --<br>Área de Concentração:--SELECIONE --<br>Linha de Pesquisa:-- SELECIONE -- V<br>Orientador:-- SELECIONE--<br>Inicio da Orientação.<br>Coorientador:--SELECIONE- V<br>Início da Coorientação: <br>Coorientadores Externos:<br>Confirmar << Passo Anterior Cancelar<br>* Campos de preenchimento obrigatório.<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2021 - UFRN - treinamento-jboss01.treinamento-jboss01 - vSNAPSHOT<br><!-- End of picture text -->
 
 Lembrem de verificar se o aluno está sendo inserido como regular ou especial 
 
@@ -6530,9 +6530,9 @@ QDigite aqui para pesquisar
 
 <!-- page 60 -->
 
-口 
+ 
 
-塑 SIGAA - Sistema Integrado de GX + 
+ SIGAA - Sistema Integrado de GX + 
 
 ← C 
 
@@ -6668,6 +6668,6 @@ Após isso o sistema apresenta a mensagem de discente cadastrado. O mesmo deve s
 
 57 
 
-27°C Chuva fraca ^一口质物口口<sup>POR</sup> INTL08/09/202112:59 易 
+27°C Chuva fraca ^<sup>POR</sup> INTL08/09/202112:59  
 
 Q Digite aqui para pesquisar

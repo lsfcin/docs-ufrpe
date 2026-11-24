@@ -1,5 +1,5 @@
 ---
-description: "FORMULÁRIO PARA INSCRIÇÃO EM PROGRAMAS: FORMULÁRIO PARA INSCRIÇÃO EM PROGRAMAS DE PÓS-GRADUAÇÃO ALUNO ESPECIAL (PRPG)."
+description: "Requerimento de aluno especial: inscrição em disciplinas de pós-graduação; o interessado informa programa, área e disciplinas à coordenação."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/formulario_inscricao_aluno_especial_0.doc"
 origin_checked: "2026-11-23"
 sha256: "720cad75286cbc165d73c91f0394ef8090f2e15a6752e2fe8dedd88770ef6d6a"

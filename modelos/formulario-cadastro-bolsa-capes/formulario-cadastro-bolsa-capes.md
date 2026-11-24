@@ -1,5 +1,5 @@
 ---
-description: "FORMULÁRIO DE CADASTRO: bolsa capes - formulario de cadastro (PRPG)."
+description: "Formulário de Cadastro de Bolsista: cadastra o bolsista da Demanda Social e colhe as assinaturas da Comissão de Bolsas e do bolsista."
 source: "../formulario-cadastro-bolsa-capes.pdf"
 sha256: "ec7e85b4b33747c08aebc6e53c492499fd9021553741e8245a67d98a30b21527"
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/bolsa_capes_-_formulario_de_cadastro.pdf"

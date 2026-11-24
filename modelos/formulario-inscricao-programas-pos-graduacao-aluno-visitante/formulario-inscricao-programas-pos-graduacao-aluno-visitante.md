@@ -1,5 +1,5 @@
 ---
-description: "FORMULÁRIO PARA INSCRIÇÃO EM PROGRAMAS: FORMULÁRIO PARA INSCRIÇÃO EM PROGRAMAS DE PÓS-GRADUAÇÃO ALUNO VISITANTE (PRPG)."
+description: "Requerimento de aluno visitante: pede inscrição em disciplinas de pós-graduação, com ficha e carta de recomendação."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/formulario_inscricao_aluno_visitante.doc"
 origin_checked: "2026-11-23"
 sha256: "d4a260b70daddd4af1280debe72e48305453ccbd54f79ed93611f34f4b41949f"

@@ -1,5 +1,5 @@
 ---
-description: "Normas Gerais do Lato Sensu: RECEPE904.2025 APROVA NOVAS NORMAS GERAIS LATO SENSU E REVOGA RECEPE 226.2020 E 293.2019 (PRPG)."
+description: "Res. CEPE/UFRPE 904/2025: estabelece normas para cursos e programas de pós-graduação lato sensu da UFRPE, usadas por unidades proponentes."
 source: "../res-cepe-904-2025-normas-gerais-lato-sensu.pdf"
 sha256: "e95d407a3716a6e177b4c3a84e4902fe5a52c71d5fa96b59db77a67758780e0c"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE904.2025%20%20APROVA%20NOVAS%20NORMAS%20GERAIS%20LATO%20SENSU%20E%20REVOGA%20RECEPE%20226.2020%20E%20293.2019.pdf"

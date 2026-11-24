@@ -148,7 +148,7 @@ Rua Dom Manoel de Medeiros, s/n, Dois Irmãos. Recife - PE | CEP 52171-900 | <u>
 
 × 
 
-目☆ 三 xkcd - A Webcomic - . 》 
+☆  xkcd - A Webcomic - .  
 
 ###### 8https://preproducao.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
 
@@ -342,9 +342,9 @@ Em primeiro lugar é necessário Consolidar a atividade da defesa
 
 10:38 
 
-后)<sup>POR</sup> INTL17/05/202210:38 
+)<sup>POR</sup> INTL17/05/202210:38 
 
-市 
+ 
 
 ǔ 
 
@@ -360,11 +360,11 @@ Digite aqui para pesquisar
 
 SIGAA - Sistema Integrado de G× + 
 
-> 凸 × 
+>  × 
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/graduacao/busca_discente.jsf 
 
-目☆ 
+☆ 
 
 ##### C 
 
@@ -541,13 +541,13 @@ Introdução Save to Mendeley Welcome to Video G...Giant In the Playgroun...Look
 
 ≡ 
 
-》 
+ 
 
 3 
 
-后物INTL 17/05/2022POR 10:38 星2 
+INTL 17/05/2022POR 10:38 2 
 
-出 
+ 
 
 Digite aquí para pesquisar 
 
@@ -559,9 +559,9 @@ Digite aquí para pesquisar
 
 SIGAA - Sistema Integrado de GX + 
 
-> 凸 × 
+>  × 
 
-目☆ 
+☆ 
 
 ← C 
 
@@ -715,9 +715,9 @@ Em seguida escolhese a atividade a consolidar, e seguese adiante
 
 ≡ 
 
-》 
+ 
 
-4 INTL 17/05/2022POR 10:39 星2 
+4 INTL 17/05/2022POR 10:39 2 
 
 Digite aquí para pesquisar 
 
@@ -731,13 +731,13 @@ INTL 17/05/2022POR
 
 SIGAA - Sistema Integrado de GX + 
 
-> 凸 × 
+>  × 
 
 ← C 
 
-目☆ ≡ 
+☆ ≡ 
 
-》 
+ 
 
 
 ![p08-fig1](img/p08-fig1.jpg)
@@ -847,7 +847,7 @@ Atenção!! Esta atividade foi cadastrada originalmente no PontoA e não contém
 
 5 
 
-POR 10:39 后物INTL 17/05/2022 早2 
+POR 10:39 INTL 17/05/2022 2 
 
 Digite aquí para pesquisar 
 
@@ -861,9 +861,9 @@ Digite aquí para pesquisar
 
 × 
 
-￥目 
+￥ 
 
-三 》 
+  
 
 ← 
 
@@ -1082,11 +1082,11 @@ AVO O  OO O O O SO O  O OO O IL<br>TÍTULO EM INGLêS:<br>TAXONOMIC ADVANCES IN 
 
 6 
 
-POR 10:40 口 INTL 17/05/2022 
+POR 10:40  INTL 17/05/2022 
 
 29C Chuva fraca 
 
-日 
+ 
 
 Digite aqui para pesquisar 
 
@@ -1096,11 +1096,11 @@ Digite aqui para pesquisar
 
 > SIGAA - Sistema Integrado deGX + 
 
-> 凸 × 
+>  × 
 
 ← C 
 
-￥目 
+￥ 
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/stricto/ata_defesa/form_ata_correcoes.jsf 
 
@@ -1252,11 +1252,11 @@ Senha:*
 <!-- Start of picture text -->
 Introdução Save to Mendeley Welcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through ... [bb.com.br] Jurassic World: Adult I... FastGames - Gamers l... Facebook Meme Generator - Im... Nuklear Power» 8-Bit...xkcd - A Webcomic -..<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>EDGAR ALBERTO DO E. S. SILVA (Deslogar) Alterar vínculo Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Docente Alterar senha<br>CadastrosAluno TurmasMatrículasConsultasRelatórios Biblioteca Página WEBOutros<br>PORTAL DO COORDENADOR STRICTO > CONSOLIDAÇÃO DE ATIVIDADE > CONFIRMAÇÃO<br>Matrícula: 200718142<br>Discente: KALINE PEREIRA DOS SANTOS SILVA<br>Programa: COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PRPG<br>CurSo: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO - MESTRADO<br>Status: ATIVO<br>Tipo: REGULAR<br>DADOS DO REGISTRO<br>Atividade: PBDC7300 - TRABALHO DE DISSERTAÇÃO - BIODIVERSIDADE E CONSERVAÇÃO<br>Tipo da Atividade: DISSERTAÇÃO/TESE<br>Ano-Período: 2021.2<br>Data de Início: Agosto / 2021<br>Então  insere-se  a  Data Final: Março / 2022<br>senha do usuário e  Resultado: APROVADO<br>Confirmar << Alterar Dados Informados Cancelar<br>confirma.<br>CONFIRME SUA SENHA<br>Senha: *<br>* Campos de preenchimento obrigatório.<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-bos01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
-》 
+ 
 
 7 
 
-INTL 17/05/2022POR 10:41 星2 
+INTL 17/05/2022POR 10:41 2 
 
 29C Chuva fraca 
 
@@ -1266,7 +1266,7 @@ Digite aqui para pesquisar
 
 <!-- page 11 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
@@ -1479,7 +1479,7 @@ do Programa de Demantia Social
 
 
 <!-- Start of picture text -->
-￥目<br><!-- End of picture text -->
+￥<br><!-- End of picture text -->
 
 IntroduçãoSave to Mendeley Welcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through... [bb.com.br] Jurassic World: Adult ... FastGames - Gamers l...FacebookMeme Generator - Im...Nuklear Power » 8-Bit ...xkcd - A Webcomic - .. 
 
@@ -1496,11 +1496,11 @@ UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajud
 
 Após a ata ser assinada, a mesma deve ser inserida no sistema através deste menu 
 
-》 
+ 
 
 8 
 
-POR 10:37 INTL17/05/2022 星2 
+POR 10:37 INTL17/05/2022 2 
 
 29C Chuva fraca 
 
@@ -1510,11 +1510,11 @@ Q Digite aqui para pesquisar
 
 <!-- page 12 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-￥目 
+￥ 
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/graduacao/busca_discente.jsf 
 
@@ -1673,7 +1673,7 @@ de Defesa Assinada] DOtÃO.
 <!-- Start of picture text -->
 IntroduçãoSave to Mendeley Welcome to Video Ga... Giant In the Playgroun...Looking For Group Goblins - Life through ...[bb.com.br] Jurassic World: Adult I...FastGames - Gamers l...Facebook Meme Generator - Im...Nuklear Power » 8-Bit ..xkcd - A Webcomic -...<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>EDGAR ALBERTO DO E. S. SILVA (Deslogar) Alterar vínculo Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Docente Alterar senha<br>CadastrosAluno TurmasMatrículasConsultasRelatórios Biblioteca Página WEBOutros<br>PORTAL DO COORDENADOR STRICTO > BANCAS DO DISCENTE<br>Matrícula: 200718142<br>Discente: KALINE PEREIRA DOS SANTOS SILVA<br>Programa: COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PRPG<br>Curso: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO - MESTRADO<br>Status: DEFENDIDO<br>Tipo: REGULAR<br>Q: Visualizar:Alterar : Aprovar Banca<br>: Gerar Ata de Defesa e Folha de Correções: Ver Arquivo da Ata e Folha de Correções : Inserir Ata de Defesa Assinada<br>X: Cancelar Banca Após pesquisar<br>BANCA(s) ENCONTRADA(s) (1) pelo discente,<br>Data Tipo Descrição Atividade Situação<br>31/03/2022 DEFESA AVANÇOS TAXONÔMICOS NO SÉCULO 21: UM ESTUDO PBDC7300 - TRABALHO DE DISSERTAÇÃO - APROVADO Q 4 clica-se neste<br>DE CASO COM EUPHORBIACEAE S.S. NO BRASIL. BIODIVERSIDADE E CONSERVAÇÃO (2021.2)<br><< Voltar Inserir Ata de Defesa Assinada botão.<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
-》 
+ 
 
 https://preproducao.sigs.ufrpe.br/sigaa/graduacao/busca_discente.jsf# 
 
@@ -1681,9 +1681,9 @@ https://preproducao.sigs.ufrpe.br/sigaa/graduacao/busca_discente.jsf#
 
 10:43 
 
-POR 10:43 INTL17/05/2022 星2 
+POR 10:43 INTL17/05/2022 2 
 
-出 
+ 
 
 QDigite aquí para pesquisar 
 
@@ -1695,7 +1695,7 @@ QDigite aquí para pesquisar
 
 > SIGAA - Sistema Integrado de GX + 
 
-> 凸 × 
+>  × 
 
 
 ![p13-fig2](img/p13-fig2.jpg)
@@ -1811,9 +1811,9 @@ do Coordenador Stricto
 
 
 <!-- Start of picture text -->
-￥目<br><!-- End of picture text -->
+￥<br><!-- End of picture text -->
 
-##### ← C https://preproducao.sigs.ufrpe.br/sigaa/stricto/ata_defesa/form_anexar_ata_assinada.jsf ￥目 Introdução Save to MendeleyWelcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through ...[bb.com.br]Jurassic World: Adult I...FastGamer - Gamers 1...Facebook Meme Generator - Im...Nuklear PGower» 8-Bit...xkced-A Webcomic -... 
+##### ← C https://preproducao.sigs.ufrpe.br/sigaa/stricto/ata_defesa/form_anexar_ata_assinada.jsf ￥ Introdução Save to MendeleyWelcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through ...[bb.com.br]Jurassic World: Adult I...FastGamer - Gamers 1...Facebook Meme Generator - Im...Nuklear PGower» 8-Bit...xkced-A Webcomic -... 
 
 
 
@@ -1822,13 +1822,13 @@ do Coordenador Stricto
 <!-- Start of picture text -->
 UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>EDGAR ALBERTO DO E. S. SILVA (Deslogar) Alterar vínculo Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Docente Alterar senha<br>PORTAL DO COORDENADOR STRICTO > ADICIONAR ATA DE DEFESA ASSINADA<br>Matrícula: 200718142<br>Discente: KALINE PEREIRA DOS SANTOS SILVA<br>Programa: COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PRPG<br>CurSo: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO - MESTRADO<br>Status: DEFENDIDO<br>Tipo: REGULAR<br>Então  insere-se  o  CADASTRAR DOCUMENTO<br>Arquivo: Procura... Nenhum arquivo selecionado.<br>arquivo  da  ata<br>Cadastrar ArquivoCancelar<br>assinado e clica-se em   Campos de preenchimento obrigatório.<br>“Cadastrar Arquivo” Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 |Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
-三 
+ 
 
-https://preproducao.sigs.ufrpe.br/sigaa/stricto/ata_defesa/form_anexar_ata_assinada.jsf# 出 QDigite aquí para pesquisar 
+https://preproducao.sigs.ufrpe.br/sigaa/stricto/ata_defesa/form_anexar_ata_assinada.jsf#  QDigite aquí para pesquisar 
 
 10 
 
-INTL 17/05/2022POR 10:44 星2 
+INTL 17/05/2022POR 10:44 2 
 
 29°C Chuva fraca INTL 17/05/2022POR 
 
@@ -1836,7 +1836,7 @@ INTL 17/05/2022POR 10:44 星2
 
 <!-- page 14 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
@@ -2022,11 +2022,11 @@ de DemantlaSociá
 
 
 <!-- Start of picture text -->
-￥目<br><!-- End of picture text -->
+￥<br><!-- End of picture text -->
 
 IntroduçãoSave to Mendeley Welcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through... [bb.com.br] Jurassic World: Adult ... FastGames - Gamers l...FacebookMeme Generator - Im... Nuklear Power » 8-Bit ...xkcd - A Webcomic - ... 
 
-》 
+ 
 
 ###### UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR 
 
@@ -2039,7 +2039,7 @@ EDGAR ALBERTO DO E. S. SILVA (Deslogar) Alterar vínculo Semestre atual: 2022.1 
 
 Depois disso, pode-se conferir o progresso dos Procedimentos pós-Defesa neste menu 
 
-11 后<sup>POR</sup> INTL17/05/202210:44 星2 
+11 <sup>POR</sup> INTL17/05/202210:44 2 
 
 29C Chuva fraca 
 
@@ -2051,9 +2051,9 @@ Q Digite aqui para pesquisar
 
 SIGAA - Sistema Integrado de GX + 
 
-> 凸 × 
+>  × 
 
-目☆ 
+☆ 
 
 #### ← C https://preproducao.sigs.ufrpe.br/sigaa/graduacao/busca_discente.jsf 
 
@@ -2065,11 +2065,11 @@ Vemos que o primeiro passo foi concluído, e o segundo deve ser realizado pelo a
 
 ≡ 
 
-》 
+ 
 
 12 
 
-POR 10:45 INTL 17/05/2022 早2 
+POR 10:45 INTL 17/05/2022 2 
 
 Digite aquí para pesquisar 
 
@@ -2079,11 +2079,11 @@ Digite aquí para pesquisar
 
 <!-- page 16 -->
 
-> 口 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-￥目 
+￥ 
 
 ###### 8https://preproducao.sigs.ufrpe.br/sigaa/portais/discente/discente.jsf 
 
@@ -2280,11 +2280,11 @@ menus
 
 
 <!-- Start of picture text -->
-UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>Ensino Ppee ãossdsBiblioteca Bolsas Outros<br>Consultar Minhas Notas<br>日 Emitir Atestado de Matrícula Mensagens<br>Emitir Histórico Atualizar Foto e Perfil<br>Emitir Declaração de Vínculo<br>Meus Dados Pessoais<br>Alunos Aptos a Colar Grau<br>Matrícula On-Line<br>Trancamento de Matrícula<br>KALINE PEREIRA DOS SANTOS SILVA<br>Produções Acadêmicas Acompanhar Procedimentos após Defesa<br>Submeter Teses/Dissertações 4 Ver turmas anteriores ①①Fórum Periódicos Acesso Externo O aluno pode realizar o<br>Atividades de Campo ICIPA ATUALMENTE CURSO segundo passo de duas<br>Consultas GeraisCalendário Acadêmico maneiras,  acessando<br>MINHAS ATIVIDADES Comunidade Virtual qualquer um destes dois<br>Não há atividades cadastradas para os próximos 15 dias ou decorridos 7 dias. Regulamento dos Cursos de Pós-Graduação<br>menus<br>Dados Institucionais<br>FORUM DE CURSOS<br>Matrícula: 200718142<br>Curso: BIODIVERSIDADE E CONSERVAÇÃO<br>Caro Aluno, este fórum é destinado para discussões relacionadas ao seu curso. Todos os alunos do curso - MESTRADO ACADÊMICO/CBC-<br>e a coordenação tem acesso a ele. CPPGSC - SERRA TALHADA<br>Nível: MESTRADO<br>Nenhum item foi encontrado Status: DEFENDIDO<br>E-Mail:<br>Entrada: 2019.2<br>Orientador: ANDRE LAURENIO DE MELO<br>Área: DE ECOSSISTEMAS NORDESTINOSBIODIVERSIDADE E CONSERVAÇÃO<br>Linha dePesquisa: AQUÁTICOSECOLOGIA, CONSERVAÇÃO E USODA BIODIVERSIDADE DE AMBIENTES<br>Mês Atual: 34<br>CH cursada: 420<br>Índices Acadêmicos<br>CR: 3.6857<br>Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>Ensino Ppee ãossdsBiblioteca Bolsas Outros<br>Consultar Minhas Notas<br> Emitir Atestado de Matrícula Mensagens<br>Emitir Histórico Atualizar Foto e Perfil<br>Emitir Declaração de Vínculo<br>Meus Dados Pessoais<br>Alunos Aptos a Colar Grau<br>Matrícula On-Line<br>Trancamento de Matrícula<br>KALINE PEREIRA DOS SANTOS SILVA<br>Produções Acadêmicas Acompanhar Procedimentos após Defesa<br>Submeter Teses/Dissertações 4 Ver turmas anteriores ①①Fórum Periódicos Acesso Externo O aluno pode realizar o<br>Atividades de Campo ICIPA ATUALMENTE CURSO segundo passo de duas<br>Consultas GeraisCalendário Acadêmico maneiras,  acessando<br>MINHAS ATIVIDADES Comunidade Virtual qualquer um destes dois<br>Não há atividades cadastradas para os próximos 15 dias ou decorridos 7 dias. Regulamento dos Cursos de Pós-Graduação<br>menus<br>Dados Institucionais<br>FORUM DE CURSOS<br>Matrícula: 200718142<br>Curso: BIODIVERSIDADE E CONSERVAÇÃO<br>Caro Aluno, este fórum é destinado para discussões relacionadas ao seu curso. Todos os alunos do curso - MESTRADO ACADÊMICO/CBC-<br>e a coordenação tem acesso a ele. CPPGSC - SERRA TALHADA<br>Nível: MESTRADO<br>Nenhum item foi encontrado Status: DEFENDIDO<br>E-Mail:<br>Entrada: 2019.2<br>Orientador: ANDRE LAURENIO DE MELO<br>Área: DE ECOSSISTEMAS NORDESTINOSBIODIVERSIDADE E CONSERVAÇÃO<br>Linha dePesquisa: AQUÁTICOSECOLOGIA, CONSERVAÇÃO E USODA BIODIVERSIDADE DE AMBIENTES<br>Mês Atual: 34<br>CH cursada: 420<br>Índices Acadêmicos<br>CR: 3.6857<br>Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
-》 
+ 
 
-13 后制<sup>POR</sup> INTL17/05/202210:47 星2 
+13 <sup>POR</sup> INTL17/05/202210:47 2 
 
 29C Chuva fraca 
 
@@ -2296,11 +2296,11 @@ Q Digite aqui para pesquisar
 
 SIGAA - Sistema Integrado de GX + 
 
-> 凸 × 
+>  × 
 
 ← ← C https://preproducao.sigs.ufrpe.br/sigaa/portais/discente/discente.jsf 
 
-目☆ 
+☆ 
 
 ≡ 
 
@@ -2316,11 +2316,11 @@ SIGAA - Sistema Integrado de GX +
 
 
 
-》 
+ 
 
 14 
 
-POR 10:47 INTL 17/05/2022 早2 
+POR 10:47 INTL 17/05/2022 2 
 
 Digite aquí para pesquisar 
 
@@ -2332,13 +2332,13 @@ Digite aquí para pesquisar
 
 > SIGAA - Sistema Integrado de G× + 
 
-凸 × 
+ × 
 
 C 
 
 ← 
 
-目☆ 
+☆ 
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/portais/discente/discente.jsf 
 
@@ -2472,13 +2472,13 @@ Enquanto o segundo menu vai diretamente para a mesma tela que se segue após cli
 
 Aqui o aluno insere o arquivo da versão corrigida (ainda sem a ficha catalográfica) e escreve um resumo, e também pode fazer uma observação. Em seguida clica-se em “Cadastrar” 
 
-三 
+ 
 
-》 
+ 
 
 15 
 
-INTL 17/05/2022POR 10:47 星2 
+INTL 17/05/2022POR 10:47 2 
 
 Digite aqui para pesquisar 
 
@@ -2488,11 +2488,11 @@ Digite aqui para pesquisar
 
 <!-- page 19 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-目☆ 三 
+☆  
 
 ← C 
 
@@ -2514,7 +2514,7 @@ Digite aqui para pesquisar
 
 
 
-》 
+ 
 
 16 
 
@@ -2532,9 +2532,9 @@ Digite aqui para pesquisar
 
 SIGAA - Sistema Integrado de GX + 
 
-> 凸 × 
+>  × 
 
-###### 目☆ 
+###### ☆ 
 
 ##### ← → C 
 
@@ -2601,7 +2601,7 @@ Captura de tela de uma página do sistema web acadêmico **SIGAA** (Sistema Inte
   - `Resumo da Revisão`: `Teste`
   - `Status`: `SUBMETIDO PARA REVISÃO DO ORIENTADOR`
   - `Data Revisão`: *(célula vazia)*
-  - Coluna de ações: dois ícones (documento e lupa), sobrepostos pelos caracteres de OCR `目Q`
+  - Coluna de ações: dois ícones (documento e lupa), sobrepostos pelos caracteres de OCR `Q`
 
 **Link abaixo da tabela:**
 - `Portal do Discente`
@@ -2675,15 +2675,15 @@ parte do orientador. do Discente
 
 
 <!-- Start of picture text -->
-Introdução Save to MendeleyWelcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through...[bb.com.br]Juratsic World: Adult ...FastGamers - Gamers ...Facebook Meme Generator -I...Nuklear Power » 8-Bit...xkced - A Webcomic -...<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda? Tempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>PORTAL DO DISCENTE > LISTA DE REVISÕES E CORREÇÕES DA TESE<br>Caro Discente,<br>utio o osr e s ns  sesi ao ered oxe oi o donr<br>Abaixo do formulário estão listadas as revisões anteriores sendo possível baixar o arquivo versionado ou ver os detalhes da revisão.<br>CONTROLE DE REVISÃO DE TESE<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>Após  clicar  em  “Conferir  Curso: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO<br>Ata de Defesa: Visualizar PDF<br>histórico da revisão”, o sistema  Cancelar<br>apresenta esta tela. Aqui será   Campos de preenchimento obrigatório.<br>mostrado todo o histórico de  : Ver Arquivo Q: Visualizar Detalhes<br>HISTÓRICO DE REVISÕES<br>submissão  do  discente  e  Nº Revisão Data Envio Resumo da Revisão Status Data Revisão<br>1 17/05/2022 10:48 Teste SUBMETIDO PARA REVISÃO DO ORIENTADOR 目Q<br>solicitações de correção por<br>Portal do Discente<br>parte do orientador.<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+Introdução Save to MendeleyWelcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through...[bb.com.br]Juratsic World: Adult ...FastGamers - Gamers ...Facebook Meme Generator -I...Nuklear Power » 8-Bit...xkced - A Webcomic -...<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda? Tempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>PORTAL DO DISCENTE > LISTA DE REVISÕES E CORREÇÕES DA TESE<br>Caro Discente,<br>utio o osr e s ns  sesi ao ered oxe oi o donr<br>Abaixo do formulário estão listadas as revisões anteriores sendo possível baixar o arquivo versionado ou ver os detalhes da revisão.<br>CONTROLE DE REVISÃO DE TESE<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>Após  clicar  em  “Conferir  Curso: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO<br>Ata de Defesa: Visualizar PDF<br>histórico da revisão”, o sistema  Cancelar<br>apresenta esta tela. Aqui será   Campos de preenchimento obrigatório.<br>mostrado todo o histórico de  : Ver Arquivo Q: Visualizar Detalhes<br>HISTÓRICO DE REVISÕES<br>submissão  do  discente  e  Nº Revisão Data Envio Resumo da Revisão Status Data Revisão<br>1 17/05/2022 10:48 Teste SUBMETIDO PARA REVISÃO DO ORIENTADOR Q<br>solicitações de correção por<br>Portal do Discente<br>parte do orientador.<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
 ≡ 
 
-》 
+ 
 
 17 
 
-INTL 17/05/2022POR 10:49 星2 
+INTL 17/05/2022POR 10:49 2 
 
 Digite aqui para pesquisar 
 
@@ -2701,7 +2701,7 @@ Digite aqui para pesquisar
 
 ###### IntroduçãoSave to Mendeley 
 
-目☆ 三 xkcd - A Webcomic - ... 》 
+☆  xkcd - A Webcomic - ...  
 
 ###### 8https://preproducao.sigs.ufrpe.br/sigaa/portais/docente/docente.jsf 
 
@@ -2946,7 +2946,7 @@ menu
 
 
 <!-- Start of picture text -->
-Welcome to Video Ga...Giant In the Playgroun...Looking For GroupGoblins - Life through ...  [bb.com.br]Jurassic World: Adult I...FastGames - Gamers I... FacebookMeme Generator - Im...Nuklear Power » 8-Bit ... xkcd - A Webcomic - ...<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda? Tempo de Sessão: 00:25 SAIR<br>ANDRE LAURENIO DE MELO (Deslogar) Semestre atual: 2021.1 Módulos Caixa Postal Abrir Chamado<br>DIRETORIA GERAL E ACADÊMICA DA UNIDADE ACADÊMICA DE SERRA TAL... (11.01.43) Menu Docente Alterar senha<br>目Ensino PesquisaExtensão Ações Integradas Convênios Biblioteca Produção IntelectualAmbientes Virtuais outros<br>Orientação Acadêmica - Graduação<br>Orientações Pós-Graduação Meus Orientandos Minhas Mensagens<br>Estágios Meus Orientandos NEE Trocar Foto<br>PAP V Confirmar TrancamentosAnalisar Solicitações de Matrícula Editar Dados do Site Pessoal doDocente Para poder verificar a<br>Turmas submissão do orientando,<br>Projetos Bancas Ver Agenda das Turmas<br>Avaliação Institucional o orientador acessa este<br>Plano Individual do Docente (PID) Ch.Total / Horário Alunos** http://www.docente.ufrpe.br/andrelaurenioSua página pessoal na UFRPE: menu<br>Consultas<br>(DA) Periódicos CAPES Oficios Eletrônicos<br>Solicitar Compra de Livros para a Biblioteca 30 / 30 5/ 10<br>Atividades de Campo Fórum Docente<br>23456M345<br>Fórum de Cursos 23456T234<br>Fórum Docente 30 / 30 (23/05/2022- 6/ 20 Regulamento dos Cursos de Graduação<br>27/05/2022) Calendário Universitário<br>is Turmas | Grade de Horários | Ver turmas anteriores<br>Declaração de Disciplinas Ministradas na turma ou subturma Dados Pessoais<br>Planos de Docência Assistida emana atual. Siape! 1606232<br>Caeogra) Docente<br>Declaração de Participação em Banca de Graduação Titug5geo: DOUTORADO<br>Gerenciar Relatório de Carga Horária Semanal de Virtual Regime Trabalho: Dedicação Exclusiva<br>Buscar Comunidades Virtuais E-mail: andrelaurenio@yahoo.com.br<br>EDITAIS PUBLICADOS<br>Edital Período de Submissões<br>ver todos os editais<br>Portal do Docente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+Welcome to Video Ga...Giant In the Playgroun...Looking For GroupGoblins - Life through ...  [bb.com.br]Jurassic World: Adult I...FastGames - Gamers I... FacebookMeme Generator - Im...Nuklear Power » 8-Bit ... xkcd - A Webcomic - ...<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda? Tempo de Sessão: 00:25 SAIR<br>ANDRE LAURENIO DE MELO (Deslogar) Semestre atual: 2021.1 Módulos Caixa Postal Abrir Chamado<br>DIRETORIA GERAL E ACADÊMICA DA UNIDADE ACADÊMICA DE SERRA TAL... (11.01.43) Menu Docente Alterar senha<br>Ensino PesquisaExtensão Ações Integradas Convênios Biblioteca Produção IntelectualAmbientes Virtuais outros<br>Orientação Acadêmica - Graduação<br>Orientações Pós-Graduação Meus Orientandos Minhas Mensagens<br>Estágios Meus Orientandos NEE Trocar Foto<br>PAP V Confirmar TrancamentosAnalisar Solicitações de Matrícula Editar Dados do Site Pessoal doDocente Para poder verificar a<br>Turmas submissão do orientando,<br>Projetos Bancas Ver Agenda das Turmas<br>Avaliação Institucional o orientador acessa este<br>Plano Individual do Docente (PID) Ch.Total / Horário Alunos** http://www.docente.ufrpe.br/andrelaurenioSua página pessoal na UFRPE: menu<br>Consultas<br>(DA) Periódicos CAPES Oficios Eletrônicos<br>Solicitar Compra de Livros para a Biblioteca 30 / 30 5/ 10<br>Atividades de Campo Fórum Docente<br>23456M345<br>Fórum de Cursos 23456T234<br>Fórum Docente 30 / 30 (23/05/2022- 6/ 20 Regulamento dos Cursos de Graduação<br>27/05/2022) Calendário Universitário<br>is Turmas | Grade de Horários | Ver turmas anteriores<br>Declaração de Disciplinas Ministradas na turma ou subturma Dados Pessoais<br>Planos de Docência Assistida emana atual. Siape! 1606232<br>Caeogra) Docente<br>Declaração de Participação em Banca de Graduação Titug5geo: DOUTORADO<br>Gerenciar Relatório de Carga Horária Semanal de Virtual Regime Trabalho: Dedicação Exclusiva<br>Buscar Comunidades Virtuais E-mail: andrelaurenio@yahoo.com.br<br>EDITAIS PUBLICADOS<br>Edital Período de Submissões<br>ver todos os editais<br>Portal do Docente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
 Para poder verificar a submissão do orientando, o orientador acessa este 
 
@@ -2956,7 +2956,7 @@ https://preproducao.sigs.ufrpe.br/sigaa/portais/docente/docente.jsf#
 
 POR 10:50 INTL17/05/2022 
 
-ǔ 市 
+ǔ  
 
 29C Chuva fraca 
 
@@ -2968,11 +2968,11 @@ Digite aqui para pesquisar
 
 > SIGAA - Sistema Integrado de GX + 
 
-> 凸 × 
+>  × 
 
 ← C 
 
-###### 目☆ 
+###### ☆ 
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/portais/docente/docente.jsf 
 
@@ -3009,10 +3009,10 @@ Captura de tela anotada de uma interface web do sistema acadêmico SIGAA (Sistem
 - Título da tabela: `LISTA DE ORIENTANDOS`
 - Cabeçalho de colunas: `Status do Discente` | `Discente`
 - Subcabeçalho de grupo: `MESTRADO`
-- Linha 1: `ATIVO` | `200714389 - BRIGIDA ALVES LEAL` *(artefato de OCR `国` sobreposto ao ícone à esquerda da matrícula)*
+- Linha 1: `ATIVO` | `200714389 - BRIGIDA ALVES LEAL` *(artefato de OCR `` sobreposto ao ícone à esquerda da matrícula)*
 - Linha 2: `ATIVO` | `200722634 - JULIANA GLEICE DOS SANTOS ALVES`
-- Linha 3: `ATIVO` | `20221004223 - MARIA FRANCILEIDE BARROS DE MELO` *(artefato de OCR `国` sobreposto ao ícone à esquerda da matrícula)*
-- Linha 4: `DEFENDIDO` | `200718142 - KALINE PEREIRA DOS SANTOS SILVA` *(artefato de OCR `国` sobreposto ao ícone à esquerda da matrícula)*
+- Linha 3: `ATIVO` | `20221004223 - MARIA FRANCILEIDE BARROS DE MELO` *(artefato de OCR `` sobreposto ao ícone à esquerda da matrícula)*
+- Linha 4: `DEFENDIDO` | `200718142 - KALINE PEREIRA DOS SANTOS SILVA` *(artefato de OCR `` sobreposto ao ícone à esquerda da matrícula)*
 
 *Dica flutuante (tooltip) abaixo da linha 4, à direita:*
 - `Revisar Tese/Dissertação`
@@ -3073,21 +3073,21 @@ DEFENDIDO - KALINE PEREIRA DOS SANTOS SILVA
 
 
 <!-- Start of picture text -->
-UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIRTempo de Sessão: 00:25 SAIR<br>ANDRE LAURENIO DE MELO (Deslogar) Semestre atual: 2021.1 Módulos Caixa Postal Abrir Chamado<br>DIRETORIA GERAL E ACADÊMICA DA UNIDADE ACADÊMICA DE SERRA TAL... (11.01.43) Menu Docente Alterar senha<br>PORTAL DO DOCENTE > ORIENTAÇÕES DE PÓS-GRADUAÇÃO<br>: Detalhes do Discente: Visualizar HistóricoQ: Visualizar Orientações Dadas<br>: Solicitar Banca : Revisar Tese/Dissertação<br>LISTA DE ORIENTANDOS<br>Status do<br>Discente<br>Discente<br>MESTRADO<br>ATIVO 国 200714389 - BRIGIDA ALVES LEAL<br>ATIVO 200722634 - JULIANA GLEICE DOS SANTOS ALVES<br>ATIVO 国 20221004223 - MARIA FRANCILEIDE BARROS DE MELO<br>DEFENDIDO 国 200718142 - KALINE PEREIRA DOS SANTOS SILVA<br>Revisar Tese/Dissertação<br>LISTA DE COORIENTANDOS<br>Discente<br>Portal do Docente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIRTempo de Sessão: 00:25 SAIR<br>ANDRE LAURENIO DE MELO (Deslogar) Semestre atual: 2021.1 Módulos Caixa Postal Abrir Chamado<br>DIRETORIA GERAL E ACADÊMICA DA UNIDADE ACADÊMICA DE SERRA TAL... (11.01.43) Menu Docente Alterar senha<br>PORTAL DO DOCENTE > ORIENTAÇÕES DE PÓS-GRADUAÇÃO<br>: Detalhes do Discente: Visualizar HistóricoQ: Visualizar Orientações Dadas<br>: Solicitar Banca : Revisar Tese/Dissertação<br>LISTA DE ORIENTANDOS<br>Status do<br>Discente<br>Discente<br>MESTRADO<br>ATIVO  200714389 - BRIGIDA ALVES LEAL<br>ATIVO 200722634 - JULIANA GLEICE DOS SANTOS ALVES<br>ATIVO  20221004223 - MARIA FRANCILEIDE BARROS DE MELO<br>DEFENDIDO  200718142 - KALINE PEREIRA DOS SANTOS SILVA<br>Revisar Tese/Dissertação<br>LISTA DE COORIENTANDOS<br>Discente<br>Portal do Docente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
 Nesta tela, o orientador clica neste botão, referente ao orientando o qual ele deseja revisar 
 
 ≡ 
 
-》 
+ 
 
 https://preproducao.sigs.ufrpe.br/sigaa/portais/docente/docente.jsf# 
 
 19 
 
-INTL 17/05/2022POR 10:51 星2 
+INTL 17/05/2022POR 10:51 2 
 
-出 
+ 
 
 Digite aquí para pesquisar 
 
@@ -3099,15 +3099,15 @@ INTL 17/05/2022POR
 
 <!-- page 23 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
 ##### ←<sup>→</sup> C https://preproducao.sigs.ufrpe.br/sigaa/stricto/orientacao/orientandos.jsf 
 
-目☆ ≡ 
+☆ ≡ 
 
-》 
+ 
 
 
 ![p23-fig1](img/p23-fig1.jpg)
@@ -3221,15 +3221,15 @@ de selecionar, clica-se «
 
 
 <!-- Start of picture text -->
-IntroduçãoSave to Mendeley Welcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through ... [bb.com.br] Jurassic World: Adult I... FastGames - Gamers l...Facebook Meme Generator -Im... Nuklear Power » 8-Bit...xkcd - A Webcomic -...<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>ANDRE LAURENIO DE MELO (Deslogar) Semestre atual: 2021.1 Módulos Caixa Postal Abrir Chamado<br>DIRETORIA GERAL E ACADÊMICA DA UNIDADE ACADÊMICA DE SERRA TAL... (11.01.43) Menu Docente Alterar senha<br>PORTAL DO DOCENTE > LISTA DE REVISÕES E CORREÇÕES DA DISSERTAÇÃO<br>Caro Docente,<br>Utilize o formulário abaixo para o resultado da revisão da Dissertação do discente. Caso ainda existam alterações/correções a serem realizadas pelo discente,<br>escolha o status RETORNADO PARA ADEQUAçÃO e explicite quais adequações o discente terá que realizar.<br>Abaixo do formulário estão listadas as revisões anteriores sendo possível baixar o arquivo versionado ou ver os detalhes da revisão.<br>CONTROLE DE REVISÃO DE DISSERTAÇÃO<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>CurSo: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO/CBC-CPPGSC - SERRA TALHADA - PRESENCIAL<br>Aqui, o orientador pode<br>Ata de Defesa: Visualizar PDF<br>DADOs DA ReVISÃO verificar o arquivo enviado,<br>e solicitar novas correções,<br>Status:  RETORNADO PARA ADEQUAÇÃO<br>4<br>RETORNADO PARA ADEQUAÇÃO ou aprovar o envio. Depois<br>Observação: APROVADA de selecionar, clica-se em<br>4 “Cadastrar”<br>Cadastrar<< VoltarCancelar<br>* Campos de preenchimento obrigatório.<br>=: Ver Arquivo Q: Visualizar Detalhes<br>HISTÓRICO DE REVISõES<br>Nº Revisão Data Envio Resumo da Revisão Status Data Revisão<br>1 17/05/2022 10:48 Teste SUBMETIDO PARA REVISÃO DO ORIENTADOR 目Q<br>Portal do Docente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+IntroduçãoSave to Mendeley Welcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through ... [bb.com.br] Jurassic World: Adult I... FastGames - Gamers l...Facebook Meme Generator -Im... Nuklear Power » 8-Bit...xkcd - A Webcomic -...<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>ANDRE LAURENIO DE MELO (Deslogar) Semestre atual: 2021.1 Módulos Caixa Postal Abrir Chamado<br>DIRETORIA GERAL E ACADÊMICA DA UNIDADE ACADÊMICA DE SERRA TAL... (11.01.43) Menu Docente Alterar senha<br>PORTAL DO DOCENTE > LISTA DE REVISÕES E CORREÇÕES DA DISSERTAÇÃO<br>Caro Docente,<br>Utilize o formulário abaixo para o resultado da revisão da Dissertação do discente. Caso ainda existam alterações/correções a serem realizadas pelo discente,<br>escolha o status RETORNADO PARA ADEQUAçÃO e explicite quais adequações o discente terá que realizar.<br>Abaixo do formulário estão listadas as revisões anteriores sendo possível baixar o arquivo versionado ou ver os detalhes da revisão.<br>CONTROLE DE REVISÃO DE DISSERTAÇÃO<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>CurSo: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO/CBC-CPPGSC - SERRA TALHADA - PRESENCIAL<br>Aqui, o orientador pode<br>Ata de Defesa: Visualizar PDF<br>DADOs DA ReVISÃO verificar o arquivo enviado,<br>e solicitar novas correções,<br>Status:  RETORNADO PARA ADEQUAÇÃO<br>4<br>RETORNADO PARA ADEQUAÇÃO ou aprovar o envio. Depois<br>Observação: APROVADA de selecionar, clica-se em<br>4 “Cadastrar”<br>Cadastrar<< VoltarCancelar<br>* Campos de preenchimento obrigatório.<br>=: Ver Arquivo Q: Visualizar Detalhes<br>HISTÓRICO DE REVISõES<br>Nº Revisão Data Envio Resumo da Revisão Status Data Revisão<br>1 17/05/2022 10:48 Teste SUBMETIDO PARA REVISÃO DO ORIENTADOR Q<br>Portal do Docente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
 Aqui, o orientador pode verificar o arquivo enviado, e solicitar novas correções, ou aprovar o envio. Depois de selecionar, clica-se em “Cadastrar” 
 
 20 
 
-INTL 17/05/2022POR 10:51 星2 
+INTL 17/05/2022POR 10:51 2 
 
-出 
+ 
 
 Digite aqui para pesquisar 
 
@@ -3263,7 +3263,7 @@ SOLICITAÇÃO DE HOMOLOGAÇÃO DO DIPLOMA
 
 <!-- page 25 -->
 
-> 口 × ￥目 
+>  × ￥ 
 
 > SIGAA - Sistema Integrado de GX + 
 
@@ -3271,7 +3271,7 @@ SOLICITAÇÃO DE HOMOLOGAÇÃO DO DIPLOMA
 
 ← C 
 
-###### FastGames - Gamers l...FacebookMeme Generator - Im...Nuklear Power » 8-Bit ...xkcd - A Webcomic - ... 》 A+ A- Ajuda?Tempo de Sessão: 00:25 SAIRTempo de Sessão: 00:25 SAIR 
+###### FastGames - Gamers l...FacebookMeme Generator - Im...Nuklear Power » 8-Bit ...xkcd - A Webcomic - ...  A+ A- Ajuda?Tempo de Sessão: 00:25 SAIRTempo de Sessão: 00:25 SAIR 
 
 ###### IntroduçãoSave to Mendeley Welcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through ...[bb.com.br] Jurassic World: Adult I... 
 
@@ -3402,13 +3402,13 @@ GR:
 
 
 <!-- Start of picture text -->
-UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda?Tempo de Sessão: 00:25 SAIRTempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>Ensino Pe ãosesdsBiblioteca Bolsas Outros<br>Consultar Minhas Notas<br>日 Emitir Atestado de Matrícula Mensagens<br>Emitir Histórico Atualizar Foto e Perfil<br>Emitir Declaração de Vínculo<br>Meus Dados Pessoais<br>Alunos Aptos a Colar Grau<br>Matrícula On-Line<br>Trancamento de Matrícula<br>KALINE PEREIRA DOS SANTOS SILVA<br>Produções Acadêmicas Acompanhar Procedimentos após Defesa Ver turmas anteriores Fórum Acesso Externo<br>Submeter Teses/Dissertações de Periódicos<br>Atividades de Campo CURSO CAPES<br>ICIPA ATUALMENTE<br>Calendário Acadêmico 山<br>Consultas Gerais<br>MINHAS ATIVIDADES Comunidade Virtual Entretanto, desta vez ele<br>Não há atividades cadastradas para os próximos 15 dias ou decorridos 7 dias. Regulamento dos Cursos de Pós-Graduação<br>somente poderá enviar o<br>Dados Institucionais<br>FORUM DE CURSOS Matrícula: 200718142 arquivo  através  deste<br>Curso: BIODIVERSIDADE E CONSERVAÇÃO<br>Caro Aluno, este fórum é destinado para discussões relacionadas ao seu curso. Todos os alunos do curso - MESTRADO ACADÊMICO/CBC- menu, pois na tela de<br>e a coordenação tem acesso a ele. CPPGSC - SERRA TALHADA<br>Nenhum item foi encontrado Nível:Status: MESTRADODEFENDIDO Procedimentos pós-Defesa<br>E-Mail: o botão de envio não está<br>Entrada: 2019.2<br>Área:Orientador: DE ECOSSISTEMAS NORDESTINOSBIODIVERSIDADE E CONSERVAÇÃOANDRE LAURENIO DE MELO disponível<br>Linha dePesquisa: AQUÁTICOSECOLOGIA, CONSERVAÇÃO E USODA BIODIVERSIDADE DE AMBIENTES<br>Mês Atual: 34<br>CH cursada: 420<br>Índices Acadêmicos<br>CR: 3.6857<br>Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda?Tempo de Sessão: 00:25 SAIRTempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>Ensino Pe ãosesdsBiblioteca Bolsas Outros<br>Consultar Minhas Notas<br> Emitir Atestado de Matrícula Mensagens<br>Emitir Histórico Atualizar Foto e Perfil<br>Emitir Declaração de Vínculo<br>Meus Dados Pessoais<br>Alunos Aptos a Colar Grau<br>Matrícula On-Line<br>Trancamento de Matrícula<br>KALINE PEREIRA DOS SANTOS SILVA<br>Produções Acadêmicas Acompanhar Procedimentos após Defesa Ver turmas anteriores Fórum Acesso Externo<br>Submeter Teses/Dissertações de Periódicos<br>Atividades de Campo CURSO CAPES<br>ICIPA ATUALMENTE<br>Calendário Acadêmico <br>Consultas Gerais<br>MINHAS ATIVIDADES Comunidade Virtual Entretanto, desta vez ele<br>Não há atividades cadastradas para os próximos 15 dias ou decorridos 7 dias. Regulamento dos Cursos de Pós-Graduação<br>somente poderá enviar o<br>Dados Institucionais<br>FORUM DE CURSOS Matrícula: 200718142 arquivo  através  deste<br>Curso: BIODIVERSIDADE E CONSERVAÇÃO<br>Caro Aluno, este fórum é destinado para discussões relacionadas ao seu curso. Todos os alunos do curso - MESTRADO ACADÊMICO/CBC- menu, pois na tela de<br>e a coordenação tem acesso a ele. CPPGSC - SERRA TALHADA<br>Nenhum item foi encontrado Nível:Status: MESTRADODEFENDIDO Procedimentos pós-Defesa<br>E-Mail: o botão de envio não está<br>Entrada: 2019.2<br>Área:Orientador: DE ECOSSISTEMAS NORDESTINOSBIODIVERSIDADE E CONSERVAÇÃOANDRE LAURENIO DE MELO disponível<br>Linha dePesquisa: AQUÁTICOSECOLOGIA, CONSERVAÇÃO E USODA BIODIVERSIDADE DE AMBIENTES<br>Mês Atual: 34<br>CH cursada: 420<br>Índices Acadêmicos<br>CR: 3.6857<br>Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
 Após conseguir a ficha catalográfica, o aluno deverá repetir os passos anteriores para submissão do arquivo 
 
 22 
 
-后制<sup>POR</sup> INTL17/05/202210:52 星2 
+<sup>POR</sup> INTL17/05/202210:52 2 
 
 29C Chuva fraca 
 
@@ -3420,9 +3420,9 @@ Q Digite aqui para pesquisar
 
 > SIGAA - Sistema Integrado de GX + 
 
-凸 × 
+ × 
 
-###### 目☆ 
+###### ☆ 
 
 ← → C https://preproducao.sigs.ufrpe.br/sigaa/portais/discente/discente.jsf 
 
@@ -3502,11 +3502,11 @@ eS |
 
 
 <!-- Start of picture text -->
-IntroduçãoSave to MendeleyWelcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through...[bb.com.br]Juratssic World: Adult ...FastGame - Gamers 1... Facebook Meme Generator -Im...Nuklear Power» 8-Bit..xkcd-A Webcomic -..<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>PORTAL DO DISCENTE > LISTA DE REVISÕES E CORREÇÕES DA TESE<br>Caro Discente,<br>uio o ourseo re s ns  ssir rea ed oxie oii o don<br>Abaixo do formulário estão listadas as revisões anteriores sendo possível baixar o arquivo versionado ou ver os detalhes da revisão.<br>CONTROLE DE REVISÃO DE TESE<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>Curso: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO<br>O aluno então envia o  Ata de Defesa: Visualizar PDF<br>DADOs DA ReVISÃO 2<br>arquivo com a ficha  Arquivo Corrigido com a FichCatalográfica: Procurar...Nenhum arquivo selecionado.<br>catalográfica de maneira  Resumo<br>análoga ao realizado no<br>passo 2 Observação:<br>日<br>Cadastrar Cancelar<br>* Campos de preenchimento obrigatório.<br>: Ver Arquivo Q: Visualizar Detalhes<br>HISTÓRICO DE REVISÕES<br>Nº Revisão Data Envio Resumo da Revisão Status Data Revisão<br>1 17/05/2022 10:48 Teste APROVADA 17/05/2022 10:51 日Q<br>Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+IntroduçãoSave to MendeleyWelcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through...[bb.com.br]Juratssic World: Adult ...FastGame - Gamers 1... Facebook Meme Generator -Im...Nuklear Power» 8-Bit..xkcd-A Webcomic -..<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>PORTAL DO DISCENTE > LISTA DE REVISÕES E CORREÇÕES DA TESE<br>Caro Discente,<br>uio o ourseo re s ns  ssir rea ed oxie oii o don<br>Abaixo do formulário estão listadas as revisões anteriores sendo possível baixar o arquivo versionado ou ver os detalhes da revisão.<br>CONTROLE DE REVISÃO DE TESE<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>Curso: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO<br>O aluno então envia o  Ata de Defesa: Visualizar PDF<br>DADOs DA ReVISÃO 2<br>arquivo com a ficha  Arquivo Corrigido com a FichCatalográfica: Procurar...Nenhum arquivo selecionado.<br>catalográfica de maneira  Resumo<br>análoga ao realizado no<br>passo 2 Observação:<br><br>Cadastrar Cancelar<br>* Campos de preenchimento obrigatório.<br>: Ver Arquivo Q: Visualizar Detalhes<br>HISTÓRICO DE REVISÕES<br>Nº Revisão Data Envio Resumo da Revisão Status Data Revisão<br>1 17/05/2022 10:48 Teste APROVADA 17/05/2022 10:51 Q<br>Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
 ≡ 
 
-》 
+ 
 
 23 
 
@@ -3524,13 +3524,13 @@ INTL 17/05/2022
 
 > SIGAA - Sistema Integrado de GX + 
 
-> 凸 × 
+>  × 
 
 C 
 
 ← 
 
-目☆ 
+☆ 
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/portais/docente/docente.jsf 
 
@@ -3644,11 +3644,11 @@ análoga ao passo 3
 
 
 <!-- Start of picture text -->
-UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIRTempo de Sessão: 00:25 SAIR<br>ANDRE LAURENIO DE MELO (Deslogar) Semestre atual: 2021.1 Módulos Caixa Postal Abrir Chamado<br>DIRETORIA GERAL E ACADÊMICA DA UNIDADE ACADÊMICA DE SERRA TAL... (11.01.43) Menu Docente Alterar senha<br>PORTAL DO DOCENTE > ORIENTAÇÕES DE PÓS-GRADUAÇÃO<br>: Detalhes do Discente: Visualizar HistóricoQ: Visualizar Orientações Dadas<br>: Solicitar Banca : Revisar Tese/Dissertação<br>LISTA DE ORIENTANDOS<br>Status do<br>Discente Discente E da mesma forma, o<br>MESTRADO<br>ATIVO 国 200714389 - BRIGIDA ALVES LEAL orientador  acessa  o<br>ATIVO 200722634 - JULIANA GLEICE DOS SANTOS ALVES menu  de  maneira<br>ATIVO 国 20221004223 - MARIA FRANCILEIDE BARROS DE MELO<br>DEFENDIDO 国 200718142 - KALINE PEREIRA DOS SANTOS SILVA DQPD análoga ao passo 3<br>LISTA DE COORIENTANDOS Revisar Tese/Dissertação<br>Discente<br>Portal do Docente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIRTempo de Sessão: 00:25 SAIR<br>ANDRE LAURENIO DE MELO (Deslogar) Semestre atual: 2021.1 Módulos Caixa Postal Abrir Chamado<br>DIRETORIA GERAL E ACADÊMICA DA UNIDADE ACADÊMICA DE SERRA TAL... (11.01.43) Menu Docente Alterar senha<br>PORTAL DO DOCENTE > ORIENTAÇÕES DE PÓS-GRADUAÇÃO<br>: Detalhes do Discente: Visualizar HistóricoQ: Visualizar Orientações Dadas<br>: Solicitar Banca : Revisar Tese/Dissertação<br>LISTA DE ORIENTANDOS<br>Status do<br>Discente Discente E da mesma forma, o<br>MESTRADO<br>ATIVO  200714389 - BRIGIDA ALVES LEAL orientador  acessa  o<br>ATIVO 200722634 - JULIANA GLEICE DOS SANTOS ALVES menu  de  maneira<br>ATIVO  20221004223 - MARIA FRANCILEIDE BARROS DE MELO<br>DEFENDIDO  200718142 - KALINE PEREIRA DOS SANTOS SILVA DQPD análoga ao passo 3<br>LISTA DE COORIENTANDOS Revisar Tese/Dissertação<br>Discente<br>Portal do Docente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
 ≡ 
 
-》 
+ 
 
 https://preproducao.sigs.ufrpe.br/sigaa/portais/docente/docente.jsf# 
 
@@ -3656,7 +3656,7 @@ https://preproducao.sigs.ufrpe.br/sigaa/portais/docente/docente.jsf#
 
 POR 10:54 
 
-出 
+ 
 
 Digite aquí para pesquisar 
 
@@ -3670,11 +3670,11 @@ INTL 17/05/2022
 
 > SIGAA - Sistema Integrado de GX + 
 
-> 凸 × 
+>  × 
 
 ##### ← ← C https://preproducao.sigs.ufpe.br/sigaa/stricto/orientacao/orientandos.sf 
 
-###### 目☆ 
+###### ☆ 
 
 
 ![p28-fig1](img/p28-fig1.jpg)
@@ -3785,13 +3785,13 @@ Data Envio Resumo da Revisão
 
 
 <!-- Start of picture text -->
-Introdução Save to Mendeley Welcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through... [bb.com.br] Jurassic World: Adult I... FastGames- Gamers l. Facebook Meme Generator-Im...Nuklear Poweir » 8Bit .. xkcd - A Webcomic -...<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>ANDRE LAURENIO DE MELO (Deslogar) Semestre atual: 2021.1 Módulos Caixa Postal Abrir Chamado<br>DIRETORIA GERAL E ACADÊMICA DA UNIDADE ACADÊMICA DE SERRA TAL... (11.01.43) Menu Docente Alterar senha<br>PORTAL DO DOCENTE > LISTA DE REVISÕES E CORREÇÕES DA DISSERTAÇÃO<br>Caro Docente,<br>Utilize o formulário abaixo para o resultado da revisão da Dissertação do discente. Caso ainda existam alterações/correções a serem realizadas pelo discente,<br>escolha o status RETORNADO PARA ADEQUAçÃO e explicite quais adequações o discente terá que realizar.<br>Abaixo do formulário estão listadas as revisões anteriores sendo possível baixar o arquivo versionado ou ver os detalhes da revisão.<br>CONTROLE DE REVISÃO DE DISSERTAÇÃO<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>CurSo: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO/CBC-CPPGSC - SERRA TALHADA - PRESENCIAL<br>Ata de Defesa: Visualizar PDF Novamente o orientador<br>DADOs DA ReVISÃO<br>Última Versão: Baixar a versão deve aprovar ou solicitar<br>StatUs:  RETORNADO PARA ADEQUAÇÃO FICHA CATALOGRÁFICA<br>adequações por parte do<br>RETORNADO PARA ADEQUAÇÃO FICHA CATALOGRÁFICA<br>Observação: APROVADA COM FICHA CATALOGRÁFICA orientando, e clicar em<br>“cadastrar”<br>Cadastrar<< VoltarCancelar<br>* Campos de preenchimento obrigatório.<br>： Ver ArquivoQ: Visualizar Detalhes<br>HISTÓRICO DE REVISõES<br>Nº Revisão Data Envio Resumo da Revisão Status Data Revisão<br>2 17/05/2022 10:53 Teste com ficha catalográfica SUBMETIDO PARA REVISÃO DO ORIENTADOR COM FICHA CATALOGRÁFICA 日Q<br>1 17/05/2022 10:48 Teste APROVADA 17/05/2022 10:51<br>Portal do Docente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+Introdução Save to Mendeley Welcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through... [bb.com.br] Jurassic World: Adult I... FastGames- Gamers l. Facebook Meme Generator-Im...Nuklear Poweir » 8Bit .. xkcd - A Webcomic -...<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>ANDRE LAURENIO DE MELO (Deslogar) Semestre atual: 2021.1 Módulos Caixa Postal Abrir Chamado<br>DIRETORIA GERAL E ACADÊMICA DA UNIDADE ACADÊMICA DE SERRA TAL... (11.01.43) Menu Docente Alterar senha<br>PORTAL DO DOCENTE > LISTA DE REVISÕES E CORREÇÕES DA DISSERTAÇÃO<br>Caro Docente,<br>Utilize o formulário abaixo para o resultado da revisão da Dissertação do discente. Caso ainda existam alterações/correções a serem realizadas pelo discente,<br>escolha o status RETORNADO PARA ADEQUAçÃO e explicite quais adequações o discente terá que realizar.<br>Abaixo do formulário estão listadas as revisões anteriores sendo possível baixar o arquivo versionado ou ver os detalhes da revisão.<br>CONTROLE DE REVISÃO DE DISSERTAÇÃO<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>CurSo: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO/CBC-CPPGSC - SERRA TALHADA - PRESENCIAL<br>Ata de Defesa: Visualizar PDF Novamente o orientador<br>DADOs DA ReVISÃO<br>Última Versão: Baixar a versão deve aprovar ou solicitar<br>StatUs:  RETORNADO PARA ADEQUAÇÃO FICHA CATALOGRÁFICA<br>adequações por parte do<br>RETORNADO PARA ADEQUAÇÃO FICHA CATALOGRÁFICA<br>Observação: APROVADA COM FICHA CATALOGRÁFICA orientando, e clicar em<br>“cadastrar”<br>Cadastrar<< VoltarCancelar<br>* Campos de preenchimento obrigatório.<br>： Ver ArquivoQ: Visualizar Detalhes<br>HISTÓRICO DE REVISõES<br>Nº Revisão Data Envio Resumo da Revisão Status Data Revisão<br>2 17/05/2022 10:53 Teste com ficha catalográfica SUBMETIDO PARA REVISÃO DO ORIENTADOR COM FICHA CATALOGRÁFICA Q<br>1 17/05/2022 10:48 Teste APROVADA 17/05/2022 10:51<br>Portal do Docente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
 Novamente o orientador deve aprovar ou solicitar adequações por parte do orientando, e clicar em “cadastrar” 
 
 ≡ 
 
-》 
+ 
 
 25 
 
@@ -3809,9 +3809,9 @@ INTL 17/05/2022
 
 SIGAA - Sistema Integrado de GX + 
 
-> 凸 × 
+>  × 
 
-目☆ 
+☆ 
 
 ←<sup>→</sup> C https://preproducao.sigs.ufrpe.br/sigaa/portais/discente/discente.jsf 
 
@@ -3834,7 +3834,7 @@ Introdução Save to MendeleyWelcome to Video Ga...Giant In the Playgroun...Look
 
 Após a versão final com ficha catalográfica ser aprovada, o discente deverá assinar o termo de autorização de publicação clicando aqui 
 
-》 
+ 
 
 26 
 
@@ -3850,11 +3850,11 @@ INTL 17/05/2022
 
 <!-- page 30 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-目☆ 三 
+☆  
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/stricto/producao_academica/acompanhamento_procedimentos_apos_defesa.jsf 
 
@@ -3979,9 +3979,9 @@ o pesquisar
 
 
 <!-- Start of picture text -->
-Introdução Save to Mendeley Welcome to Video Ga... Giant In the Playgroun... Looking For Group Goblins - Life through ... [bb.com.br]Jurassic World: Adult .. FastGames - Gamers I...Facebook Meme Generator - Im...Nuklear Power » 8-Bit ...  xkcd - A Webcomic - ..<br>Escolha um dos tipos de disponibilização da sua produção:<br>• Pública: O seu trabalho será disponibilizado para consulta na íntegra.<br>• Embargada: O seu trabalho não será disponibilizado. A partir do momento em que a data de embargo vencer, a publicação total será disponibilizada.<br>TERMO DE AUTORIZAÇÃO PARA PRODUÇÕES ACADÊMICAS<br>Na qualidade de titular dos direitos de autor da publicação, abaixo relacionada, autorizo a<br>UFRPE a disponibilizar nos seus repositórios digitais, sem ressarcimento dos direitos<br>autorais, de acordo com a Lei n° 96i0/98 e conforme permissões assinaladas, para fins<br>de leitura, impressão, download e divulgação da produção científica brasileira.<br>IDENTIFICAÇÃO DO AUTOR<br>Autor: KALINE PEREIRA DOS SANTOS SILVA<br>Identidade:<br>CPF<br>E-mail:<br>Telefone:<br>DADOS DA PRODUÇÃO<br>Título: AVANÇOS TAXONÔMICOS NO SÉCULO 21: UM ESTUDO DE CASO COM EUPHORBIACEAE S.S. NO BRASIL.<br>Palavras-chave: Conservação, Flora Neotropical, Malpighiales, País megadivers.<br>Data da Defesa: 31/03/2022 Titulação: Mestre<br>Instituição deDesa: Universidade Federal Rural de Pernambuco/UFRPE CNPJ: 24.416.174/0001-06<br>ORIENTADOR / MEMBROS DA BANCA<br>Orientador: ANDRE LAURENIO DE MELO CPF E-mail<br>Membro da banca: ANDRE LAURENIO DE MELO CPF E-mail<br>Membro da banca: ANDRE LUIZ ALVES DE LIMA CPF E-mail<br>Membro da banca: EDGAR ALBERTO DO ESPIRITO SANTO SILVA CPF: E-mail<br>Membro da banca: VALDELINE ATANAZIO DA SILVA CPF E-mail<br>Os dados da produção são  Membro da banca: WESLEY PATRÍCIO FREIRE DE SÁ CORDEIRO CPF E-mail<br>mostrados e o aluno poderá  INFORMAÇÕES SOBRE A AUTORIZAÇÃO<br>Agência de Fomento: -- Selecione a Instituição de Formento --<br>escolher  a  Agência  de<br>Liberação para Disponibilização:Pública  Embargada<br>Fomento entre as opções, e<br>CONFIRME SUA SENHA<br>decidir se disponibilização<br>Senha: *…<br>será pública ou embargada<br>Assinar Termo de AutorizaçãoCancelar<br>* Campos de preenchimento obrigatório.<br>Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1 27<br>POR<br>Digite aqui para pesquisar 市 29C Chuva fraca<br><!-- End of picture text -->
+Introdução Save to Mendeley Welcome to Video Ga... Giant In the Playgroun... Looking For Group Goblins - Life through ... [bb.com.br]Jurassic World: Adult .. FastGames - Gamers I...Facebook Meme Generator - Im...Nuklear Power » 8-Bit ...  xkcd - A Webcomic - ..<br>Escolha um dos tipos de disponibilização da sua produção:<br>• Pública: O seu trabalho será disponibilizado para consulta na íntegra.<br>• Embargada: O seu trabalho não será disponibilizado. A partir do momento em que a data de embargo vencer, a publicação total será disponibilizada.<br>TERMO DE AUTORIZAÇÃO PARA PRODUÇÕES ACADÊMICAS<br>Na qualidade de titular dos direitos de autor da publicação, abaixo relacionada, autorizo a<br>UFRPE a disponibilizar nos seus repositórios digitais, sem ressarcimento dos direitos<br>autorais, de acordo com a Lei n° 96i0/98 e conforme permissões assinaladas, para fins<br>de leitura, impressão, download e divulgação da produção científica brasileira.<br>IDENTIFICAÇÃO DO AUTOR<br>Autor: KALINE PEREIRA DOS SANTOS SILVA<br>Identidade:<br>CPF<br>E-mail:<br>Telefone:<br>DADOS DA PRODUÇÃO<br>Título: AVANÇOS TAXONÔMICOS NO SÉCULO 21: UM ESTUDO DE CASO COM EUPHORBIACEAE S.S. NO BRASIL.<br>Palavras-chave: Conservação, Flora Neotropical, Malpighiales, País megadivers.<br>Data da Defesa: 31/03/2022 Titulação: Mestre<br>Instituição deDesa: Universidade Federal Rural de Pernambuco/UFRPE CNPJ: 24.416.174/0001-06<br>ORIENTADOR / MEMBROS DA BANCA<br>Orientador: ANDRE LAURENIO DE MELO CPF E-mail<br>Membro da banca: ANDRE LAURENIO DE MELO CPF E-mail<br>Membro da banca: ANDRE LUIZ ALVES DE LIMA CPF E-mail<br>Membro da banca: EDGAR ALBERTO DO ESPIRITO SANTO SILVA CPF: E-mail<br>Membro da banca: VALDELINE ATANAZIO DA SILVA CPF E-mail<br>Os dados da produção são  Membro da banca: WESLEY PATRÍCIO FREIRE DE SÁ CORDEIRO CPF E-mail<br>mostrados e o aluno poderá  INFORMAÇÕES SOBRE A AUTORIZAÇÃO<br>Agência de Fomento: -- Selecione a Instituição de Formento --<br>escolher  a  Agência  de<br>Liberação para Disponibilização:Pública  Embargada<br>Fomento entre as opções, e<br>CONFIRME SUA SENHA<br>decidir se disponibilização<br>Senha: *…<br>será pública ou embargada<br>Assinar Termo de AutorizaçãoCancelar<br>* Campos de preenchimento obrigatório.<br>Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1 27<br>POR<br>Digite aqui para pesquisar  29C Chuva fraca<br><!-- End of picture text -->
 
-》 
+ 
 
 POR 10:56 1/1/21 1202 
 
@@ -3991,13 +3991,13 @@ Digite aqui para pesquisar
 
 <!-- page 31 -->
 
-> 凸 × 
+>  × 
 
-> 惠SIGAA - Sistema Integrado de GX + 
+> SIGAA - Sistema Integrado de GX + 
 
-三 
+ 
 
-目☆ 
+☆ 
 
 ← C 
 
@@ -4123,7 +4123,7 @@ Caso a razão do embargo seja por questão de patente, o discente deverá inseri
 
 Então insere-se a senha e clica-se em “Assinar” 
 
-》 
+ 
 
 SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 |Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1 
 
@@ -4131,7 +4131,7 @@ SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 |Copyright © 
 
 POR 10:56 1/1/21 1202 
 
-市 
+ 
 
 ǔ 
 
@@ -4143,11 +4143,11 @@ Digite aqui para pesquisar
 
 <!-- page 32 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-目☆ 三 
+☆  
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/biblioteca/publicacoes_academicas/assinaTermoAutorizacaoPublicacaoAcademica.jsf 
 
@@ -4164,7 +4164,7 @@ Digite aqui para pesquisar
 
 
 
-》 
+ 
 
 SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 |Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1 
 
@@ -4172,15 +4172,15 @@ SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 |Copyright © 
 
 POR 10:57 
 
-市 
+ 
 
 Digite aqui para pesquisar 
 
-日 
+ 
 
 29C Chuva fraca 
 
-口 
+ 
 
 1/1/21 1202 
 
@@ -4188,13 +4188,13 @@ Digite aqui para pesquisar
 
 <!-- page 33 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
 ###### ← C https://preproducao.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
 
-￥目 xkcd - A Webcomic - ... 》 
+￥ xkcd - A Webcomic - ...  
 
 IntroduçãoSave to Mendeley Welcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through... [bb.com.br] Jurassic World: Adult ... FastGames - Gamers l...FacebookMeme Generator - Im...Nuklear Power » 8-Bit ...xkcd - A Webcomic - ... 
 
@@ -4356,11 +4356,11 @@ Q Digite aqui para pesquisar
 
 <!-- page 34 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-目☆ 三 ⊕ xkcd - A Webcomic - . 》 
+☆  ⊕ xkcd - A Webcomic - .  
 
 ← C 
 
@@ -4483,7 +4483,7 @@ Data Revisão
 
 
 <!-- Start of picture text -->
-CONTROLE DE REVISÃO DE DISSERTAÇÃO<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>Curso: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO/CBC-CPPGSC - SERRA TALHADA - PRESENCIAL<br>Ata de Defesa: Visualizar PDF<br>DADOS DA REVISÃO<br>Última Versão: Baixar a versão<br>Status: *RETORNADO PARA ADEQUAÇÃO FICHA CATALOGRÁFICA<br>RETORNADO PARA ADEQUAÇÃO FICHA CATALOGRÁFICA<br>Observação: RECEBIDA E VALIDADA<br>CadastrarCancelar<br>* Campos de preenchimento obrigatório.<br>: Ver Arquivo Q: Visualizar Detalhes<br>HISTÓRICO DE REVISÕES<br>Nº Revisão Data Envio Resumo da Revisão Status Data Revisão<br>2 17/05/2022 10:53 Teste com ficha catalográfica APROVADA COM FICHA CATALOGRÁFICA 17/05/2022 10:55 日<br>1 17/05/2022 10:48 Teste APROVADA 17/05/2022 10:51 日<br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+CONTROLE DE REVISÃO DE DISSERTAÇÃO<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>Curso: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO/CBC-CPPGSC - SERRA TALHADA - PRESENCIAL<br>Ata de Defesa: Visualizar PDF<br>DADOS DA REVISÃO<br>Última Versão: Baixar a versão<br>Status: *RETORNADO PARA ADEQUAÇÃO FICHA CATALOGRÁFICA<br>RETORNADO PARA ADEQUAÇÃO FICHA CATALOGRÁFICA<br>Observação: RECEBIDA E VALIDADA<br>CadastrarCancelar<br>* Campos de preenchimento obrigatório.<br>: Ver Arquivo Q: Visualizar Detalhes<br>HISTÓRICO DE REVISÕES<br>Nº Revisão Data Envio Resumo da Revisão Status Data Revisão<br>2 17/05/2022 10:53 Teste com ficha catalográfica APROVADA COM FICHA CATALOGRÁFICA 17/05/2022 10:55 <br>1 17/05/2022 10:48 Teste APROVADA 17/05/2022 10:51 <br>Portal do Coordenador Stricto<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
 De forma análoga ao passo 3 e ao passo 6 realizados pelo orientador, a coordenação insere sua avaliação, e clica em “cadastrar” 
 
@@ -4499,17 +4499,17 @@ S
 
 Digite aqui para pesquisar 
 
-日 
+ 
 
 
 
 <!-- page 35 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-目☆ 
+☆ 
 
 8 https://preproducao.sigs.ufrpe.br/sigaa/portais/discente/discente.jsf 
 
@@ -4632,9 +4632,9 @@ Necessário inserir os documentos obrigatórios.
 <!-- Start of picture text -->
 Introdução Save to Mendeley Welcome to Video Ga... Giant In the Playgroun...Looking For Group Goblins - Life through ... [bb.com.br] Jurassic World: Adult I.. FastGames - Gamers l... Facebook Meme Generator - Im... Nuklear Power » 8-Bit .. xkcd - A Webcomic -...<br>Caro Aluno,<br>Abaixo são listados os procedimentos realizados a partir da defesa de sua Dissertação até a homologação do diploma.<br>Você pode acompanhar a situação de cada um deles e, quando necessário, realizar as devidas operações.<br>CONSOLIDAÇÃO DA ATIVIDADE DE DEFESA ✓<br>1º Atividade consolidada. 31/03/2022<br>Baixar ata da defesa e folhas de correções<br>SUBMISSÃO DA VERSÃO FINAL CORRIGIDA DA DISSERTAÇÃO ✓<br>2º Submetido. 17/05/2022<br>Conferir histórico de revisão<br>APROVAÇÃO DA VERSÃO FINAL CORRIGIDA DA DISSERTAÇÃO ✓<br>3º Versão final Aprovada. 17/05/2022<br>4o SOLICITAÇÃO DA FICHA CATALOGRÁFICA ✓ Procedimento desconsiderado devido ao módulo de biblioteca estar inativo.<br>RESSUBMISSÃO DA VERSÃO FINAL CORRIGIDA DA DISSERTAÇÃO COM FICHA CATALOGRÁFICA √<br>5º Procedimento desconsiderado devido ao módulo de biblioteca estar inativo. 17/05/2022<br>APROVAÇÃO DA VERSÃO FINAL CORRIGIDA DA DISSERTAÇÃO COM FICHA CATALOGRÁFICA √<br>6º Procedimento desconsiderado devido ao módulo de biblioteca estar inativo.<br>Após a versão final ser aceita<br>pela coordenação, o discente  ASSINATURA DO TERMO DE AUTORIZAÇÃO DE PUBLICAÇÃO ✓<br>deverá inserir seus documentos  7º Autorizado para disponibilização da produção de maneira pública. 17/05/2022<br>Visualizar Termo de Autorização de Publicação<br>obrigatórios  que  serão<br>RECEBIMENTO DA VERSÃO FINAL PELA COORDENAÇÃO ✓<br>encaminhados para a solicitação  8º Recebida pela coordenação. Validada em 17/05/2022<br>do diploma<br>INSERIR DOCUMENTOS OBRIGATÓRIOS<br>Aguardando o aluno inserir os documentos obrigatórios.<br>gº<br>Inserir documentos obrigatórios<br>PREENCHIMENTO DO QUESTIONÁRIO<br>10º Aguardando o preenchimento do questionário pelo aluno.<br>SOLICITAÇÃO DE HOMOLOGAÇÃO DO DIPLOMA<br>11º Necessário inserir os documentos obrigatórios.<br><!-- End of picture text -->
 
-三 
+ 
 
-》 
+ 
 
 Portal do Discente 
 
@@ -4644,15 +4644,15 @@ SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 |Copyright © 
 
 POR 11:00 
 
-市 
+ 
 
 Digite aqui para pesquisar 
 
 29C Chuva fraca 
 
-日 
+ 
 
-口 
+ 
 
 1/1/21 1202 
 
@@ -4662,7 +4662,7 @@ Digite aqui para pesquisar
 
 > SIGAA - Sistema Integrado de GX + 
 
-凸 × 
+ × 
 
 ← C 
 
@@ -4772,7 +4772,7 @@ dentificacão deverá constar a
 
 
 <!-- Start of picture text -->
-目☆<br><!-- End of picture text -->
+☆<br><!-- End of picture text -->
 
 
 ![p36-fig3](img/p36-fig3.jpg)
@@ -4808,7 +4808,7 @@ Nesta tela, o discente<br>deverá inserir seu CPF,<br>algum  documento  de<br>id
 
 ≡ 
 
-》 
+ 
 
 33 
 
@@ -4824,7 +4824,7 @@ INTL 17/05/2022
 
 <!-- page 37 -->
 
-凸 × 
+ × 
 
 > SIGAA - Sistema Integrado de GX + 
 
@@ -4911,7 +4911,7 @@ do
 
 
 <!-- Start of picture text -->
-← C https://preproducao.sigs.ufrpe.br/sigaa/ensino/documentos_homologacao_diploma_pos/form.jsf 目☆<br>Introdução Save to MendeleyWelcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through ...[bb.com.br]Jurass.ic World: Adult I...FastGames - Gamers ...Facebook Meme Generator-I... Nuklear Power »8-Bit.. xkcd -A Webcomic -..<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda? Tempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>PORTAL DO DISCENTE > INSERIR DOCUMENTOS OBRIGATÓRIOS<br>: Visualizar Documento : Remover : Baixar Arquivos<br>INSERIR DOCUMENTOS OBRIGATÓRIOS<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>CurSo: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO/CBC-CPPGSC - SERRA TALHADA - PRESENCIAL<br>ADICIONAR UM NOVO ARQUIVO<br>Arquivo: *Procurar... Nenhum arquivo selecionado.<br>Tipo do Documento: * V<br>Adicionar 4 Após inserir cada um<br>Documento Tipo deles, o discente deverá<br>Edital_Selecao_PGBC_2022.2.pdf CPF Qu<br>clicar em “Adicionar”<br>Manual_do_Candidato.pdf Documento de Identificação (identidade, habilitação, etc.) QJ<br>Edital_PPGBio_2022.2 (1).pdf Diploma do Ensino Superior Qu<br>Observação:<br>Após serem inseridos  Submeter << Voltar Cancelar<br>todos os documentos,  Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 |Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+← C https://preproducao.sigs.ufrpe.br/sigaa/ensino/documentos_homologacao_diploma_pos/form.jsf ☆<br>Introdução Save to MendeleyWelcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through ...[bb.com.br]Jurass.ic World: Adult I...FastGames - Gamers ...Facebook Meme Generator-I... Nuklear Power »8-Bit.. xkcd -A Webcomic -..<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+ A- Ajuda? Tempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>PORTAL DO DISCENTE > INSERIR DOCUMENTOS OBRIGATÓRIOS<br>: Visualizar Documento : Remover : Baixar Arquivos<br>INSERIR DOCUMENTOS OBRIGATÓRIOS<br>Matrícula: 200718142<br>Nome: KALINE PEREIRA DOS SANTOS SILVA<br>CurSo: BIODIVERSIDADE E CONSERVAÇÃO - MESTRADO ACADÊMICO/CBC-CPPGSC - SERRA TALHADA - PRESENCIAL<br>ADICIONAR UM NOVO ARQUIVO<br>Arquivo: *Procurar... Nenhum arquivo selecionado.<br>Tipo do Documento: * V<br>Adicionar 4 Após inserir cada um<br>Documento Tipo deles, o discente deverá<br>Edital_Selecao_PGBC_2022.2.pdf CPF Qu<br>clicar em “Adicionar”<br>Manual_do_Candidato.pdf Documento de Identificação (identidade, habilitação, etc.) QJ<br>Edital_PPGBio_2022.2 (1).pdf Diploma do Ensino Superior Qu<br>Observação:<br>Após serem inseridos  Submeter << Voltar Cancelar<br>todos os documentos,  Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 |Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
 ← C 
 
@@ -4964,13 +4964,13 @@ Após serem inseridos<br>todos os documentos,<br>clica-se em “Submeter”<br><
 
 ≡ 
 
-》 
+ 
 
 34 
 
-后物INTL 17/05/2022POR 11:01 
+INTL 17/05/2022POR 11:01 
 
-出 
+ 
 
 Digite aqui para pesquisar 
 
@@ -4980,11 +4980,11 @@ Digite aqui para pesquisar
 
 <!-- page 38 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-￥目 
+￥ 
 
 ###### ← C https://preproducao.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
 
@@ -5136,13 +5136,13 @@ UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajud
 
 Após o discente inserir os documentos, a coordenação deverá validá-los, acessando um destes menus 
 
-》 
+ 
 
 35 
 
 11:03 
 
-后<sup>POR</sup> INTL17/05/202211:03 
+<sup>POR</sup> INTL17/05/202211:03 
 
 29C Chuva fraca 
 
@@ -5154,7 +5154,7 @@ Q Digite aqui para pesquisar
 
 > SIGAA - Sistema Integrado de GX + 
 
-凸 × 
+ × 
 
 
 ![p39-fig2](img/p39-fig2.jpg)
@@ -5236,13 +5236,13 @@ Data (Observações Status .
 
 
 <!-- Start of picture text -->
-目☆<br><!-- End of picture text -->
+☆<br><!-- End of picture text -->
 
 ← C 
 
 ≡ 
 
-》 
+ 
 
 
 
@@ -5269,11 +5269,11 @@ INTL 17/05/2022
 
 <!-- page 40 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-目☆ 
+☆ 
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/portais/discente/discente.jsf 
 
@@ -5294,9 +5294,9 @@ INTL 17/05/2022
 
 
 
-三 
+ 
 
-》 
+ 
 
 SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 |Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1 
 
@@ -5306,13 +5306,13 @@ SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 |Copyright © 
 
 POR 
 
-市 
+ 
 
 Digite aqui para pesquisar 
 
 29C Chuva fraca 
 
-日 
+ 
 
 1/1/21 1202 
 
@@ -5320,7 +5320,7 @@ Digite aqui para pesquisar
 
 <!-- page 41 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
@@ -5400,17 +5400,17 @@ Gonfirmar Gancelar
 
 
 <!-- Start of picture text -->
-← C https://preproducao.sis.ufpe.br/sigaa/stricto/questionario_homologacao_diploma/form_questionario.jsf 目☆<br>IntroduçãoSave to Mendeley Welcome to Video Ga...Giant In the Playgroun... Looking For Group Goblins - Life through ... [bb.com.br] Jurassic World: Adult I...FastGames - Gamers ...Facebook Meme Generator - I...Nuklear Power » 8-Bit..xkcd - A Webcomic ..<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>PORTAL DO DISCENTE > QUESTIONÁRIO<br>QUESTIONÁRIO PARA HOMOLOGAÇÃO DO DIPLOMA<br>1. Nada Consta da Biblioteca (Apenas arquivos PDF ). *<br>Procurar...Nenhum arquivo selecionado.<br>2. Comprovante de Depósito da Versão Final na Biblioteca (Apenas arquivos PDF ).<br>No  momento  o<br>Procurar...Nenhum arquivo selecionado.<br>questionário  consta<br>3. Comprovante de Quitação Eleitoral Atualizado (Apenas arquivos PDF ). *<br>apenas com estes 5 itens,<br>porém poderá ser alterado  Procurar...Nenhum arquivo selecionado.<br>caso a PRPG ou o DRCA  4. Comprovante de submissão de artigo para publicação (Quando exigido pelo programa) (Apenas arquivos PDF).<br>julguem necessário Procurar...Nenhum arquivo selecionado.<br>5. Declaro, sob as penas da lei, que a documentação exigida e enviada por meios eletrônicos e informações são autênticas e integralmente<br>veridicas, estando ciente que, se falsas forem, incorrerá nas penas do crime dos Art. 298 (falsificação de documento particular) e Art. 299 (falsidade<br>ideológica), ambos do Código Penal, além de incorrer na perda do meu diploma. *<br>O Aceito<br> Não aceito<br>ConfirmarCancelar<br>Campos de preenchimento obrigatório.<br>Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
+← C https://preproducao.sis.ufpe.br/sigaa/stricto/questionario_homologacao_diploma/form_questionario.jsf ☆<br>IntroduçãoSave to Mendeley Welcome to Video Ga...Giant In the Playgroun... Looking For Group Goblins - Life through ... [bb.com.br] Jurassic World: Adult I...FastGames - Gamers ...Facebook Meme Generator - I...Nuklear Power » 8-Bit..xkcd - A Webcomic ..<br>UFRPE - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas A+A- Ajuda?Tempo de Sessão: 00:25 SAIR<br>KALINE PEREIRA DOS S. SILVA Semestre atual: 2022.1 Módulos Caixa Postal Abrir Chamado<br>COORDENAÇÃO PÓS-GRADUAÇÃO EM BIODIVERSIDADE E CONSERVAÇÃO-PR... (11.01.29.17.04) Menu Discente Alterar senha<br>PORTAL DO DISCENTE > QUESTIONÁRIO<br>QUESTIONÁRIO PARA HOMOLOGAÇÃO DO DIPLOMA<br>1. Nada Consta da Biblioteca (Apenas arquivos PDF ). *<br>Procurar...Nenhum arquivo selecionado.<br>2. Comprovante de Depósito da Versão Final na Biblioteca (Apenas arquivos PDF ).<br>No  momento  o<br>Procurar...Nenhum arquivo selecionado.<br>questionário  consta<br>3. Comprovante de Quitação Eleitoral Atualizado (Apenas arquivos PDF ). *<br>apenas com estes 5 itens,<br>porém poderá ser alterado  Procurar...Nenhum arquivo selecionado.<br>caso a PRPG ou o DRCA  4. Comprovante de submissão de artigo para publicação (Quando exigido pelo programa) (Apenas arquivos PDF).<br>julguem necessário Procurar...Nenhum arquivo selecionado.<br>5. Declaro, sob as penas da lei, que a documentação exigida e enviada por meios eletrônicos e informações são autênticas e integralmente<br>veridicas, estando ciente que, se falsas forem, incorrerá nas penas do crime dos Art. 298 (falsificação de documento particular) e Art. 299 (falsidade<br>ideológica), ambos do Código Penal, além de incorrer na perda do meu diploma. *<br>O Aceito<br> Não aceito<br>ConfirmarCancelar<br>Campos de preenchimento obrigatório.<br>Portal do Discente<br>SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright © 2006-2022 - UFRN - preproducao-jboss01.preproducao-jboss01 - v4.6.8-1<br><!-- End of picture text -->
 
 ≡ 
 
-》 
+ 
 
 38 
 
-后物INTL 17/05/2022POR 11:05 
+INTL 17/05/2022POR 11:05 
 
-出 
+ 
 
 Q Digite aqui para pesquisar 
 
@@ -5420,7 +5420,7 @@ Q Digite aqui para pesquisar
 
 <!-- page 42 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
@@ -5434,7 +5434,7 @@ Q Digite aqui para pesquisar
 
 
 <!-- Start of picture text -->
-￥目<br><!-- End of picture text -->
+￥<br><!-- End of picture text -->
 
 IntroduçãoSave to Mendeley Welcome to Video Ga...Giant In the Playgroun...Looking For Group Goblins - Life through... [bb.com.br] Jurassic World: Adult ... FastGames - Gamers l...FacebookMeme Generator - Im... Nuklear Power » 8-Bit ...xkcd - A Webcomic - ... 
 
@@ -5451,7 +5451,7 @@ EDGAR ALBERTO DO E. S. SILVA (Deslogar) Alterar vínculo Semestre atual: 2022.1 
 
 A coordenação poderá verificar as respostas do questionário acessando este menu 
 
-》 
+ 
 
 39 POR 11:07 INTL17/05/2022 
 
@@ -5463,11 +5463,11 @@ Q Digite aqui para pesquisar
 
 <!-- page 43 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-目☆ 三 
+☆  
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/graduacao/busca_discente.jsf 
 
@@ -5476,7 +5476,7 @@ Q Digite aqui para pesquisar
 |Introdução Save to Mendeley <sup>Welcome to Video Ga...</sup>Giant In the Playgroun...Looking For Group<sup>Goblins - Life through ... [bb.com.br]Jurassic World: Adult I...FastGames - Gamers l...</sup>Facebook Meme Gener|ator - Im... Nuklear Power » 8-Bit ..xkcd - A Webcomic - .|
 |---|---|
 |Caro Coordenador,<br>Abaixo são listados os procedimentos realizados a partir da defesa da Dissertação até a homologação do diploma do discente.<br>Você pode acompanhar a situação de cada um deles e, quando necessário, realizar as devidas operações.||
-|CONSOLIDAÇÃO DA ATIVIDADE DE DEFESA ✓<br>1º <sup>Atividade consolidada. 31/03/2022</sup><br>月Baixar ata da defesa e folhas de correções<br>SUBMISSÃO DA VERSÃO FINAL CORRIGIDA DA DISSERTAÇÃO ✓<br>2º<br>Submetido. 17/05/2022||
+|CONSOLIDAÇÃO DA ATIVIDADE DE DEFESA ✓<br>1º <sup>Atividade consolidada. 31/03/2022</sup><br>Baixar ata da defesa e folhas de correções<br>SUBMISSÃO DA VERSÃO FINAL CORRIGIDA DA DISSERTAÇÃO ✓<br>2º<br>Submetido. 17/05/2022||
 |APROVAÇÃO DA VERSÃO FINAL CORRIGIDA DA DISSERTAÇÃO ✓<br>3º<br>Versão final Aprovada. 17/05/2022||
 |SOLICITAÇÃO DA FICHA CATALOGRÁFICA ✓<br>4o <sup>Procedimento desconsiderado devido ao módulo de biblioteca estar inativo.</sup>||
 |RESSUBMISSÃO DA VERSÃO FINAL CORRIGIDA DA DISSERTAÇÃO COM FICHA CATALOGRÁFICA √<br>5º<br>Procedimento desconsiderado devido ao módulo de biblioteca estar inativo. 17/05/2022||
@@ -5488,7 +5488,7 @@ Q Digite aqui para pesquisar
 
 
 
-》 
+ 
 
 Portal do Coordenador Stricto 
 
@@ -5498,7 +5498,7 @@ SIGAA | Secretaria de Tecnologias Digitais (STD) - (81) 3320-6046 | Copyright ©
 
 POR 11:07 
 
-市 
+ 
 
 29C Chuva fraca 
 
@@ -5512,13 +5512,13 @@ Digite aqui para pesquisar
 
 > SIGAA - Sistema Integrado de GX + 
 
-凸 × 
+ × 
 
 ← C 
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/stricto/questionario_homologacao_diploma/visualizar_respostas.jsf 
 
-###### 目☆ 
+###### ☆ 
 
 
 ![p44-fig1](img/p44-fig1.jpg)
@@ -5590,7 +5590,7 @@ A tela com as respostas enviadas é apresentada.
 
 ≡ 
 
-》 
+ 
 
 41 
 
@@ -5606,11 +5606,11 @@ INTL 17/05/2022
 
 <!-- page 45 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-￥目 
+￥ 
 
 ###### ← C https://preproducao.sigs.ufrpe.br/sigaa/stricto/coordenacao.jsf 
 
@@ -5774,7 +5774,7 @@ EDGAR ALBERTO DO E. S. SILVA (Deslogar) Alterar vínculo Semestre atual: 2022.1 
 
 Caso os documentos tenham sido enviados corretamente, a coordenação poderá solicitar a homologação do diploma através de um destes menus 
 
-》 
+ 
 
 42 POR 11:08 INTL17/05/2022 
 
@@ -5786,11 +5786,11 @@ Q Digite aqui para pesquisar
 
 <!-- page 46 -->
 
-> 惠SIGAA - Sistema Integrado de GX + 
+> SIGAA - Sistema Integrado de GX + 
 
 × 
 
-￥目 三 xkcd - A Webcomic - .. 》 
+￥  xkcd - A Webcomic - ..  
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/graduacao/busca_discente.jsf 
 
@@ -5937,17 +5937,17 @@ A tela com os dados do discente é apresentada, bem como os arquivos que serão 
 
 Digite aqui para pesquisar 
 
-日 
+ 
 
 
 
 <!-- page 47 -->
 
-> 凸 × 
+>  × 
 
 > SIGAA - Sistema Integrado de GX + 
 
-￥目 
+￥ 
 
 ###### https://preproducao.sigs.ufrpe.br/sigaa/stricto/homologacao_trabalho_final/info_defesa.jsf 
 
@@ -6057,11 +6057,11 @@ Introdução Save to Mendeley Welcome to Video Ga...Giant In the Playgroun...Loo
 
 Observação: Após atualização das Normas, será inserido no sistema o prazo máximo de **3 meses** desde a defesa até a solicitação do diploma. Caso esse prazo se exceda, somente quem poderá autorizar a solicitação do diploma é a **PRPG** . 
 
-》 
+ 
 
 44 
 
-POR 11:18 INTL 17/05/2022 早4 
+POR 11:18 INTL 17/05/2022 4 
 
 Q Digite aqui para pesquisar 
 

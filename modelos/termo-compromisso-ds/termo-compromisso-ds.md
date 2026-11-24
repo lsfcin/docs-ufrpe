@@ -1,5 +1,5 @@
 ---
-description: "TERMO DE COMPROMISSO - DS: TermodeCompromissoDS-DeclaraodeAcmulos (PRPG)."
+description: "Termo de Compromisso de Bolsa da CAPES: o aluno beneficiário assume as obrigações da bolsa e declara acúmulos."
 source: "../termo-compromisso-ds.pdf"
 sha256: "a35e4a1a7eea56d2b9bbb371cb864670799c1e8aa4b6bf34a1fb92bf974af202"
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/TermodeCompromissoDS-DeclaraodeAcmulos.pdf"

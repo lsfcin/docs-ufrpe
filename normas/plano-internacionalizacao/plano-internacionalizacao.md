@@ -1,5 +1,5 @@
 ---
-description: "Plano de Internacionalização 2025-2030: Plano Internacionalização 2025 - 2030 da UFRPE (PRPG)."
+description: "Plano de Internacionalização 2025-2030: orienta as políticas e ações de internacionalização da UFRPE."
 source: "../plano-internacionalizacao.pdf"
 sha256: "285fb13d055e58ff1345f6a2779408dadc5db336b35f9ced9b4e792e2ba56d59"
 origin: "http://prpg.ufrpe.br/sites/default/files/arquivos-noticias/Plano%20Internacionaliza%C3%A7%C3%A3o%202025%20-%202030%20da%20UFRPE.pdf"

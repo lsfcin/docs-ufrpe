@@ -1,5 +1,5 @@
 ---
-description: "TERMO DE ESPECIFICAÇÃO DE SERVIÇOS: termo de especificacao de servicos (PRPG)."
+description: "Termo de Especificação de Serviço: modelo para o PPG contratar serviço de pesquisa por dispensa de licitação, com custo e obrigações."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/termo_de_especificacao_de_servicos.doc"
 origin_checked: "2026-11-23"
 sha256: "40297dbffe8a7f66a3721ed919e56707c0d0210dd7f334668db11f50bdb3bcd6"

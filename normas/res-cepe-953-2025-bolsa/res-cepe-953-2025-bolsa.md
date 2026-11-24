@@ -1,5 +1,5 @@
 ---
-description: "Resolução 953/2025: Resolução CEPE 953-2025 Bolsa (PRPG)."
+description: "Resolução CEPE/UFRPE 953/2025: atualiza a gestão de bolsas CAPES/CNPq para discentes de mestrado e doutorado."
 source: "../res-cepe-953-2025-bolsa.pdf"
 sha256: "d86590dc30135625cd8944c46eaa6bd0ddcaa3c05e3afa9af28be0816c536a59"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/Resolu%C3%A7%C3%A3o%20CEPE%20953-2025%20Bolsa.pdf"

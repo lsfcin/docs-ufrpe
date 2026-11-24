@@ -1,5 +1,5 @@
 ---
-description: "Resolução 201/2016: recepe201.2016 dupla titulacao (PRPG)."
+description: "Resolução CEPE 201/2016: regulamenta a cotutela e a dupla titulação na pós-graduação da UFRPE para estudantes e programas conveniados."
 source: "../res-cepe-201-2016-dupla-titulacao.pdf"
 sha256: "5898ac231ff2682d49420919b28d97f0085a116a602481c092382ad51d1e64bb"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/recepe201.2016_dupla_titulacao.pdf"

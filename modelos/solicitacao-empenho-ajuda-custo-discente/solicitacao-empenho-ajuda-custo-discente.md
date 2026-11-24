@@ -1,5 +1,5 @@
 ---
-description: "SOLICITAÇÃO DE EMPENHO DE AJUDA DE: SOLICITAÇÃO DE EMPENHO DE AJUDA DE CUSTO PARA DISCENTE (PRPG)."
+description: "Formulário de Solicitação de Empenho: pede ao GCF pagamento de ajuda de custo a discentes para estudos e pesquisas; usado pela PRPG/UFRPE."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/solicitacao_de_empenho_-_ajuda_de_custo_-discente_0.doc"
 origin_checked: "2026-11-23"
 sha256: "1dcef7dca3107b06331a0640dbf951cf276a94a508f032fa6fe44eb95171de6a"

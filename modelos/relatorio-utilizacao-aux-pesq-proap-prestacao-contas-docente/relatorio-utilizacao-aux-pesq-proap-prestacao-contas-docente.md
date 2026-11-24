@@ -1,5 +1,5 @@
 ---
-description: "RELATÓRIO DE UTILIZAÇÃO DE: RELATÓRIO DE UTILIZAÇÃO DE AUX_PESQ_PROAP (PRPG)."
+description: "Relatório de Auxílio Pesquisador: o docente presta contas das atividades e notas fiscais ao coordenador do programa de pós-graduação."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/Relat%C3%B3rio%20Presta%C3%A7%C3%A3o%20de%20contas%20-%20docente-.doc"
 origin_checked: "2026-11-23"
 sha256: "ea0e24ff6cb007a1ef463bebf22a4e16be448d12bc14591220dd136b5f5c22c2"

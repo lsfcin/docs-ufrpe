@@ -1,5 +1,5 @@
 ---
-description: "FICHA DE IDENTIFICAÇÃO DO ESTAGIÁRIO: FICHA DE IDENTIFICAÇÃO DO ESTAGIÁRIO PÓS-DOUTORAL (PRPG)."
+description: "Ficha de Estagiário Pós-Doutoral: traz dados pessoais, contato, vínculo, bolsa e projeto do estagiário para a Pró-Reitoria de Pós-Graduação."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/ficha_de_identificacao_do_estagiario.doc"
 origin_checked: "2026-11-23"
 sha256: "2917dbac7e2ededba799a7a1aa2b9c6f258253802653b664cfa74b9d93d60da8"

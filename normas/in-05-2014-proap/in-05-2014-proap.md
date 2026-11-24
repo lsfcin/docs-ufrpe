@@ -1,5 +1,5 @@
 ---
-description: "IN 05 2014: proap - in 05 2014 (PRPG)."
+description: "Instrução Normativa 5/2014: procedimentos de pesquisa de preços para aquisição de bens e contratação de serviços em geral, usados no SISG."
 source: "../in-05-2014-proap.pdf"
 sha256: "11360ed7224ced41cc59c7ee4e7721cf6781a8ae4cc2c4ff72530251b249f146"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/proap_-_in_05_2014.pdf"

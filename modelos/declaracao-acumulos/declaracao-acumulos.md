@@ -1,5 +1,5 @@
 ---
-description: "DECLARAÇÃO DE ACÚMULOS: DeclaraodeAcmulos (PRPG)."
+description: "Formulário de Declaração de Acúmulos: o aluno declara vínculos e rendimentos para o PPG validar acúmulos de bolsa (Portaria 133/2023)."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/DeclaraodeAcmulos.docx"
 origin_checked: "2026-11-23"
 sha256: "4d387799b4da0ee402addc84d61f0170aa7c99a00d4157050e352b6fd1f96648"

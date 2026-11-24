@@ -1,5 +1,5 @@
 ---
-description: "Instrução Normativa PRPG- 01 -2022: IN- PRPG- 01 -2022 - tratamento exc covid ano letivo 2022 (PRPG)."
+description: "IN UFRPE/PRPG 01/2022: define procedimentos para discentes de pós-graduação presencial com risco para COVID-19 solicitarem tratamento excepcional em 2022."
 source: "../in-prpg-01-2022-tratamento-exc-covid-ano.pdf"
 sha256: "3a313af11c95df4defa490a6a01b80f5187c66d9bd2da06abb9d9cf0860d3fd9"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/IN-%20PRPG-%2001%20-2022%20-%20tratamento%20exc%20covid%20ano%20letivo%202022.pdf"

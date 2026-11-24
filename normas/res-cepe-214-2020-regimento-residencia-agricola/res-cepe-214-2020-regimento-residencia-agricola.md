@@ -1,5 +1,5 @@
 ---
-description: "Resolução 214/2020: recepe214.2020.regimento residencia agricola (PRPG)."
+description: "Res. CEPE 214/2020: aprova o regimento da Residência Profissional Agrícola da UFRPE para qualificar recém-egressos de Ciências Agrárias e áreas afins."
 source: "../res-cepe-214-2020-regimento-residencia-agricola.pdf"
 sha256: "17d6e5ee2ab7c787adca7870361b6cf2437c6dcaf84cc7533645289d0355e6c0"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/recepe214.2020.regimento_residencia_agricola.pdf"

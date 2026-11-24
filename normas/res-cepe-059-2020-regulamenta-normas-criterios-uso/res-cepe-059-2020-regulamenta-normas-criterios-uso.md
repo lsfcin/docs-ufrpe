@@ -1,5 +1,5 @@
 ---
-description: "Resolução 059/2020: recepe059.2020 regulamenta as normas e os criterios de uso e aplicacao dos recursos provenientes do programa de apoio a pos-graduacao proap capes-1 (PRPG)."
+description: "Res. CEPE 059/2020: regula o uso dos recursos PROAP/CAPES por docentes e discentes dos PPGs stricto sensu da UFRPE."
 source: "../res-cepe-059-2020-regulamenta-normas-criterios-uso.pdf"
 sha256: "148c2757237a8463e98649d7b97caab97538888082e5626fb5a042277b98cc00"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/recepe059.2020_regulamenta_as_normas_e_os_criterios_de_uso_e_aplicacao_dos_recursos_provenientes_do_programa_de_apoio_a_pos-graduacao_proap_capes-1.pdf"

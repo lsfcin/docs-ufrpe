@@ -1,5 +1,5 @@
 ---
-description: "Resolução 989/2026: RECEPE989.2026 APROVA ATUALIZAÇÃO DAS NORMAS PARA REALIZAÇÃO DE ESTÁGIO PÓS-DOUTORAL DA UFRPE (PRPG)."
+description: "Res. CEPE/UFRPE 989/2026: atualiza as normas do estágio pós-doutoral na UFRPE, para pesquisadores doutores e unidades que os recebem."
 source: "../res-cepe-989-2026-atualizacao-normas-realizacao-estagio.pdf"
 sha256: "2b672dc6c7c0a9e7d5eae93a3831cf3060e6f8549f4c0b4ce5190dbe06fdee39"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE989.2026%20APROVA%20ATUALIZA%C3%87%C3%83O%20DAS%20NORMAS%20PARA%20REALIZA%C3%87%C3%83O%20DE%20EST%C3%81GIO%20P%C3%93S-DOUTORAL%20DA%20UFRPE.pdf"

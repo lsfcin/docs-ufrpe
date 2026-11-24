@@ -1,5 +1,5 @@
 ---
-description: "TERMO DE OUTORGA PROAP- Auxílio: TERMO DE OUTORGA PROAP- Auxílio Pesquisador (PRPG)."
+description: "Termo de Aceitação de Apoio Financeiro: formaliza o aceite do beneficiário às condições do apoio PROAP/CAPES e à prestação de contas."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/TERMO%20DE%20OUTORGA.%20PROAP.-%20Aux%C3%ADlio%20Pesquisador.docx"
 origin_checked: "2026-11-23"
 sha256: "469f9fc13133d993041301e58e9b700916f19d28b4171f1abc42740cdaa99566"

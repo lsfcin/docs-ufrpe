@@ -1,5 +1,5 @@
 ---
-description: "RELATÓRIO DE VIAGEM DE DISCENTE: relatorio viagem discente (PRPG)."
+description: "Relatório de Viagem (discente) da UFRPE: registra percurso, datas e atividades da viagem, com assinaturas do discente e do orientador."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/relatorio_viagem_discente.doc"
 origin_checked: "2026-11-23"
 sha256: "4fd5f522f6c27ce850c1f566ff2c38730dbb9c6f3d76159c793a491f2b6bce7d"

@@ -1,5 +1,5 @@
 ---
-description: "FICHA DE IDENTIFICAÇÃO DO DISCENTE: ficha de identificacao do discente 1 (PRPG)."
+description: "Anexo III – Ficha de identificação: formulário para o discente de pós-graduação registrar seus dados pessoais e formação acadêmica."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/ficha_de_identificacao_do_discente_1.doc"
 origin_checked: "2026-11-23"
 sha256: "eb196535d43cce430cbc7f62939adc11bb408e0bb21e16fb2bf070998d19ca4f"

@@ -1,5 +1,5 @@
 ---
-description: "FORMULÁRIO PARA SOLICITAÇÃO DE: FORMULÁRIO PARA SOLICITAÇÃO DE REVALIDAÇÃO DE DISCIPLINA EM MESTRADO/DOUTORADO (PRPG)."
+description: "Formulário de revalidação de disciplinas: usado por aluno regular de pós-graduação para solicitar à coordenação a revalidação de disciplinas."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/revalidacao_de_disciplina_0.doc"
 origin_checked: "2026-11-23"
 sha256: "986f7ac168334f3f0816ae9e9f32603579a50175828037b5d2e4799816f47137"

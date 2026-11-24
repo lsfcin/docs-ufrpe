@@ -1,5 +1,5 @@
 ---
-description: "Resolução 048/2018: recepe048.2018 politicas e acoes para negros e pardos 0 (PRPG)."
+description: "Res. CEPE 048/2018: política de ações afirmativas para seleção de estudantes na pós-graduação stricto sensu da UFRPE."
 source: "../res-cepe-048-2018-politicas-acoes-negros-pardos.pdf"
 sha256: "16a91f721faea1eeb7002ef97658268ab505cd2431524c33fe03dc4b9dd1ba5a"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/recepe048.2018_politicas_e_acoes_para_negros_e_pardos_0.pdf"

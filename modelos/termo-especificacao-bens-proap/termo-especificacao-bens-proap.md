@@ -1,5 +1,5 @@
 ---
-description: "TERMO DE ESPECIFICAÇÃO DE BENS PROAP: termo de especificacao de bens proap (PRPG)."
+description: "Termo de Especificação de Bens: modelo para aquisição de bens de consumo pelos PPGs, com objeto, justificativa, custo e entrega."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/termo_de_especificacao_de_bens_proap.doc"
 origin_checked: "2026-11-23"
 sha256: "2563276fd3bb8e5ea5d58228f56aa83826e4f5e1b9a7cd1bfcf293c032bed98d"
