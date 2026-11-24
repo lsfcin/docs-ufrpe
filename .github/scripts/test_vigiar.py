@@ -101,6 +101,9 @@ class Triagem(unittest.TestCase):
         self.assertEqual(self.caso('PDI-UFRPE-2021-2030.pdf')[1], 'entra')
         self.assertEqual(self.caso('Plano de Integridade - 2018-12-10.pdf')[1], 'entra')
         self.assertEqual(self.caso('Calendário 2014.pdf')[1:], ('fora', 'versão superada'))
+        self.assertEqual(self.caso('CALENDÁRIO GRADUAÇÃO 2024 e 2025.pdf')[1:], ('fora', 'versão superada'))
+        self.assertEqual(self.caso('Calendario cursos presenciais 2025 final.pdf')[1:], ('fora', 'versão superada'))
+        self.assertEqual(self.caso('CALENDÁRIO_GRADUAÇÃO_2026.pdf')[1], 'entra')
 
     def test_regra_da_pagina(self):
         revogada = regras.regra_da_pagina('!norma:fora:revogada')

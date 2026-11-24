@@ -84,7 +84,7 @@ def classificar(url: str, nome_titulo: str, secao: str, pagina: tuple[bool, tupl
             anos, fins = [int(a) for a in ANO.findall(proprio)], [int(a) for a in PERIODO.findall(proprio)]
             if motivo == 'plano' and fins and max(fins) < ano:
                 return tipo, 'fora', 'versão superada'
-            if motivo == 'calendário' and anos and max(anos) < ano - 1:
+            if motivo == 'calendário' and anos and max(anos) < ano:
                 return tipo, 'fora', 'versão superada'
             return tipo, decisao, motivo
     return pagina[1] if pagina else ('', 'pendente', '')
