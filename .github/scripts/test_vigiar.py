@@ -57,6 +57,9 @@ class Triagem(unittest.TestCase):
         self.assertEqual(self.caso('D12246_dispensa para exames.pdf')[2], 'federal')
         self.assertEqual(self.caso('Tabela Carreira EBTT - 01MAI2023.pdf')[0], 'tabela')
         self.assertEqual(self.caso('tabela de horas extras.docx')[0], 'modelo')
+        # 24/11/2026: calendário tem pasta própria, e só o vigente entra.
+        self.assertEqual(self.caso('CALENDÁRIO PRPG 2026-03-05.pdf'), ('calendario', 'entra', 'calendário'))
+        self.assertEqual(self.caso('CALENDARIO 2016.pdf')[1:], ('fora', 'versão superada'))
 
     def test_so_a_versao_vigente(self):
         self.assertEqual(self.caso('pdi_ufrpe_2013-2020.pdf', 'PDI 2013-2020')[1:], ('fora', 'versão superada'))

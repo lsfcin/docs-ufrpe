@@ -29,7 +29,7 @@ import vigiar
 
 RAIZ = verificar.RAIZ
 FILA = RAIZ / '.vigia' / 'fila.tsv'
-PASTA = {'modelo': 'modelos', 'norma': 'normas', 'orientacao': 'orientacoes', 'tabela': 'tabelas'}
+PASTA = verificar.PASTA
 ROTA = {'pdf': 'pdf', 'doc': 'gdoc', 'docx': 'gdoc'}
 NOME_MAX = 40
 FORMATO = r'word|pdf|docx?'  # o que o título diz do formato, e não do formulário

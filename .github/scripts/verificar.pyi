@@ -3,6 +3,7 @@ from _typeshed import Incomplete
 from pathlib import Path
 
 RAIZ: Incomplete
+PASTA: Incomplete
 PASTAS: Incomplete
 FORA: Incomplete
 NOME: Incomplete

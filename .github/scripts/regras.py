@@ -24,7 +24,7 @@ REGRAS: list[tuple[re.Pattern, str, str, str]] = [(re.compile(p), t, d, m) for p
      r'|em numeros|auditoria|dirigente .*controle interno|contr interno', '', 'fora', 'relatório'),
     (r'memoria|reuniao do dia', '', 'fora', 'memória de reunião'),
     (r'vencimento|remunerac|correlac|tabela salarial', 'tabela', 'entra', 'tabela'),
-    (r'calendario', 'norma', 'entra', 'calendário'),
+    (r'calendario', 'calendario', 'entra', 'calendário'),
     (r'manual|tutorial|cartilha|\bguia\b|passo a passo|perguntas (frequentes|e respostas?)|\bfaq\b|mapeamento|mapa de processos'
      r'|processos mapeados|identidade visual',
      'orientacao', 'entra', 'orientação'),

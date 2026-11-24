@@ -18,7 +18,8 @@ import rede
 from indexar import MANUTENCAO
 
 RAIZ = Path(__file__).resolve().parents[2]
-PASTAS = ('modelos', 'normas', 'orientacoes', 'tabelas')
+PASTA = {'calendario': 'calendarios', 'modelo': 'modelos', 'norma': 'normas', 'orientacao': 'orientacoes', 'tabela': 'tabelas'}  # tipo do censo → pasta
+PASTAS = tuple(PASTA.values())
 FORA = {'CONTEXT.md', 'README.md', *MANUTENCAO}
 NOME = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 DATA = re.compile(r'^\d{4}-\d{2}-\d{2}$')

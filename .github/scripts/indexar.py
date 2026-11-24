@@ -24,7 +24,7 @@ IMAGEM = re.compile(r'!\[[^\]]*\]\([^)]*\)')
 ETIQUETA = re.compile(r'</?[a-zA-Z][^>]*>')
 LINK = re.compile(r'\[([^\]]*)\]\([^)]*\)')
 MARCAS = re.compile(r'(^|\n)[ \t]*(?:#{1,6}[ \t]+|>[ \t]?|[-*+][ \t]+(?=\S))|[*_`|]|<\/?(?:details|summary|br)\s*\/?>|^-{3,}$', re.M)
-PASTAS = {'orientacoes': 'Orientações'}
+PASTAS = {'calendarios': 'Calendários', 'orientacoes': 'Orientações'}
 ESPACO = re.compile(r'[ \t]*\n[ \t\n]*|[ \t]{2,}')
 
 
