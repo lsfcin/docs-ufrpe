@@ -1,5 +1,5 @@
 ---
-description: "Manual de Orientação dos Procedimentos: Manual de Orientação dos Procedimentos Pós-Defesa do SIGAA (PRPG)."
+description: "Manual Pós-Defesa do SIGAA: orienta coordenadores e secretários de programas de pós-graduação nos procedimentos após a defesa."
 source: "../manual-orientacao-procedimentos-pos-defesa-sigaa.pdf"
 sha256: "ff986af10d72c64bd4cf97ab0817744e8a0ef09f7f3824b5c15e2d17e7c4f260"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/Procedimentos%20P%C3%B3s-Defesa.pdf"

@@ -1,5 +1,5 @@
 ---
-description: "Manual para Solicitação de Portarias de: Manual para Solicitação de Portarias de Coordenação de Curso (PRPG)."
+description: "Manual de Portarias de Coordenação: orienta os Programas de Pós-Graduação na solicitação de portarias para coordenadores e substitutos."
 source: "../manual-solicitacao-portarias-coordenacao-curso.pdf"
 sha256: "5795df419cd02baac123833b074c41aa7b93105be00326426c2b3b3703aabb6f"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/MANUAL%20PARA%20SOLICITA%C3%87%C3%83O%20DE%20PORTARIAS%20DE%20COORDENA%C3%87%C3%83O%20DE%20CURSO_0.pdf"

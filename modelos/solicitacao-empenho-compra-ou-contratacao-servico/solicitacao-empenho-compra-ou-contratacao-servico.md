@@ -1,5 +1,5 @@
 ---
-description: "Solicitação de Empenho: unidades gestoras solicitam ao Departamento de Contabilidade e Finanças o empenho de despesas de pós-graduação."
+description: "Empenho de compra ou serviço: unidades gestoras solicitam ao Departamento de Contabilidade e Finanças o empenho de despesas de pós-graduação."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/solicitacao_de_empenho_-_compra_ou_contratacao_de_servico_0.doc"
 origin_checked: "2026-11-23"
 sha256: "6f467d72ed850886df852fe72ebae0a8cb1db47f5c13306e4b2ae902e10fbd34"

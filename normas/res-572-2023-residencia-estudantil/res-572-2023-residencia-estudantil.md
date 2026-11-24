@@ -1,5 +1,5 @@
 ---
-description: "Res. CEPE/UFRPE 572/2023: normatiza vagas na residência estudantil para pós-graduandos egressos do PRUG."
+description: "Res. CEPE 572/2023: normatiza vagas na residência estudantil para pós-graduandos egressos do PRUG."
 source: "../res-572-2023-residencia-estudantil.pdf"
 sha256: "cd5a526259371e03480556f55799ecc6088e607fc3095213eac8e66a18a74362"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RESOLUC%CC%A7A%CC%83O-572-2023_Residencia_Estudantil.pdf"

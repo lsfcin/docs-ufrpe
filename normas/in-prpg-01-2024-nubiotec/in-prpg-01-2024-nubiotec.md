@@ -1,5 +1,5 @@
 ---
-description: "IN UFRPE/PRPG 01/2024: estabelece normas de funcionamento do Núcleo de Biotecnologia para coordenações de laboratórios e usuários."
+description: "IN PRPG 01/2024: estabelece normas de funcionamento do Núcleo de Biotecnologia para coordenações de laboratórios e usuários."
 source: "../in-prpg-01-2024-nubiotec.pdf"
 sha256: "cd5f5ad6f82ae7888fd712a9a42954f2f40cc3331f90bad4bf1bd97ad4c60000"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/NUBIOTEC%20INSTRUC%CC%A7A%CC%83O%20NORMATIVA%20-%20fevereiro%202024-PRPG.pdf"

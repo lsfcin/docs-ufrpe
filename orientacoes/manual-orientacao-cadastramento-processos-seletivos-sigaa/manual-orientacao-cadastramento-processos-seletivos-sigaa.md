@@ -1,5 +1,5 @@
 ---
-description: "Manual de Orientação para cadastramento: Manual de Orientação para cadastramento de Processos Seletivos do SIGAA (PRPG)."
+description: "Manual de processos seletivos no SIGAA: orienta coordenadores e secretários de pós-graduação no cadastro de seleções."
 source: "../manual-orientacao-cadastramento-processos-seletivos-sigaa.pdf"
 sha256: "77e9dfb95045519325ff7ede942bd618d182023866a91240f6a4bcb946c58399"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/Tutorial%20processo%20seletivo.pdf"

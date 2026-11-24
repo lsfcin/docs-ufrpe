@@ -1,5 +1,5 @@
 ---
-description: "MAPEAMENTO DOS PROCESSOS DE CONCESSÃO: MAPEAMENTO DOS PROCESSOS DE CONCESSÃO DE BOLSAS DE ESTUDO DS/CAPES E CNPq (PRPG)."
+description: "Mapa do processo de bolsas DS e CNPq: fluxo de concessão CAPES/DS e CNPq para coordenações de PPG e CGBEs."
 source: "../mapeamento-processos-concessao-bolsas-estudo-ds-capes-cnpq.pdf"
 sha256: "ea58d6dc2ebe929f923d95bcff6bb543af46df31e92ade02ea56a2298791c81c"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/mapa_de_processos_das_bolsas_-anexos_i_e_ii.pdf"

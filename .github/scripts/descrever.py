@@ -27,7 +27,7 @@ import verificar
 RAIZ = verificar.RAIZ
 CORPO_MAX = 6000   # com 2500 um modelo leu o calendário errado: o corte tem de pegar o documento quase todo
 DESCRICAO_MAX = 180  # as do lote 1 têm mediana de 115; com 300, o deepseek escrevia 200 e o Nome virava seção do texto
-TEMPO = 300        # segundos por chamada; o deepseek leva ~10 s e o codex ~20 s
+TEMPO = 90         # segundos por chamada; medianas de 24/11/2026: deepseek 17 s, codex 53 s. Com 300, um deepseek pendurado custava 5 min por documento
 CODEX = Path('/usr/lib/chatgpt/resources/codex')
 MODELO_CODEX = 'gpt-6-luna'
 PREFERIDOS = ('modelos/in-gr-01-2024-apendice-1-pda', 'normas/res-consu-434-2024-carga-horaria-docente',
@@ -38,7 +38,8 @@ PREFIXO = re.compile(r'^description:\s*', re.I)
 LINHA_DESCRICAO = re.compile(r'^description:[^\r\n]*', re.M)
 INSTRUCAO = ('Escreva a linha `description` deste documento. Formato: `Nome: resto.` — Nome até 40 caracteres, sem dois-pontos, '
              'diz o que o documento é: o tipo e o número quando houver (Res. CEPE 123/2024, IN PRPG 01/2026, Formulário de …, '
-             'Manual do …), nunca um programa, anexo ou seção de dentro dele; depois, para que serve e quem usa, numa frase. '
+             'Manual do …), nunca um programa, anexo ou seção de dentro dele; norma da UFRPE se abrevia sempre assim, '
+             'sem "Resolução" nem "UFRPE" no nome: Res. CONSU 233/2022, Res. CURA 070/2023, IN PRPG 01/2026; depois, para que serve e quem usa, numa frase. '
              f'Tudo em até 140 caracteres (nunca mais de {DESCRICAO_MAX}). Sem inventar. Expanda sigla só se o texto a expandir. '
              'Responda só com essa linha, sem numeração nem aspas.')
 
@@ -154,8 +155,8 @@ def descrever(texto: str, escrever: Callable[[str], str] | tuple[Callable[[str],
         if novo is None:
             return None, 'o documento não tem `description` no frontmatter'
         hoje = datetime.date.today()
-        if set(verificar.conferir(rel, novo, hoje)[0]) - set(verificar.conferir(rel, texto, hoje)[0]):
-            motivos.append(f'{escritor.__name__}: a troca reprova no verificar.py')
+        if (novos := set(verificar.conferir(rel, novo, hoje)[0]) - set(verificar.conferir(rel, texto, hoje)[0])):
+            motivos.append(f'{escritor.__name__}: "{descricao}" reprova no verificar.py ({"; ".join(sorted(novos))})')
             continue
         return novo, ''
     return None, '; '.join(motivos)

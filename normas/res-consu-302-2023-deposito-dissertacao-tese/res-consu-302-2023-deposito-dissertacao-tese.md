@@ -1,5 +1,5 @@
 ---
-description: "Resolução 302/2023: Resolucao 302 2023 CONSU Depósito Dissertação Tese (PRPG)."
+description: "Res. CONSU 302/2023: altera as normas de depósito digital de trabalhos acadêmicos nas bibliotecas, para estudantes e unidades da UFRPE."
 source: "../res-consu-302-2023-deposito-dissertacao-tese.pdf"
 sha256: "673d425b1e5ef8cad823364e818d571234834cd79987651813a43e39c9f5c3cb"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/Resolucao_302_2023_CONSU_Dep%C3%B3sito_Disserta%C3%A7%C3%A3o_Tese.pdf"

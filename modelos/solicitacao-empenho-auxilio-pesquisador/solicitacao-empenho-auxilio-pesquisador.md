@@ -1,5 +1,5 @@
 ---
-description: "Solicitação de Empenho: formulário para pagamento de Auxílio para Pesquisador, com dados bancários e dotação; usada pela PRPG/UFRPE."
+description: "Empenho de Auxílio para Pesquisador: formulário para pagamento de Auxílio para Pesquisador, com dados bancários e dotação; usada pela PRPG/UFRPE."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/solicitacao_de_empenho_-_auxilio_pesquisador.doc"
 origin_checked: "2026-11-23"
 sha256: "83e00e57383e34404d747ac0bfc57f6c67b4981553de7d6b14814c92e4efa180"

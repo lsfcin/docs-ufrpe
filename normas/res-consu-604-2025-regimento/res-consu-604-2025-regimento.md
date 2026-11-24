@@ -1,5 +1,5 @@
 ---
-description: "Resolução CONSU 604/2025: Resolução 604 2025 Regimento PRPG (PRPG)."
+description: "Res. CONSU 604/2025: aprova a estrutura e o Regimento Interno da PRPG, para orientar a gestão da pós-graduação."
 source: "../res-consu-604-2025-regimento.pdf"
 sha256: "1a8f46d2d11e2ed5a35886b91f9e3a539e2f2d3e2fae521dfce20d5fdcf7399e"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/Resolu%C3%A7%C3%A3o_604_2025_Regimento_PRPG.pdf"

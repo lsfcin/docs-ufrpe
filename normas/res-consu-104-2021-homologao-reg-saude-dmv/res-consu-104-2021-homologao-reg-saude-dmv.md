@@ -1,5 +1,5 @@
 ---
-description: "Resolução CONSU 104/2021: recu104.2021 homologao res. 230.21 cepe. reg. saude dmv (PRPG)."
+description: "Res. CONSU 104/2021: homologa atualização do regimento da Residência em Medicina Veterinária para orientar o programa e seus residentes."
 source: "../res-consu-104-2021-homologao-reg-saude-dmv.pdf"
 sha256: "c1e25338480a0d45050f635ed6fab87b5bb7f120e9e2d33a43e390ce2d98c9be"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/recu104.2021_homologao_res._230.21_cepe._reg._saude_dmv.pdf"

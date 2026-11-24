@@ -1,5 +1,5 @@
 ---
-description: "Manual de Orientação para Uso dos: Manual de Orientação para Uso dos Recursos PROAP CAPES (PRPG)."
+description: "Manual de uso dos recursos PROAP: orienta coordenadores e secretários dos PPGs na solicitação e execução de despesas."
 source: "../manual-orientacao-uso-recursos-proap-capes.pdf"
 sha256: "ad478a4e1d033c61b14fc862444ca98e062d32234c26ed6993f036ee76292690"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/Manual_PROAP_2023_v4.pdf"

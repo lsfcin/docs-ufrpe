@@ -1,5 +1,5 @@
 ---
-description: "Resolução CONSU 233/2022: RESOLUÇÃO 2332022, DE 11 DE OUTUBRO DE 2022 - Mobilidade Acadêmica (PRPG)."
+description: "Res. CONSU 233/2022: regulamenta a mobilidade acadêmica internacional e seus programas de apoio a estudantes, servidores da UFRPE e estrangeiros."
 source: "../res-consu-233-2022-mobilidade-academica.pdf"
 sha256: "f8b9376f8a2139e73b801499ab6fd4c813107961dab011314607ee325f28b9db"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RESOLUC%CC%A7A%CC%83O%202332022,%20DE%2011%20DE%20OUTUBRO%20DE%202022%20-%20Mobilidade%20Acade%CC%82mica.pdf"

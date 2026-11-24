@@ -1,5 +1,5 @@
 ---
-description: "Resolução CEPE/UFRPE 659/2023: disciplina a gestão de bolsas CAPES de mestrado e doutorado para discentes da pós-graduação."
+description: "Res. CEPE 659/2023: disciplina a gestão de bolsas CAPES de mestrado e doutorado para discentes da pós-graduação."
 source: "../res-cepe-659-2023-nova-norma-concesso-bolsas.pdf"
 sha256: "29c8dc33342a107978af4226372efcfb4cd7103eb141ee2353e93998ee56f5ae"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE659.2023_NOVA_NORMA_PARA_CONCESSO_DE_BOLSAS_DS_DA_POS-GRADUAO.pdf"

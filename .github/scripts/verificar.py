@@ -26,6 +26,9 @@ DATA = re.compile(r'^\d{4}-\d{2}-\d{2}$')
 HASH = re.compile(r'^[0-9a-f]{64}$')
 # O mesmo corte que paginas.py e indexar.py fazem para achar o nome do documento.
 ROTULO = re.compile(r'^[^:]{2,40}:\s*\S')
+# Uma norma se chama como no lote 1: "Res. CEPE 609/2023", "Res. CONSU 435-A/2024", "IN PRPG 01/2026" — sem "Resolução", sem "/UFRPE".
+NORMA = re.compile(r'^(?:Res|IN|Instrução|Resolução)\b')
+NORMA_CANONICA = re.compile(r'^(?:Res\. (?:CONSU|CEPE|CURA) \d{3,4}(?:-[A-Z])?|IN [A-Z]+ \d{2})/\d{4}$')
 # Ideograma, kana, hangul, caractere de substituição ou de uso privado num documento em português: lixo de OCR (um brasão, um QR code).
 ESTRANHO = re.compile('[⺀-鿿가-힯豈-﫿-�]')
 
@@ -48,6 +51,20 @@ def cabecalho(texto: str) -> dict | None:
         except json.JSONDecodeError:
             campos[chave.strip()] = None if valor in ('null', '~') else valor.strip('"\'')
     return campos
+
+
+def nome(descricao: str) -> str:
+    """O nome do documento: o que vem antes do primeiro dois-pontos da description."""
+    return descricao.partition(':')[0].strip()
+
+
+def repetidos(nomes: dict[Path, str]) -> dict[Path, str]:
+    """Erro para cada documento cujo nome outro documento também usa: no site e na busca, os dois ficariam iguais."""
+    donos: dict[str, list[Path]] = {}
+    for rel, n in nomes.items():
+        donos.setdefault(n, []).append(rel)
+    return {rel: f'o nome "{n}" é também o de {", ".join(str(o) for o in donos[n] if o != rel)}'
+            for rel, n in nomes.items() if len(donos[n]) > 1}
 
 
 def lugar(rel: Path) -> str | None:
@@ -76,6 +93,8 @@ def conferir(rel: Path, texto: str, hoje: datetime.date) -> tuple[list[str], lis
         erros.append('falta description')
     elif not ROTULO.match(campos['description']):
         erros.append('description começa pelo nome do documento, até 40 caracteres, e dois-pontos ("Res. CONSU 009/2019: …"): é o nome no site e na busca')
+    elif rel.parts[0] == 'normas' and rel.parts[1] != 'federais' and NORMA.match(n := nome(campos['description'])) and not NORMA_CANONICA.match(n):
+        erros.append(f'o nome "{n}" foge do padrão das normas: "Res. CEPE 609/2023", "Res. CONSU 435-A/2024", "IN PRPG 01/2026"')
     origem = campos.get('origin')
     if not isinstance(origem, str) or not origem.startswith(('https://', 'http://')):
         erros.append('origin tem de ser o link oficial (https://...) do original')
@@ -115,8 +134,12 @@ def main(argv: list[str]) -> int:
     ap.add_argument('arquivos', nargs='*')
     args = ap.parse_args(argv)
     hoje, reprovados = datetime.date.today(), 0
-    for rel in documentos(args.arquivos):
-        erros, avisos, campos = conferir(rel, (RAIZ / rel).read_text(encoding='utf-8'), hoje)
+    conferidos = {rel: conferir(rel, (RAIZ / rel).read_text(encoding='utf-8'), hoje) for rel in documentos(args.arquivos)}
+    nomes = {rel: nome(c['description']) for rel, (_, _, c) in conferidos.items() if isinstance(c.get('description'), str)}
+    duplicados = repetidos(nomes)
+    for rel, (erros, avisos, campos) in conferidos.items():
+        if rel in duplicados:
+            erros.append(duplicados[rel])
         if args.online and not erros and campos.get('sha256'):
             try:
                 if baixar_hash(campos['origin']) != campos['sha256']:

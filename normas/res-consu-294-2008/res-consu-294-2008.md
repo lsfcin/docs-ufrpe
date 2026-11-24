@@ -1,5 +1,5 @@
 ---
-description: "Resolução 294/2008: reconsu 294 2008 0 (PRPG)."
+description: "Res. CONSU 294/2008: regula consulta universitária para escolha de diretores e coordenadores de cursos e programas; orienta a comunidade."
 source: "../res-consu-294-2008.pdf"
 sha256: "8d4ade1c4900e4c95d11ad41899db6b7b635394fd72cabb1dfdeb79db7eef690"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/reconsu_294_2008_0.pdf"

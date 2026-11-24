@@ -1,5 +1,5 @@
 ---
-description: "Formulário de Solicitação de Empenho: pedido de ressarcimento a docentes da UFRPE, via PRPG, ao GCF."
+description: "Empenho de ressarcimento ao docente: pedido de ressarcimento a docentes da UFRPE, via PRPG, ao GCF."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/solicitacao_de_empenho_-ressarcimento_-docente_0_0.doc"
 origin_checked: "2026-11-23"
 sha256: "6e7d71df4b3239be39fba9836b91606ff90c784a42209cc47daff7f33435190e"

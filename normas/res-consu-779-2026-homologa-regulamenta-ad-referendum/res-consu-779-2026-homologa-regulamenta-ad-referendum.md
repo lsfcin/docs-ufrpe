@@ -1,5 +1,5 @@
 ---
-description: "Resolução 779/2026: RECU779.2026 HOMOLOGA RES 775 QUE REGULAMENTA AD REFERENDUM O SISTEMA DE VOTAÇÃO ELETRÔNICA DA UFRPE (PRPG)."
+description: "Res. CONSU 779/2026: homologa as regras da votação eletrônica em eleições e consultas da comunidade universitária."
 source: "../res-consu-779-2026-homologa-regulamenta-ad-referendum.pdf"
 sha256: "d6319268b08b0aeb18d17ed12ebd8629371a28eabc8ca4737f8752d06af8c0b5"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RECU779.2026%20HOMOLOGA%20RES%20775%20QUE%20REGULAMENTA%20AD%20REFERENDUM%20O%20SISTEMA%20DE%20VOTA%C3%87%C3%83O%20ELETR%C3%94NICA%20DA%20UFRPE.pdf"

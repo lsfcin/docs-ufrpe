@@ -1,5 +1,5 @@
 ---
-description: "MAPEAMENTO DO PROCESSO DE CONCESSÃO DE: MAPEAMENTO DO PROCESSO DE CONCESSÃO DE AJUDA DE CUSTO PROAP/CAPES (PRPG)."
+description: "Mapa do processo de ajuda de custo: orienta PPGs e setores da PRPPG na solicitação, empenho e pagamento de ajuda de custo com recursos PROAP/CAPES."
 source: "../mapeamento-processo-concessao-ajuda-custo-proap-capes-mapa.pdf"
 sha256: "448289768e64464a2f1a25e51791939bad02e68a4c68696af16203b7c84768e6"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/mapa_de_processos_das_bolsas_-anexos_iii.pdf"

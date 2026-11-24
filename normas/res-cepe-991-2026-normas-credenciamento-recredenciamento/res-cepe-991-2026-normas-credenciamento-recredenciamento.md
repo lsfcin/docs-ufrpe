@@ -1,5 +1,5 @@
 ---
-description: "Resolução 991/2026: RECEPE991.2026 NORMAS DE CREDENCIAMENTO, RECREDENCIAMENTO E DESCREDENCIAMENTO DE DOCENTES DOS PROGRAMAS DE PÓS-GRADUAÇÃO (PPG) STRICTO SENSU DA UFRPE (PRPG)."
+description: "Res. CEPE 991/2026: orienta os PPG sobre credenciamento, recredenciamento e descredenciamento de docentes da pós-graduação stricto sensu."
 source: "../res-cepe-991-2026-normas-credenciamento-recredenciamento.pdf"
 sha256: "5470695bd95a28e098a65c82ee8a852166b84c8bce8f834b7c62e4cb5d690505"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE991.2026%20NORMAS%20DE%20CREDENCIAMENTO,%20RECREDENCIAMENTO%20E%20DESCREDENCIAMENTO%20DE%20DOCENTES%20DOS%20PROGRAMAS%20DE%20P%C3%93S-GRADUA%C3%87%C3%83O%20(PPG)%20%20STRICTO%20SENSU%20DA%20UFRPE.pdf"

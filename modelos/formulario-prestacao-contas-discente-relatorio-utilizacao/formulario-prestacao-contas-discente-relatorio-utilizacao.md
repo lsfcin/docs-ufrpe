@@ -1,5 +1,5 @@
 ---
-description: "Relatório de Ajuda de Custo ao Discente: comprova o uso da ajuda e lista as notas fiscais, para o discente e a coordenação do programa."
+description: "Prestação de contas da ajuda de custo: comprova o uso da ajuda e lista as notas fiscais, para o discente e a coordenação do programa."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/relatorio_utilizacao_aux_disc_proap%20-.doc"
 origin_checked: "2026-11-23"
 sha256: "9c4709ea0081c418b1bee601cc375adbe9e1022da97e2274c7756efc85ac0f81"

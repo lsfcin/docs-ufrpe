@@ -1,5 +1,5 @@
 ---
-description: "Res. CEPE/UFRPE 582/2023: cria apoio à internacionalização da pós-graduação stricto sensu, usado por docentes, discentes e colaboradores convidados."
+description: "Res. CEPE 582/2023: cria apoio à internacionalização da pós-graduação stricto sensu, usado por docentes, discentes e colaboradores convidados."
 source: "../res-cepe-582-2023-programa-apoio-intrnacionalizao-ppgs.pdf"
 sha256: "28c1dd2fb40b1c667400e7804b8801a41687c83cc82780842858b0e41605f81d"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE582.2023_PROGRAMA_DE_APOIO_A_INTRNACIONALIZAO_DOS_PPGs.pdf"

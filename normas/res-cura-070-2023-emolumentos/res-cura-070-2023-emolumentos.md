@@ -1,5 +1,5 @@
 ---
-description: "Resolução 070/2023 CURA: EMOLUMENTOS-RESOLUÇÃO CURA-UFRPE Nº 070 DE 4 DE DEZEMBRO DE 2023 (PRPG)."
+description: "Res. CURA 070/2023: atualiza taxas e emolumentos de serviços acadêmicos para estudantes de graduação e pós-graduação."
 source: "../res-cura-070-2023-emolumentos.pdf"
 sha256: "74c0ef2b8a2db32e4968d1dda1e98c1c4f0d78c28f86b55d5486d730b8007d44"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/EMOLUMENTOS-RESOLUC%CC%A7A%CC%83O%20CURA-UFRPE%20N%C2%BA%20070%20DE%204%20DE%20DEZEMBRO%20DE%202023.pdf"

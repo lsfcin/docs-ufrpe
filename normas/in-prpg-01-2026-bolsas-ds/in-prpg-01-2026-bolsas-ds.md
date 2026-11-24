@@ -1,5 +1,5 @@
 ---
-description: "IN PRPG/UFRPE 01/2026: define diretrizes para concessão e gestão de bolsas DS/CAPES da cota PRPG para discentes de pós-graduação."
+description: "IN PRPG 01/2026: define diretrizes para concessão e gestão de bolsas DS/CAPES da cota PRPG para discentes de pós-graduação."
 source: "../in-prpg-01-2026-bolsas-ds.pdf"
 sha256: "11d53011868e0d3601a68af114feb477aeab41b43f8e8ef3937f002c20fbdd25"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/IN%2001_2026_BOLSAS_DS_DA_PRPG.pdf"

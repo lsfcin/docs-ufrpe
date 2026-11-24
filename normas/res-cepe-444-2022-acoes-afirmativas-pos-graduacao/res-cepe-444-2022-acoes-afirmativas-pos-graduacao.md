@@ -1,5 +1,5 @@
 ---
-description: "Res. CEPE/UFRPE 444/2022: ações afirmativas para pessoas negras, indígenas, com deficiência e trans na pós-graduação da UFRPE."
+description: "Res. CEPE 444/2022: ações afirmativas para pessoas negras, indígenas, com deficiência e trans na pós-graduação da UFRPE."
 source: "../res-cepe-444-2022-acoes-afirmativas-pos-graduacao.pdf"
 sha256: "7f51752dbaa17f39f11801f23c86d036c06b5cde6ead9e6c0b81b96b81a6c846"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/recepe444.2022_acoes_afirmativas_da_pos.graduacao_revoga_a_res_048.2018_0.pdf"

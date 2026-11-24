@@ -1,5 +1,5 @@
 ---
-description: "Relatório de Ajuda de Custo ao Discente: valores recebidos, usados e notas fiscais do auxílio emergencial digital; o discente presta contas."
+description: "Prestação de contas do auxílio digital: valores recebidos, usados e notas fiscais do auxílio emergencial digital; o discente presta contas."
 origin: "https://prpg.ufrpe.br/sites/default/files/formularios/relatorio_uso_auxilio_emergencial_digital.doc"
 origin_checked: "2026-11-23"
 sha256: "74f1b614edb478a2029f9bf340114a247c6f8b80afdfd9f4572aa0f08fcd675e"

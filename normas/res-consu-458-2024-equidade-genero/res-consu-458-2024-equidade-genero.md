@@ -1,6 +1,6 @@
 ---
 description: "Res. CONSU 458/2024: aprova norma de equidade e diversidade de gênero para orientar a comunidade universitária da UFRPE."
-source: "../res-458-2023-processo.pdf"
+source: "../res-consu-458-2024-equidade-genero.pdf"
 sha256: "ce459958beb84e0e8a9738b6f1362510bc47682d35cfc1be2b112e97ea24cce1"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/Processo%20322032%202023%2010-52-62%5B1%5D.pdf"
 origin_checked: "2026-11-23"

@@ -1,5 +1,5 @@
 ---
-description: "Res. CEPE/UFRPE 481/2022: prorroga prazos de defesa e titulação de discentes dos programas de pós-graduação stricto sensu."
+description: "Res. CEPE 481/2022: prorroga prazos de defesa e titulação de discentes dos programas de pós-graduação stricto sensu."
 source: "../res-cepe-481-2022-prorrogacao-prazos-defesa-pg.pdf"
 sha256: "5f3b8e4a72581f5510a31e29b8d800f4875e3ba6e81d053d188dca5844df0689"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE481.2022%20PRORROGAC%CC%A7A%CC%83O%20DOS%20PRAZOS%20DE%20DEFESA%20PG.pdf"
