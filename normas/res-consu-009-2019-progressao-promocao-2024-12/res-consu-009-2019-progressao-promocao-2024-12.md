@@ -15,49 +15,6 @@ reviewed_by: "claude"
 <!-- page 1 -->
 
 
-![p01-fig1](img/p01-fig1.jpg)
-
-<!-- figure p01-fig1 | described_by: agy | ocr_overlap: None | needs_review: false | decorative: true -->
-### (1) Tipo de figura / Type of figure
-- **PT:** Trata-se de um ícone ou logotipo institucional em baixa resolução (arte em preto e branco / bitmap monocromático) representando o **Brasão de Armas da República Federativa do Brasil** (Armas Nacionais do Brasil), comumente utilizado no cabeçalho de documentos oficiais brasileiros.
-- **EN:** A low-resolution monochrome (black-and-white bitmap) institutional emblem/coat of arms representing the **Coat of Arms of the Federative Republic of Brazil** (*Brasão de Armas da República Federativa do Brasil*), commonly found in the header of official Brazilian government documents.
-
----
-
-### (2) Todo o texto visível / All visible text
-- **PT:** `[illegible]` — Devido à baixíssima resolução e binarização da imagem, as inscrições nas faixas inferiores (onde normalmente constam *"REPÚBLICA FEDERATIVA DO BRASIL"* e *"15 de Novembro de 1889"*) consistem apenas em agrupamentos de pixels pretos indistinguíveis, sendo totalmente ilegíveis (`[illegible]`). Não há títulos, rótulos, legendas, eixos ou células.
-- **EN:** `[illegible]` — Due to the very low resolution and monochrome pixelation of the image, the inscriptions on the lower scroll/ribbons consists only of indistinguishable clusters of black pixels and are completely `[illegible]`. There are no readable titles, labels, legends, captions, axis ticks, or cell values.
-
----
-
-### (3) Estrutura e elementos visuais / Structure and visual elements
-- **PT:** A figura é um único emblema centralizado, sem painéis, caixas, setas, linhas/colunas ou eixos, composto pelos seguintes elementos gráficos dispostos simetricamente:
-  - **Centro:** Um escudo circular escuro cercado por uma borda circular pontilhada (representando um anel de estrelas em pixels brancos) e contendo no interior manchas brancas pixeladas (representando a constelação do Cruzeiro do Sul).
-  - **Estrela de cinco pontas:** O círculo central está sobreposto a uma estrela de cinco pontas com bordas duplas (contorno preto e branco), com uma ponta voltada para cima, duas laterais e duas inferiores.
-  - **Espada vertical:** Na base central, posicionada verticalmente no eixo de simetria entre as duas pontas inferiores da estrela, encontra-se o punho/empunhadura de uma espada apontada para cima.
-  - **Guirlanda / Ramos laterais:** Ao redor da estrela de cinco pontas, há uma coroa/guirlanda densa de folhagens em pixels pretos e brancos (representando ramos de café e fumo) que envolve as laterais esquerda, direita e superior do brasão.
-  - **Faixa / Listel inferior:** Na base do emblema, abaixo da estrela e atravessando o punho da espada, há uma fita curva com extremidades bifurcadas (listel) contendo traços pixelados `[illegible]`.
-- **EN:** The figure is a single centered emblem with no panels, boxes, arrows, rows/columns, or axes, composed of the following symmetrically arranged graphical elements:
-  - **Center:** A dark circular shield bordered by a dotted ring of white pixels (representing the ring of stars) with white pixel clusters inside (representing the Southern Cross constellation).
-  - **Five-pointed star:** The central circle rests at the center of a five-pointed star outlined in black and white, with one point facing straight up, two extending horizontally to the left and right, and two pointing downward.
-  - **Vertical sword:** Positioned vertically along the central axis at the bottom, between the two lower points of the star, is the hilt/handle of an upright sword.
-  - **Wreath / Lateral branches:** Surrounding the star on the left, right, and top sides is a dense foliate wreath rendered in black and white pixels (representing coffee and tobacco branches).
-  - **Lower scroll / ribbon:** Across the bottom of the emblem, beneath the star and intersecting the sword hilt, is a curved banner/scroll with forked ends containing `[illegible]` pixelated markings.
-
----
-
-### (4) Números e valores de dados / Numbers and data values
-- **PT:** Nenhum número ou valor de dado é legível na imagem (`[illegible]` na faixa inferior).
-- **EN:** No numbers or data values are readable in the image (`[illegible]` on the lower scroll).
-
----
-
-### (5) Cores / Colours
-- **PT:** A imagem é estritamente monocromática (preto sobre fundo branco / transparente), sem uso de cores para codificação de significado além do contraste de contorno do próprio brasão.
-- **EN:** The image is strictly monochrome (black pixels on a white/transparent background); colour carries no additional meaning beyond forming the black-and-white silhouette and outlines of the coat of arms.
-
-
-
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 RESOLUÇÃO Nº 009/2019. 
@@ -85,12 +42,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 2 -->
-
-
-![p02-fig1](img/p01-fig1.jpg)
-
-<!-- figure p02-fig1 | same image as p01-fig1 -->
-
 
 
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -140,12 +91,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 3 -->
-
-
-![p03-fig1](img/p01-fig1.jpg)
-
-<!-- figure p03-fig1 | same image as p01-fig1 -->
-
 
 
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -199,12 +144,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 4 -->
 
 
-![p04-fig1](img/p01-fig1.jpg)
-
-<!-- figure p04-fig1 | same image as p01-fig1 -->
-
-
-
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -240,12 +179,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 5 -->
 
 
-![p05-fig1](img/p01-fig1.jpg)
-
-<!-- figure p05-fig1 | same image as p01-fig1 -->
-
-
-
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -275,12 +208,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 6 -->
-
-
-![p06-fig1](img/p01-fig1.jpg)
-
-<!-- figure p06-fig1 | same image as p01-fig1 -->
-
 
 
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -316,12 +243,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 7 -->
 
 
-![p07-fig1](img/p01-fig1.jpg)
-
-<!-- figure p07-fig1 | same image as p01-fig1 -->
-
-
-
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 ## (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -351,12 +272,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 8 -->
-
-
-![p08-fig1](img/p01-fig1.jpg)
-
-<!-- figure p08-fig1 | same image as p01-fig1 -->
-
 
 
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -390,12 +305,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 9 -->
 
 
-![p09-fig1](img/p01-fig1.jpg)
-
-<!-- figure p09-fig1 | same image as p01-fig1 -->
-
-
-
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -427,12 +336,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 10 -->
-
-
-![p10-fig1](img/p01-fig1.jpg)
-
-<!-- figure p10-fig1 | same image as p01-fig1 -->
-
 
 
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -470,12 +373,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 11 -->
 
 
-![p11-fig1](img/p01-fig1.jpg)
-
-<!-- figure p11-fig1 | same image as p01-fig1 -->
-
-
-
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -511,12 +408,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 12 -->
 
 
-![p12-fig1](img/p01-fig1.jpg)
-
-<!-- figure p12-fig1 | same image as p01-fig1 -->
-
-
-
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -548,12 +439,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 13 -->
-
-
-![p13-fig1](img/p01-fig1.jpg)
-
-<!-- figure p13-fig1 | same image as p01-fig1 -->
-
 
 
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -709,31 +594,7 @@ Para a solicitação de progressão ou promoção funcional por interstício e d
    - Lei nº 9.394/96; 
 
 
-![p13-fig5](img/p13-fig5.jpg)
-
-<!-- figure p13-fig5 | described_by: agy | ocr_overlap: None | needs_review: false | decorative: true -->
-1. **Kind of figure**: A tiny, low-resolution (17 × 19 pixels) grayscale icon or glyph graphic extracted from a PDF, showing a single vertical rounded-rectangle outline (resembling a smartphone/device icon, an empty box/missing-character glyph, or a stylized digit `0`) on the left side of a blank white canvas.
-
-2. **Visible text**: None (unless the outline itself is interpreted as the character `0`; there are no titles, labels, legends, captions, axis ticks, or cell values).
-
-3. **Structure**:
-   - A single, vertically oriented, hollow rectangular outline with slightly rounded corners is positioned on the left half of the image (spanning roughly the left 40% of the width and the middle-to-lower vertical region, with wider white padding at the top and right).
-   - The interior of the rectangle is completely blank (white).
-   - There are no connecting lines, arrows, axes, rows, columns, or multiple panels.
-
-4. **Numbers and data values**: None (unless the shape represents the single digit `0`).
-
-5. **Colours**: The image is purely grayscale (light grey outline with RGB values down to 182 on a pure white RGB 255 background); colour carries no additional meaning.
-
-
-
 - Portaria Ministerial nº 554/2013-MEC; 
-
-
-![p13-fig6](img/p13-fig5.jpg)
-
-<!-- figure p13-fig6 | same image as p13-fig5 -->
-
 
 
 - Resolução nº 009/2019 do CONSU/UFRPE. 
@@ -743,12 +604,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 14 -->
-
-
-![p14-fig1](img/p01-fig1.jpg)
-
-<!-- figure p14-fig1 | same image as p01-fig1 -->
-
 
 
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -856,12 +711,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 15 -->
 
 
-![p15-fig1](img/p01-fig1.jpg)
-
-<!-- figure p15-fig1 | same image as p01-fig1 -->
-
-
-
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -894,19 +743,6 @@ Para a solicitação de aceleração de promoção o servidor deverá encaminhar
 
 
 
-![p15-fig4](img/p13-fig5.jpg)
-
-<!-- figure p15-fig4 | same image as p13-fig5 -->
-
-
-
-
-![p15-fig5](img/p13-fig5.jpg)
-
-<!-- figure p15-fig5 | same image as p13-fig5 -->
-
-
-
 - Lei nº 8.112/90; 
 
 - Lei nº 9.394/96; 
@@ -920,12 +756,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 16 -->
-
-
-![p16-fig1](img/p01-fig1.jpg)
-
-<!-- figure p16-fig1 | same image as p01-fig1 -->
-
 
 
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -983,12 +813,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 17 -->
 
 
-![p17-fig1](img/p01-fig1.jpg)
-
-<!-- figure p17-fig1 | same image as p01-fig1 -->
-
-
-
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -1029,19 +853,6 @@ Para a solicitação de aceleração de promoção o servidor deverá abrir proc
 
 
 
-![p17-fig5](img/p13-fig5.jpg)
-
-<!-- figure p17-fig5 | same image as p13-fig5 -->
-
-
-
-
-![p17-fig6](img/p13-fig5.jpg)
-
-<!-- figure p17-fig6 | same image as p13-fig5 -->
-
-
-
 Lei nº12.772/12, alterada pelas Leis nº12.863/13 e 13.325/16; Lei nº 8.112/90; Lei nº 9.394/96; Portaria Ministerial nº 554/2013-MEC; 
 
 Resolução nº 009/2019 do CONSU/UFRPE. 
@@ -1051,12 +862,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 18 -->
-
-
-![p18-fig1](img/p01-fig1.jpg)
-
-<!-- figure p18-fig1 | same image as p01-fig1 -->
-
 
 
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -1100,12 +905,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 19 -->
-
-
-![p19-fig1](img/p01-fig1.jpg)
-
-<!-- figure p19-fig1 | same image as p01-fig1 -->
-
 
 
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -1152,12 +951,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 20 -->
 
 
-![p20-fig1](img/p01-fig1.jpg)
-
-<!-- figure p20-fig1 | same image as p01-fig1 -->
-
-
-
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 ## (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -1192,12 +985,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 21 -->
 
 
-![p21-fig1](img/p01-fig1.jpg)
-
-<!-- figure p21-fig1 | same image as p01-fig1 -->
-
-
-
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 ## (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -1227,12 +1014,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 22 -->
-
-
-![p22-fig1](img/p01-fig1.jpg)
-
-<!-- figure p22-fig1 | same image as p01-fig1 -->
-
 
 
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -1274,12 +1055,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 23 -->
-
-
-![p23-fig1](img/p01-fig1.jpg)
-
-<!-- figure p23-fig1 | same image as p01-fig1 -->
-
 
 
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -1327,12 +1102,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 24 -->
 
 
-![p24-fig1](img/p01-fig1.jpg)
-
-<!-- figure p24-fig1 | same image as p01-fig1 -->
-
-
-
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -1353,12 +1122,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 25 -->
-
-
-![p25-fig1](img/p01-fig1.jpg)
-
-<!-- figure p25-fig1 | same image as p01-fig1 -->
-
 
 
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -1384,12 +1147,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 26 -->
-
-
-![p26-fig1](img/p01-fig1.jpg)
-
-<!-- figure p26-fig1 | same image as p01-fig1 -->
-
 
 
 ## MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -1447,12 +1204,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 27 -->
 
 
-![p27-fig1](img/p01-fig1.jpg)
-
-<!-- figure p27-fig1 | same image as p01-fig1 -->
-
-
-
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -1491,12 +1242,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 28 -->
-
-
-![p28-fig1](img/p01-fig1.jpg)
-
-<!-- figure p28-fig1 | same image as p01-fig1 -->
-
 
 
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -1561,12 +1306,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 <!-- page 29 -->
 
 
-![p29-fig1](img/p01-fig1.jpg)
-
-<!-- figure p29-fig1 | same image as p01-fig1 -->
-
-
-
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
 
 (CONTINUAÇÃO DA RESOLUÇÃO Nº 009/2019-CONSU/UFRPE) 
@@ -1620,12 +1359,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 30 -->
-
-
-![p30-fig1](img/p01-fig1.jpg)
-
-<!-- figure p30-fig1 | same image as p01-fig1 -->
-
 
 
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 
@@ -1722,12 +1455,6 @@ Confere com o original assinado pela Reitora e arquivado nesta Secretaria Geral.
 
 
 <!-- page 31 -->
-
-
-![p31-fig1](img/p01-fig1.jpg)
-
-<!-- figure p31-fig1 | same image as p01-fig1 -->
-
 
 
 MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO 

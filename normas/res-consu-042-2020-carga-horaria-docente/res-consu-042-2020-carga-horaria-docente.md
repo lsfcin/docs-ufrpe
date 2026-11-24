@@ -47,32 +47,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 <!-- page 2 -->
 
 
-![p02-fig1](img/p02-fig1.jpg)
-
-<!-- figure p02-fig1 | described_by: agy | ocr_overlap: None | needs_review: false | decorative: true -->
-**(1) Tipo de figura / Kind of figure**
-Brasão oficial / emblema heráldico em preto e branco de baixa resolução (Brasão de Armas da República Federativa do Brasil / Coat of Arms of the Federative Republic of Brazil).
-
-**(2) Todo o texto visível / All visible text**
-- Faixa/listel inferior (linha superior e linha inferior): `[illegible]` (o texto na faixa inferior está completamente pixelizado e ilegível devido à baixa resolução da imagem / all text on the bottom scroll is completely pixelated and `[illegible]`).
-
-**(3) Estrutura / Structure**
-- **Elemento central:** Um escudo redondo (círculo central) contendo cinco estrelas de cinco pontas dispostas em forma de cruz (a constelação do Cruzeiro do Sul) sobre fundo escuro, circundado por um anel circular pontilhado (anel de estrelas).
-- **Estrela de cinco pontas:** O círculo central está sobreposto a uma grande estrela de cinco pontas facetada/bipartida, cujas pontas se projetam para cima, para os lados e diagonalmente para baixo.
-- **Espada vertical:** Uma espada disposta verticalmente atrás da estrela central, com o punho e os copos visíveis na parte inferior central, logo acima do listel, e a ponta alinhada ao vértice superior da estrela.
-- **Ramos laterais (guirlanda):** Dois ramos vegetais arqueados (café à esquerda e fumo/tabaco à direita) que envolvem as laterais da estrela de cinco pontas a partir da base até o topo, sobre um fundo radiante escuro.
-- **Faixa / listel na base:** Na parte inferior do brasão, cruzando sobre a base dos ramos e o punho da espada, há uma faixa (listel) ondulada dividida em dobras (uma faixa central/superior e duas pontas laterais/inferiores), contendo caracteres totalmente ilegíveis (`[illegible]`).
-- Não há caixas de fluxograma, setas, eixos cartesianos, linhas/colunas de tabela ou múltiplos painéis.
-
-**(4) Números ou valores de dados / Numbers or data values**
-- Nenhum número legível (`[illegible]` na faixa inferior onde normalmente constaria a data).
-- Elementos contáveis na figura: 1 estrela grande de 5 pontas, 5 estrelas menores no círculo central formando o Cruzeiro do Sul, 1 círculo/anel pontilhado ao redor do centro, 1 espada vertical, 2 ramos laterais e 1 faixa (listel) na base.
-
-**(5) Cores / Colours**
-- A imagem é inteiramente monocromática (preto e branco, 1 bit / alto contraste), sem cores que transmitam codificação adicional de dados.
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 **(CONTINUAÇÃO DA RESOLUÇÃO Nº 042/2020 DO CONSU).** 
@@ -94,12 +68,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 
 <!-- page 3 -->
-
-
-![p03-fig1](img/p02-fig1.jpg)
-
-<!-- figure p03-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
@@ -137,12 +105,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 <!-- page 4 -->
 
 
-![p04-fig1](img/p02-fig1.jpg)
-
-<!-- figure p04-fig1 | same image as p02-fig1 -->
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 **(CONTINUAÇÃO DA RESOLUÇÃO Nº 042/2020 DO CONSU).** 
@@ -170,12 +132,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 
 <!-- page 5 -->
-
-
-![p05-fig1](img/p02-fig1.jpg)
-
-<!-- figure p05-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
@@ -225,12 +181,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 <!-- page 6 -->
 
 
-![p06-fig1](img/p02-fig1.jpg)
-
-<!-- figure p06-fig1 | same image as p02-fig1 -->
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 **(CONTINUAÇÃO DA RESOLUÇÃO Nº 042/2020 DO CONSU).** 
@@ -270,12 +220,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 <!-- page 7 -->
 
 
-![p07-fig1](img/p02-fig1.jpg)
-
-<!-- figure p07-fig1 | same image as p02-fig1 -->
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 **(CONTINUAÇÃO DA RESOLUÇÃO Nº 042/2020 DO CONSU).** 
@@ -311,12 +255,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 
 <!-- page 8 -->
-
-
-![p08-fig1](img/p02-fig1.jpg)
-
-<!-- figure p08-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
@@ -388,12 +326,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 <!-- page 9 -->
 
 
-![p09-fig1](img/p02-fig1.jpg)
-
-<!-- figure p09-fig1 | same image as p02-fig1 -->
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 **(CONTINUAÇÃO DA RESOLUÇÃO Nº 042/2020 DO CONSU).** 
@@ -425,12 +357,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 
 <!-- page 10 -->
-
-
-![p10-fig1](img/p02-fig1.jpg)
-
-<!-- figure p10-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
@@ -468,12 +394,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 
 <!-- page 11 -->
-
-
-![p11-fig1](img/p02-fig1.jpg)
-
-<!-- figure p11-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
@@ -515,12 +435,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 <!-- page 12 -->
 
 
-![p12-fig1](img/p02-fig1.jpg)
-
-<!-- figure p12-fig1 | same image as p02-fig1 -->
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 **(CONTINUAÇÃO DA RESOLUÇÃO Nº 042/2020 DO CONSU).** 
@@ -560,12 +474,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 <!-- page 13 -->
 
 
-![p13-fig1](img/p02-fig1.jpg)
-
-<!-- figure p13-fig1 | same image as p02-fig1 -->
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 **(CONTINUAÇÃO DA RESOLUÇÃO Nº 042/2020 DO CONSU).** 
@@ -603,12 +511,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 <!-- page 14 -->
 
 
-![p14-fig1](img/p02-fig1.jpg)
-
-<!-- figure p14-fig1 | same image as p02-fig1 -->
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 **(CONTINUAÇÃO DA RESOLUÇÃO Nº 042/2020 DO CONSU).** 
@@ -642,12 +544,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 
 <!-- page 15 -->
-
-
-![p15-fig1](img/p02-fig1.jpg)
-
-<!-- figure p15-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
@@ -688,12 +584,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 
 
 <!-- page 16 -->
-
-
-![p16-fig1](img/p02-fig1.jpg)
-
-<!-- figure p16-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 

@@ -81,43 +81,6 @@ Confere com o original assinado pelo Reitor e arquivado nesta Secretaria Geral.
 <!-- page 2 -->
 
 
-![p02-fig1](img/p02-fig1.jpg)
-
-<!-- figure p02-fig1 | described_by: agy | ocr_overlap: None | needs_review: false | decorative: true -->
-**(1) Tipo de figura / Kind of figure**
-- **PT:** Trata-se de um emblema ou brasão oficial em baixa resolução (preto e branco): o Brasão de Armas da República Federativa do Brasil ( Armas Nacionais do Brasil), comumente utilizado no cabeçalho de documentos oficiais brasileiros.
-- **EN:** This is a low-resolution, black-and-white official emblem or coat of arms: the Coat of Arms of the Federative Republic of Brazil (*Brasão de Armas da República Federativa do Brasil*), commonly used at the top of official Brazilian documents.
-
-**(2) Todo o texto visível / All visible text**
-- **PT:** O texto inscrito nas faixas/fitas inferiores do brasão está completamente pixelado devido à baixa resolução da imagem: `[illegible]` (ilegível). Não há títulos, rótulos, legendas, eixos ou células legíveis na imagem.
-- **EN:** The text inscribed on the lower ribbons/scrolls of the coat of arms is completely pixelated due to the low resolution of the image: `[illegible]`. There are no readable titles, labels, legends, captions, axis ticks, or cell values in the image.
-
-**(3) Estrutura / Structure**
-- **PT:** A figura consiste em um único painel centralizado contendo um emblema simétrico composto por:
-  - Um escudo circular central contendo cinco pequenas manchas brancas (representando a constelação do Cruzeiro do Sul), circundado por um anel de pequenos pontos brancos (estrelas).
-  - O escudo central está sobreposto a uma estrela de cinco pontas facetada.
-  - Uma espada vertical posicionada no eixo central inferior, cuja empunhadura aparece na base da estrela de cinco pontas.
-  - Dois ramos vegetais curvos (ramos de café e tabaco) que ladeiam a estrela a partir da base até o topo, formando uma guirlanda ao redor de um fundo radiante (resplendor).
-  - Na base, uma fita/listel dobrada em duas linhas curvas horizontais (onde constam inscrições `[illegible]`) sobre o cruzamento dos ramos e o punho da espada.
-  - Não há caixas, setas, eixos, linhas ou colunas de tabela.
-- **EN:** The figure consists of a single centered panel containing a symmetrical emblem composed of:
-  - A central circular shield containing five small white marks (representing the Southern Cross constellation), bordered by a ring of small white dots (stars).
-  - The central shield is superimposed on a five-pointed faceted star.
-  - A vertical sword positioned along the lower central axis, with its hilt visible at the base of the five-pointed star.
-  - Two curved botanical branches (coffee and tobacco branches) flanking the star from base to top, forming a wreath around a radiating background (sunburst/glory).
-  - At the bottom, a ribbon/scroll folded into two curved horizontal lines (containing `[illegible]` inscriptions) across the crossing of the branches and the sword hilt.
-  - There are no boxes, arrows, axes, table rows, or columns.
-
-**(4) Números ou valores de dados / Numbers or data values**
-- **PT:** Nenhum número ou valor de dados é legível na imagem (`[illegible]` nas faixas inferiores).
-- **EN:** No numbers or data values are readable in the image (`[illegible]` on the lower ribbons).
-
-**(5) Cores / Colours**
-- **PT:** A imagem é inteiramente monocromática (preto e branco / binária), sem uso de cores com significado adicional.
-- **EN:** The image is entirely monochrome (black and white / binary), with no colours carrying additional meaning.
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 (CONTINUAÇÃO DA RESOLUÇÃO CONSU/UFRPE Nº 434, DE 20 DE FEVEREIRO DE 2024). 
@@ -135,12 +98,6 @@ Confere com o original assinado pelo Reitor  e arquivado nesta Secretaria Geral.
 
 
 <!-- page 3 -->
-
-
-![p03-fig1](img/p02-fig1.jpg)
-
-<!-- figure p03-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
@@ -174,12 +131,6 @@ Confere com o original assinado pelo Reitor  e arquivado nesta Secretaria Geral.
 
 
 <!-- page 4 -->
-
-
-![p04-fig1](img/p02-fig1.jpg)
-
-<!-- figure p04-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
@@ -227,12 +178,6 @@ Confere com o original assinado pelo Reitor  e arquivado nesta Secretaria Geral.
 
 
 <!-- page 5 -->
-
-
-![p05-fig1](img/p02-fig1.jpg)
-
-<!-- figure p05-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
@@ -284,12 +229,6 @@ Confere com o original assinado pelo Reitor  e arquivado nesta Secretaria Geral.
 <!-- page 6 -->
 
 
-![p06-fig1](img/p02-fig1.jpg)
-
-<!-- figure p06-fig1 | same image as p02-fig1 -->
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 (CONTINUAÇÃO DA RESOLUÇÃO CONSU/UFRPE Nº 434, DE 20 DE FEVEREIRO DE 2024). 
@@ -323,12 +262,6 @@ Confere com o original assinado pelo Reitor  e arquivado nesta Secretaria Geral.
 
 
 <!-- page 7 -->
-
-
-![p07-fig1](img/p02-fig1.jpg)
-
-<!-- figure p07-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
@@ -388,12 +321,6 @@ Confere com o original assinado pelo Reitor  e arquivado nesta Secretaria Geral.
 <!-- page 8 -->
 
 
-![p08-fig1](img/p02-fig1.jpg)
-
-<!-- figure p08-fig1 | same image as p02-fig1 -->
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 (CONTINUAÇÃO DA RESOLUÇÃO CONSU/UFRPE Nº 434, DE 20 DE FEVEREIRO DE 2024). 
@@ -447,12 +374,6 @@ Confere com o original assinado pelo Reitor  e arquivado nesta Secretaria Geral.
 <!-- page 9 -->
 
 
-![p09-fig1](img/p02-fig1.jpg)
-
-<!-- figure p09-fig1 | same image as p02-fig1 -->
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 (CONTINUAÇÃO DA RESOLUÇÃO CONSU/UFRPE Nº 434, DE 20 DE FEVEREIRO DE 2024). 
@@ -500,12 +421,6 @@ Confere com o original assinado pelo Reitor  e arquivado nesta Secretaria Geral.
 <!-- page 10 -->
 
 
-![p10-fig1](img/p02-fig1.jpg)
-
-<!-- figure p10-fig1 | same image as p02-fig1 -->
-
-
-
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 
 
 (CONTINUAÇÃO DA RESOLUÇÃO CONSU/UFRPE Nº 434, DE 20 DE FEVEREIRO DE 2024). 
@@ -541,12 +456,6 @@ Confere com o original assinado pelo Reitor  e arquivado nesta Secretaria Geral.
 
 
 <!-- page 11 -->
-
-
-![p11-fig1](img/p02-fig1.jpg)
-
-<!-- figure p11-fig1 | same image as p02-fig1 -->
-
 
 
 ## **MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO SECRETARIA GERAL DOS CONSELHOS DA ADMINISTRAÇÃO SUPERIOR CONSELHO UNIVERSITÁRIO** 

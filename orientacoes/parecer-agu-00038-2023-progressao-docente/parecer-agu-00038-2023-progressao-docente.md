@@ -19,33 +19,6 @@ Firefox
 blob:https://supersapiens.agu.gov.br/de551fe1-51b8-47c5-860a-53f6... 
 
 
-![p01-fig1](img/p01-fig1.jpg)
-
-<!-- figure p01-fig1 | described_by: agy | ocr_overlap: None | needs_review: false | decorative: true -->
-(1) **Tipo de figura / Kind of figure:**
-Ilustração heráldica / emblema oficial em baixa resolução: o Brasão de Armas da República Federativa do Brasil (Coat of Arms of the Federative Republic of Brazil), sobre fundo branco.
-
-(2) **Texto visível / Visible text:**
-- Faixa inferior (fita azul): `[illegible]` (o texto inscrito na faixa azul na base do brasão está completamente ilegível devido à baixa resolução da imagem). Não há títulos, rótulos, legendas ou outros textos visíveis.
-
-(3) **Estrutura / Structure:**
-Não há caixas, setas, eixos, linhas, colunas ou painéis. A figura é composta por um emblema central simétrico estruturado em camadas:
-- **Centro:** Um escudo circular azul-celeste contendo cinco estrelas brancas dispostas na forma da constelação do Cruzeiro do Sul, circundado por um anel azul delimitado por filetes dourados contendo um círculo de pequenas estrelas brancas (indistintas individualmente devido à resolução).
-- **Camada intermediária:** O escudo circular está sobreposto a uma estrela de cinco pontas bipartida em gomos verdes e amarelos, debruada de vermelho e dourado, que por sua vez repousa sobre um resplendor (coroa radiante) dourado de múltiplas pontas e uma espada vertical cujo punho/cabo branco e dourado aparece na parte inferior central, apontando para baixo.
-- **Laterais:** Dois ramos vegetais verdes (ramos de café e tabaco) ladeiam o conjunto central em formato de guirlanda, envolvendo a estrela de cinco pontas pela esquerda e pela direita e cruzando-se na base.
-- **Base:** Uma fita/listel azul ondulado estende-se horizontalmente na parte inferior, passando por trás da base dos ramos e do punho da espada, com as duas extremidades voltadas para cima nas laterais esquerda e direita.
-
-(4) **Números e valores de dados / Numbers and data values:**
-Nenhum número ou valor de dados é legível na imagem (qualquer data inscrita na faixa inferior está `[illegible]`). Visualmente, observam-se 5 pontas na estrela principal e 5 pontos brancos principais no círculo central (Cruzeiro do Sul).
-
-(5) **Cores com significado / Colours where they carry meaning:**
-As cores carregam significado simbólico e heráldico nacional (cores nacionais do Brasil):
-- **Verde e amarelo:** Nos gomos da estrela de cinco pontas e na folhagem verde dos ramos laterais, representando as cores nacionais da bandeira brasileira.
-- **Azul e branco:** No escudo central (representando a esfera celeste azul com as estrelas brancas do Cruzeiro do Sul e do anel circundante) e no listel (faixa) azul na base.
-- **Vermelho e dourado (ouro):** Nas bordas externas da estrela de cinco pontas, no resplendor ao fundo e nos detalhes do punho da espada.
-
-
-
 # ADVOCACIA-GERAL DA UNIÃO CONSULTORIA-GERAL DA UNIÃO COORDENAÇÃO-GERAL DE GESTÃO PÚBLICA DO DEPARTAMENTO DE COORDENAÇÃO E ORIENTAÇÃO DE ÓRGÃOS JURÍDICOS **<u>PARECER n. 00038/2023/CGGP/DECOR/CGU/AGU</u>** 
 
 # **NUP: 00407.014018/2023-11 INTERESSADA: PROCURADORIA-GERAL FEDERAL ASSUNTO: PROGRESSÃO FUNCIONAL DA CARREIRA DO MAGISTÉRIO FEDERAL** 
@@ -469,12 +442,6 @@ Firefox
 blob:https://supersapiens.agu.gov.br/887e6915-2acf-4f74-a6d4-88e7... 
 
 
-![p11-fig1](img/p01-fig1.jpg)
-
-<!-- figure p11-fig1 | same image as p01-fig1 -->
-
-
-
 ADVOCACIA-GERAL DA UNIÃO CONSULTORIA-GERAL DA UNIÃO COORDENAÇÃO-GERAL DE GESTÃO PÚBLICA DO DEPARTAMENTO DE COORDENAÇÃO E ORIENTAÇÃO DE ÓRGÃOS JURÍDICOS 
 
 # **<u>DESPACHO n. 00163/2023/CGGP/DECOR/CGU/AGU</u>** 
@@ -746,12 +713,6 @@ Firefox
 blob:https://supersapiens.agu.gov.br/f361ef02-8fd0-45e5-9c04-f4455... 
 
 
-![p18-fig1](img/p01-fig1.jpg)
-
-<!-- figure p18-fig1 | same image as p01-fig1 -->
-
-
-
 ADVOCACIA-GERAL DA UNIÃO CONSULTORIA-GERAL DA UNIÃO DEPARTAMENTO DE COORDENAÇÃO E ORIENTAÇÃO DE ÓRGÃOS JURÍDICOS **<u>DESPACHO n. 00452/2023/GAB/DECOR/CGU/AGU</u>** 
 
 # **NUP: 00407.014018/2023-11 INTERESSADOS: SUBPROCURADORIA DE CONSULTORIA - SUBCONSU/PGF ASSUNTOS: CONSULTA E ORIENTAÇÃO DE ATUAÇÃO - OUTROS ASSUNTOS** 
@@ -846,12 +807,6 @@ Documento assinado eletronicamente por PRISCILA CUNHA DO NASCIMENTO, com certifi
 Firefox 
 
 blob:https://supersapiens.agu.gov.br/2f99e75b-77be-4aec-97e3-0778... 
-
-
-![p19-fig1](img/p01-fig1.jpg)
-
-<!-- figure p19-fig1 | same image as p01-fig1 -->
-
 
 
 ADVOCACIA-GERAL DA UNIÃO CONSULTORIA-GERAL DA UNIÃO SUBCONSULTORIA-GERAL DA UNIÃO DE POLÍTICAS PÚBLICAS 
@@ -954,12 +909,6 @@ Firefox
 blob:https://supersapiens.agu.gov.br/0009e491-8dbe-4738-95a2-579... 
 
 
-![p20-fig1](img/p01-fig1.jpg)
-
-<!-- figure p20-fig1 | same image as p01-fig1 -->
-
-
-
 # ADVOCACIA-GERAL DA UNIÃO CONSULTORIA-GERAL DA UNIÃO GABINETE 
 
 SAS, QUADRA 03, LOTE 5/6, 12º ANDAR - AGU SEDE I - FONE (61) 2026-8557 BRASÍLIA/DF 70070-030 
@@ -1000,12 +949,6 @@ Documento assinado eletronicamente por ANDRÉ AUGUSTO DANTAS MOTTA AMARAL, com c
 Firefox 
 
 blob:https://supersapiens.agu.gov.br/b4e33fd5-2141-4c7f-b9d2-0ac3b... 
-
-
-![p21-fig1](img/p01-fig1.jpg)
-
-<!-- figure p21-fig1 | same image as p01-fig1 -->
-
 
 
 ADVOCACIA-GERAL DA UNIÃO GABINETE DO ADVOGADO-GERAL DA UNIÃO 
