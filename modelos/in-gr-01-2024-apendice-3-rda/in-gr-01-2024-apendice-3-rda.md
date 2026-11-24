@@ -4,6 +4,7 @@ origin: "https://uast.ufrpe.br/sites/ww5.uast.ufrpe.br/files/paginas/3.%20AP%C3%
 origin_checked: "2026-11-13"
 sha256: "12a5a2547f0de73a746a8bace50561e26dc96674a06adb9cce15682c56bd61c5"
 engine: "Google Docs import + export (gdocs read)"
+reviewed_by: "claude 2026-11-24 (correção à mão; o git log do arquivo diz qual)"
 origin_note: "página da CAPR da UAST/UFRPE; o mesmo arquivo, byte a byte, que a CAPR/DC enviou à lista dc-l em 02/10/2026"
 ---
 

@@ -9,7 +9,7 @@ text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"
 audit: {"word_coverage": 0.99, "images": "1/1", "pages": "6/6", "tables": 0, "formulas": 0}
 needs_review: false
-reviewed_by: null
+reviewed_by: "claude 2026-11-24 (correção à mão; o git log do arquivo diz qual)"
 ---
 
 <!-- page 1 -->

@@ -6,7 +6,7 @@ Só roda no workspace do mantenedor, porque chama três ferramentas dele por `co
 read`, o que mantém as tabelas em Markdown puro. O original fica ao lado da pasta e não entra no git.
 Não convertem: federal (regra do espelho ctresb/leis), planilha e o que falhar. Esses vão para
 .vigia/fila.tsv com o motivo. --seco só lista o que faria. --refazer converte de novo o que já tem documento
-(cada um na pasta que já tem, e o motor sobrescreve). O mesmo formulário em PDF e em DOC/DOCX vira um documento só,
+(cada um na pasta que já tem, e o motor sobrescreve), menos o que tem `reviewed_by`: correção à mão não se refaz. O mesmo formulário em PDF e em DOC/DOCX vira um documento só,
 o do PDF, e o link do DOC/DOCX vai no `origin_note`.
 """
 from __future__ import annotations
@@ -44,6 +44,11 @@ def cabecalhos() -> list[tuple[Path, dict]]:
 def pastas_existentes() -> dict[str, str]:
     """{origem: pasta que o documento já tem}, para o --refazer não criar `-2`."""
     return {verificar.chave(c['origin']): rel.parent.name for rel, c in cabecalhos() if isinstance(c.get('origin'), str) and len(rel.parts) == 3}
+
+
+def ja_feitos(refazer: bool) -> set[str]:
+    """O que a rodada não converte: tudo o que tem documento, ou, no --refazer, só o que tem correção à mão (`reviewed_by`)."""
+    return verificar.convertidos(so_revisados=refazer)
 
 
 def mesmo_formulario(linha: dict) -> tuple[str, str]:
@@ -188,11 +193,11 @@ def main(argv: list[str]) -> int:
     ap.add_argument('--tipo', choices=sorted(PASTA))
     ap.add_argument('--limite', type=int)
     ap.add_argument('--seco', action='store_true')
-    ap.add_argument('--refazer', action='store_true', help='converte de novo o que já tem documento, na mesma pasta')
+    ap.add_argument('--refazer', action='store_true', help='converte de novo o que já tem documento, na mesma pasta, menos o que tem reviewed_by')
     ap.add_argument('--tempo', type=int, default=TEMPO, help='segundos por PDF antes de desistir')
     args = ap.parse_args(argv)
     sys.stdout.reconfigure(line_buffering=True)  # o lote leva horas: o log tem de andar junto
-    fila = faltantes(verificar.ler_tsv(verificar.CENSO), args.setor, args.tipo, set() if args.refazer else verificar.convertidos())[:args.limite]
+    fila = faltantes(verificar.ler_tsv(verificar.CENSO), args.setor, args.tipo, ja_feitos(args.refazer))[:args.limite]
     usados = {p.name for d in PASTA.values() for p in (RAIZ / d).iterdir() if p.is_dir()}
     existentes = pastas_existentes() if args.refazer else None
     pendentes, feitos = [], 0

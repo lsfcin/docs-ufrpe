@@ -81,6 +81,20 @@ class Duplicatas(unittest.TestCase):
                 feitos = verificar.convertidos()
         self.assertEqual(feitos, {PDF_DS, DOCX_DS.replace('Termo', 'Termo '), 'https://x/b.doc'})
 
+    def test_refazer_pula_o_documento_corrigido_a_mao(self):
+        """`reviewed_by` preenchido protege o documento e o gêmeo do origin_note; `null` não protege."""
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            for nome, origem, revisor in (('a', PDF_DS, 'claude 2026-11-24'), ('b', 'https://x/b.pdf', None)):
+                (raiz / 'normas' / nome).mkdir(parents=True)
+                (raiz / 'normas' / nome / f'{nome}.md').write_text(converter.frontmatter({
+                    'description': f'{nome.upper()}: c (PRPG).', 'origin': origem, 'origin_checked': '2026-11-23',
+                    'origin_note': 'o mesmo formulário circula também em DOC: https://x/a.doc' if nome == 'a' else '',
+                    'sha256': '0' * 64, 'reviewed_by': revisor}) + 'corpo\n', encoding='utf-8')
+            with mock.patch.object(converter, 'RAIZ', raiz), mock.patch.object(verificar, 'RAIZ', raiz):
+                self.assertEqual(converter.ja_feitos(refazer=True), {PDF_DS, 'https://x/a.doc'})
+                self.assertEqual(converter.ja_feitos(refazer=False), {PDF_DS, 'https://x/a.doc', 'https://x/b.pdf'})
+
 
 class Nomes(unittest.TestCase):
     def test_titulo_curto_ganha_o_nome_do_arquivo_e_nunca_repete(self):

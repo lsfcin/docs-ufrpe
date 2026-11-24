@@ -143,15 +143,21 @@ def chave(url: str) -> str:
 URL_NA_NOTA = re.compile(r'http\S+')
 
 
-def convertidos() -> set[str]:
-    """As origens que já têm documento no acervo, e as que o `origin_note` diz que são o mesmo documento."""
+def origens(campos: dict) -> set[str]:
+    """A origem de um cabeçalho, e as que o `origin_note` diz que são o mesmo documento."""
+    feitos = {chave(campos['origin'])} if isinstance(campos.get('origin'), str) else set()
+    if isinstance(campos.get('origin_note'), str):
+        feitos.update(chave(u.rstrip('.,;:)"\'')) for u in URL_NA_NOTA.findall(campos['origin_note']))
+    return feitos
+
+
+def convertidos(so_revisados: bool = False) -> set[str]:
+    """As origens que já têm documento no acervo; com `so_revisados`, só as de documento com `reviewed_by`, que tem correção à mão."""
     feitos = set()
     for rel in documentos([]):
         campos = cabecalho((RAIZ / rel).read_text(encoding='utf-8')) or {}
-        if isinstance(campos.get('origin'), str):
-            feitos.add(chave(campos['origin']))
-        if isinstance(campos.get('origin_note'), str):
-            feitos.update(chave(u.rstrip('.,;:)"\'')) for u in URL_NA_NOTA.findall(campos['origin_note']))
+        if not so_revisados or campos.get('reviewed_by'):
+            feitos |= origens(campos)
     return feitos
 
 
