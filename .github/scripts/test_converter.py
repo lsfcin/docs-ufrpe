@@ -32,6 +32,14 @@ class Fila(unittest.TestCase):
         self.assertIsNone(converter.rota(linha(url='https://x/a.xls'))[0])
         self.assertIsNone(converter.rota(linha(motivo='federal'))[0])
 
+    def test_fila_reescrita_sem_repetir_nem_guardar_o_resolvido(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            fila = Path(tmp) / 'fila.tsv'
+            fila.write_text('http://x/feito.pdf\tfalhou: ssl\nhttps://x/outro.pdf\tfalhou\nhttps://x/a.xls\t.xls\n', encoding='utf-8')
+            with mock.patch.object(converter, 'FILA', fila):
+                converter.gravar_fila([('https://x/a.xls', '.xls')], {converter.chave('https://x/feito.pdf'), 'https://x/a.xls'})
+            self.assertEqual(fila.read_text(encoding='utf-8'), 'https://x/outro.pdf\tfalhou\nhttps://x/a.xls\t.xls\n')
+
 
 PDF_DS = 'https://prpg.ufrpe.br/sites/default/files/formularios/TermodeCompromissoDS-DeclaraodeAcmulos.pdf'
 DOCX_DS = 'https://prpg.ufrpe.br/sites/default/files/formularios/TermodeCompromissoDS.docx'

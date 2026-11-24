@@ -34,11 +34,12 @@ ROTA = {'pdf': 'pdf', 'doc': 'gdoc', 'docx': 'gdoc'}
 NOME_MAX = 40
 FORMATO = r'word|pdf|docx?'  # o que o título diz do formato, e não do formulário
 MOTOR_GDOC = 'Google Docs import + export (gdocs read)'
+TEMPO = 900  # segundos por chamada; um manual só de capturas de tela pede --tempo maior (cada figura vai ao modelo de visão)
 
 
 def chave(url: str) -> str:
-    """O mesmo arquivo, a mesma chave, codificado ou não."""
-    return urllib.parse.unquote(url).strip()
+    """O mesmo arquivo, a mesma chave, codificado ou não, por http ou https (rede.baixar sobe um ao outro)."""
+    return re.sub(r'^http://', 'https://', urllib.parse.unquote(url).strip())
 
 
 URL_NA_NOTA = re.compile(r'http\S+')
@@ -132,15 +133,15 @@ def core_run() -> Path:
     raise SystemExit('converter.py só roda dentro do workspace do mantenedor (não achei core/run).')
 
 
-def rodar(*args: str) -> str:
-    r = subprocess.run([str(core_run()), *args], capture_output=True, text=True, timeout=900)
+def rodar(*args: str, tempo: int = TEMPO) -> str:
+    r = subprocess.run([str(core_run()), *args], capture_output=True, text=True, timeout=tempo)
     if r.returncode:
         raise OSError((r.stderr or r.stdout).strip().splitlines()[-1:] or ['falhou'])
     return r.stdout
 
 
-def por_pdf(original: Path, linha: dict, desc: str, refazer: bool = False) -> None:
-    rodar('tools/pdf/pymupdf', str(original), '--origin', linha['url'], '--description', desc, *(['--force'] if refazer else []))
+def por_pdf(original: Path, linha: dict, desc: str, refazer: bool = False, tempo: int = TEMPO) -> None:
+    rodar('tools/pdf/pymupdf', str(original), '--origin', linha['url'], '--description', desc, *(['--force'] if refazer else []), tempo=tempo)
 
 
 def anotar(destino: Path, duplicatas: list[str]) -> None:
@@ -175,7 +176,7 @@ def por_gdoc(original: Path, linha: dict, desc: str, dados: bytes, destino: Path
         'sha256': hashlib.sha256(dados).hexdigest(), 'engine': MOTOR_GDOC}) + sem_imagens(corpo).strip() + '\n', encoding='utf-8')
 
 
-def converter(linha: dict, caminho: str, nome: str, refazer: bool = False) -> Path:
+def converter(linha: dict, caminho: str, nome: str, refazer: bool = False, tempo: int = TEMPO) -> Path:
     """Baixa, guarda o original ao lado e converte; devolve o .md."""
     pasta = RAIZ / PASTA[linha['tipo']]
     original = pasta / f'{nome}.{extensao(linha["url"])}'
@@ -184,12 +185,21 @@ def converter(linha: dict, caminho: str, nome: str, refazer: bool = False) -> Pa
     original.write_bytes(dados)
     desc = descricao(linha)
     if caminho == 'pdf':
-        por_pdf(original, linha, desc, refazer)
+        por_pdf(original, linha, desc, refazer, tempo)
     else:
         por_gdoc(original, linha, desc, dados, destino)
     if linha.get('duplicatas'):
         anotar(destino, linha['duplicatas'])
     return destino
+
+
+def gravar_fila(pendentes: list[tuple[str, str]], resolvidos: set[str]) -> None:
+    """Reescreve a fila: sai o que esta rodada tentou ou o acervo já tem, entra o que ficou pendente; o resto fica."""
+    antigas = [l.split('\t', 1) for l in FILA.read_text(encoding='utf-8').splitlines() if '\t' in l] if FILA.exists() else []
+    linhas = dict((u, m) for u, m in antigas if chave(u) not in resolvidos)
+    linhas.update(pendentes)
+    FILA.parent.mkdir(exist_ok=True)
+    FILA.write_text(''.join(f'{u}\t{m}\n' for u, m in linhas.items()), encoding='utf-8')
 
 
 def main(argv: list[str]) -> int:
@@ -199,6 +209,7 @@ def main(argv: list[str]) -> int:
     ap.add_argument('--limite', type=int)
     ap.add_argument('--seco', action='store_true')
     ap.add_argument('--refazer', action='store_true', help='converte de novo o que já tem documento, na mesma pasta')
+    ap.add_argument('--tempo', type=int, default=TEMPO, help='segundos por PDF antes de desistir')
     args = ap.parse_args(argv)
     sys.stdout.reconfigure(line_buffering=True)  # o lote leva horas: o log tem de andar junto
     fila = faltantes(vigiar.ler_tsv(vigiar.CENSO), args.setor, args.tipo, set() if args.refazer else convertidos())[:args.limite]
@@ -217,15 +228,13 @@ def main(argv: list[str]) -> int:
         if args.seco:
             continue
         try:
-            print(f'      ok {converter(linha, caminho, nome, args.refazer).relative_to(RAIZ)}')
+            print(f'      ok {converter(linha, caminho, nome, args.refazer, args.tempo).relative_to(RAIZ)}')
             feitos += 1
         except (OSError, subprocess.TimeoutExpired) as e:
             pendentes.append((linha['url'], f'falhou: {e}'))
             print(f'      FALHOU {e}')
-    if pendentes and not args.seco:
-        FILA.parent.mkdir(exist_ok=True)
-        with FILA.open('a', encoding='utf-8') as f:
-            f.writelines(f'{u}\t{m}\n' for u, m in pendentes)
+    if not args.seco:
+        gravar_fila(pendentes, {chave(l['url']) for l in fila} | convertidos())
     for u, m in pendentes:
         print(f'fila  {m}  {u}')
     print(f'\n{len(fila)} na fila · {feitos} convertidos · {len(pendentes)} para o mantenedor')
