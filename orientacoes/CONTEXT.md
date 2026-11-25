@@ -21,4 +21,5 @@
 | [`orientacao-revisao-progressao-docente-2024/orientacao-revisao-progressao-docente-2024.md`](orientacao-revisao-progressao-docente-2024/orientacao-revisao-progressao-docente-2024.md) | Orientação PROGEPE 2024: pedido de revisão de interstícios alterados antes do Parecer AGU 00038/2023. |
 | [`parecer-agu-00038-2023-progressao-docente/parecer-agu-00038-2023-progressao-docente.md`](parecer-agu-00038-2023-progressao-docente/parecer-agu-00038-2023-progressao-docente.md) | Parecer AGU 00038/2023/CGGP/DECOR/CGU: reposicionamento e interstícios na progressão docente; base do acerto financeiro. |
 | [`progressao-por-merito-novas-regras-2025/progressao-por-merito-novas-regras-2025.md`](progressao-por-merito-novas-regras-2025/progressao-por-merito-novas-regras-2025.md) | Progressão por mérito 2025: novas regras de interstício (12 meses), afastamentos e efeitos financeiros. |
+| [`tutorial-assinatura-sipac/tutorial-assinatura-sipac.md`](tutorial-assinatura-sipac/tutorial-assinatura-sipac.md) | Tutorial de assinatura no SIPAC: orienta usuários a assinar documentos pendentes no sistema. |
 <!-- routing:end -->

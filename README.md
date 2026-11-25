@@ -27,11 +27,11 @@ Contado em 24/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por ar
 | Setor | Convertidos | Fonte | Entram | Ficam de fora | Pendentes |
 |---|---|---|---|---|---|
 | PROGEPE | 17 de 443 | [/documentos](https://www.progepe.ufrpe.br/documentos) | formulários (266), normas (89, 15 federais), orientações (76), tabelas (27) | ato sobre pessoas (20), procedimento específico (5) | sem motivo (1) |
-| Reitoria | 3 de 10 | [/documentos-e-relatórios-ufrpe](https://ufrpe.br/documentos-e-relat%C3%B3rios-ufrpe/), [/br/capr](https://www.uast.ufrpe.br/br/capr) | formulários (5), normas (6, 3 federais), orientações (2) | relatório (42), versão superada (4), cópia: o original está na PROGEPE (3) | — |
+| Reitoria | 5 de 10 | [/documentos-e-relatórios-ufrpe](https://ufrpe.br/documentos-e-relat%C3%B3rios-ufrpe/), [/br/capr](https://www.uast.ufrpe.br/br/capr) | formulários (5), normas (6, 3 federais), orientações (2) | relatório (42), versão superada (4), cópia: o original está na PROGEPE (3) | — |
 | PRPG | 76 de 77 | [/resolucoes](https://prpg.ufrpe.br/resolucoes), [/pt-br/resolucoes-revogadas](https://prpg.ufrpe.br/pt-br/resolucoes-revogadas), [/formularios](https://prpg.ufrpe.br/formularios) | calendários (1), formulários (28), normas (45, 3 federais), orientações (6) | revogada (26), relatório (3), divulgação (1) | — |
 | PREG | 0 de 78 | [preg.ufrpe.br](https://preg.ufrpe.br/), 15 páginas ([fontes.tsv](fontes.tsv)) | calendários (1), formulários (41), normas (22), orientações (14) | memória de reunião (21), versão superada (16) | sem motivo (1) |
 | PROGESTI | 0 de 46 | [www.progesti.ufrpe.br](https://www.progesti.ufrpe.br/), 6 páginas ([fontes.tsv](fontes.tsv)) | formulários (14), normas (32) | procedimento específico (1), ato sobre pessoas (1) | — |
-| SEG | 0 de 8 | [seg.ufrpe.br](https://seg.ufrpe.br/), 4 páginas ([fontes.tsv](fontes.tsv)) | formulários (5), normas (2), orientações (1) | divulgação (6) | — |
+| SEG | 7 de 8 | [seg.ufrpe.br](https://seg.ufrpe.br/), 4 páginas ([fontes.tsv](fontes.tsv)) | formulários (5), normas (2), orientações (1) | divulgação (6) | — |
 <!-- censo:end -->
 
 A PROExC não publica lista de documentos (23/11/2026). As resoluções do CONSU, do CEPE e do CURA ficam cada uma numa página da SEG, achada só pela busca dela, e ainda não entraram no censo.
