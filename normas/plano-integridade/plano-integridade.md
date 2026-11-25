@@ -8,8 +8,8 @@ pdf: {"creator": "Adobe InDesign CC 13.1 (Windows)", "producer": "Adobe PDF Libr
 text_layer: "mixed"
 engine: "pymupdf4llm 1.28.2"
 audit: {"word_coverage": 0.95, "images": "22/0", "pages": "41/41", "tables": 8, "formulas": 0}
-needs_review: true
-reviewed_by: null
+needs_review: false
+reviewed_by: "claude"
 ---
 
 <!-- page 1 -->
@@ -379,7 +379,6 @@ Atualmente a estrutura organizacional da UFRPE se encontra conforme descrita no 
 
 <!-- page 11 -->
 
-
 ![p11-fig1](img/p11-fig1.jpg)
 
 <!-- figure p11-fig1 | described_by: agy | ocr_overlap: 0.0 | needs_review: true -->
@@ -499,80 +498,6 @@ Não há nenhum valor numérico, porcentagem, data, quantidade ou dado estatíst
 ### 5. Cores com significado
 - **Azul-petróleo médio/escuro com texto branco:** Usado uniformemente em **59 das 60 caixas**, representando todas as unidades e cabeçalhos da estrutura regular do organograma.
 - **Azul-acinzentado escuro / índigo acinzentado com texto branco:** Usado exclusivamente na caixa **`Unidade de Auditoria Interna`** (conectada lateralmente ao `CONSU`), destacando-a visualmente das demais unidades da estrutura hierárquica — indicando seu caráter diferenciado de auditoria interna/vinculação especial ao conselho superior.
-
-~~~text ocr
-op
-ep
-ap
-ap
-ap
-ap
-ojues ap op
-opepiun
-a
-ap
-9
-a ajuaiquy
-ap Olay bug ap
-euDIpaw ap
-op
-E
-ap
-ejoouby
-ap
-ap
-SAQVGINN
-euas ap
-ap 2
-ap
-oesnpu|a
-ap
-à
-esinbsad ap
-ap
-ap
-a ap
-HSd3D saJas wo>
-esinbsag Wa 223 ap
-sop
-ap
-opepiun
-à
-ousibay ap
-ap
-OUISUJ
-ap
-ap
-Op
-ap apepiun
-ap soebio
-9
-Bp
-NSNOD
-ep sey] oyunsoby
-wog ej0211by
-ap
-Op
-ap
-à
-ap
-ap
-e ap
-opepiun
-ap
-sapepiany ap
-ap
-ap
-ap
-ap
-~~~
-
-
-
-<!-- Start of picture text -->
-Departamento  de Zootecnia<br>Rural<br>Departamento  de Tecnologia<br>Departamento  de Química da Informação<br>Pró-Reitoria   Institucional Departamento  de Pesca   e Aquicultura Núcleo de Tecnologia<br>de Planejamento   e Desenvolvimento<br>Animal<br>Departamento  de Morfologia  e Fisiologia<br>Departamento  de Medicina  Veterinária<br>Unidade de<br>Unidade Acadêmica<br>Auditoria Interna<br>do Cabo de Santo Agostinho Núcleo de Relações<br>Departamento  de Matemática<br>e Pós-Graduação Institucionais e Convênios<br>Pró-Reitoria de Pesquisa<br>de Letras  e Ciências  Humanas<br>Departamento<br>CC<br>de História<br>Departamento<br>Ouvidoria<br>Secretaria Geral   dos Conselhos mitê de Ética em Pesquisa   Co com Seres Humanos/ CEPSH CAME - Coordenação  de Acompanhamento e  Monitoramente de Egressos leo de Acessibilidade Núc ocuradoria Jurídica Pr Pró-Reitoria   de Gestão Estudantil  e Inclusão Superintendência de Gestão   e Desenvolvimento de Pessoas Unidade Acadêmica   de Serra Talhada Departamento  de Física Ambiente e Manutenção<br>Núcleo de Engenharia, Meio<br>CO NSU<br>Reitoria e Vice-Reitoria Órgãos de Apoio e Assessoramento Departamento  de Estatística   e Informática<br>Ógãos Executivos da<br>Administração Superior<br>CEPE de Graduação UNIDADES UNIVERSITÁRIAS Departamento  de Engenharia  Agrícola<br>Órgãos Colegiados Deliberativos Assessorias Tecnológica Executivo Pró-Reitoria de Ensino   de Garanhuns Editora Universitária<br>Gabinete do Reitor Coordenação REUNI Núcleo de Inovação  Setor de Transporte  Unidade Acadêmica   Física<br>e Controle Acadêmico Departamento  de Educação<br>Departamento de Registro<br>Departamento  de Educação<br>Pró-Reitoria   de Atividades   de Extensão<br>Departamento  de Economia<br>Colégio Agrícola Dom<br>Agostinho Ikas da UFRPE<br>e Tecnologia<br>Departamento  de Computação<br>Unidade Acadêmica<br>de Educação a Distância<br>Sociais<br>Pró-Reitoria   Departamento  de Ciências<br>de Administração Departamento  de Ciências  Domesticas<br>Biblioteca Central<br>Departamento  de Ciências  Florestais<br>Departamento  de Biologia<br>Departamento  de Agronomia<br>de<br>Departamento  Administração<br><!-- End of picture text -->
-
-
 
 <!-- page 12 -->
 
@@ -1539,7 +1464,6 @@ Seguem as etapas do gerenciamento realizado:
 
 ##### **1. Mapeamento do processo** 
 
-
 ![p34-fig1](img/p34-fig1.jpg)
 
 <!-- figure p34-fig1 | described_by: agy | ocr_overlap: 0.0 | needs_review: true -->
@@ -1650,29 +1574,6 @@ Não há eixos, gráficos numéricos, legendas formais nem tabelas. Os elementos
 - **Azul-ciano (azul-claro):** identifica todas as caixas retangulares de cantos arredondados que representam atividades ou ações executadas no processo.
 - **Cinza-claro:** diferencia os elementos estruturais e informativos das etapas executáveis, sendo usado nas barras laterais de identificação das piscinas e raias e nos blocos retangulares de anotações complementares (`https://seci.cgu.gov.br`, `Encaminha a solicitação para a Comissão de Ética via e-mail` e `Recebe consulta e emite resposta via e-mail`).
 - **Vermelho-escuro (bordô):** sinaliza os eventos de encerramento/fim do processo (o círculo preenchido após `Informa no SeCI que não ocorreu conflito de interesse` e o círculo preenchido com anel externo fino após `SIM` em `Concorda com a resposta?`).
-
-~~~text ocr
-WIS
-LUOD
-eyed SeIp GL
-WIS
-OVN
-WIS
-PIA
-O
-ap P
-e PYUILUPDUI
-NDD - ep
-op
-op
-~~~
-
-
-
-<!-- Start of picture text -->
-Interpõe  recurso no SeCI<br>SIM NÃO<br>a resposta?<br>Concorda com<br>Consulta  resposta no SeCI<br>Insere resultado da  solicitação no SeCI<br>analisar<br>15 dias para<br>Avalia<br>de interesse informando a  solicitação<br>para CGU via SeCI<br>Informa no SeCI que não ocorreu conflito  Encaminha solicitação  existência de conflito<br>NÃO SIM<br>Ocorreuconflito?<br>no sistema pedido de  autorização<br>Realiza cadastro Insere no SeCI  consulta e/ou  Recebe via SeCI as  as solicitações de  de atividade privada Avalia se ocorreu  conflito de interesse<br>de conflito de interesses e  autorização para exercício<br>SIM NÃO consultas sobre a existência<br>Primeiro acesso?<br>- SeCI<br>Eletrônico de  Ética via e-mail<br>Acessa o Sistema  para a Comissão de  resposta via e-mail<br>Prevenção de Conflito<br>https://seci.cgu.gov.br Encaminha a solicitação  Recebe consulta e emite<br>Servidor PROGEPE/UFRPE Comissão de Ética/UFRPE Controladoria Geral da União - CGU<br>Procedimento de consulta conflito de interesse Procedimento de consulta<br><!-- End of picture text -->
-
-
 
 <!-- page 35 -->
 
