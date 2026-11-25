@@ -32,24 +32,44 @@ def contagem(linhas: list[dict], convertidos: set[str]) -> tuple[str, str, str, 
     return ', '.join(partes) or '—', feitos, motivos('fora'), motivos('pendente')
 
 
+def totais(linhas: list[dict]) -> tuple[str, str, str]:
+    """Quantos entram, ficam de fora e estão pendentes: só o número, para a tabela caber na página."""
+    n = Counter(l['decisao'] for l in linhas)
+    return tuple(str(n[d]) if n[d] else '—' for d in ('entra', 'fora', 'pendente'))
+
+
+def fontes_do_setor(paginas: list[str]) -> str:
+    """Onde o setor lista seus documentos: até três links, e a partir daí o site e o fontes.tsv."""
+    if len(paginas) > 3:
+        site = urllib.parse.urlsplit(paginas[0])
+        return f'[{site.netloc}]({site.scheme}://{site.netloc}/), {len(paginas)} páginas ([fontes.tsv](fontes.tsv))'
+    return ', '.join(f'[{urllib.parse.unquote(urllib.parse.urlsplit(p).path).rstrip("/") or "/"}]({p})' for p in paginas)
+
+
+def detalhe(setor: str, linhas: list[dict], convertidos: set[str], paginas: list[str]) -> str:
+    """O que a tabela deixa de fora, recolhido: as fontes e, por tipo e por motivo, o que entra, fica fora ou está pendente."""
+    entram, _, fora, pendentes = contagem(linhas, convertidos)
+    itens = [('Fonte', fontes_do_setor(paginas)), ('Entram', entram), ('Ficam de fora', fora), ('Pendentes', pendentes)]
+    corpo = '\n'.join(f'- **{nome}:** {texto}' for nome, texto in itens if texto != '—')
+    return f'<details>\n<summary>{setor}: fontes e motivos</summary>\n\n{corpo}\n\n</details>'
+
+
 def tabela(censo: dict[str, dict], fontes: list[dict], hoje: str, convertidos: set[str]) -> str:
     data = datetime.date.fromisoformat(hoje).strftime('%d/%m/%Y')
     linhas = [f'Contado em {data} por [vigiar.py](.github/scripts/vigiar.py), um link por arquivo; '
               'um arquivo publicado por dois setores conta no primeiro deles. '
-              '"Convertidos" conta os que já estão no acervo, fora os atos federais.', '',
-              '| Setor | Convertidos | Fonte | Entram | Ficam de fora | Pendentes |', '|---|---|---|---|---|---|']
+              '"Convertidos" conta os que já estão no acervo, fora os atos federais; "Entram" os conta. '
+              'As fontes e o motivo de cada exclusão estão em cada setor, logo abaixo da tabela.', '',
+              '| Setor | Convertidos | Entram | Fora | Pendentes |', '|---|---|---|---|---|']
+    detalhes: list[str] = []
     vistos: set[str] = set()
     for setor in dict.fromkeys(f['setor'] for f in fontes):
         meus = [l for u, l in censo.items() if setor in l['setores'].split(',') and u not in vistos]
         vistos |= {l['url'] for l in meus}
-        meus_links = [f['pagina'] for f in fontes if f['setor'] == setor]
-        paginas = ', '.join(f'[{urllib.parse.unquote(urllib.parse.urlsplit(p).path).rstrip("/") or "/"}]({p})' for p in meus_links)
-        if len(meus_links) > 3:
-            site = urllib.parse.urlsplit(meus_links[0])
-            paginas = f'[{site.netloc}]({site.scheme}://{site.netloc}/), {len(meus_links)} páginas ([fontes.tsv](fontes.tsv))'
-        entram, feitos, fora, pendentes = contagem(meus, convertidos)
-        linhas.append(f'| {setor} | {feitos} | {paginas} | {entram} | {fora} | {pendentes} |')
-    return '\n'.join(linhas)
+        feitos = contagem(meus, convertidos)[1]
+        linhas.append(f'| {setor} | {feitos} | ' + ' | '.join(totais(meus)) + ' |')
+        detalhes.append(detalhe(setor, meus, convertidos, [f['pagina'] for f in fontes if f['setor'] == setor]))
+    return '\n'.join(linhas + [''] + detalhes)
 
 
 def com_tabela(texto: str, texto_tabela: str) -> str:

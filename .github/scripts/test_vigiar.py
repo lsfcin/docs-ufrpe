@@ -66,6 +66,16 @@ class Tabela(unittest.TestCase):
         entram, feitos, fora, pendentes = tabela_censo.contagem(linhas, {'a', 'lei'})
         self.assertEqual((entram, feitos, fora, pendentes), ('normas (3, 1 federal)', '1 de 2', 'revogada (1)', '—'))
 
+    def test_a_tabela_so_leva_numeros_e_o_texto_vai_para_o_detalhe(self):
+        linhas = [self.linha('a'), self.linha('r', 'fora', 'cópia: o original está na PROGEPE Instrução Normativa 01', '')]
+        self.assertEqual(tabela_censo.totais(linhas), ('1', '1', '—'))
+        saida = tabela_censo.tabela({l['url']: l for l in linhas}, [{'setor': 'PRPG', 'pagina': 'https://prpg.ufrpe.br/resolucoes'}], '2026-11-25', {'a'})
+        corpo = [l for l in saida.splitlines() if l.startswith('|')]
+        self.assertEqual(corpo[-1], '| PRPG | 1 de 1 | 1 | 1 | — |')
+        self.assertNotIn('cópia', '\n'.join(corpo))
+        self.assertIn('<summary>PRPG: fontes e motivos</summary>', saida)
+        self.assertIn('- **Ficam de fora:** cópia: o original está na PROGEPE Instrução Normativa 01 (1)', saida)
+
     def test_a_data_sai_do_proprio_bloco(self):
         self.assertEqual(tabela_censo.data_contada('<!-- censo:start -->\nContado em 23/11/2026 por x'), '2026-11-23')
 
