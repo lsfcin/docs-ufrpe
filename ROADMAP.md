@@ -19,4 +19,5 @@
 
 ## Rejected
 
+- [figuras-por-tipo] Pular a descrição de figura pelo tipo do censo (norma, modelo, tabela): Lucas preferiu julgar cada figura, texto primeiro (25/11/2026); a árvore de decisão perdeu para a regressão logística no bench (instável com 48 documentos).
 - [entropia-portugues] Traduzir ou tirar do ISSUES o bloco de entropia em inglês: fica como está (Lucas, 23/11/2026).
