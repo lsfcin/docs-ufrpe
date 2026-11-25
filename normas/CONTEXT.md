@@ -21,6 +21,7 @@ CONSU é o Conselho Universitário e CEPE, o Conselho de Ensino, Pesquisa e Exte
 
 | File | Description |
 |------|-------------|
+| [`estatuto-regimento-geral/estatuto-regimento-geral.md`](estatuto-regimento-geral/estatuto-regimento-geral.md) | Estatuto e Regimento Geral (1985): reúne a estrutura e as normas da UFRPE para consulta da comunidade universitária. |
 | [`in-01-2025-informacoes-acoes-internacionalizacao/in-01-2025-informacoes-acoes-internacionalizacao.md`](in-01-2025-informacoes-acoes-internacionalizacao/in-01-2025-informacoes-acoes-internacionalizacao.md) | IN PRPG 01/2025: padroniza a coleta das ações de internacionalização dos PPG; docentes informam às coordenações, que enviam à CIPPG. |
 | [`in-cppd-01-2025-promocao-a-b/in-cppd-01-2025-promocao-a-b.md`](in-cppd-01-2025-promocao-a-b/in-cppd-01-2025-promocao-a-b.md) | IN CPPD 01/2025: promoção da classe A para a B na transição da Lei 15.141/2025. |
 | [`in-gr-01-2024-pda-rda/in-gr-01-2024-pda-rda.md`](in-gr-01-2024-pda-rda/in-gr-01-2024-pda-rda.md) | IN GR 01/2024: o fluxo do PDA e do RDA — processo, prazos e o papel da CAPR; os apêndices estão em ../modelos/. |

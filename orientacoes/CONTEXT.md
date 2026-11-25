@@ -10,6 +10,8 @@
 
 | File | Description |
 |------|-------------|
+| [`in-gr-01-2024-duvidas-frequentes/in-gr-01-2024-duvidas-frequentes.md`](in-gr-01-2024-duvidas-frequentes/in-gr-01-2024-duvidas-frequentes.md) | Orientações sobre PDA e RDA: guia de dúvidas e trâmites para docentes da UAST planejarem e relatarem atividades. |
+| [`manual-identidade-visual/manual-identidade-visual.md`](manual-identidade-visual/manual-identidade-visual.md) | Manual de Identidade Visual: orienta a aplicação da marca e dos elementos visuais da instituição pela comunidade acadêmica. |
 | [`manual-orientacao-cadastramento-processos-seletivos-sigaa/manual-orientacao-cadastramento-processos-seletivos-sigaa.md`](manual-orientacao-cadastramento-processos-seletivos-sigaa/manual-orientacao-cadastramento-processos-seletivos-sigaa.md) | Manual de processos seletivos no SIGAA: orienta coordenadores e secretários de pós-graduação no cadastro de seleções. |
 | [`manual-orientacao-procedimentos-pos-defesa-sigaa/manual-orientacao-procedimentos-pos-defesa-sigaa.md`](manual-orientacao-procedimentos-pos-defesa-sigaa/manual-orientacao-procedimentos-pos-defesa-sigaa.md) | Manual Pós-Defesa do SIGAA: orienta coordenadores e secretários de programas de pós-graduação nos procedimentos após a defesa. |
 | [`manual-orientacao-uso-recursos-proap-capes/manual-orientacao-uso-recursos-proap-capes.md`](manual-orientacao-uso-recursos-proap-capes/manual-orientacao-uso-recursos-proap-capes.md) | Manual de uso dos recursos PROAP: orienta coordenadores e secretários dos PPGs na solicitação e execução de despesas. |
