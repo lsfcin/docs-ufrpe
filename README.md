@@ -26,36 +26,19 @@ Contado em 24/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por ar
 
 | Setor | Convertidos | Entram | Fora | Pendentes |
 |---|---|---|---|---|
-| PROGEPE | 17 de 443 | 458 | 25 | 1 |
 | Reitoria | 8 de 10 | 13 | 49 | — |
-| PRPG | 76 de 77 | 80 | 30 | — |
 | PREG | 0 de 78 | 78 | 37 | 1 |
+| PRPG | 76 de 77 | 80 | 30 | — |
 | PROGESTI | 0 de 46 | 46 | 2 | — |
+| PROGEPE | 17 de 443 | 458 | 25 | 1 |
 | SEG | 8 de 8 | 8 | 6 | — |
 
-<details>
-<summary>PROGEPE: fontes e motivos</summary>
-
-- **Fonte:** [/documentos](https://www.progepe.ufrpe.br/documentos)
-- **Entram:** formulários (266), normas (89, 15 federais), orientações (76), tabelas (27)
-- **Ficam de fora:** ato sobre pessoas (20), procedimento específico (5)
-- **Pendentes:** sem motivo (1)
-
-</details>
 <details>
 <summary>Reitoria: fontes e motivos</summary>
 
 - **Fonte:** [/documentos-e-relatórios-ufrpe](https://ufrpe.br/documentos-e-relat%C3%B3rios-ufrpe/), [/br/capr](https://www.uast.ufrpe.br/br/capr)
 - **Entram:** formulários (5), normas (6, 3 federais), orientações (2)
 - **Ficam de fora:** relatório (42), versão superada (4), cópia: o original está na PROGEPE (3)
-
-</details>
-<details>
-<summary>PRPG: fontes e motivos</summary>
-
-- **Fonte:** [/resolucoes](https://prpg.ufrpe.br/resolucoes), [/pt-br/resolucoes-revogadas](https://prpg.ufrpe.br/pt-br/resolucoes-revogadas), [/formularios](https://prpg.ufrpe.br/formularios)
-- **Entram:** calendários (1), formulários (28), normas (45, 3 federais), orientações (6)
-- **Ficam de fora:** revogada (26), relatório (3), divulgação (1)
 
 </details>
 <details>
@@ -68,11 +51,28 @@ Contado em 24/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por ar
 
 </details>
 <details>
+<summary>PRPG: fontes e motivos</summary>
+
+- **Fonte:** [/resolucoes](https://prpg.ufrpe.br/resolucoes), [/pt-br/resolucoes-revogadas](https://prpg.ufrpe.br/pt-br/resolucoes-revogadas), [/formularios](https://prpg.ufrpe.br/formularios)
+- **Entram:** calendários (1), formulários (28), normas (45, 3 federais), orientações (6)
+- **Ficam de fora:** revogada (26), relatório (3), divulgação (1)
+
+</details>
+<details>
 <summary>PROGESTI: fontes e motivos</summary>
 
 - **Fonte:** [www.progesti.ufrpe.br](https://www.progesti.ufrpe.br/), 6 páginas ([fontes.tsv](fontes.tsv))
 - **Entram:** formulários (14), normas (32)
 - **Ficam de fora:** procedimento específico (1), ato sobre pessoas (1)
+
+</details>
+<details>
+<summary>PROGEPE: fontes e motivos</summary>
+
+- **Fonte:** [/documentos](https://www.progepe.ufrpe.br/documentos)
+- **Entram:** formulários (266), normas (89, 15 federais), orientações (76), tabelas (27)
+- **Ficam de fora:** ato sobre pessoas (20), procedimento específico (5)
+- **Pendentes:** sem motivo (1)
 
 </details>
 <details>

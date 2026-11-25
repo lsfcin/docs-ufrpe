@@ -6,7 +6,7 @@ columns:
   - pagina
   - regra
 head:
-  setor: PROGEPE  pagina: https://www.  regra: None
   setor: Reitoria  pagina: https://ufrp  regra: None
   setor: Reitoria  pagina: https://www.  regra: None
+  setor: PREG  pagina: https://preg  regra: norma:entra:n
 description: as páginas em que cada setor da UFRPE lista seus documentos; lido por .github/scripts/vigiar.py. A ordem dos setores é a da tabela do README.
