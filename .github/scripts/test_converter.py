@@ -25,6 +25,13 @@ class Fila(unittest.TestCase):
         sobra = converter.faltantes(linhas, 'PRPG', 'norma', {verificar.chave('https://x/feito já.pdf')})
         self.assertEqual(sobra, [linhas[0]])
 
+    def test_o_pdf_vai_com_o_perfil_de_figuras_do_acervo(self):
+        with mock.patch.object(converter, 'rodar') as rodar:
+            converter.por_pdf(Path('a.pdf'), linha(), 'desc')
+        args = rodar.call_args.args
+        self.assertEqual(args[args.index('--relevance') + 1], str(converter.FIGURAS))
+        self.assertTrue((converter.FIGURAS / 'relevance.tsv').exists())
+
     def test_cada_formato_pela_sua_rota(self):
         self.assertEqual(converter.rota(linha()), ('pdf', ''))
         self.assertEqual(converter.rota(linha(url='https://x/a.DOCX'))[0], 'gdoc')

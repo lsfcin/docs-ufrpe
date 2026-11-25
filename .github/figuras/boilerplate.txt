@@ -1,0 +1,23 @@
+# Palavras que o timbre dos documentos da UFRPE repete: a parcela delas no OCR de uma figura é o sinal `boilerplate` de core/tools/pdf/pdf_relevance.py. Uma por linha.
+ministério
+ministerio
+educação
+educacao
+universidade
+federal
+rural
+pernambuco
+reitoria
+assinado
+digitalmente
+siape
+brasil
+república
+republica
+documento
+servico
+serviço
+público
+publico
+gabinete
+ufrpe

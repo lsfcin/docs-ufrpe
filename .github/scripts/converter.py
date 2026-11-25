@@ -28,6 +28,7 @@ import verificar
 
 RAIZ = verificar.RAIZ
 FILA = RAIZ / '.vigia' / 'fila.tsv'
+FIGURAS = RAIZ / '.github' / 'figuras'  # o perfil de relevância de figura deste acervo (.github/figuras/CONTEXT.md)
 PASTA = verificar.PASTA
 ROTA = {'pdf': 'pdf', 'doc': 'gdoc', 'docx': 'gdoc'}
 NOME_MAX = 40
@@ -126,7 +127,8 @@ def rodar(*args: str, tempo: int = TEMPO) -> str:
 
 
 def por_pdf(original: Path, linha: dict, desc: str, refazer: bool = False, tempo: int = TEMPO) -> None:
-    rodar('tools/pdf/pymupdf', str(original), '--origin', linha['url'], '--description', desc, *(['--force'] if refazer else []), tempo=tempo)
+    rodar('tools/pdf/pymupdf', str(original), '--origin', linha['url'], '--description', desc, '--relevance', str(FIGURAS),
+          *(['--force'] if refazer else []), tempo=tempo)
 
 
 def anotar(destino: Path, duplicatas: list[str]) -> None:

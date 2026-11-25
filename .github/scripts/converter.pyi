@@ -3,6 +3,7 @@ from pathlib import Path
 
 RAIZ: Incomplete
 FILA: Incomplete
+FIGURAS: Incomplete
 PASTA: Incomplete
 ROTA: Incomplete
 NOME_MAX: int
