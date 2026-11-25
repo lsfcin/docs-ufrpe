@@ -26,7 +26,7 @@ Contado em 24/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por ar
 
 | Setor | Convertidos | Entram | Fora | Pendentes |
 |---|---|---|---|---|
-| Reitoria | 8 de 10 | 13 | 49 | — |
+| Reitoria | 10 de 10 | 13 | 49 | — |
 | PREG | 0 de 78 | 78 | 37 | 1 |
 | PRPG | 76 de 77 | 80 | 30 | — |
 | PROGESTI | 0 de 46 | 46 | 2 | — |
