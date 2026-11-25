@@ -79,6 +79,7 @@ class Resposta(unittest.TestCase):
         self.assertTrue(descrever.rascunho('Nome: resto (PRPG).', 'PRPG'))
         self.assertFalse(descrever.rascunho('Nome: resto (PRPG).', 'PREG'))
         self.assertFalse(descrever.rascunho('Nome: resto (prpg).'))
+        self.assertTrue(descrever.rascunho('Nome: resto (Reitoria).', 'Reitoria'))
         self.assertFalse(descrever.rascunho('Res. CONSU 434/2024: a carga horária docente.'))
 
 

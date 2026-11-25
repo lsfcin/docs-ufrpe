@@ -5,7 +5,7 @@ Sem arquivos, pega todo o acervo. Um documento por chamada (isola a falha). O wo
 `core/run tools/panel/ask --only deepseek`; se ele falhar, estourar o tempo ou responder fora do formato, o codex
 (gpt-6-luna) tenta uma vez. Resposta inválida nos dois: o arquivo não muda e o documento entra na lista "para revisão".
 --setor PRPG: só os documentos cuja descrição ainda é o rascunho do conversor, que termina em ` (PRPG).`
---so-rascunho: o mesmo sem nomear o setor, qualquer ` (SIGLA).` em maiúsculas.
+--so-rascunho: o mesmo sem nomear o setor, qualquer ` (Setor).` que abre com maiúscula.
 --seco só mostra o que chamaria. Roda no workspace do mantenedor; ao worker vai apenas o texto do documento.
 """
 from __future__ import annotations
@@ -32,7 +32,7 @@ CODEX = Path('/usr/lib/chatgpt/resources/codex')
 MODELO_CODEX = 'gpt-6-luna'
 PREFERIDOS = ('modelos/in-gr-01-2024-apendice-1-pda', 'normas/res-consu-434-2024-carga-horaria-docente',
               'orientacoes/oficio-circular-004-2024-progressao-docente')  # as descrições de referência; faltando uma, vale a primeira boa da pasta
-RASCUNHO = re.compile(r' \(([A-Z]+)\)\.$')  # o que converter.descricao grava: `Nome: resto (SETOR).`
+RASCUNHO = re.compile(r' \(([A-Z][A-Za-z]+)\)\.$')  # o que converter.descricao grava: `Nome: resto (SETOR).`
 NUMERACAO = re.compile(r'^(?:(?:\d+|N)[.)]|[-*•])\s*')
 PREFIXO = re.compile(r'^description:\s*', re.I)
 LINHA_DESCRICAO = re.compile(r'^description:[^\r\n]*', re.M)
@@ -173,7 +173,7 @@ def escolher(setor: str | None, so_rascunho: bool, nomes: list[str]) -> list[Pat
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(description='Reescreve a linha `description` dos documentos com um worker gratuito (deepseek, depois codex).')
     ap.add_argument('--setor', help='só os documentos cuja descrição ainda é o rascunho do conversor, que termina em " (SETOR)." (ex.: PRPG)')
-    ap.add_argument('--so-rascunho', action='store_true', help='o mesmo sem nomear o setor: só as descrições que terminam em " (SIGLA)." em maiúsculas')
+    ap.add_argument('--so-rascunho', action='store_true', help='o mesmo sem nomear o setor: só as descrições que terminam em " (Setor)." com maiúscula')
     ap.add_argument('--limite', type=int, help='no máximo N documentos')
     ap.add_argument('--seco', action='store_true', help='monta o prompt e mostra o que chamaria, sem chamar worker nem gravar')
     ap.add_argument('arquivos', nargs='*', help='documentos .md; sem eles, todo o acervo')
