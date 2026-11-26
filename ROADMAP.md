@@ -16,6 +16,7 @@
 ## Depois da v1
 
 - [ ] [dc-docs] Um projeto irmão para o DC (Departamento de Computação): os documentos que só valem para ele, os fluxos e os guias, com o não oficial separado do oficial, e link para o docs-ufrpe nas normas gerais em vez de cópia. Decidir depois da v1, reusando o motor daqui (Lucas e o painel, 24/11/2026: abrir agora dobraria a manutenção). [src: agent 2026-11-24]
+- [ ] [oxr-piloto] Comparar o OXR com o conversor atual em documentos públicos escaneados e com tabelas. Medir omissões, fidelidade das células, ordem de leitura, tempo e pico de memória. Conferir a licença e registrar se o resultado justifica testar em outros acervos. [Referência](.github/refs/REFS.md).
 
 ## Rejected
 
