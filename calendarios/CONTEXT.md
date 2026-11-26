@@ -11,5 +11,6 @@
 
 | File | Description |
 |------|-------------|
+| [`calendario-academico-graduacao-jul/calendario-academico-graduacao-jul.md`](calendario-academico-graduacao-jul/calendario-academico-graduacao-jul.md) | Eventos Acadêmicos 2026: calendário da graduação da PREG, com prazos de matrícula, turmas e estágios, aprovado pela Res. CEPE 1004/2026. |
 | [`calendario-prpg-2026/calendario-prpg-2026.md`](calendario-prpg-2026/calendario-prpg-2026.md) | Calendário PPG Stricto Sensu 2026/2027: prazos de matrícula, seleção, aulas e avaliações, usado pelas coordenações e pela PRPG. |
 <!-- routing:end -->

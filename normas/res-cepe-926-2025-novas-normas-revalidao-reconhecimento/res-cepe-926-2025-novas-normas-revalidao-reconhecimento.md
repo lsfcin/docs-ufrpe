@@ -4,6 +4,7 @@ source: "../res-cepe-926-2025-novas-normas-revalidao-reconhecimento.pdf"
 sha256: "e580ca5ba0c88dd66f9c9d6081ff6452fa9e3207f03fc4fc5313a32470b3fd45"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RECEPE926.2025_NOVAS_NORMAS_REVALIDAO_E_RECONHECIMENTO_DE_TTULO_ESTRANGEIRO_0.pdf"
 origin_checked: "2026-11-23"
+origin_note: "o mesmo arquivo circula também em: https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RESOLU%C3%87%C3%83O%20CEPE%20UFRPE%20N%C2%BA%20926,%2019%20DE%20AGOSTO%20DE%202025..pdf"
 pdf: {"author": "MARIA DA PENHA DA SILVA VIANA", "creator": "Microsoft® Word 2010", "producer": "Microsoft® Word 2010", "created": "Thu Aug 28 10:11:04 2025 -03", "modified": "Thu Aug 28 10:11:04 2025 -03", "pages": 32, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

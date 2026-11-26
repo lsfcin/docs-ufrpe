@@ -4,6 +4,7 @@ source: "../res-572-2023-residencia-estudantil.pdf"
 sha256: "cd5a526259371e03480556f55799ecc6088e607fc3095213eac8e66a18a74362"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RESOLUC%CC%A7A%CC%83O-572-2023_Residencia_Estudantil.pdf"
 origin_checked: "2026-11-23"
+origin_note: "o mesmo arquivo circula também em: https://www.progesti.ufrpe.br/sites/www.progesti.ufrpe.br/files/RESOLU%C3%87%C3%83O-572-2023.pdf"
 pdf: {"author": "MARIA DA PENHA DA SILVA VIANA", "creator": "Microsoft® Office Word 2007", "producer": "Microsoft® Office Word 2007", "created": "Tue May  9 08:39:01 2023 -03", "modified": "Tue May  9 08:39:01 2023 -03", "pages": 2, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

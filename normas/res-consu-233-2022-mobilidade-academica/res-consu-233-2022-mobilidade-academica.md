@@ -4,6 +4,7 @@ source: "../res-consu-233-2022-mobilidade-academica.pdf"
 sha256: "f8b9376f8a2139e73b801499ab6fd4c813107961dab011314607ee325f28b9db"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/RESOLUC%CC%A7A%CC%83O%202332022,%20DE%2011%20DE%20OUTUBRO%20DE%202022%20-%20Mobilidade%20Acade%CC%82mica.pdf"
 origin_checked: "2026-11-23"
+origin_note: "outro arquivo do mesmo ato circula também em: https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/RECU233.2022%20MAI%20NINTER%20MOBILIDADE%20ACAD%C3%8AMICA%20vers%C3%A3o%20FINAL.pdf"
 pdf: {"author": "José Rodrigo", "creator": "Microsoft® Office Word 2007", "producer": "macOS Versão 15.5 (Compilação 24F74) Quartz PDFContext, AppendMode 1.1", "created": "Wed Nov 23 15:39:47 2022 -03", "modified": "Tue Jan 20 13:40:19 2026 -03", "pages": 26, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

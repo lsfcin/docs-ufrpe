@@ -4,6 +4,7 @@ source: "../res-consu-458-2024-equidade-genero.pdf"
 sha256: "ce459958beb84e0e8a9738b6f1362510bc47682d35cfc1be2b112e97ea24cce1"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/Processo%20322032%202023%2010-52-62%5B1%5D.pdf"
 origin_checked: "2026-11-23"
+origin_note: "outro arquivo do mesmo ato circula também em: https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Resolu%C3%A7%C3%A3o%20n%C2%BA%20458-2024%20-%20Pol%C3%ADticas%20de%20equidade%20e%20diversidade%20de%20g%C3%AAnero%20na%20UFRPE.pdf"
 pdf: {"producer": "iLovePDF", "modified": "Thu Jun  6 16:45:28 2024 -03", "pages": 11, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

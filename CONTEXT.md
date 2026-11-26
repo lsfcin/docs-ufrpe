@@ -30,7 +30,7 @@ Os servidores UFRPE filtram o User-Agent de curl e não mandam o certificado int
 |------|-----------|-----|-------------|
 | [`ISSUES.md`](ISSUES.md) | — | — | O que sabemos que ainda não está certo neste acervo: primeiro as pendências escritas à mão, e cada número medido dentro do seu próprio bloco gerado. |
 | [`README.md`](README.md) | — | — | Documentos oficiais da UFRPE em Markdown, cada um com o link oficial e a data de captura. |
-| [`ROADMAP.md`](ROADMAP.md) | — | — | A v1 é toda a documentação, sem exceção (Lucas, 23/11/2026): todo documento que o censo marca como "entra" convertido, e toda pendência do ISSUES.md fechada. Um setor por rodada do `converter.py`, com o escopo já listado no censo. |
+| [`ROADMAP.md`](ROADMAP.md) | — | — | A v1 é toda a documentação, sem exceção (Lucas, 23/11/2026): todo documento que o censo marca como "entra" convertido, e toda pendência do ISSUES.md fechada; a que depende de terceiros fecha com o pedido feito e registrado (Lucas, 25/11/2026). Um setor por rodada do `converter.py`, com o escopo já listado no censo. |
 | [`site/busca.js`](site/busca.js) | [`site/busca.d.ts`](site/busca.d.ts) | `dobra`, `perto`, `parecida`, `carregar`, `pontuar` | busca.js — a caixa "Buscar nos documentos" do docs-ufrpe: lê o busca.json do deploy, acha sem acento nem maiúscula, tolera um erro de digitação e destaca o termo no documento aberto. |
 | [`site/jsconfig.json`](site/jsconfig.json) | — | — | Diz ao editor que o viewer.js do docs-ufrpe é JavaScript de navegador, sem checagem de tipos. |
 | [`site/viewer.css`](site/viewer.css) | — | — | viewer.css — a cara do docs-ufrpe: faixa azul-marinho oficial (#1b2d4f) com o brasão em negativo, Work Sans, listas só com linhas horizontais. |

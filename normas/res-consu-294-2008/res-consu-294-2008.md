@@ -4,6 +4,7 @@ source: "../res-consu-294-2008.pdf"
 sha256: "8d4ade1c4900e4c95d11ad41899db6b7b635394fd72cabb1dfdeb79db7eef690"
 origin: "https://prpg.ufrpe.br/sites/default/files/legislacao/reconsu_294_2008_0.pdf"
 origin_checked: "2026-11-23"
+origin_note: "outro arquivo do mesmo ato circula também em: https://preg.ufrpe.br/sites/ww4.depaacademicos.ufrpe.br/files/Resolu%C3%A7%C3%A3o%20294_2008%20CONSULTA%20PARA%20ESCOLHA.pdf"
 pdf: {"author": "UFRPE", "creator": "Writer", "producer": "LibreOffice 3.6", "created": "Mon Jun 10 11:13:46 2013 -03", "pages": 8, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"
