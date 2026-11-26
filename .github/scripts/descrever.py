@@ -2,7 +2,7 @@
 """Uso: python .github/scripts/descrever.py [--setor PRPG] [--so-rascunho] [--limite N] [--seco] [arquivos.md ...]
 
 Sem arquivos, pega todo o acervo. Um documento por chamada (isola a falha). O worker é o deepseek, por
-`core/run tools/panel/ask --only deepseek`; se ele falhar, estourar o tempo ou responder fora do formato, o codex
+`core/run tools/delegate/ask --only deepseek`; se ele falhar, estourar o tempo ou responder fora do formato, o codex
 (gpt-6-luna) tenta uma vez. Resposta inválida nos dois: o arquivo não muda e o documento entra na lista "para revisão".
 --setor PRPG: só os documentos cuja descrição ainda é o rascunho do conversor, que termina em ` (PRPG).`
 --so-rascunho: o mesmo sem nomear o setor, qualquer ` (Setor).` que abre com maiúscula.
@@ -106,11 +106,11 @@ def trocar_descricao(texto: str, descricao: str) -> str | None:
 
 
 def deepseek(prompt: str) -> str:
-    """`core/run tools/panel/ask --only deepseek <prompt.md>`: a resposta vem em stdout, depois de um comentário `<!-- panel -->`."""
+    """`core/run tools/delegate/ask --only deepseek <prompt.md>`: a resposta vem em stdout, depois de um comentário `<!-- panel -->`."""
     with tempfile.TemporaryDirectory() as pasta:
         arquivo = Path(pasta) / 'prompt.md'
         arquivo.write_text(prompt, encoding='utf-8')
-        return executar([str(converter.core_run()), 'tools/panel/ask', '--only', 'deepseek', str(arquivo)], pasta)
+        return executar([str(converter.core_run()), 'tools/delegate/ask', '--only', 'deepseek', str(arquivo)], pasta)
 
 
 def codex(prompt: str) -> str:
@@ -192,7 +192,7 @@ def main(argv: list[str]) -> int:
         velha = indexar.campos(texto)[0].get('description')
         if args.seco:
             prompt = montar_prompt(texto, exemplos)
-            print(f'{rel}: {velha}\n  prompt {len(prompt)} caracteres\n  1) core/run tools/panel/ask --only deepseek <prompt.md>\n'
+            print(f'{rel}: {velha}\n  prompt {len(prompt)} caracteres\n  1) core/run tools/delegate/ask --only deepseek <prompt.md>\n'
                   f'  2) {CODEX} exec -s read-only -m {MODELO_CODEX} --ephemeral --skip-git-repo-check -o <saida.txt> "<prompt>"')
             continue
         novo, porque = descrever(texto, ESCRITORES, exemplos, rel)

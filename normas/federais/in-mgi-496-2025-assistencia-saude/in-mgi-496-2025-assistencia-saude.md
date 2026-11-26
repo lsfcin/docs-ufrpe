@@ -4,7 +4,7 @@ source: "../in-mgi-496-2025-assistencia-saude.pdf"
 sha256: "1168ea63583dd1347aa6173a148230833a8bc7c8659b4f043298d9ba9ae314f2"
 origin: "https://progepe.ufrpe.br/sites/default/files/2025-11/Instru%C3%A7%C3%A3o%20Normativa%20GABIN_MGI%20n%C2%BA%20496,%20de%2021%20de%20novembro%20de%202025%20-Aux%C3%ADlio%20Sa%C3%BAde.pdf"
 origin_checked: "2026-11-26"
-origin_note: "o mesmo arquivo circula também em: https://www.progepe.ufrpe.br/sites/default/files/2025-11/Instru%C3%A7%C3%A3o%20Normativa%20GABIN_MGI%20n%C2%BA%20496,%20de%2021%20de%20novembro%20de%202025%20-Aux%C3%ADlio%20Sa%C3%BAde.pdf"
+origin_note: "o mesmo arquivo circula também em: https://www.progepe.ufrpe.br/sites/default/files/2025-11/Instru%C3%A7%C3%A3o%20Normativa%20GABIN_MGI%20n%C2%BA%20496,%20de%2021%20de%20novembro%20de%202025%20-Aux%C3%ADlio%20Sa%C3%BAde.pdf; Cópia hospedada pela PROGEPE, não a publicação do órgão que editou o ato; o texto não mostra alteração posterior."
 pdf: {"title": "Instrução Normativa GABIN/MGI nº 496, de 21 de novembro de 2025 - Instrução Normativa GABIN/MGI nº 496, de 21 de novembro de 2025 - DOU - Imprensa Nacional", "creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36", "producer": "Skia/PDF m142", "created": "Mon Nov 24 09:40:11 2025 -03", "modified": "Mon Nov 24 09:40:11 2025 -03", "pages": 11, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

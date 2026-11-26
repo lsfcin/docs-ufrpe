@@ -31,7 +31,7 @@ HASH = re.compile(r'^[0-9a-f]{64}$')
 ROTULO = re.compile(r'^[^:]{2,40}:\s*\S')
 # Uma norma se chama como no lote 1: "Res. CEPE 609/2023", "Res. CONSU 435-A/2024", "IN PRPG 01/2026" — sem "Resolução", sem "/UFRPE".
 NORMA = re.compile(r'^(?:Res|IN|Instrução|Resolução)\b')
-NORMA_CANONICA = re.compile(r'^(?:Res\. (?:CONSU|CEPE|CURA) \d{3,4}(?:-[A-Z])?|IN [A-Z]+ \d{2})/\d{4}$')
+NORMA_CANONICA = re.compile(r'^(?:Res\. (?:CONSU|CEPE|CURA) \d{3,4}(?:-[A-Z])?|IN (?:Conjunta [A-Z]+/[A-Z]+|[A-Z]+) \d{2,3})/\d{4}$')
 # Ideograma, kana, hangul, caractere de substituição ou de uso privado num documento em português: lixo de OCR (um brasão, um QR code).
 ESTRANHO = re.compile('[⺀-鿿가-힯豈-﫿-�]')
 

@@ -18,7 +18,9 @@ PERIODO = re.compile(r'(?<!\d)(?:19|20)\d\d\s*(?:-|–|_|\.|/| a )\s*((?:19|20)\
 # (regex sobre "nome do arquivo, título, seção", sem acento e minúsculo; tipo; decisão; motivo).
 REGRAS: list[tuple[re.Pattern, str, str, str]] = [(re.compile(p), t, d, m) for p, t, d, m in (
     (r'revogad|substituid', 'norma', 'fora', 'revogada'),
-    (r'\blei\b ?(n|\d)|decreto|\bd\d{5}\b|portaria.*\b(mec|capes|cnpq)\b|\b(mec|capes)\b.*portaria|(resolucao|parecer) cne|rces\d|portaria n ?0?92 ?2011|arquivo nacional',
+    (r'(manual|oficio.?circular).*(decreto|\bmec\b)|(decreto|\bmec\b).*(manual|oficio.?circular)', 'orientacao', 'entra', 'federal'),
+    (r'\blei\b ?(n|\d)|decreto|\bd\d{5}\b|portaria.*\b(mec|capes|cnpq)\b|\b(mec|capes)\b.*portaria|(resolucao|parecer) cne|rces\d|portaria n ?0?92 ?2011|arquivo nacional'
+     r'|(instrucao normativa|\bin\b)( n ?\d+)?.{0,12}\b(sgp|sedgg|mgi|tcu|srt|gabin|slti|seges|conjunta|me|mp)\b',
      'norma', 'entra', 'federal'),
     (r'\bedita(l|is)\b|resultado|convocac|classificac|selec(ao|oes)\b|chamada publica', '', 'fora', 'procedimento específico'),
     (r'\bportaria\b|\bport\b|nomeac|designa(c|r)|\bprocesso ?\d{15}','', 'fora', 'ato sobre pessoas'),

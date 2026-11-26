@@ -4,6 +4,7 @@ source: "../in-conjunta-04-2019-das-fcpe.pdf"
 sha256: "49e5669c77ba08b47a1c5d8ac99915d4181d44dc56dd68d5e240d3a5ead49173"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2021-08/Instru%C3%A7%C3%A3o%20Normativa%2004.2019.pdf"
 origin_checked: "2026-11-26"
+origin_note: "Cópia hospedada pela PROGEPE, não a publicação do órgão que editou o ato; o texto não mostra alteração posterior."
 pdf: {"title": "INSTRUÇÃO NORMATIVA CONJUNTA Nº 4, DE 13 DE JUNHO DE 2019.pdf", "author": "09303944100", "creator": "PDFCreator Version 1.6.2", "producer": "GPL Ghostscript 9.05; modified using iTextSharp 5.2.1 (c) 1T3XT BVBA", "created": "Tue Jun 18 08:56:06 2019 -03", "modified": "Tue Jun 18 08:56:36 2019 -03", "pages": 4, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

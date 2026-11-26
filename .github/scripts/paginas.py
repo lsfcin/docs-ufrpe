@@ -19,7 +19,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from indexar import COMENTARIO, FIGURA, PASTAS, arquivos, campos  # noqa: E402
 
 REPO = 'https://github.com/lsfcin/docs-ufrpe'
-# O caderno público do NotebookLM: /docs/notebook/ é um redirect (site/_redirects), então recriar o caderno não toca aqui.
 CADERNO = 'notebook/'
 TRAD = {'Subdirectory': 'Pasta', 'File': 'Documento', 'Description': 'Descrição', 'Routing': 'Nesta seção'}
 # Sem HTML vindo do texto (um PR de fora não injeta script): passam só <br>, <details> e <summary>, sem atributos.
@@ -33,8 +32,8 @@ SO_LINK = re.compile(r'^\s*<a href="([^"]*)"[^>]*>([\s\S]*?)</a>\s*$')
 SEM_TAG = re.compile(r'<[^>]+>')
 # Os .md que ganham página (main preenche): um link para outro .md, como o CONTEXT.md e o ISSUES.md da raiz, vai ao GitHub.
 PAGINAS: set[str] = set()
-# O deploy gera estes dois; fora do git, não há onde propor correção.
-GERADAS = ('acervo.md', 'todos.md')
+# O deploy gera estes, e main acrescenta os volumes do acervo; fora do git, não há onde propor correção.
+GERADAS = {'acervo.md', 'todos.md'}
 MD = MarkdownIt('commonmark', {'html': True}).enable(['table', 'strikethrough'])
 
 esc = html.escape
@@ -50,9 +49,7 @@ def texto_de(trecho: str) -> str:
 
 def pagina(doc: str) -> str:
     """Onde a página de um .md é servida, relativa à raiz do site: '' (início), 'pasta/' ou 'a/b'."""
-    if doc == 'README.md':
-        return ''
-    return doc[:-len('CONTEXT.md')] if doc.endswith('/CONTEXT.md') else doc[:-3]
+    return '' if doc == 'README.md' else doc[:-len('CONTEXT.md')] if doc.endswith('/CONTEXT.md') else doc[:-3]
 
 
 def arquivo_html(doc: str) -> str:
@@ -218,12 +215,13 @@ def montar(doc: str, bruto: str) -> str:
             + RODAPE.format(**campos_cabeca))
 
 
-def todos(docs: list[dict]) -> str:
+def todos(docs: list[dict], volumes: list[str]) -> str:
     """Uma página com um link por documento: por onde um agente que só recebeu a raiz chega a cada texto."""
     linhas = ''.join(f"- [{d['titulo']}]({d['doc']}){': ' + d['descricao'] if d['descricao'] else ''}\n"
                      for d in docs if not d['doc'].endswith(('README.md', 'CONTEXT.md')))
+    vols = ', '.join(f'[volume {i}]({v})' for i, v in enumerate(volumes, 1))
     return ('# Todos os documentos\n\nCada documento do acervo, com o nome e o assunto. O acervo inteiro num texto só, '
-            'para importar numa IA: [acervo](acervo.md).\n\n' + linhas)
+            f'para importar numa IA: [acervo](acervo.md); no NotebookLM, um volume por fonte: {vols}.\n\n' + linhas)
 
 
 def main() -> None:
@@ -236,7 +234,8 @@ def main() -> None:
     for d in docs:
         d['pagina'] = pagina(d['doc'])
     indice.write_text(json.dumps(docs, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-    (raiz / 'todos.md').write_text(todos(docs), encoding='utf-8', newline='\n')
+    GERADAS.update(volumes := sorted((p.name for p in raiz.glob('acervo-*.md')), key=lambda v: (len(v), v)))
+    (raiz / 'todos.md').write_text(todos(docs, volumes), encoding='utf-8', newline='\n')
     PAGINAS.update(fontes := [p.relative_to(raiz).as_posix() for p in arquivos(raiz) if p.name not in GERADAS] + list(GERADAS))
     for doc in fontes:
         destino = raiz / arquivo_html(doc)

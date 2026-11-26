@@ -4,6 +4,7 @@ source: "../in-tcu-87-2020-autorizacao-irpf.pdf"
 sha256: "eb67eedf7f4700051d09264d4c8cd35745a4c25937a49e86f17ee82bc5e3145b"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2021-10/AUTORIZAC%CC%A7A%CC%83O%20PARA%20ACESSO%20AO%20IMPOSTO%20DE%20RENDA%20-%20IN%2087.2020-TCU.pdf"
 origin_checked: "2026-11-26"
+origin_note: "Cópia hospedada pela PROGEPE, não a publicação do órgão que editou o ato; o texto não mostra alteração posterior."
 pdf: {"title": "AUTORIZAC'A\u0003O PARA ACESSO AO IMPOSTO DE RENDA - IN 87.2020-TCU.doc", "author": "scanner", "producer": "Microsoft: Print To PDF", "created": "Mon Oct 25 16:21:43 2021 -03", "modified": "Mon Oct 25 16:21:43 2021 -03", "pages": 1, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

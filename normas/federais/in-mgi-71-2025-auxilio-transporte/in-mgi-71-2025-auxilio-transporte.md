@@ -4,6 +4,7 @@ source: "../in-mgi-71-2025-auxilio-transporte.pdf"
 sha256: "19d7017213d1608e183684b6bcface73fdf45e8c8c7e3d3ee37bdbc4aa26b739"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2025-02/Instru%C3%A7%C3%A3o%20Normativa%20SRT_MGI%20n%C2%BA%2071,%20de%2019%20de%20fevereiro%20de%202025%20-%20Auxilio%20Transporte.pdf"
 origin_checked: "2026-11-26"
+origin_note: "Cópia hospedada pela PROGEPE, não a publicação do órgão que editou o ato; o texto não mostra alteração posterior."
 pdf: {"title": "Instrução Normativa SRT/MGI nº 71, de 19 de fevereiro de 2025 - Instrução Normativa SRT/MGI nº 71, de 19 de fevereiro de 2025 - DOU - Imprensa Nacional", "creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "producer": "Skia/PDF m133", "created": "Thu Feb 20 08:45:21 2025 -03", "modified": "Thu Feb 20 08:45:21 2025 -03", "pages": 3, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

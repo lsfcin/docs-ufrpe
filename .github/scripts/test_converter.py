@@ -39,7 +39,8 @@ class Fila(unittest.TestCase):
         self.assertEqual(converter.rota(linha(url='https://x/a.DOCX'))[0], 'gdoc')
         self.assertEqual(converter.rota(linha(url='https://x/a.doc'))[0], 'gdoc')
         self.assertIsNone(converter.rota(linha(url='https://x/a.xls'))[0])
-        self.assertIsNone(converter.rota(linha(motivo='federal'))[0])
+        self.assertIsNone(converter.rota(linha(motivo='federal', titulo='LEI Nº 14.965, DE 9 DE SETEMBRO DE 2024'))[0])
+        self.assertEqual(converter.rota(linha(motivo='federal', titulo='Decreto 1590'))[0], 'pdf')
 
     def test_fila_reescrita_sem_repetir_nem_guardar_o_resolvido(self):
         with tempfile.TemporaryDirectory() as tmp:

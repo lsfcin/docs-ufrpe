@@ -4,6 +4,7 @@ source: "../in-sgp-34-2021-licencas.pdf"
 sha256: "ac2b91dc3b6cd3112198ccb7d8b81f3f2e634321147ffc0bf6f5234cb0ced91f"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2022-10/INSTRU%C3%87%C3%83O%20NORMATIVA%20SGP_SEDGG_ME%20N%C2%BA%2034,%20DE%2024%20DE%20MAR%C3%87O%20DE%202021.pdf"
 origin_checked: "2026-11-26"
+origin_note: "Cópia hospedada pela PROGEPE, não a publicação do órgão que editou o ato; o texto não mostra alteração posterior."
 pdf: {"creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36", "producer": "Skia/PDF m106", "created": "Fri Oct 28 17:58:30 2022 -03", "modified": "Fri Oct 28 17:58:30 2022 -03", "pages": 6, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

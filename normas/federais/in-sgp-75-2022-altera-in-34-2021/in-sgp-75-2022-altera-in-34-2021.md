@@ -4,6 +4,7 @@ source: "../in-sgp-75-2022-altera-in-34-2021.pdf"
 sha256: "457b382b454c19a0bfa03656bce1b67d13e68f4e93d021880317636904968456"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2022-10/INSTRU%C3%87%C3%83O%20NORMATIVA%20SGPSEDGGME%20N%C2%BA%2075%20DE%2013%20DE%20OUTUBRO%20DE%202022.pdf"
 origin_checked: "2026-11-26"
+origin_note: "Cópia hospedada pela PROGEPE, não a publicação do órgão que editou o ato; o texto não mostra alteração posterior."
 pdf: {"creator": "GN4 v.2.6.4140.27 - TeraPDFLib 15.0 6.113 - Win-x64 Release", "producer": "Adobe PDF Library 15.0.4; modified using iText® 5.5.0 ©2000-2013 iText Group NV (AGPL-version)", "created": "Sat Oct 15 00:33:50 2022 -03", "modified": "Fri Oct 28 19:52:42 2022 -03", "pages": 1, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

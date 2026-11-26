@@ -4,6 +4,7 @@ source: "../in-sgp-100-2021-organismo-internacional.pdf"
 sha256: "4c0c8e2cb075e0b7ceb8205812acf5fca44df0024d356b174f4056d2a44f9f83"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2021-11/REPUBLICA%C3%87%C3%83O%20-%20INSTRU%C3%87%C3%83O%20NORMATIVA%20SGP_SEDGG_ME%20N%C2%BA%20100,%20DE%2025%20DE%20OUTUBRO%20DE%202021(%20)%20-.pdf"
 origin_checked: "2026-11-26"
+origin_note: "Cópia hospedada pela PROGEPE, não a publicação do órgão que editou o ato; o texto não mostra alteração posterior."
 pdf: {"producer": "cairo 1.17.4 (https://cairographics.org)", "created": "Thu Oct 28 11:14:51 2021 -03", "pages": 6, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

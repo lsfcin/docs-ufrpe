@@ -1,10 +1,11 @@
 # converter.py — o lote do docs-ufrpe: cada link `entra` do censo que ainda não tem .md vira documento, pelos motores do workspace.
-"""Uso: python .github/scripts/converter.py --setor PRPG [--tipo norma] [--limite N] [--seco] [--refazer]
+"""Uso: python .github/scripts/converter.py --setor PRPG [--tipo norma] [--federal] [--limite N] [--seco] [--refazer]
 
 Só roda no workspace do mantenedor, porque chama três ferramentas dele por `core/run`: o PDF vai por
 `tools/pdf/pymupdf`, e o DOC e o DOCX sobem ao Drive como Google Doc temporário e voltam por `tools/docs/gdocs
 read`, o que mantém as tabelas em Markdown puro. O original fica ao lado da pasta e não entra no git.
-Não convertem: federal (regra do espelho ctresb/leis), planilha e o que falhar. Esses vão para
+Não convertem: lei federal (regra do espelho ctresb/leis), planilha e o que falhar; o resto do federal entra pela cópia
+do setor, com a nota de federal.py. Esses vão para
 .vigia/fila.tsv com o motivo. --seco só lista o que faria. --refazer converte de novo o que já tem documento
 (cada um na pasta que já tem, e o motor sobrescreve), menos o que tem `reviewed_by`: correção à mão não se refaz. O mesmo formulário em PDF e em DOC/DOCX vira um documento só,
 o do PDF, e o link do DOC/DOCX vai no `origin_note`. O arquivo que o acervo já tem byte a byte também vai só
@@ -21,6 +22,7 @@ import sys
 from pathlib import Path
 
 import duplicatas
+import federal
 import limpeza
 import nomes
 import rede
@@ -80,15 +82,20 @@ def faltantes(linhas: list[dict], setor: str, tipo: str | None, feitos: set[str]
 
 def rota(linha: dict) -> tuple[str | None, str]:
     """('pdf' | 'gdoc', '') ou (None, por que não converte)."""
-    if linha['motivo'] == 'federal':
-        return None, 'federal: aponta para o espelho ctresb/leis, à mão'
+    if federal.no_espelho(linha):
+        return None, 'lei federal: uma linha com o link do espelho ctresb/leis, à mão'
     ext = regras.extensao(linha['url'])
     return (ROTA[ext], '') if ext in ROTA else (None, f'.{ext}: sem rota automática')
 
 
 def pasta_do(linha: dict, usados: set[str], existentes: dict[str, str] | None = None) -> str:
-    """No --refazer, quem já tem pasta fica com ela (`existentes`); senão, o nome do padrão do acervo."""
-    return (existentes or {}).get(verificar.chave(linha['url'])) or nomes.nome_da_pasta(linha, usados)
+    """No --refazer, quem já tem pasta fica com ela (`existentes`); o ato federal, pelo número e ano; senão, o nome do padrão do acervo."""
+    if ja := (existentes or {}).get(verificar.chave(linha['url'])):
+        return ja
+    if (ato := federal.nome(linha)) and ato not in usados:
+        usados.add(ato)
+        return ato
+    return nomes.nome_da_pasta(linha, usados)
 
 
 def descricao(linha: dict) -> str:
@@ -145,7 +152,7 @@ def converter(linha: dict, caminho: str, nome: str, docs: list[tuple[Path, dict]
         return 'copia', RAIZ / achado[1]
     if achado and not apesar_do_nome:
         raise duplicatas.MesmoAto(f'mesmo ato que {achado[1].parent}, noutro arquivo: dobre à mão ou rode --apesar-do-nome')
-    pasta = RAIZ / PASTA[linha['tipo']]
+    pasta = RAIZ / federal.pasta(linha, PASTA)
     original, destino = pasta / f'{nome}.{regras.extensao(linha["url"])}', pasta / nome / f'{nome}.md'
     original.write_bytes(dados)
     if caminho == 'pdf':
@@ -157,6 +164,8 @@ def converter(linha: dict, caminho: str, nome: str, docs: list[tuple[Path, dict]
         raise OSError('o motor devolveu o corpo vazio')
     if linha.get('duplicatas'):
         duplicatas.gemeos(destino, linha['duplicatas'])
+    if linha['motivo'] == 'federal':
+        federal.anotar(destino, linha['setores'].split(',')[0])
     docs.append((destino.relative_to(RAIZ), verificar.cabecalho(destino.read_text(encoding='utf-8')) or {}))
     return 'ok', destino
 
@@ -179,10 +188,12 @@ def main(argv: list[str]) -> int:
     ap.add_argument('--refazer', action='store_true', help='converte de novo o que já tem documento, na mesma pasta, menos o que tem reviewed_by')
     ap.add_argument('--tempo', type=int, default=TEMPO, help='segundos por PDF antes de desistir')
     ap.add_argument('--apesar-do-nome', action='store_true', help='converte o que tem o nome de um ato do acervo e outro arquivo (já revisado à mão)')
+    ap.add_argument('--federal', action='store_true', help='só os atos federais que o setor hospeda')
     args = ap.parse_args(argv)
     sys.stdout.reconfigure(line_buffering=True)  # o lote leva horas: o log tem de andar junto
-    fila = faltantes(verificar.ler_tsv(verificar.CENSO), args.setor, args.tipo, ja_feitos(args.refazer))[:args.limite]
-    usados = {p.name for d in PASTA.values() for p in (RAIZ / d).iterdir() if p.is_dir()}
+    fila = faltantes(verificar.ler_tsv(verificar.CENSO), args.setor, args.tipo, ja_feitos(args.refazer))
+    fila = [l for l in fila if l['motivo'] == 'federal' or not args.federal][:args.limite]
+    usados = {p.name for d in (*PASTA.values(), federal.FEDERAIS) for p in (RAIZ / d).iterdir() if p.is_dir()}
     existentes = pastas_existentes() if args.refazer else None
     pendentes, feitos, docs = [], 0, cabecalhos()
     for linha in fila:
@@ -191,7 +202,7 @@ def main(argv: list[str]) -> int:
         if caminho is None:
             pendentes.append((linha['url'], porque))
             continue
-        print(f'{caminho:4}  {PASTA[linha["tipo"]]}/{nome}')
+        print(f'{caminho:4}  {federal.pasta(linha, PASTA)}/{nome}')
         for u in linha.get('duplicatas', []):
             print(f'      duplicata: {u}')
         if args.seco:

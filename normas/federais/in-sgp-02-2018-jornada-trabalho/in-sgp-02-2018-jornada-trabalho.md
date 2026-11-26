@@ -4,6 +4,7 @@ source: "../in-sgp-02-2018-jornada-trabalho.pdf"
 sha256: "3fd8f5ba05ea2974a8d614dcc23c84590a46a6957987c442eb56ef51d13fd3d1"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2022-05/Instru%C3%A7%C3%A3o%20Normativa%20n%2002-2018.pdf"
 origin_checked: "2026-11-26"
+origin_note: "Cópia hospedada pela PROGEPE, não a publicação do órgão que editou o ato; o texto não mostra alteração posterior."
 pdf: {"title": "11.776 - 2008", "author": "24859362187", "creator": "PDFCreator Version 1.3.2", "producer": "GPL Ghostscript 9.05; modified using iTextSharp 5.1.2 (c) 1T3XT BVBA", "created": "Fri Sep 21 10:04:13 2018 -03", "modified": "Fri Sep 21 10:05:00 2018 -03", "pages": 9, "encrypted": false}
 text_layer: "born-digital"
 engine: "pymupdf4llm 1.28.2"

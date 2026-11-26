@@ -105,6 +105,10 @@ class Triagem(unittest.TestCase):
         self.assertEqual(self.caso('1244.26-GR-DESIGNAR_Comisso_de_RSC_dos_TAEs.pdf')[2], 'ato sobre pessoas')
         self.assertEqual(self.caso('Processo 322032 2023.pdf', 'Resolução 458/2023')[2], 'norma')
         self.assertEqual(self.caso('D12246_dispensa para exames.pdf')[2], 'federal')
+        # 26/11/2026: a IN de órgão federal e o manual ou ofício que aplica um ato federal.
+        self.assertEqual(self.caso('in.pdf', 'Instrução Normativa SRT MGI nº 71, de 19 de fevereiro de 2025')[2], 'federal')
+        self.assertEqual(self.caso('in.pdf', 'Instrução Normativa PROGEPE nº 002 2026 auxílio transporte')[2], 'norma')
+        self.assertEqual(self.caso('m.pdf', 'MANUAL SERVIDOR DECRETO 9.727 19 SIGEPE')[:3:2], ('orientacao', 'federal'))
         self.assertEqual(self.caso('Tabela Carreira EBTT - 01MAI2023.pdf')[0], 'tabela')
         self.assertEqual(self.caso('tabela de horas extras.docx')[0], 'modelo')
         # 24/11/2026: calendário tem pasta própria, e só o vigente entra.

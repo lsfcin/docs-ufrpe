@@ -5,7 +5,7 @@ Catálogo de **resoluções**, **instruções normativas**, **orientações**, *
 
 Cada documento traz o link para o arquivo oficial. Em caso de divergência, prevalece o original. Este não é um site oficial da UFRPE e o acervo ainda é parcial: a ausência de um documento não significa que ele não exista. "Conferido em" é a data em que o texto foi comparado com o original, não garantia de que o documento ainda vale.
 
-**Pergunte a uma IA.** O [caderno do NotebookLM](https://ufrpe.pages.dev/docs/notebook/) já tem o acervo inteiro e responde citando o documento e o artigo (requer conta Google). Em outra IA (ChatGPT, Claude, Gemini), cole o endereço da página aberta no site, que já traz o texto inteiro, ou [ufrpe.pages.dev/docs/acervo.md](https://ufrpe.pages.dev/docs/acervo.md), todos os documentos num arquivo só, com a data e o índice no topo. Confira a resposta no original.
+**Pergunte a uma IA.** O [caderno do NotebookLM](https://ufrpe.pages.dev/docs/notebook/) já tem o acervo inteiro e responde citando o documento e o artigo (requer conta Google). Em outra IA (ChatGPT, Claude, Gemini), cole o endereço da página aberta no site, que já traz o texto inteiro, ou [ufrpe.pages.dev/docs/acervo.md](https://ufrpe.pages.dev/docs/acervo.md), todos os documentos num arquivo só, com a data e o índice no topo; para o NotebookLM, o mesmo acervo vem em volumes, listados em [todos](https://ufrpe.pages.dev/docs/todos). Confira a resposta no original.
 
 ## Organização
 
@@ -30,7 +30,7 @@ Contado em 24/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por ar
 | PREG | 75 de 78 | 78 | 37 | 1 |
 | PRPG | 76 de 77 | 80 | 30 | — |
 | PROGESTI | 46 de 46 | 46 | 2 | — |
-| PROGEPE | 74 de 443 | 458 | 25 | 1 |
+| PROGEPE | 68 de 435 | 458 | 25 | 1 |
 | SEG | 8 de 8 | 8 | 6 | — |
 
 <details>
@@ -70,7 +70,7 @@ Contado em 24/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por ar
 <summary>PROGEPE: fontes e motivos</summary>
 
 - **Fonte:** [/documentos](https://www.progepe.ufrpe.br/documentos)
-- **Entram:** formulários (266), normas (89, 15 federais), orientações (76), tabelas (27)
+- **Entram:** formulários (266), normas (86, 23 federais), orientações (79), tabelas (27)
 - **Ficam de fora:** ato sobre pessoas (20), procedimento específico (5)
 - **Pendentes:** sem motivo (1)
 
