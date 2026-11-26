@@ -16,7 +16,7 @@ class Corpo(unittest.TestCase):
         self.assertEqual(limpeza.sem_imagens(corpo).strip(), '# ANEXO I\n\n| A | B |')
 
     def test_caixa_de_selecao_do_ocr_vira_caixa_e_marcador_vira_bolinha(self):
-        self.assertEqual(limpeza.caixas('口 Sim 日 Não 目 Talvez 品 Nunca\n item'), '☐ Sim ☐ Não ☐ Talvez ☐ Nunca\n• item')
+        self.assertEqual(limpeza.caixas('口 Sim 日 Não 目 Talvez 品 Nunca\n item\n seta'), '☐ Sim ☐ Não ☐ Talvez ☐ Nunca\n• item\n➢ seta')
 
     def test_arquivo_limpo_passa_no_verificar_e_o_frontmatter_nao_muda(self):
         cabeca = verificar.frontmatter({'description': 'A: b (PRPG).', 'origin': 'https://x/a.pdf', 'origin_checked': '2026-11-23',

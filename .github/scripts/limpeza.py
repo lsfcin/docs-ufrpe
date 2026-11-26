@@ -4,8 +4,8 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-# A caixa de seleção vista pelo OCR (口 日 目 品) e o marcador Symbol de uso privado (U+F0B7): o verificar.py recusa os dois.
-CAIXAS = str.maketrans({'口': '☐', '日': '☐', '目': '☐', '品': '☐', '': '•'})
+# A caixa de seleção vista pelo OCR (口 日 目 品) e os marcadores Symbol/Wingdings de uso privado (U+F0B7, U+F0D8): o verificar.py recusa todos.
+CAIXAS = str.maketrans({'口': '☐', '日': '☐', '目': '☐', '品': '☐', '': '•', '': '➢'})
 
 
 def sem_imagens(corpo: str) -> str:

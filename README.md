@@ -30,7 +30,7 @@ Contado em 24/11/2026 por [vigiar.py](.github/scripts/vigiar.py), um link por ar
 | PREG | 75 de 78 | 78 | 37 | 1 |
 | PRPG | 76 de 77 | 80 | 30 | — |
 | PROGESTI | 46 de 46 | 46 | 2 | — |
-| PROGEPE | 17 de 443 | 458 | 25 | 1 |
+| PROGEPE | 74 de 443 | 458 | 25 | 1 |
 | SEG | 8 de 8 | 8 | 6 | — |
 
 <details>
