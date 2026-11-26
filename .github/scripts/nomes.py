@@ -1,6 +1,7 @@
 # nomes.py — o nome da pasta de cada documento do docs-ufrpe: o ato numerado (`res-cepe-989-2026`) e até quatro palavras de assunto.
 from __future__ import annotations
 
+import glob
 import re
 from pathlib import Path
 
@@ -14,6 +15,7 @@ VAZIAS = set('''a o as os e de da do das dos du no na nos nas n em para por com 
 ufrpe ufrpe resolucao resolucoes res instrucao normativa in cepe consu cura prpg preg progepe progesti aprova altera
 janeiro fevereiro marco abril maio junho julho agosto setembro outubro novembro dezembro assinado final atualizado
 correto corrigido versao v copia anexo modelo arquivo recepe recu reconsu'''.split())
+ANEXO = re.compile(r'\banexo ([ivxl]+|\d{1,2})\b')
 COLADA = 19  # uma "palavra" maior que isto é nome de arquivo sem espaço (termodecompromissods, 20); internacionalizacao (19) é palavra
 
 
@@ -33,13 +35,37 @@ def ato(texto: str) -> list[str]:
     return [tipo, *([orgao] if orgao else []), numero.group(1).zfill(3 if tipo == 'res' else 2), numero.group(2)]
 
 
+def anexo(texto: str) -> list[str]:
+    """`anexo-iv` quando o título diz que é um anexo numerado; senão []."""
+    achou = ANEXO.search(' '.join(palavras(texto)))
+    return ['anexo', achou.group(1)] if achou else []
+
+
+def sem_assunto(nome: str) -> bool:
+    """O nome que o título deixou sem assunto (`anexo-v`, `documento`): espera o rótulo da descrição."""
+    return bool(re.fullmatch(r'(?:anexo-[ivxl\d]+|documento)(?:-\d+)?', nome))
+
+
+def pelo_rotulo(nome: str, descricao: str, usados: set[str]) -> str:
+    """O nome sem assunto, completado pelo rótulo da descrição (`Mapa de visita domiciliar: …`)."""
+    cabeca = anexo(nome.replace('-', ' '))
+    return montar(cabeca, assunto(descricao.split(':', 1)[0], cabeca), usados)
+
+
+def assunto(texto: str, cabeca: list[str]) -> list[str]:
+    return [p for p in dict.fromkeys(palavras(texto)) if p not in VAZIAS and not re.search(r'\d', p) and p not in cabeca and len(p) <= COLADA]
+
+
 def nome_da_pasta(linha: dict, usados: set[str]) -> str:
-    """No padrão do acervo: o ato e até quatro palavras de assunto, do título e do nome do arquivo; `-2` se já existe."""
-    arquivo = Path(regras.arquivo(linha['url'])).stem
-    texto = f'{linha["titulo"]} {arquivo}'
-    cabeca = ato(texto)
-    assunto = [p for p in dict.fromkeys(palavras(texto)) if p not in VAZIAS and not re.search(r'\d', p) and p not in cabeca and len(p) <= COLADA]
-    partes = cabeca + assunto[:4 if cabeca else 8]
+    """No padrão do acervo: o ato (ou o anexo) e até quatro palavras de assunto, do título e do nome do arquivo; `-2` se já existe."""
+    texto = f'{linha["titulo"]} {Path(regras.arquivo(linha["url"])).stem}'
+    cabeca = ato(texto) or anexo(texto)
+    return montar(cabeca, assunto(texto, cabeca), usados)
+
+
+def montar(cabeca: list[str], palavras_do_assunto: list[str], usados: set[str]) -> str:
+    """A cabeça e o assunto (quatro palavras com cabeça, oito sem) até PASTA_MAX; `-2` se já existe."""
+    partes = cabeca + palavras_do_assunto[:4 if cabeca else 8]
     nome = ''
     for p in partes:
         if len(nome) + len(p) + 1 > PASTA_MAX:
@@ -51,3 +77,17 @@ def nome_da_pasta(linha: dict, usados: set[str]) -> str:
         unico, n = f'{nome}-{n}', n + 1
     usados.add(unico)
     return unico
+
+
+def mover(md: Path, novo: str) -> Path:
+    """Leva o documento para a pasta `novo`: a pasta, o .md, o original ao lado e o `source:` que aponta para ele."""
+    pasta, velho = md.parent, md.parent.name
+    destino = pasta.parent / novo
+    if destino.exists():
+        raise FileExistsError(destino)
+    for original in pasta.parent.glob(f'{glob.escape(velho)}.*'):
+        original.rename(original.with_name(novo + original.suffix))
+    pasta.rename(destino)
+    novo_md = (destino / md.name).rename(destino / f'{novo}.md')
+    novo_md.write_text(novo_md.read_text(encoding='utf-8').replace(f'source: "../{velho}.', f'source: "../{novo}.', 1), encoding='utf-8')
+    return novo_md

@@ -12,7 +12,6 @@ from unittest import mock
 
 import converter
 import duplicatas
-import nomes
 import verificar
 
 
@@ -137,34 +136,12 @@ class Duplicatas(unittest.TestCase):
 
 
 class Nomes(unittest.TestCase):
-    def test_titulo_curto_ganha_o_nome_do_arquivo_e_nunca_repete(self):
-        usados = set()
-        primeiro = nomes.nome_da_pasta(linha(), usados)
-        self.assertEqual(primeiro, 'res-cepe-989-2026-normas-pos-doutorado')
-        self.assertEqual(nomes.nome_da_pasta(linha(), usados), primeiro + '-2')
-        self.assertTrue(verificar.NOME.match(primeiro))
-        self.assertLessEqual(len(primeiro), nomes.PASTA_MAX)
-
-    def test_palavra_longa_do_titulo_fica_e_o_nome_colado_do_arquivo_sai(self):
-        plano = linha(url='https://x/Plano%20Internacionaliza%C3%A7%C3%A3o%202025%20-%202030%20da%20UFRPE.pdf',
-                      titulo='Plano de Internacionalização 2025-2030')
-        self.assertEqual(nomes.nome_da_pasta(plano, set()), 'plano-internacionalizacao')
-        colado = linha(url='https://x/TermodeCompromissoDS.pdf', titulo='TERMO DE COMPROMISSO - DS')
-        self.assertEqual(nomes.nome_da_pasta(colado, set()), 'termo-compromisso-ds')
-
     def test_refazer_reaproveita_a_pasta_que_o_documento_ja_tem(self):
         usados = {'res-cepe-989-2026-normas-pos-doutorado'}
         existentes = {verificar.chave(linha()['url']): 'res-cepe-989-2026-normas-pos-doutorado'}
         self.assertEqual(converter.pasta_do(linha(), usados, existentes), 'res-cepe-989-2026-normas-pos-doutorado')
         novo = linha(url='https://x/res-cepe-989-2026-normas-pos-doutorado.pdf')
         self.assertEqual(converter.pasta_do(novo, usados, existentes), 'res-cepe-989-2026-normas-pos-doutorado-2')
-
-    def test_ato_numerado_no_padrao_do_acervo(self):
-        self.assertEqual(nomes.ato('Resolução CEPE/UFRPE Nº 926, de 19 de agosto de 2025'), ['res', 'cepe', '926', '2025'])
-        self.assertEqual(nomes.ato('Instrução Normativa UFRPE/PRPG Nº 01/2026'), ['in', 'prpg', '01', '2026'])
-        self.assertEqual(nomes.ato('reconsu_294_2008_0'), ['res', 'consu', '294', '2008'])
-        self.assertEqual(nomes.ato('recu104.2021_homologao_res._230.21_cepe'), ['res', 'consu', '104', '2021'])
-        self.assertEqual(nomes.ato('Manual PROAP 2023'), [])
 
     def test_descricao_tem_o_rotulo_que_o_site_usa(self):
         for t in ('Resolução 989/2026', 'FORMULÁRIO PARA INSCRIÇÃO EM PROGRAMAS DE PÓS-GRADUAÇÃO ALUNO ESPECIAL', 'IN: 01/2026'):

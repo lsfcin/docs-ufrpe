@@ -22,6 +22,7 @@ from typing import Callable
 
 import converter
 import indexar
+import nomes
 import verificar
 
 RAIZ = verificar.RAIZ
@@ -164,9 +165,9 @@ def descrever(texto: str, escrever: Callable[[str], str] | tuple[Callable[[str],
     return None, '; '.join(motivos)
 
 
-def escolher(setor: str | None, so_rascunho: bool, nomes: list[str]) -> list[Path]:
+def escolher(setor: str | None, so_rascunho: bool, arquivos: list[str]) -> list[Path]:
     """Os documentos pedidos (ou todos) cuja descrição atual é um rascunho, quando um dos filtros foi dado."""
-    docs = verificar.documentos(nomes)
+    docs = verificar.documentos(arquivos)
     if setor is None and not so_rascunho:
         return docs
     return [d for d in docs if rascunho(str(indexar.campos((RAIZ / d).read_text(encoding='utf-8'))[0].get('description', '')), setor)]
@@ -201,7 +202,10 @@ def main(argv: list[str]) -> int:
             continue
         (RAIZ / rel).write_bytes(novo.encode('utf-8'))
         feitos += 1
-        print(f'{rel}: {velha} -> {indexar.campos(novo)[0]["description"]}')
+        print(f'{rel}: {velha} -> {(descricao := indexar.campos(novo)[0]["description"])}')
+        if nomes.sem_assunto(rel.parent.name):  # `anexo-v`, `documento`: o título não dizia o assunto, a descrição diz
+            usados = {p.stem for p in (RAIZ / rel.parent.parent).iterdir()}
+            print(f'  renomeado {nomes.mover(RAIZ / rel, nomes.pelo_rotulo(rel.parent.name, descricao, usados)).relative_to(RAIZ)}')
     for rel, porque in revisao:
         print(f'para revisão  {rel}  {porque}')
     print(f'\n{len(fila)} na fila · {feitos} reescritos · {len(revisao)} para revisão')

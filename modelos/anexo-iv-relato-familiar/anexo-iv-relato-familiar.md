@@ -1,6 +1,6 @@
 ---
 description: "Orientações para o relato familiar: o texto que o estudante escreve para a análise socioeconômica do Serviço Social."
-source: "../iv-relato-familiar.pdf"
+source: "../anexo-iv-relato-familiar.pdf"
 sha256: "e24f99c7411a08200a917f23d1d7b975f5ce28fab01ad1834846e34b27939ff7"
 origin: "https://www.progesti.ufrpe.br/sites/www.progesti.ufrpe.br/files/ANEXO%20IV%20-%20RELATO%20FAMILIAR%20(1).pdf"
 origin_checked: "2026-11-25"

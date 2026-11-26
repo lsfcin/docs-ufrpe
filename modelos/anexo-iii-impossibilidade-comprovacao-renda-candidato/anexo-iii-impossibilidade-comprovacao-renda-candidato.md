@@ -1,6 +1,6 @@
 ---
 description: "Declaração de renda sem comprovação: autodeclaração do estudante sobre renda não comprovada formalmente, para assistência estudantil."
-source: "../iii-impossibilidade-comprovacao-renda-candidato-ou-membro.pdf"
+source: "../anexo-iii-impossibilidade-comprovacao-renda-candidato.pdf"
 sha256: "41bb65182dd11be6b6254ba45101e736bde79e304c984395dba4db1d8c12dc5b"
 origin: "https://www.progesti.ufrpe.br/sites/www.progesti.ufrpe.br/files/ANEXO%20III%20-%20IMPOSSIBILIDADE%20DE%20COMPROVA%C3%87%C3%83O%20DE%20RENDA%20DO%20CANDIDATO%20OU%20MEMBRO%20FAMILIAR%20(1).pdf"
 origin_checked: "2026-11-25"
