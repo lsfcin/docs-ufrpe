@@ -1,5 +1,5 @@
 ---
-description: "INSTRUÇÃO NORMATIVA Nº 002 2026 -: INSTRUÇÃO NORMATIVA Nº 002 2026 - PROGEPE AUXÍLIO TRANSPORTE (PROGEPE)."
+description: "IN PROGEPE 002/2026: regulamenta a concessão do auxílio-transporte a servidores e empregados públicos."
 source: "../in-progepe-002-2026-auxilio-transporte.pdf"
 sha256: "4f2f45986fbda66ecf8c4c984e399926e9e13be350c727ef39d0c04601315107"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2026-08/INSTRU%C3%87%C3%83O%20NORMATIVA%20N%C2%BA%20002%202026%20-%20PROGEPE_AUX%C3%8DLIO%20TRANSPORTE.pdf"

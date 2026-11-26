@@ -1,5 +1,5 @@
 ---
-description: "INSTRUCAO NORMATIVA - NOVO ESTAGIO: INSTRUCAO NORMATIVA - NOVO ESTAGIO PROBATORIO DOCENTE assinado assinado (PROGEPE)."
+description: "IN Conjunta PROGEPE/CPPD 001/2026: orienta a avaliação do estágio probatório e a estabilidade de docentes ingressantes desde 7/2/2025."
 source: "../novo-estagio-probatorio-docente.pdf"
 sha256: "2b907c911f1ecb4d2072d43210dc847cb8042edcb2f35d657f4d9d8cbd2a197e"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2026-04/INSTRUCAO_NORMATIVA_-_NOVO_ESTAGIO_PROBATORIO_DOCENTE_assinado_assinado.pdf"

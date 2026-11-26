@@ -1,5 +1,5 @@
 ---
-description: "INSTRUÇÃO NORMATIVA PROGEPE UFRPE N.: INSTRUÇÃO NORMATIVA PROGEPE UFRPE N. 001 2024 SOBRE PERÍCIA (PROGEPE)."
+description: "IN PROGEPE 001/2024: orienta servidores da UFRPE sobre o envio de atestados médicos e odontológicos e a realização de perícia oficial em saúde."
 source: "../in-progepe-001-2024-pericia.pdf"
 sha256: "453404805eb048fed8ff8d892192f37b98c08f2bf2f3e8c6fdff740a4181cd79"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2024-09/INSTRU%C3%87%C3%83O%20NORMATIVA%20PROGEPE_UFRPE%20N.%20001_2024%20SOBRE%20PER%C3%8DCIA_0.pdf"

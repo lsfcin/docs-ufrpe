@@ -1,5 +1,5 @@
 ---
-description: "INSTRUÇÃO NORMATIVA PROGEPE 004.2026-: INSTRUÇÃO NORMATIVA PROGEPE 004.2026- (RECESSO COMPENSAÇÃO NATALINA 2026) compressed (PROGEPE)."
+description: "IN PROGEPE 004/2026: orienta servidores da UFRPE sobre adesão e compensação de horas do recesso de fim de ano de 2026."
 source: "../in-progepe-004-2026-recesso-compensacao-natalina.pdf"
 sha256: "ae046d94357502c54a302e38b32783f6a38f56f2ff2894714ef58c17c54841db"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2026-09/INSTRU%C3%87%C3%83O%20NORMATIVA%20PROGEPE%20004.2026-%20(RECESSO%20COMPENSA%C3%87%C3%83O%20NATALINA%202026)_compressed.pdf"

@@ -16,7 +16,17 @@
 
 | File | Description |
 |------|-------------|
+| [`decreto-10571-2020/decreto-10571-2020.md`](decreto-10571-2020/decreto-10571-2020.md) | Decreto nº 10.571/2020: rege a apresentação e análise de declarações de bens e conflitos de interesses por agentes públicos civis federais. |
+| [`decreto-10829-2021/decreto-10829-2021.md`](decreto-10829-2021/decreto-10829-2021.md) | Decreto 10.829/2021: regulamenta cargos em comissão e funções de confiança nos órgãos e entidades federais. |
+| [`decreto-11069-2022/decreto-11069-2022.md`](decreto-11069-2022/decreto-11069-2022.md) | Decreto 11.069/2022: regulamenta a Gratificação por Encargo de Curso ou Concurso para servidores públicos federais. |
+| [`decreto-12246/decreto-12246.md`](decreto-12246/decreto-12246.md) | Decreto 12.246/2024: permite 3 dias/ano de dispensa remunerada para exames preventivos de câncer a servidores e terceirizados federais. |
+| [`decreto-13048-2026/decreto-13048-2026.md`](decreto-13048-2026/decreto-13048-2026.md) | Decreto nº 13.048/2026: define critérios e procedimentos para conceder o RSC-PCCTAE a servidores técnico-administrativos em educação. |
+| [`decreto-1590/decreto-1590.md`](decreto-1590/decreto-1590.md) | Decreto nº 1.590/1995: dispõe sobre jornada e frequência dos servidores da administração federal direta, autarquias e fundações. |
+| [`decreto-1867-1996/decreto-1867-1996.md`](decreto-1867-1996/decreto-1867-1996.md) | Decreto nº 1.867/1996: define o controle de assiduidade e pontualidade dos servidores públicos federais. |
 | [`decreto-20910-1932-prescricao-quinquenal.md`](decreto-20910-1932-prescricao-quinquenal.md) | Decreto 20.910/1932: prescrição quinquenal contra a Fazenda Pública, que limita a cinco anos o acerto financeiro retroativo de uma progressão. |
+| [`decreto-7203/decreto-7203.md`](decreto-7203/decreto-7203.md) | Decreto nº 7.203/2010: veda o nepotismo e orienta nomeações e contratações nos órgãos e entidades da administração pública federal. |
+| [`decreto-7485-2011/decreto-7485-2011.md`](decreto-7485-2011/decreto-7485-2011.md) | Decreto nº 7.485/2011: institui o banco de professor-equivalente e regula a contratação de substitutos nas universidades federais. |
+| [`decreto-8259-2014/decreto-8259-2014.md`](decreto-8259-2014/decreto-8259-2014.md) | Decreto nº 8.259/2014: altera regras dos bancos de professor-equivalente para dimensionar docentes em universidades e institutos federais. |
 | [`in-conjunta-04-2019-das-fcpe/in-conjunta-04-2019-das-fcpe.md`](in-conjunta-04-2019-das-fcpe/in-conjunta-04-2019-das-fcpe.md) | IN Conjunta 4/2019: procedimentos para ocupar cargos em comissão DAS e funções FCPE, segundo o Decreto 9.727/2019. |
 | [`in-mgi-496-2025-assistencia-saude/in-mgi-496-2025-assistencia-saude.md`](in-mgi-496-2025-assistencia-saude/in-mgi-496-2025-assistencia-saude.md) | IN GABIN/MGI 496/2025: orientações do Sipec sobre a assistência suplementar à saúde dos servidores federais. |
 | [`in-mgi-71-2025-auxilio-transporte/in-mgi-71-2025-auxilio-transporte.md`](in-mgi-71-2025-auxilio-transporte/in-mgi-71-2025-auxilio-transporte.md) | IN SRT/MGI 71/2025: pagamento do auxílio-transporte ao servidor federal no deslocamento entre residência e trabalho. |
@@ -31,6 +41,7 @@
 | [`parecer-cne-cp-04-2024/parecer-cne-cp-04-2024.md`](parecer-cne-cp-04-2024/parecer-cne-cp-04-2024.md) | Parecer CNE/CP 4/2024: fundamenta a Res. CNE/CP 4/2024 e discute os limites da prática como componente curricular diante do estágio e da extensão. |
 | [`parecer-cne-cp-09-2001/parecer-cne-cp-09-2001.md`](parecer-cne-cp-09-2001/parecer-cne-cp-09-2001.md) | Parecer CNE/CP 9/2001: fundamenta as diretrizes de 2002 para a formação de professores e propõe a prática como componente curricular, distinta do estágio. |
 | [`parecer-cne-cp-28-2001/parecer-cne-cp-28-2001.md`](parecer-cne-cp-28-2001/parecer-cne-cp-28-2001.md) | Parecer CNE/CP 28/2001: fundamenta a Res. CNE/CP 2/2002 — 400 h de prática como componente curricular e 400 h de estágio, definidas e distinguidas. |
+| [`portaria-658-2026/portaria-658-2026.md`](portaria-658-2026/portaria-658-2026.md) | Portaria MEC 658/2026: regulamenta a comprovação e os procedimentos para concessão do RSC aos servidores do PCCTAE. |
 | [`portaria-mec-554-2013-avaliacao-progressao-promocao/portaria-mec-554-2013-avaliacao-progressao-promocao.md`](portaria-mec-554-2013-avaliacao-progressao-promocao/portaria-mec-554-2013-avaliacao-progressao-promocao.md) | Portaria MEC 554/2013: diretrizes gerais da avaliação de desempenho para progressão e promoção no Magistério Federal. |
 | [`portaria-mec-982-2013-promocao-titular/portaria-mec-982-2013-promocao-titular.md`](portaria-mec-982-2013-promocao-titular/portaria-mec-982-2013-promocao-titular.md) | Portaria MEC 982/2013: diretrizes gerais para a promoção a Professor Titular. |
 | [`res-cne-cp-01-2002/res-cne-cp-01-2002.md`](res-cne-cp-01-2002/res-cne-cp-01-2002.md) | Res. CNE/CP 1/2002: diretrizes da formação de professores; a prática permeia todo o curso, não só o estágio (art. 12). Revogada pela Res. CNE/CP 2/2015. |

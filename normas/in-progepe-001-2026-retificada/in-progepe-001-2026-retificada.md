@@ -1,5 +1,5 @@
 ---
-description: "INSTRUÇÃO NORMATIVA PROGEPE Nº 001 2026: INSTRUÇÃO NORMATIVA PROGEPE Nº 001 2026 retificada (PROGEPE)."
+description: "IN PROGEPE 001/2026: orienta servidores técnico-administrativos ativos e a comissão na solicitação e análise do RSC-PCCTAE."
 source: "../in-progepe-001-2026-retificada.pdf"
 sha256: "e98cbd331bbe255ad14165e921cc0f9233ab32bffac1e37f597685a30366b6e4"
 origin: "https://www.progepe.ufrpe.br/sites/default/files/2026-08/INSTRU%C3%87%C3%83O%20NORMATIVA%20PROGEPE%20N%C2%BA%20001_2026%20retificada.pdf"
