@@ -9,6 +9,7 @@
 
 - [Lei 12.772/2012](https://github.com/ctresb/leis/blob/c9f21b4ab11aa0d7ca6fe861d75028e94219c2d6/federal/leis-ordinarias/2012/lei-12772-2012-12-28.md), o Plano de Carreiras do Magistério Federal, em texto compilado. Depois do espelho, a [Lei 15.367/2026](https://legis.senado.leg.br/norma/42966204) (art. 120) mudou o art. 12, § 5º (a comissão da Classe D, Titular, passa a ter no mínimo 75% de membros externos, nos termos de ato do Ministro da Educação) e o art. 14, § 3º, III (24 meses no último nível da classe anterior).
 - [Lei 15.141/2025](https://github.com/ctresb/leis/blob/c9f21b4ab11aa0d7ca6fe861d75028e94219c2d6/federal/leis-ordinarias/2025/lei-15141-2025-06-02.md), a reestruturação das carreiras, que renomeia as classes do Magistério Superior; texto original, sem compilar. A Lei 15.367/2026 (art. 121) só muda o art. 214, sem efeito no Magistério Superior. A correlação das classes: [tabela da PROGEPE](../../tabelas/correlacao-magisterio-superior-2025/correlacao-magisterio-superior-2025.md).
+- [Lei 14.965/2024](https://github.com/ctresb/leis/blob/c9f21b4ab11aa0d7ca6fe861d75028e94219c2d6/federal/leis-ordinarias/2024/lei-14965-2024-09-09.md), as normas gerais dos concursos públicos, que a PROGEPE publica.
 
 <!-- routing:start -->
 ## Routing
