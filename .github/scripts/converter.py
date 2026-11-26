@@ -7,20 +7,21 @@ read`, o que mantém as tabelas em Markdown puro. O original fica ao lado da pas
 Não convertem: federal (regra do espelho ctresb/leis), planilha e o que falhar. Esses vão para
 .vigia/fila.tsv com o motivo. --seco só lista o que faria. --refazer converte de novo o que já tem documento
 (cada um na pasta que já tem, e o motor sobrescreve), menos o que tem `reviewed_by`: correção à mão não se refaz. O mesmo formulário em PDF e em DOC/DOCX vira um documento só,
-o do PDF, e o link do DOC/DOCX vai no `origin_note`.
+o do PDF, e o link do DOC/DOCX vai no `origin_note`. O arquivo que o acervo já tem byte a byte também vai só
+para o `origin_note` do documento; o mesmo ato noutro arquivo vai para a fila, à revisão (duplicatas.py).
 """
 from __future__ import annotations
 
 import argparse
 import datetime
 import hashlib
-import json
 import re
 import subprocess
 import sys
-import urllib.parse
 from pathlib import Path
 
+import duplicatas
+import limpeza
 import nomes
 import rede
 import regras
@@ -66,26 +67,22 @@ def faltantes(linhas: list[dict], setor: str, tipo: str | None, feitos: set[str]
             and (tipo is None or l['tipo'] == tipo) and verificar.chave(l['url']) not in feitos]
     pdf = {}
     for l in fila:
-        if extensao(l['url']) == 'pdf':
+        if regras.extensao(l['url']) == 'pdf':
             pdf.setdefault(mesmo_formulario(l), l)
     gemeas = {id(l): [] for l in pdf.values()}
     for l in fila:
         alvo = pdf.get(mesmo_formulario(l))
-        if alvo and extensao(l['url']) in ('doc', 'docx'):
+        if alvo and regras.extensao(l['url']) in ('doc', 'docx'):
             gemeas[id(alvo)].append(l['url'])
     return [{**l, 'duplicatas': gemeas[id(l)]} if gemeas.get(id(l)) else l for l in fila
-            if not (extensao(l['url']) in ('doc', 'docx') and mesmo_formulario(l) in pdf)]
-
-
-def extensao(url: str) -> str:
-    return Path(urllib.parse.urlsplit(url).path).suffix.lower().lstrip('.')
+            if not (regras.extensao(l['url']) in ('doc', 'docx') and mesmo_formulario(l) in pdf)]
 
 
 def rota(linha: dict) -> tuple[str | None, str]:
     """('pdf' | 'gdoc', '') ou (None, por que não converte)."""
     if linha['motivo'] == 'federal':
         return None, 'federal: aponta para o espelho ctresb/leis, à mão'
-    ext = extensao(linha['url'])
+    ext = regras.extensao(linha['url'])
     return (ROTA[ext], '') if ext in ROTA else (None, f'.{ext}: sem rota automática')
 
 
@@ -98,17 +95,9 @@ def descricao(linha: dict) -> str:
     """`Nome: resto`, como verificar.py exige: o nome é o título até 40 caracteres, o resto diz de onde veio."""
     titulo = ' '.join(linha['titulo'].replace(':', ' -').split()) or 'Documento'
     nome = titulo if len(titulo) <= NOME_MAX else titulo[:NOME_MAX].rsplit(' ', 1)[0]
-    arquivo = urllib.parse.unquote(Path(urllib.parse.urlsplit(linha['url']).path).stem).replace('_', ' ')
+    arquivo = Path(regras.arquivo(linha['url'])).stem.replace('_', ' ')
     resto = titulo if nome != titulo else ' '.join(arquivo.replace(':', ' -').split())
     return f'{nome}: {resto} ({linha["setores"].split(",")[0]}).'
-
-
-def campo(nome: str, valor: str) -> str:
-    return f'{nome}: {json.dumps(valor, ensure_ascii=False)}\n'
-
-
-def frontmatter(campos: dict) -> str:
-    return '---\n' + ''.join(campo(k, v) for k, v in campos.items()) + '---\n\n'
 
 
 def core_run() -> Path:
@@ -131,23 +120,6 @@ def por_pdf(original: Path, linha: dict, desc: str, refazer: bool = False, tempo
           *(['--force'] if refazer else []), tempo=tempo)
 
 
-def anotar(destino: Path, duplicatas: list[str]) -> None:
-    """Põe o `origin_note` logo depois do `origin_checked`, o que o motor de PDF não sabe escrever."""
-    formatos = '/'.join(dict.fromkeys(extensao(u).upper() for u in duplicatas))
-    nota = campo('origin_note', f'o mesmo formulário circula também em {formatos}: {", ".join(duplicatas)}')
-    texto, n = re.subn(r'^origin_checked:.*\n', lambda m: m.group(0) + nota, destino.read_text(encoding='utf-8'), count=1, flags=re.M)
-    if not n or not verificar.cabecalho(texto):
-        raise OSError(f'sem origin_checked para anotar em {destino.name}')
-    destino.write_text(texto, encoding='utf-8')
-
-
-def sem_imagens(corpo: str) -> str:
-    """Tira a imagem que o Google Docs embute em base64 (`[image1]: <data:…>` e o `![][image1]` que a usa): é brasão,
-    não texto, e sozinha estoura o limite de tamanho do arquivo."""
-    corpo = re.sub(r'^\[image\d+\]: <data:[^>]*>\s*$', '', corpo, flags=re.M)
-    return re.sub(r'!\[[^\]]*\]\[image\d+\]', '', corpo)
-
-
 def por_gdoc(original: Path, linha: dict, desc: str, dados: bytes, destino: Path) -> None:
     subiu = rodar('tools/files/gdrive', 'put', '--gdoc', '--name', f'tmp-docs-ufrpe-{original.stem}', str(original))
     doc = re.search(r'id:(\S+)', subiu)
@@ -158,26 +130,35 @@ def por_gdoc(original: Path, linha: dict, desc: str, dados: bytes, destino: Path
     finally:
         rodar('tools/files/gdrive', 'rm', doc.group(1))
     destino.parent.mkdir(parents=True, exist_ok=True)
-    destino.write_text(frontmatter({
+    destino.write_text(verificar.frontmatter({
         'description': desc, 'origin': linha['url'], 'origin_checked': datetime.date.today().isoformat(),
-        'sha256': hashlib.sha256(dados).hexdigest(), 'engine': MOTOR_GDOC}) + sem_imagens(corpo).strip() + '\n', encoding='utf-8')
+        'sha256': hashlib.sha256(dados).hexdigest(), 'engine': MOTOR_GDOC}) + limpeza.sem_imagens(corpo).strip() + '\n', encoding='utf-8')
 
 
-def converter(linha: dict, caminho: str, nome: str, refazer: bool = False, tempo: int = TEMPO) -> Path:
-    """Baixa, guarda o original ao lado e converte; devolve o .md."""
-    pasta = RAIZ / PASTA[linha['tipo']]
-    original = pasta / f'{nome}.{extensao(linha["url"])}'
-    destino = pasta / nome / f'{nome}.md'
+def converter(linha: dict, caminho: str, nome: str, docs: list[tuple[Path, dict]], refazer: bool = False,
+              tempo: int = TEMPO, apesar_do_nome: bool = False) -> tuple[str, Path]:
+    """Baixa e, se o acervo ainda não tem o arquivo, guarda o original ao lado e converte. ('copia', .md que já existe e
+    ganhou a nota) ou ('ok', .md novo, que entra em `docs`). O mesmo ato noutro arquivo levanta MesmoAto, salvo `apesar_do_nome`."""
     dados = rede.baixar(linha['url'])
+    if (achado := duplicatas.no_acervo(linha, dados, docs)) and achado[0] == 'copia':
+        duplicatas.copia(RAIZ / achado[1], linha['url'])
+        return 'copia', RAIZ / achado[1]
+    if achado and not apesar_do_nome:
+        raise duplicatas.MesmoAto(f'mesmo ato que {achado[1].parent}, noutro arquivo: dobre à mão ou rode --apesar-do-nome')
+    pasta = RAIZ / PASTA[linha['tipo']]
+    original, destino = pasta / f'{nome}.{regras.extensao(linha["url"])}', pasta / nome / f'{nome}.md'
     original.write_bytes(dados)
-    desc = descricao(linha)
     if caminho == 'pdf':
-        por_pdf(original, linha, desc, refazer, tempo)
+        por_pdf(original, linha, descricao(linha), refazer, tempo)
     else:
-        por_gdoc(original, linha, desc, dados, destino)
+        por_gdoc(original, linha, descricao(linha), dados, destino)
+    if not limpeza.arquivo(destino).strip():
+        destino.unlink()
+        raise OSError('o motor devolveu o corpo vazio')
     if linha.get('duplicatas'):
-        anotar(destino, linha['duplicatas'])
-    return destino
+        duplicatas.gemeos(destino, linha['duplicatas'])
+    docs.append((destino.relative_to(RAIZ), verificar.cabecalho(destino.read_text(encoding='utf-8')) or {}))
+    return 'ok', destino
 
 
 def gravar_fila(pendentes: list[tuple[str, str]], resolvidos: set[str]) -> None:
@@ -197,12 +178,13 @@ def main(argv: list[str]) -> int:
     ap.add_argument('--seco', action='store_true')
     ap.add_argument('--refazer', action='store_true', help='converte de novo o que já tem documento, na mesma pasta, menos o que tem reviewed_by')
     ap.add_argument('--tempo', type=int, default=TEMPO, help='segundos por PDF antes de desistir')
+    ap.add_argument('--apesar-do-nome', action='store_true', help='converte o que tem o nome de um ato do acervo e outro arquivo (já revisado à mão)')
     args = ap.parse_args(argv)
     sys.stdout.reconfigure(line_buffering=True)  # o lote leva horas: o log tem de andar junto
     fila = faltantes(verificar.ler_tsv(verificar.CENSO), args.setor, args.tipo, ja_feitos(args.refazer))[:args.limite]
     usados = {p.name for d in PASTA.values() for p in (RAIZ / d).iterdir() if p.is_dir()}
     existentes = pastas_existentes() if args.refazer else None
-    pendentes, feitos = [], 0
+    pendentes, feitos, docs = [], 0, cabecalhos()
     for linha in fila:
         caminho, porque = rota(linha)
         nome = pasta_do(linha, usados, existentes)
@@ -215,8 +197,12 @@ def main(argv: list[str]) -> int:
         if args.seco:
             continue
         try:
-            print(f'      ok {converter(linha, caminho, nome, args.refazer, args.tempo).relative_to(RAIZ)}')
-            feitos += 1
+            como, destino = converter(linha, caminho, nome, docs, args.refazer, args.tempo, args.apesar_do_nome)
+            print(f'      {como} {destino.relative_to(RAIZ)}')
+            feitos += como == 'ok'
+        except duplicatas.MesmoAto as e:
+            pendentes.append((linha['url'], str(e)))
+            print(f'      REVISAR {e}')
         except (OSError, subprocess.TimeoutExpired) as e:
             pendentes.append((linha['url'], f'falhou: {e}'))
             print(f'      FALHOU {e}')

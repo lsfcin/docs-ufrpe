@@ -36,6 +36,15 @@ NORMA_CANONICA = re.compile(r'^(?:Res\. (?:CONSU|CEPE|CURA) \d{3,4}(?:-[A-Z])?|I
 ESTRANHO = re.compile('[⺀-鿿가-힯豈-﫿-�]')
 
 
+def campo(nome: str, valor: str | None) -> str:
+    """Uma linha do frontmatter, o valor em JSON: o que `cabecalho` lê de volta igual."""
+    return f'{nome}: {json.dumps(valor, ensure_ascii=False)}\n'
+
+
+def frontmatter(campos: dict) -> str:
+    return '---\n' + ''.join(campo(k, v) for k, v in campos.items()) + '---\n\n'
+
+
 def cabecalho(texto: str) -> dict | None:
     """O frontmatter `chave: valor` do topo; o valor é JSON quando dá, senão o texto cru."""
     if not texto.startswith('---\n'):

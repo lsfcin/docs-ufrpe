@@ -2,13 +2,16 @@
 """Uso: python -m unittest discover .github/scripts. Só stdlib, sem rede e sem o workspace."""
 from __future__ import annotations
 
+import contextlib
 import datetime
+import hashlib
 import tempfile
 import unittest
 from pathlib import Path
 from unittest import mock
 
 import converter
+import duplicatas
 import nomes
 import verificar
 
@@ -66,21 +69,51 @@ class Duplicatas(unittest.TestCase):
         c = linha(url='https://x/c.pdf', titulo='Termo', tipo='norma')
         self.assertEqual(converter.faltantes([a, b, c], 'PRPG', None, set()), [a, b, c])
 
-    def test_nota_do_origin_entra_depois_do_origin_checked_e_passa_no_verificar(self):
+    def lote(self, tmp: str, baixado: bytes, motor=None):
+        """Um acervo com a Res. CONSU 294/2008, o download trocado por `baixado` e o motor de PDF por `motor`."""
+        raiz = Path(tmp)
+        (raiz / 'normas' / 'res-consu-294-2008').mkdir(parents=True)
+        md = raiz / 'normas' / 'res-consu-294-2008' / 'res-consu-294-2008.md'
+        md.write_text(verificar.frontmatter({'description': 'Res. CONSU 294/2008: c (PRPG).', 'origin': 'https://x/reconsu_294_2008.pdf',
+                                             'origin_checked': '2026-11-23', 'sha256': hashlib.sha256(b'pdf').hexdigest()}) + 'corpo\n', encoding='utf-8')
+        return md, [mock.patch.object(converter, 'RAIZ', raiz), mock.patch.object(verificar, 'RAIZ', raiz),
+                    mock.patch.object(converter.rede, 'baixar', return_value=baixado),
+                    mock.patch.object(converter, 'por_pdf', side_effect=motor or AssertionError('não devia converter'))]
+
+    def rodar_lote(self, tmp: str, baixado: bytes, motor=None, titulo='Resolução 294/2008', url='https://y/Res%20294_2008.pdf'):
+        md, trocas = self.lote(tmp, baixado, motor)
+        with contextlib.ExitStack() as pilha:
+            for t in trocas:
+                pilha.enter_context(t)
+            return md, converter.converter(linha(url=url, titulo=titulo), 'pdf', 'nova', converter.cabecalhos())
+
+    def test_copia_byte_a_byte_nao_converte_e_vira_nota_no_documento(self):
         with tempfile.TemporaryDirectory() as tmp:
-            md = Path(tmp) / 'a.md'
-            md.write_text(converter.frontmatter({'description': 'A: b (PRPG).', 'origin': PDF_DS, 'origin_checked': '2026-11-23',
-                                                 'sha256': '0' * 64}) + 'corpo\n', encoding='utf-8')
-            converter.anotar(md, [DOCX_DS])
-            campos = verificar.cabecalho(md.read_text(encoding='utf-8'))
-        self.assertEqual(list(campos), ['description', 'origin', 'origin_checked', 'origin_note', 'sha256'])
-        self.assertIn(DOCX_DS, campos['origin_note'])
+            md, (como, destino) = self.rodar_lote(tmp, b'pdf')
+            self.assertEqual((como, destino), ('copia', md))
+            self.assertIn('https://y/Res%20294_2008.pdf', verificar.cabecalho(md.read_text(encoding='utf-8'))['origin_note'])
+            self.assertFalse((Path(tmp) / 'normas' / 'nova.pdf').exists())
+
+    def test_mesmo_ato_noutro_arquivo_vai_para_a_revisao_sem_gravar_nada(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(duplicatas.MesmoAto):
+                self.rodar_lote(tmp, b'outro pdf')
+            self.assertEqual(sorted(p.name for p in (Path(tmp) / 'normas').iterdir()), ['res-consu-294-2008'])
+
+    def test_corpo_vazio_nao_fica_no_acervo(self):
+        def motor(original, linha, *_):
+            (original.parent / 'nova').mkdir()
+            (original.parent / 'nova' / 'nova.md').write_text(verificar.frontmatter({'origin': linha['url']}) + '\n', encoding='utf-8')
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaisesRegex(OSError, 'corpo vazio'):
+                self.rodar_lote(tmp, b'outro pdf', motor, titulo='Manual do SIGA', url='https://y/manual.pdf')
+            self.assertFalse((Path(tmp) / 'normas' / 'nova' / 'nova.md').exists())
 
     def test_convertidos_ve_a_url_dentro_do_origin_note(self):
         with tempfile.TemporaryDirectory() as tmp:
             raiz = Path(tmp)
             (raiz / 'modelos' / 'a').mkdir(parents=True)
-            (raiz / 'modelos' / 'a' / 'a.md').write_text(converter.frontmatter({
+            (raiz / 'modelos' / 'a' / 'a.md').write_text(verificar.frontmatter({
                 'description': 'A: b (PRPG).', 'origin': PDF_DS, 'origin_checked': '2026-11-23',
                 'origin_note': f'o mesmo formulário circula também em DOCX: {DOCX_DS.replace("Termo", "Termo%20")}, https://x/b.doc.',
                 'sha256': '0' * 64}) + 'corpo\n', encoding='utf-8')
@@ -94,7 +127,7 @@ class Duplicatas(unittest.TestCase):
             raiz = Path(tmp)
             for nome, origem, revisor in (('a', PDF_DS, 'claude 2026-11-24'), ('b', 'https://x/b.pdf', None)):
                 (raiz / 'normas' / nome).mkdir(parents=True)
-                (raiz / 'normas' / nome / f'{nome}.md').write_text(converter.frontmatter({
+                (raiz / 'normas' / nome / f'{nome}.md').write_text(verificar.frontmatter({
                     'description': f'{nome.upper()}: c (PRPG).', 'origin': origem, 'origin_checked': '2026-11-23',
                     'origin_note': 'o mesmo formulário circula também em DOC: https://x/a.doc' if nome == 'a' else '',
                     'sha256': '0' * 64, 'reviewed_by': revisor}) + 'corpo\n', encoding='utf-8')
@@ -138,15 +171,9 @@ class Nomes(unittest.TestCase):
             self.assertRegex(converter.descricao(linha(titulo=t)), verificar.ROTULO)
 
 
-class Corpo(unittest.TestCase):
-    def test_imagem_embutida_sai_e_o_texto_fica(self):
-        corpo = '![][image1]\n\n# ANEXO I\n\n| A | B |\n\n[image1]: <data:image/png;base64,iVBORw0KGgo>\n'
-        self.assertEqual(converter.sem_imagens(corpo).strip(), '# ANEXO I\n\n| A | B |')
-
-
 class Cabecalho(unittest.TestCase):
     def test_o_que_o_conversor_grava_passa_no_verificar(self):
-        texto = converter.frontmatter({'description': converter.descricao(linha()), 'origin': linha()['url'],
+        texto = verificar.frontmatter({'description': converter.descricao(linha()), 'origin': linha()['url'],
                                        'origin_checked': '2026-11-23', 'sha256': '0' * 64, 'engine': converter.MOTOR_GDOC}) + 'corpo\n'
         erros, _, campos = verificar.conferir(Path('modelos/a/a.md'), texto, datetime.date(2026, 11, 23))
         self.assertEqual(erros, [])

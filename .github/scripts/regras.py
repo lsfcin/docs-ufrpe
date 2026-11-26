@@ -45,9 +45,19 @@ def simples(texto: str) -> str:
     return unicodedata.normalize('NFKD', texto).encode('ascii', 'ignore').decode().lower()
 
 
+def arquivo(url: str) -> str:
+    """O nome do arquivo do link, decodificado, com a extensão."""
+    return urllib.parse.unquote(urllib.parse.urlsplit(url).path.rsplit('/', 1)[-1])
+
+
+def extensao(url: str) -> str:
+    nome, ponto, ext = arquivo(url).rpartition('.')
+    return ext.lower() if ponto and nome else ''
+
+
 def nome_do_arquivo(url: str) -> str:
     """O nome do arquivo do link, legível: sem extensão, sem o sufixo de cópia (_0, (1)) e com espaços."""
-    nome = urllib.parse.unquote(urllib.parse.urlsplit(url).path.rsplit('/', 1)[-1])
+    nome = arquivo(url)
     nome = unicodedata.normalize('NFC', EXTENSAO.sub('', nome))
     return ' '.join(COPIA.sub('', nome).replace('_', ' ').split())
 
@@ -76,7 +86,7 @@ def classificar(url: str, nome_titulo: str, secao: str, pagina: tuple[bool, tupl
                 ano: int = 9999) -> tuple[str, str, str]:
     if pagina and pagina[0]:
         return pagina[1]
-    nome = urllib.parse.unquote(urllib.parse.urlsplit(url).path.rsplit('/', 1)[-1])
+    nome = arquivo(url)
     alvo = simples(f'{nome} {nome_titulo} {secao}').replace('_', ' ').replace('-', ' ')
     for regra, tipo, decisao, motivo in REGRAS:
         if regra.search(alvo):

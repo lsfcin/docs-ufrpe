@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import re
-import urllib.parse
 from pathlib import Path
 
 import regras
@@ -36,7 +35,7 @@ def ato(texto: str) -> list[str]:
 
 def nome_da_pasta(linha: dict, usados: set[str]) -> str:
     """No padrão do acervo: o ato e até quatro palavras de assunto, do título e do nome do arquivo; `-2` se já existe."""
-    arquivo = urllib.parse.unquote(Path(urllib.parse.urlsplit(linha['url']).path).stem)
+    arquivo = Path(regras.arquivo(linha['url'])).stem
     texto = f'{linha["titulo"]} {arquivo}'
     cabeca = ato(texto)
     assunto = [p for p in dict.fromkeys(palavras(texto)) if p not in VAZIAS and not re.search(r'\d', p) and p not in cabeca and len(p) <= COLADA]
