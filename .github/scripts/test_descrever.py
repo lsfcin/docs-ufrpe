@@ -122,6 +122,13 @@ class Reescrita(unittest.TestCase):
         sem = TEXTO.replace('description: "FORMULÁRIO: bolsa (PRPG)."\n', '')
         self.assertIsNone(descrever.descrever(sem, escritor(BOA), EXEMPLOS, REL)[0])
 
+    def test_corpo_vazio_nao_vai_ao_worker(self):
+        """Só comentário de página e figura não é texto: o worker inventaria uma descrição para o nada."""
+        chamado = escritor(BOA)
+        novo, porque = descrever.descrever(ANTES + '\n<!-- page 1 -->\n\n![p01-fig1](img/p01-fig1.jpg)\n', chamado, EXEMPLOS, REL)
+        self.assertEqual((novo, chamado.chamadas), (None, []))
+        self.assertIn('corpo vazio', porque)
+
 
 if __name__ == '__main__':
     unittest.main()

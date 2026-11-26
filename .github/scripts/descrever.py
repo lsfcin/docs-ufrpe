@@ -140,6 +140,8 @@ def descrever(texto: str, escrever: Callable[[str], str] | tuple[Callable[[str],
     entra quando o anterior falha, estoura o tempo ou responde fora do formato. A troca ainda passa por verificar.conferir:
     não pode criar erro que o documento não tinha."""
     escritores = (escrever,) if callable(escrever) else escrever
+    if not corpo_limpo(texto):
+        return None, 'corpo vazio: sem texto, o worker inventaria a descrição (reconverta o documento)'
     prompt = montar_prompt(texto, exemplos if exemplos is not None else exemplos_do_acervo())
     motivos = []
     for escritor in escritores:
