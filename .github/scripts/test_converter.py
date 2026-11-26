@@ -156,6 +156,14 @@ class Cabecalho(unittest.TestCase):
         self.assertEqual(erros, [])
         self.assertEqual(campos['origin'], linha()['url'])
 
+    def test_o_gemeo_do_docx_aponta_para_o_original_como_o_do_pdf(self):
+        """`source: ../<stem>.docx` é o carimbo que isenta o gêmeo do teto de tamanho (core/tools/pdf/pdf_meta.py:is_twin)."""
+        with tempfile.TemporaryDirectory() as tmp:
+            original, destino = Path(tmp) / 'a.docx', Path(tmp) / 'a' / 'a.md'
+            with mock.patch.object(converter, 'rodar', side_effect=['id:abc', '# Termo\n', '']):
+                converter.por_gdoc(original, linha(url='https://x/a.docx'), 'A: b (PRPG).', b'docx', destino)
+            self.assertEqual(verificar.cabecalho(destino.read_text(encoding='utf-8'))['source'], '../a.docx')
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -131,7 +131,7 @@ def por_gdoc(original: Path, linha: dict, desc: str, dados: bytes, destino: Path
         rodar('tools/files/gdrive', 'rm', doc.group(1))
     destino.parent.mkdir(parents=True, exist_ok=True)
     destino.write_text(verificar.frontmatter({
-        'description': desc, 'origin': linha['url'], 'origin_checked': datetime.date.today().isoformat(),
+        'description': desc, 'source': f'../{original.name}', 'origin': linha['url'], 'origin_checked': datetime.date.today().isoformat(),
         'sha256': hashlib.sha256(dados).hexdigest(), 'engine': MOTOR_GDOC}) + limpeza.sem_imagens(corpo).strip() + '\n', encoding='utf-8')
 
 
